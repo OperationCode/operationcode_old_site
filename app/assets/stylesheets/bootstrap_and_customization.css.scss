@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg:                     white;
+$font-family-sans-serif:      'Lato', 'Helvetica Neue', Helvetica, Arial,
+sans-serif;
+$navbar-height:               50px;
+$navbar-default-bg:           white;
+$navbar-default-brand-color:  #c0392b;
+$brand-primary:               white;
+$jumbotron-bg:                white;
+
+/*#c0392b - red
+#2c3e50 - navy blue*/
+/*#bdc3c7 - light grey*/
+/*#ecf0f1*/ /*- clouds*/
+
+@import 'bootstrap';
+
+html, body {
+  background:
+    url('')
+    repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 12px;
+  height: 100%
+}
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+
+}
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #3498db;
+}
+
+img {
+  background: no-repeat;
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .navbar-header .navbar-brand {
+  position: relative;
+  bottom: 10px;
+  padding-top: 10px;
+}
+
+.content {
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a:link {
+color: #3498db;
+}
+
+/* visited link */
+a:visited {
+color: #3498db;
+}
+
+/* mouse over link */
+a:hover {
+color: #c0392b;
+}
