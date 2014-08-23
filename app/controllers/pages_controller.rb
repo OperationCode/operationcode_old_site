@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def donate
   end
 
-  def about
+  def founder
   end
 
   def contributors
