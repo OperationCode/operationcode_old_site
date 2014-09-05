@@ -32,6 +32,7 @@ gem 'stripe'
 
 gem 'shareable'
 gem 'font-awesome-rails'
+gem 'github-markup', '~> 1.2.1'
 
 #####################
 # Development Tools #

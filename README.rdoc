@@ -1,5 +1,4 @@
-<h1><code>&lt;Operation Code&gt;</code></h1>
-<p><code>&lt;Operation Code&gt;</code> is an open-source project founded by former U.S. Army Captain<a href="https://twitter.com/davidcmolina"> David Molina</a> with the mission of supporting Veterans transitioning to software careers.</br>
+<Operation Code> is an open-source project founded by former U.S. Army Captain<a href="https://twitter.com/davidcmolina"> David Molina</a> with the mission of supporting Veterans transitioning to software careers.</br>
 
 <h3>Goals</h3>
 <p>Our first goal is ensuring the New GI Bill can be used to attend code schools, or digital vocational schools, that have sprung up across the United States to help fill the tech talent shortage. Currently, Veterans are forced to pay these costs out of pocket which is unfair and irresponsible.
