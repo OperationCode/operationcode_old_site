@@ -1,28 +1,29 @@
-== README
+<h1><code>&lt;Operation Code&gt;</code></h1>
+<p><code>&lt;Operation Code&gt;</code> is an open-source project founded by former U.S. Army Captain<a href="https://twitter.com/davidcmolina"> David Molina</a> with the mission of supporting Veterans transitioning to software careers.</br>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h3>Goals</h3>
+<p>Our first goal is ensuring the New GI Bill can be used to attend code schools, or digital vocational schools, that have sprung up across the United States to help fill the tech talent shortage. Currently, Veterans are forced to pay these costs out of pocket which is unfair and irresponsible.
 
-Things you may want to cover:
+<p>Ensuring the New GI Bill funds Veterans' code school tuition, room and board is our first objective.</p>
 
-* Ruby version
+<p>Releasing the source code for this project  is meant to empower Veterans and all Americans everywhere to contribute their energy and time to this project. What could be better than the current greatest generation trained in modern software development?</p>
 
-* System dependencies
+<h3>Requirements</h3>
+<li>Ruby</li>
+<li>Rails (see <a href="https://github.com/rails/rails">this</a> to get started)</li>
 
-* Configuration
+<p>This project is self-funded with small donations from friends, family and online supporters and built using <a href="http://rubyonrails.org/">Ruby on Rails. All donations are powered by <a href="http://www.moonclerk.com/"> MoonClerk</a> which waived the monthly transaction fee.</a>
 
-* Database creation
+<h3>Contributing</h3>
+<p>Anyone is encouraged to contribute to the project by forking and submitting a pull request. Thanks in advance!</p>
 
-* Database initialization
+<p>You can also support the project (and David Molina) with financial contributions via <a href="http://www.moonclerk.com/"> MoonClerk</a>. <a href="http://opcod3.herokuapp.com/donate"> Donate now</a>.
 
-* How to run the test suite
+<h3>License</a>
+<p>Ruby on Rails is released under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
 
-* Services (job queues, cache servers, search engines, etc.)
+<h3>Spread the Word</a>
+<p>A community-driven movement to support Veterans' ability to attend a code school of their choice will take all of us. Every comment, suggestion or opinion we get advances <code>&lt;Operation Code&gt;</code> just a little bit further.</p></br>
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Cheers,</br>
+<a href="https://twitter.com/davidcmolina">Molina</a>
