@@ -1,37 +1,37 @@
-###<Operation Code>
+##<Operation Code>
 ----
-**<Operation Code>** is an open-source project founded by former U.S. Army Captain [David Molina](http://twitter.com/davidcmolina) with the 
-mission of supporting Veterans' transitioning to software careers.
+*<Operation Code>* is an open-source project founded by former U.S. Army Captain [David Molina](http://twitter.com/davidcmolina) with the 
+mission of expanding the New GI Bill to cover code schools. 
 
-**Goals**
-Our first goal is ensuring the New GI Bill can be used to attend code schools, or digital vocational schools, 
+*Objective*
+Our objective is to ensure the New GI Bill can be used to attend code schools, or digital vocational schools, 
 that are helping fill an important tech talent shortage. Currently, as a Veteran we are forced to pay these tuition costs out of pocket which is 
 unfair and irresponsible. 
 
 Ensuring the New GI Bill fully funds Veterans' code school tuition, room and board is our first objective so that we can feed our families and commit
-to a full-time 3-9 month program. Attending a 2 or 4-year shouldn't be a Veterans' only option. 
+to a full-time 3-9 month program. Attending a 2 or 4-year shouldn't be a Veterans' only option.  
 
 Releasing the source code for this project is meant to empower Veterans and all developers everywhere to contribute 
 their energy and time to this project. What could be better than the current greatest generation trained in modern software 
 development? 
 
-**Requirements**
+*Requirements*
 Ruby
-Rails - [Click Here] (https://github.com/rails/rails) to get started
+Rails - [Click Here](https://github.com/rails/rails) to get started
 
-This project is self-funded with ongoing donations powered by [MoonClerk] (http://www.moonclerk.com/). All donations are announced at our 
+This project is self-funded with ongoing donations powered by [MoonClerk](http://www.moonclerk.com/). All donations are announced at our 
 [site](http://opcod3.herokuapp.com/).
 
-**Contributing**
+*Contributing*
 Anyone is encouraged to contribute to the project by forking and submitting a pull request. Thanks in advance!
 
-**License**
+*License*
 Ruby on Rails is released under the [MIT License](http://opensource.org/licenses/MIT).
 
-**Spread the Word**
+*Spread the Word*
 A community-driven movement to support Veterans' ability to attend a code school of their choice will take all of us. 
 Every comment, suggestion or opinion we get advances <Operation Code> just a little bit further.
 
 *Thanks for your help! Especially all the amazing ruby developers who've provided enormous encouragement,
 advice and support. And, every Veteran and Service Member who has signed up.*
-*[--Molina] (http://twitter.com/davidcmolina)*
+*[--Molina](http://twitter.com/davidcmolina)*
