@@ -14,6 +14,9 @@ class PagesController < ApplicationController
   def contact
   end
 
+  def codeschools
+  end
+
   def faq
   end
 end
