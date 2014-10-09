@@ -4,7 +4,8 @@ ruby '2.1.2'
 # Server and DB #
 #################
 
-gem 'rails', '4.1.4'
+gem 'rails', '4.1.6'
+gem 'sprockets-rails', '~> 2.0'
 
 #############
 # Front-end #

@@ -1,7 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-require 'github/markup'
 
 # Required for GitHub markup
 GitHub::Markup.render(file, File.read(file))
