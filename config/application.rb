@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 # Required for GitHub markup
-GitHub::Markup.render(file, File.read(file))
+# GitHub::Markup.render(file, File.read(file))
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
