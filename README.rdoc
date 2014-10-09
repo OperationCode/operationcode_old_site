@@ -1,4 +1,4 @@
-##<Operation Code>
+<Operation Code>
 ----
 <Operation Code> is an open-source project founded by former U.S. Army Captain David Molina with the 
 mission of expanding the New GI Bill to cover code schools. 
@@ -23,8 +23,8 @@ site at http://opcod3.herokuapp.com/.
 
 *License* - Ruby on Rails is released under the MIT License (http://opensource.org/licenses/MIT).
 
-Spread the Word - A community-driven movement to support Veterans' ability to attend a code school of their choice will take all of us. 
+*Spread the Word* - A community-driven movement to support Veterans' ability to attend a code school of their choice will take all of us. 
 Every comment, suggestion and contribution we get advances <Operation Code> just a little bit further.
 
 Thanks for your help! Especially all the amazing ruby developers who've provided enormous encouragement, advice and support. And, every 
-Veteran and Service Member who has signed up. Thank you! 
+Veteran and Service Member who has signed up.  
