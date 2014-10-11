@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def faq
   end
+
+  def learn
+  end
 end

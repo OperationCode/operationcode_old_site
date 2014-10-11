@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get "contributors" => "pages#contributors"
   get "contact" => "pages#contact"
   get "codeschools" => "pages#codeschools"
+  get "learn" => "pages#learn"
   get "faq" => "pages#faq"
   
   get "/action" => redirect("http://operationcode.launchrock.co/")
