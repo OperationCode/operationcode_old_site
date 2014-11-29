@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   root "pages#home"
 
-  get "about" => "pages#about"
+  get "news" => "pages#news"
   get "donate" => "pages#donate"
   get "founder" => "pages#founder"
-  get "contributors" => "pages#contributors"
+  get "hackathons" => "pages#hackathons"
   get "contact" => "pages#contact"
   get "codeschools" => "pages#codeschools"
   get "learn" => "pages#learn"

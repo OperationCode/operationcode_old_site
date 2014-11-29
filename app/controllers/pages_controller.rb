@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def founder
   end
 
-  def contributors
+  def hackathons
   end
 
   def contact
