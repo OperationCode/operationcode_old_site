@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
-#ruby=2.1.2@operation_code #JDavis this line is for rvm otherwise it will be ignored.
+
+#JDavis following line is for rvm otherwise it will be ignored.
+#ruby=2.1.2@operation_code 
 
 #################
 # Server and DB #
