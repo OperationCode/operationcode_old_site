@@ -1,6 +1,6 @@
 class VeteransController < ApplicationController
   before_action :set_veteran, only: [:show, :edit, :update, :destroy]
-  before_filter :authenticate_admin!, except: [:new, :create ]
+  before_filter :send_to_home, except: [:new, :create ]
 
   # GET /veterans
   # GET /veterans.json
@@ -29,7 +29,7 @@ class VeteransController < ApplicationController
 
     respond_to do |format|
       if @veteran.save
-        format.html { redirect_to new_veteran_path, notice: 'Thanks for signing up!' }
+        format.html { redirect_to action_path, notice: 'Thanks for signing up!' }
         format.json { render :show, status: :created, location: @veteran }
       else
         format.html { render :new }
@@ -63,6 +63,9 @@ class VeteransController < ApplicationController
   end
 
   private
+    def send_to_home
+      redirect_to action_path
+    end
     # Use callbacks to share common setup or constraints between actions.
     def set_veteran
       @veteran = Veteran.find(params[:id])

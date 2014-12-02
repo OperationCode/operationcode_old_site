@@ -32,6 +32,8 @@ gem 'aws-sdk', '~> 1.35.0'
 
 gem 'stripe'
 gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
+#gem 'activeadmin', github: 'cavalryjim/active_admin' #JDavis: this is used to build an admin module.
+gem 'activeadmin', github: 'activeadmin'
 
 ########
 # Misc #
