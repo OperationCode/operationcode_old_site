@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root "pages#home"
+  devise_for :admins
+  resources :veterans
+
 
   get "news" => "pages#news"
   get "donate" => "pages#donate"
@@ -10,5 +12,8 @@ Rails.application.routes.draw do
   get "learn" => "pages#learn"
   get "faq" => "pages#faq"
   
-  get "/action" => redirect("http://operationcode.launchrock.co/")
+  #get "/action" => redirect("http://operationcode.launchrock.co/") #JDavis: capturing this information in-house vs launchrock
+  get "action" => "veterans#new"
+  
+  root "pages#home"
 end

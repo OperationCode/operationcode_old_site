@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
+#ruby=2.1.2@operation_code #JDavis this line is for rvm otherwise it will be ignored.
+
 #################
 # Server and DB #
 #################
 
 gem 'rails', '4.1.6'
 gem 'sprockets-rails', '~> 2.0'
+#gem 'pg', '0.17.1' # JDavis: consider using the postgres gem for all environments.
 
 #############
 # Front-end #
@@ -26,6 +29,7 @@ gem 'aws-sdk', '~> 1.35.0'
 ########################
 
 gem 'stripe'
+gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
 
 ########
 # Misc #
@@ -34,6 +38,7 @@ gem 'stripe'
 gem 'shareable'
 gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
+gem 'annotate', '2.5.0' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position before'
 
 #####################
 # Development Tools #
@@ -46,11 +51,11 @@ group :development do
   gem 'railroady'
   gem 'letter_opener'
   gem 'spring'
-  gem 'sqlite3'
+  gem 'sqlite3' # JDavis: Since Heroku uses postgres, we should do the same in development.
 end
 
 group :production do
-     gem 'pg'
-     gem 'rails_12factor'
-     gem 'thin'
+  gem 'pg' 
+  gem 'rails_12factor'
+  gem 'thin'
 end
