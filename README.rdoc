@@ -1,15 +1,24 @@
-<Operation Code>
+Operation Code
 ----
-<Operation Code> is a project founded by David Molina, a former U.S. Army Captain, and volunteer-run with the mission of expanding the New GI Bill to cover code school tuition, room and board. Currently, Veterans are forced to pay out-of-pocket or privately financed despite sitting on federal dollars. 
+Operation Code is a project founded by [David Molina](http://davidmolina.github.io/), a former U.S. Army Captain who tried using his New GI Bill to cover code school tuition, room and board in 2012, and again in 2014 and couldn't. Currently, Veteran's are forced to pay out-of-pocket or privately finance their way despite earning this education benefit. 
 
-Releasing the source code for this project is meant to empower Veterans and all developers everywhere to contribute their energy and time to this project. What could be better than the current greatest generation trained in modern software development? 
+Releasing the source code for this project is meant to empower Veteran's and all developers everywhere to contribute their energy and time to this project. What could be better than America's current greatest generation trained in modern software development? 
 
-*Requirements* - Ruby on Rails - (https://github.com/rails/rails) to get started.  
+*Requirements* - [Ruby on Rails](https://github.com/rails/rails) to get started.  
 
-*Contributing* - Anyone is encouraged to contribute to the project by forking and submitting a pull request. Thanks in advance!
+*Contributing* - Everyone is encouraged to contribute to the project by forking and submitting a pull request. Current contributors: 
 
-*License* - Ruby on Rails is released under the MIT License (http://opensource.org/licenses/MIT).
+[James Davis](https://github.com/cavalryjim)
+[David Molina](https://github.com/davidmolina)
 
-*Spread the Word* - Connect with us on Twitter (https://twitter.com/opcod3us) and sign up (http://operationcode.launchrock.co/). 
+Send a [Tweet](https://twitter.com/opcod3us) if you need help. 
 
-Special thanks to all the amazing Ruby developers who've provided enormous encouragement, and advice, and, military personnel, Veterans and supporters who have signed up! Thank you!
+*License* - Ruby on Rails is released under the [MIT License](http://opensource.org/licenses/MIT).
+
+*Spread the Word* - Join the conversation on [Twitter](https://twitter.com/opcod3us) and [sign up](http://operationcode.org/action) to add your name to the petition. 
+
+*Moving Soon* - Simultaneously, we'll be moving to a GitHub [organizational repo](https://github.com/operationcode) to better coordinate our efforts with developers. Thanks to [Chris Hough](https://twitter.com/chrishough) for leading the first charge. 
+
+Special thanks to all the amazing Ruby developers who've provided enormous encouragement and advice, and, military/ Veteran's and supporters who have signed up! 
+
+Thank you. We couldn't have come this far without your feedback, comments, thoughts, advice and generous resource suppport. 
