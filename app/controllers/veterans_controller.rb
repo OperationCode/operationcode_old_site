@@ -29,6 +29,7 @@ class VeteransController < ApplicationController
 
     respond_to do |format|
       if @veteran.save
+        UserMailer.welcome(@veteran).deliver
         format.html { redirect_to action_path, notice: 'Thanks for signing up!' }
         format.json { render :show, status: :created, location: @veteran }
       else
