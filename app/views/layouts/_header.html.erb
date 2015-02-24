@@ -1,18 +1,17 @@
-<nav class="navbar navbar-static-top navbar-default" role="navigation">
+<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
   <div class="container">
     <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse"
-    data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
+      <button class="navbar-toggle" type="lg-button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
  <%= link_to image_tag('operationcode.png', width: 175),root_path, class: 'navbar-brand'%>
    </div>
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav navbar-right">
-
+ <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
       <li>
          <%= link_to news_path do %>NEWS & UPDATES<% end %>
       </li>
@@ -32,8 +31,8 @@
       <li>
         <%= link_to action_path do %> SIGN THE PETITION<% end %>
       </li>
-
     </ul>
     </div>
   </div>
+</div>
 </nav>
