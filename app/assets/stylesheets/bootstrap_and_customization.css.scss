@@ -39,6 +39,7 @@ html, body {
    column-gap:           0px;
 
 }
+
 #photos img {
   /* Just in case there are inline attributes */
   width: 100% !important;
@@ -88,3 +89,8 @@ color: #3498db;
 a:hover {
 color: #c0392b;
 }
+
+.btn btn-lg btn-success {
+  
+}
+
