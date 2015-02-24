@@ -15,5 +15,11 @@
 class Veteran < ActiveRecord::Base
   validates :email, format: { :with => /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/ , message: 'Please provide a valid e-mail address'}
   
-  
+  def name
+    if first_name.present? || last_name.present?
+      first_name.to_s + ' ' + last_name.to_s
+    else
+      email
+    end
+  end
 end
