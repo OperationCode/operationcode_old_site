@@ -18,7 +18,9 @@ Rails.application.configure do
   
   # JDavis: adding this for Devise.
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-
+  
+  # JDavis: using letter_opener for viewing emails in development
+  config.action_mailer.delivery_method = :letter_opener
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
