@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.2.1'
+# ruby '2.1.2'
 
 #JDavis following line is for rvm otherwise it will be ignored.
 #ruby=2.1.2@operation_code 
@@ -8,9 +9,10 @@ ruby '2.1.2'
 # Server and DB #
 #################
 
-gem 'rails', '4.1.6'
+gem 'rails', '4.2.0'
+# gem 'rails', '4.1.6'
 gem 'sprockets-rails', '~> 2.0'
-#gem 'pg', '0.17.1' # JDavis: consider using the postgres gem for all environments.
+# gem 'pg', '0.18.1' # JDavis: consider using the postgres gem for all environments.
 
 #############
 # Front-end #
