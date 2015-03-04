@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
 
   get "news" => "pages#news"
+  get "events" => "pages#events"
   get "donate" => "pages#donate"
   get "founder" => "pages#founder"
   get "hackathons" => "pages#hackathons"
