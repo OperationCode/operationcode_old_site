@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get "codeschools" => "pages#codeschools"
   get "learn" => "pages#learn"
   get "faq" => "pages#faq"
+  get "about" => "pages#about"
   
   #get "/action" => redirect("http://operationcode.launchrock.co/") #JDavis: capturing this information in-house vs launchrock
   get "action" => "veterans#new"
