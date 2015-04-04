@@ -11,11 +11,11 @@ Releasing the source code for this project is meant to empower Veteran's and all
 [James Davis](https://github.com/cavalryjim)
 [David Molina](https://github.com/davidmolina)
 
-Send a [Tweet](https://twitter.com/opcod3us) if you need help. 
+Send a [Tweet](https://twitter.com/operation_code) if you need help. 
 
 *License* - Ruby on Rails is released under the [MIT License](http://opensource.org/licenses/MIT).
 
-*Spread the Word* - Join the conversation on [Twitter](https://twitter.com/opcod3us) and [sign up](http://operationcode.org/action) to add your name to the petition. 
+*Spread the Word* - Join the conversation on [Twitter](https://twitter.com/operation_code) and [sign up](http://operationcode.org/action) to join the #operationcode movement. 
 
 *Moving Soon* - Simultaneously, we'll be moving to a GitHub [organizational repo](https://github.com/operationcode) to better coordinate our efforts with developers. Thanks to [Chris Hough](https://twitter.com/chrishough) for leading the first charge. 
 
