@@ -7,6 +7,16 @@ Releasing the source code for this project is meant to empower veterans and all 
 ### Requirements
 [Ruby on Rails](https://github.com/rails/rails) to get started.
 
+###Contributors
+
+These people have contributed to Operation Code's design and implementation:
+
+* [David Molina](http://davidmolina.github.io/)
+* [James Davis](https://github.com/cavalryjim)
+* [Shawna Scott](http://shawnacscott.com/)
+* [Sylwia Bialczak](https://github.com/ArgonCode)
+* [Alex Kaufman](https://github.com/alexkaufman06)
+
 ### Contributing
 Bug fixes and features are welcomed.
 
@@ -19,8 +29,6 @@ Everyone is encouraged to contribute to the project by forking and submitting a 
 5. Push to the branch (git push origin my-new-feature)
 6. Create new Pull Request
 7. Identify the issue that corresponds to your Pull Request: https://github.com/blog/1506-closing-issues-via-pull-requests
-
-When you make a pull request, make sure to add your name to the list of contributors in CONTRIBUTORS.md.
 
 Send Operation Code a [Tweet](https://twitter.com/operation_code) if you need help.
 
