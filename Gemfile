@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
-ruby '2.2.1'
+# ruby '2.2.1'
+# -------------LINE ABOVE SHOULD BE COMMENTED BACK IN!!!!------------
 # ruby '2.1.2'
 
 #JDavis following line is for rvm otherwise it will be ignored.
-#ruby=2.1.2@operation_code 
+#ruby=2.1.2@operation_code
 
 #################
 # Server and DB #
@@ -61,7 +62,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg' 
+  gem 'pg'
   gem 'rails_12factor'
   gem 'thin'
 end

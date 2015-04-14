@@ -1,5 +1,5 @@
 <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button class="navbar-toggle" type="lg-button" data-toggle="collapse" data-target=".bs-navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -11,9 +11,9 @@
  <%= link_to image_tag('operationcode.png', width: 175),root_path, class: 'navbar-brand'%>
    </div>
  <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-nav">
       <li>
-         <%= link_to about_path do %>About Operation Code<% end %>
+         <%= link_to about_path do %>About<% end %>
       </li>
 
       <li>
@@ -21,7 +21,7 @@
       </li>
 
       <li>
-         <%= link_to news_path do %>New GI Bill Updates<% end %>
+         <%= link_to news_path do %>News<% end %>
       </li>
 
       <li>
@@ -29,7 +29,7 @@
       </li>
 
       <li>
-        <%= link_to learn_path do %> Learning Resources<% end %>
+        <%= link_to learn_path do %>Resources<% end %>
       </li>
 
 
