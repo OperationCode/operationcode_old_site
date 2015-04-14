@@ -56,8 +56,13 @@ video {
   color: #3498db;
 }
 
-a:hover {
-  color: #3498db;
+a {
+  color: #FFF;
+}
+
+a.btn.btn-default:hover {
+  color: #FFF;
+  background-color: #3498db;
 }
 
 #overlay {
