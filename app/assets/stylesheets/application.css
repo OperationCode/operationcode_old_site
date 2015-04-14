@@ -14,9 +14,6 @@
  *= require bootstrap_and_customization
  */
 
-html {
-  background-color: red;
-}
 
 video {
   position: relative;
@@ -49,5 +46,5 @@ a.btn.btn-default:hover {
 }
 
 /*@media (max-width: 1237px) {*/
-body {background-color: red;}
+
 /*}*/
