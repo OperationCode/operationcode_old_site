@@ -1,4 +1,4 @@
-<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+<header class="navbar navbar-default navbar-static-top" id="top" role="banner">
   <div class="container-fluid">
     <div class="navbar-header">
       <button class="navbar-toggle" type="lg-button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -7,46 +7,35 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
- <%= link_to image_tag('operationcode.png', width: 175),root_path, class: 'navbar-brand'%>
-   </div>
- <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav navbar-nav">
-      <li>
-         <%= link_to about_path do %>About<% end %>
-      </li>
-
-      <li>
-         <%= link_to events_path do %>Events<% end %>
-      </li>
-
-      <li>
-         <%= link_to news_path do %>News<% end %>
-      </li>
-
-      <li>
-        <%= link_to codeschools_path do %> Code Schools<% end %>
-      </li>
-
-      <li>
-        <%= link_to learn_path do %>Resources<% end %>
-      </li>
-
-
-      <li>
-        <%= link_to hackathons_path do %> Hackathons<% end %>
-      </li>
-
-      <li>
-        <%= link_to action_path do %> Contact<% end %>
-      </li>
-
-     <!-- <li>
-        <%= link_to donate_path do %> Donate<% end %>
-    </li> -->
-
-    </ul>
+      <%= link_to image_tag('operationcode.png', width: 175),root_path, class: 'navbar-brand'%>
     </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+           <%= link_to about_path do %>About<% end %>
+        </li>
+        <li>
+           <%= link_to events_path do %>Events<% end %>
+        </li>
+        <li>
+           <%= link_to news_path do %>News<% end %>
+        </li>
+        <li>
+          <%= link_to codeschools_path do %> Code Schools<% end %>
+        </li>
+        <li>
+          <%= link_to learn_path do %>Resources<% end %>
+        </li>
+        <li>
+          <%= link_to hackathons_path do %> Hackathons<% end %>
+        </li>
+        <li>
+          <%= link_to action_path do %> Contact<% end %>
+        </li>
+        <!-- <li>
+          <%= link_to donate_path do %> Donate<% end %>
+        </li> -->
+      </ul>
+    </nav>
   </div>
-</div>
-</nav>
+</header>

@@ -4,10 +4,10 @@ $body-bg:                     white;
 $font-family-sans-serif:      'Lato', 'Helvetica Neue', Helvetica, Arial,
 sans-serif;
 $navbar-height:               50px;
-$navbar-default-bg:           #ecf0f1;
-$navbar-default-brand-color:  #ecf0f1;
-$brand-primary:               #ecf0f1;
-$jumbotron-bg:                #ecf0f1;
+$navbar-default-bg:           #FFF;
+$navbar-default-brand-color:  #FFF;
+$brand-primary:               #FFF;
+$jumbotron-bg:                #FFF;
 
 /*#c0392b - red
 #2c3e50 - navy blue*/
@@ -70,22 +70,22 @@ img {
 }
 
 .content {
--webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
 a:link {
-color: #3498db;
+  color: #3498db;
 }
 
 /* visited link */
 a:visited {
-color: #3498db;
+  color: #3498db;
 }
 
 /* mouse over link */
 a:hover {
-color: #c0392b;
+  color: #3498db;
 }
