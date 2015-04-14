@@ -14,35 +14,40 @@
  *= require bootstrap_and_customization
  */
 
+html {
+  background-color: red;
+}
 
 video {
-   position: relative;
-   min-height: 100%;
-   min-width: 100%;
-   width: 100%;
-   height: 100%;
-   padding: 0;
-   top: 0;
-   left: 0;
-   z-index: -10;
-   margin: 0;
-   background: transparent;
-   backgrond-size: cover;
-   transition: 1s opacity;
-   object-fit: contain;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  /*top: 0;
+  left: 0;*/
+  z-index: -10;
+  margin: 0;
+  background: transparent;
+  backgrond-size: cover;
+  transition: 1s opacity;
+  object-fit: contain;
 }
 
 #overlay {
- position: absolute;
- color: #FFF;
- top: 350px;
- width: 80%;
- z-index: 100;
- margin-top: -250px;
+  position: absolute;
+  color: #FFF;
+  /*top: 350px;*/
+  width: 80%;
+  z-index: -1;
+  margin-top: -20px;
 }
 
-
-
-.jumbotron {
-  margin-top: -5px;
+a.btn.btn-default:hover {
+  color: #3498db;
 }
+
+/*@media (max-width: 1237px) {*/
+body {background-color: red;}
+/*}*/
