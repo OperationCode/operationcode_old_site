@@ -15,15 +15,14 @@
     <meta name="google-site-verification" content="nBR2ER8Hcfls6RrkC05coE9yvBWUd3Ugi-helYsZcSs" />
   </head>
    <body>
-   <%= render 'layouts/header' %>
-    <% flash.each do |name, msg| %>
-      <%= content_tag(:div, msg, class: "alert alert-info") %>
-    <% end %>
-    <%= yield %>
-
-   <%= render 'layouts/footer' %> 
-    
-
+       <%= render 'layouts/header' %>
+       <div class="container">
+        <% flash.each do |name, msg| %>
+          <%= content_tag(:div, msg, class: "alert alert-info") %>
+        <% end %>
+        <%= yield %>
+      </div>
+      <%= render 'layouts/footer' %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <scri{pt src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
