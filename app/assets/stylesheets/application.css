@@ -28,6 +28,48 @@ video {
   object-fit: contain;
 }
 
+.photo-text {
+  color: #FFF;
+  width: 80%;
+  background: rgba(0,0,0,0.3);
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.row {
+  margin-left: 0px !important;
+}
+
+.scholar {
+  margin-top: -5px;
+  padding-left: 25px;
+  background-image: url("scholarship.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.gi-bill {
+  margin-top: -5px;
+  padding-left: 25px;
+  background-image: url("gi-bill.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.mentor {
+  margin-top: -5px;
+  padding-left: 25px;
+  background-image: url("mentorship.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
 .phone_view { display: none; }
 
 .navigation {
@@ -47,6 +89,10 @@ video {
 
 .navbar-nav>li>a {
   color: #3498db;
+}
+
+a.btn.btn-default {
+  background-color: rgba(0,0,0,0.3);
 }
 
 a.btn.btn-default:hover {
