@@ -60,14 +60,24 @@ a.btn.btn-default:hover {
   z-index: 2;
 }
 
-/*@media (min-width: 300px) {
+@media (max-width: 650px) {
   #overlay {
     position: absolute;
     color: #FFF;
     top: 350px;
     width: 80%;
-    color: red;
-    font-size: 5px;
+    margin-left: -15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     z-index: 2;
+    background: rgba(0,0,0,0.3);
   }
-}*/
+
+  .small_screen_h2 {
+    font-size: 20px;
+  }
+
+  .small_screen_h3 {
+    font-size: 15px;
+  }
+}
