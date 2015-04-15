@@ -91,6 +91,10 @@ video {
   color: #3498db;
 }
 
+a.btn.btn-default {
+  background-color: rgba(0,0,0,0.3);
+}
+
 a.btn.btn-default:hover {
   color: #FFF;
   background-color: #3498db;
