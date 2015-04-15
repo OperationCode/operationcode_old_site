@@ -28,6 +28,17 @@ video {
   object-fit: contain;
 }
 
+.photo-text {
+  color: #FFF;
+  width: 80%;
+  background: rgba(0,0,0,0.3);
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
 .row {
   margin-left: 0px !important;
 }
