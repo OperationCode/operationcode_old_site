@@ -1,6 +1,5 @@
-$('.slider').glide({
-    autoplay: 5000,
-    arrows: 'body',
-    navigation: 'body'
-});
-
+// $('.slider').glide({
+//     autoplay: 5000,
+//     arrows: 'body',
+//     navigation: 'body'
+// });
