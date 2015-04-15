@@ -1,52 +1,31 @@
-<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button class="navbar-toggle" type="lg-button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
- <%= link_to image_tag('operationcode.png', width: 175),root_path, class: 'navbar-brand'%>
-   </div>
- <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav navbar-nav">
-      <li>
-         <%= link_to about_path do %>About<% end %>
-      </li>
-
-      <li>
-         <%= link_to events_path do %>Events<% end %>
-      </li>
-
-      <li>
-         <%= link_to news_path do %>News<% end %>
-      </li>
-
-      <li>
-        <%= link_to codeschools_path do %> Code Schools<% end %>
-      </li>
-
-      <li>
-        <%= link_to learn_path do %>Resources<% end %>
-      </li>
-
-
-      <li>
-        <%= link_to hackathons_path do %> Hackathons<% end %>
-      </li>
-
-      <li>
-        <%= link_to action_path do %> Contact<% end %>
-      </li>
-
-     <!-- <li>
-        <%= link_to donate_path do %> Donate<% end %>
-    </li> -->
-
-    </ul>
+      <%= link_to image_tag('operationcode.png', width: 175),root_path, class: 'navbar-brand'%>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Events", events_path %></li>
+        <li><%= link_to "News", news_path %></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><%= link_to "Learn to Code", learn_path %></li>
+            <li class="divider"></li>
+            <li><%= link_to "Code Schools", codeschools_path %></li>
+            <li class="divider"></li>
+            <li><%= link_to "Hackathons", hackathons_path %></li>
+          </ul>
+        </li>
+        <li><%= link_to "Contact", action_path %></li>
+      </ul>
     </div>
   </div>
-</div>
 </nav>

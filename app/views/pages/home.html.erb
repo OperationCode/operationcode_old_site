@@ -1,12 +1,26 @@
+<div class="jumbotron phone_view">
+  <div class="container">
+    <h2>We're on a mission to expand the New GI Bill to cover
+      <a href="/codeschools">code schools</a> so that Veterans can learn to
+      code, build awesome products and get jobs in the software industry.
+    </h2>
+    <h3>
+    Veteran-founded and led, Operation Code is focused on increasing the number
+    of U.S. military/ Veterans to careers in software development and coding
+    through scholarships and mentorship while putting a dent in the nation's
+    technical talent shortage.
+    </h3>
+  </div>
+</div>
 <div id="video">
   <%= video_tag "https://s3-us-west-2.amazonaws.com/operationcode/broll+for+web_hand+typing.mp4", autoplay: "true", muted: "true", loop: "true" %>
   <div id="overlay">
-    <h2>We're on a mission to expand the New GI Bill to cover
+    <h2 class="small_screen_h2">We're on a mission to expand the New GI Bill to cover
       <a href="/codeschools">code schools</a> so that Veterans
       can learn to code, build awesome products and get jobs in
       the software industry.
     </h2>
-    <h3>
+    <h3 class="small_screen_h3">
       Veteran-founded and led, Operation Code is focused on increasing the
       number of U.S. military/ Veterans to careers in software development
       and coding through scholarships and mentorship while putting a dent in
@@ -49,13 +63,13 @@
 
   <hr>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
 <script>
  $(window).on('resize orientationChanged', function() {
    var $vid = $('video','#video');
    var $msg = $('#overlay');
    $msg.css({
-   left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
+     top:$vid.offset().top + (($vid.height()/2) - ($msg.height()/2)),
+     left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
    });
  });
  var $vid = $('video','#video');
