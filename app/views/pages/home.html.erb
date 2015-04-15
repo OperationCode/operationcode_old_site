@@ -54,7 +54,8 @@
    var $vid = $('video','#video');
    var $msg = $('#overlay');
    $msg.css({
-   left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
+     top:$vid.offset().top + (($vid.height()/2) - ($msg.height()/2)),
+     left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
    });
  });
  var $vid = $('video','#video');
