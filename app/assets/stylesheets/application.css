@@ -81,3 +81,46 @@ a.btn.btn-default:hover {
     font-size: 15px;
   }
 }
+
+@media (max-width: 460px) {
+  #overlay {
+    position: absolute;
+    top: 350px;
+    width: 90%;
+    margin-left: -15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 2;
+    background: rgba(0,0,0,0.3);
+  }
+
+  .small_screen_h2 {
+    font-size: 15px;
+  }
+
+  .small_screen_h3 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  #overlay {
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    color: #FFF;
+    margin-left: -13px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 2;
+    background: rgba(0,0,0,0.3);
+  }
+
+  .small_screen_h2 {
+    font-size: 12px;
+  }
+
+  .small_screen_h3 {
+    font-size: 10px;
+  }
+}
