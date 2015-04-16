@@ -11,9 +11,9 @@ Releasing the source code for this project is meant to empower veterans and all 
 
 These people have contributed to Operation Code's design and implementation:
 
-* [David Molina](http://davidmolina.github.io/)
+* [David Molina](https://github.com/davidmolina)
 * [James Davis](https://github.com/cavalryjim)
-* [Shawna Scott](http://shawnacscott.com/)
+* [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
 * [Alex Kaufman](https://github.com/alexkaufman06)
 
