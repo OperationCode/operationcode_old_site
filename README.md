@@ -9,7 +9,7 @@ Releasing the source code for this project is meant to empower veterans and all 
 
 ###Contributors
 
-These people have contributed to Operation Code's design and implementation:
+Our Operation Code contributors on design and implementation:
 
 * [David Molina](https://github.com/davidmolina)
 * [James Davis](https://github.com/cavalryjim)
@@ -36,11 +36,11 @@ Send Operation Code a [Tweet](https://twitter.com/operation_code) if you need he
 Ruby on Rails is released under the [MIT License](http://opensource.org/licenses/MIT).
 
 ### Spread the Word
-Join the conversation on [Twitter](https://twitter.com/operation_code) and [sign up](http://operationcode.org/action) to add your name to the petition.
+Join the conversation on [Twitter](https://twitter.com/operation_code) and military/veterans can [sign](http://operationcode.org/action) the petition to tell Congress to expand the New GI Bill and sign up for our software mentor protégé program.
 
 ### Acknowledgments
 Thanks to [Chris Hough](https://twitter.com/chrishough) for leading the first charge.
 
-Special thanks to all the amazing Ruby developers who've provided enormous encouragement and advice, and, military / veterans and supporters who have signed up!
+Special thanks to all the amazing Ruby developers who've provided enormous encouragement and advice, and supporters who have signed up as an [Operation Code Ambassador](http://operationcode.us10.list-manage.com/subscribe?u=0ab8e2b2d6c6608926c4f17d6&id=b1e19ac77b)!
 
 Thank you. We couldn't have come this far without your feedback, comments, thoughts, advice and generous resource support.
