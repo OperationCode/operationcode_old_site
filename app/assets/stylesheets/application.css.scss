@@ -46,7 +46,7 @@ video {
 .scholar {
   margin-top: -5px;
   padding-left: 25px;
-  background-image: url(/assets/scholarship.jpg);
+  background-image: image-url('scholarship.jpg');
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -55,7 +55,7 @@ video {
 .gi-bill {
   margin-top: -5px;
   padding-left: 25px;
-  background-image: url(/assets/gi-bill.jpg);
+  background-image: image-url('gi-bill.jpg');
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -64,7 +64,7 @@ video {
 .mentor {
   margin-top: -5px;
   padding-left: 25px;
-  background-image: url(/assets/mentorship.jpg);
+  background-image: image-url('mentorship.jpg');
   width: 100%;
   height: 100%;
   background-size: cover;
