@@ -11,11 +11,12 @@ Releasing the source code for this project is meant to empower veterans and all 
 
 Our Operation Code contributors on design and implementation:
 
+* [Alex Kaufman](https://github.com/alexkaufman06)
 * [David Molina](https://github.com/davidmolina)
+* [Fernando Paredes](https://github.com/nanoxd)
 * [James Davis](https://github.com/cavalryjim)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
-* [Alex Kaufman](https://github.com/alexkaufman06)
 
 ### Contributing
 Bug fixes and features are welcomed.
