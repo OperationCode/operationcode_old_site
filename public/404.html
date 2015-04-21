@@ -1,16 +1,75 @@
-<div class="container bs-docs-container">
-  <div class="row">
-    <div class="col-md-9" role="main">
-      <div class="bs-docs-section">
-        <h1 id="download" class="page-header">Oops! Site not found.
-It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.</h1>
-        <p class="lead">Here are some suggestions to get you squared away: <a href="http://operationcode.org">Home</a></p>
-       </div>
-    </div>
+  <div id="overlay">
+    <h2 class="small_screen_h2">We're on a mission to expand the New GI Bill to cover
+      <a href="/codeschools">code schools</a> so that Veterans
+      can learn to code, build awesome products and get jobs in
+      the software industry.
+    </h2>
+    <h3 class="small_screen_h3">
+      Veteran-founded and led, Operation Code is focused on increasing the
+      number of U.S. military/ Veterans to careers in software development
+      and coding through scholarships and mentorship while putting a dent in
+      the nation's technical talent shortage.
+    </h3>
+  </div>
+</div>
+<div class="row scholar">
+  <div class="photo-text">
+    <h2 class="center">Scholarship Fellows</h2>
+    <p>A coding scholarship for a deserving Veteran to transition to a
+      software career would be life-changing in every imaginable way. Our
+      Veterans come from every branch of our military. Our capital campaign goal is to crowdfund $7.5 million for scholarships.</p>
+    <p class="center"><a class="btn btn-default"
+      href="https://www.cogostar.org/projects/operationcode"
+      role="button">Learn more</a>
+    </p>
+  </div>
+</div>
+<div class="row mentor">
+  <div class="photo-text">
+    <h2 class="center">Software Mentorship</h2>
+    <p>Learning to program is rewarding, creative, enjoyable but
+      challenging. However, no Veteran should code alone. Our Software
+      Mentor Protégé Program pairs a volunteer software developer with a
+      Veteran to keep coding.</p>
+    <p class="center"><a class="btn btn-default" href="/action" role="button">Enroll Now</a>
+    </p>
+  </div>
+</div>
+<div class="row gi-bill">
+  <div class="photo-text">
+    <h2 class="center">New GI Bill Expansion</h2>
+    <p>Expanding the New GI Bill to include code school tuition, room and
+      board is the objective. Ensuring our tax payer dollars are used for
+      21st century software education that delivers results should be
+      priority regardless of party.
+    </p>
+    <p class="center"><a class="btn btn-default" href="https://www.switchup.org/blog/why-veterans-will-make-excellent-programmers">Why Veterans?</a></p>
   </div>
 </div>
 
-"You're not really brave, you're trained to be brave." --Victor, Marine Veteran
+
+
+
+
+<hr>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+ $(window).on('resize orientationChanged', function() {
+   var $vid = $('video','#video');
+   var $msg = $('#overlay');
+   $msg.css({
+     top:$vid.offset().top + (($vid.height()/2) - ($msg.height()/2)),
+     left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
+   });
+ });
+ var $vid = $('video','#video');
+ var $msg = $('#overlay');
+  $msg.css({
+    top:$vid.offset().top + (($vid.height()/2) - ($msg.height()/2)),
+    left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
+  });
+</script>
+
 
 <!-- <!DOCTYPE html>
 <html>
