@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Veteran-founded and led, Operation Code is a national nonprofit organization on a mission to get more Veterans coding.">
-  <meta name="keywords" content="operation code, veterans, software development, learn to code, keep coding, senate veterans, house veterans, gi bill, new gi bill, operationcode.org">
+  <meta name="keywords" content="operation code, veterans, software development, learn to code, keep coding, veteran coders, senate veterans, house veterans, gi bill, new gi bill, operationcode.org">
   <meta name="author" content="David Molina">
   <title>Operation Code: Veteran coders</title>
    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
@@ -15,6 +15,40 @@
     <meta name="google-site-verification" content="nBR2ER8Hcfls6RrkC05coE9yvBWUd3Ugi-helYsZcSs" />
   </head>
    <body>
+     <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '10153312605377022',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=111844722209797";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
    <%= render 'layouts/header' %>
     <% flash.each do |name, msg| %>
       <%= content_tag(:div, msg, class: "alert alert-info") %>
@@ -22,14 +56,6 @@
     <%= yield %>
 
    <%= render 'layouts/footer' %>
-   <div id="fb-root"></div>
-   <script>(function(d, s, id) {
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) return;
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=111844722209797";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
