@@ -1,10 +1,5 @@
 source 'https://rubygems.org'
-# ruby '2.2.1'
-# -------------LINE ABOVE SHOULD BE COMMENTED BACK IN!!!!------------
-# ruby '2.1.2'
-
-#JDavis following line is for rvm otherwise it will be ignored.
-#ruby=2.1.2@operation_code
+# ruby '2.2.2'
 
 #################
 # Server and DB #
@@ -35,7 +30,6 @@ gem 'aws-sdk', '~> 1.35.0'
 
 gem 'stripe'
 gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
-#gem 'activeadmin', github: 'cavalryjim/active_admin' #JDavis: this is used to build an admin module.
 gem 'activeadmin', github: 'activeadmin'
 
 ########
