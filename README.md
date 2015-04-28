@@ -42,7 +42,7 @@ Ruby on Rails is released under the [MIT License](http://opensource.org/licenses
 Join the conversation on [Twitter](https://twitter.com/operation_code) and military/veterans can [sign](http://operationcode.org/action) the petition to tell Congress to expand the New GI Bill and sign up for our software mentor protégé program.
 
 ### Acknowledgments
-Thanks to [Chris Hough](https://twitter.com/chrishough) for leading the first charge.
+Thanks to [Chris Hough](https://github.com/chrishough) for leading the first charge. 
 
 Special thanks to all the amazing Ruby developers who've provided enormous encouragement and advice, and supporters who have signed up as an [Operation Code Ambassador](http://operationcode.us10.list-manage.com/subscribe?u=0ab8e2b2d6c6608926c4f17d6&id=b1e19ac77b)!
 
