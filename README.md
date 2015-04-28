@@ -14,6 +14,7 @@ Our Operation Code contributors on design and implementation:
 * [Alex Beeken](https://github.com/alexbeeken)
 * [Alex Kaufman](https://github.com/alexkaufman06)
 * [David Molina](https://github.com/davidmolina)
+* [Duane Moody](https://github.com/dmmoody)
 * [Fernando Paredes](https://github.com/nanoxd)
 * [James Davis](https://github.com/cavalryjim)
 * [Shawna Scott](https://github.com/shawnacscott)
