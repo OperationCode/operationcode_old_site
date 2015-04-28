@@ -11,9 +11,8 @@ source 'https://rubygems.org'
 #################
 
 gem 'rails', '4.2.0'
-# gem 'rails', '4.1.6'
 gem 'sprockets-rails', '~> 2.0'
-# gem 'pg', '0.18.1' # JDavis: consider using the postgres gem for all environments.
+gem 'pg'
 
 #############
 # Front-end #
@@ -58,11 +57,9 @@ group :development do
   gem 'railroady'
   gem 'letter_opener'
   gem 'spring'
-  gem 'sqlite3' # JDavis: Since Heroku uses postgres, we should do the same in development.
 end
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
   gem 'thin'
 end
