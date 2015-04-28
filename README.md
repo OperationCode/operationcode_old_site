@@ -17,6 +17,7 @@ Our Operation Code contributors on design and implementation:
 * [James Davis](https://github.com/cavalryjim)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
+* [Alex Beeken](https://github.com/alexbeeken)
 
 ### Contributing
 Bug fixes and features are welcomed.
