@@ -1,6 +1,6 @@
 # Operation Code
 
-[Operation Code](operationcode.org) is a project founded by [David Molina](http://davidmolina.github.io/), a former U.S. Army Captain who tried using his New GI Bill to cover code school tuition, room and board in 2012, and again in 2014 and couldn't. Currently, veterans are forced to pay out-of-pocket or privately finance their way despite earning this education benefit.
+[Operation Code](http://operationcode.org) is a project founded by [David Molina](http://davidmolina.github.io/), a former U.S. Army Captain who tried using his New GI Bill to cover code school tuition, room and board in 2012, and again in 2014 and couldn't. Currently, veterans are forced to pay out-of-pocket or privately finance their way despite earning this education benefit.
 
 Releasing the source code for this project is meant to empower veterans and all developers everywhere to contribute their energy and time to this project. What could be better than America's current greatest generation trained in modern software development?
 
