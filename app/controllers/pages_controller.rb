@@ -5,9 +5,6 @@ class PagesController < ApplicationController
   def events
   end
 
-  def team
-  end
-
   def donate
   end
 
@@ -23,9 +20,27 @@ class PagesController < ApplicationController
   def codeschools
   end
 
-  def faq
+  def contributors
+  end
+
+  def faqs
   end
 
   def learn
+  end
+
+  def media
+  end
+
+  def mission
+  end
+
+  def press
+  end
+
+  def speakerrequest
+  end
+
+  def team
   end
 end
