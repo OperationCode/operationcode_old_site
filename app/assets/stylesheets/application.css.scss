@@ -12,7 +12,36 @@
  *
  *= require_self
  *= require bootstrap_and_customization
+ *= require font-awesome
  */
+
+ .social-links a {
+   text-align: center;
+   display: inline-block;
+   width: 36px;
+   height: 36px;
+   border: 1px solid white;
+   border-radius: 100%;
+   margin-right: 7px; /*space between*/
+ }
+
+ .social-links a i {
+   font-size: 20px;
+     line-height: 38px;
+   color: white;
+ }
+
+ #facebook {
+     background: #3B5998;
+ }
+
+ #twitter {
+     background: #6CDFEA;
+ }
+
+ #instagram {
+     background: #e74c3c;
+ }
 
 .video-container {
     position: relative;
