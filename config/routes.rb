@@ -5,17 +5,22 @@ Rails.application.routes.draw do
 
   resources :veterans
 
-
-  get "news" => "pages#news"
+  get "about" => "pages#about"
+  get "board" => "pages#board"
+  get "contact" => "pages#contact"
+  get "contributors" => "pages#contributors"
+  get "codeschools" => "pages#codeschools"
   get "events" => "pages#events"
-  get "team" => "pages#team"
+  get "faq" => "pages#faq"
   get "founder" => "pages#founder"
   get "hackathons" => "pages#hackathons"
-  get "contact" => "pages#contact"
-  get "codeschools" => "pages#codeschools"
   get "learn" => "pages#learn"
-  get "faq" => "pages#faq"
-  get "about" => "pages#about"
+  get "media" => "pages#media"
+  get "mission" => "pages#mission"
+  get "news" => "pages#news"
+  get "press" => "pages#press"
+  get "speakerrequest" => "pages#speakerrequest"
+  get "team" => "pages#team"
 
   #get "/action" => redirect("http://operationcode.launchrock.co/") #JDavis: capturing this information in-house vs launchrock
   get "action" => "veterans#new"
