@@ -44,14 +44,18 @@ video {
 
 .photo-text {
   color: #FFF;
-  width: 80%;
+  width: 110%;
   background: rgba(0,0,0,0.3);
   padding: 5px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -50px;
   margin-bottom: 30%;
-  margin-top: 30%;
+}
+
+.photo-text2 {
+  width: 60%;
+  text-align: center;
+  margin: auto;
 }
 
 .row {
@@ -124,6 +128,7 @@ a.btn.btn-default:hover {
 
 #overlay {
   position: absolute;
+  text-align: center;
   color: #FFF;
   top: 350px;
   width: 80%;
