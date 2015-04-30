@@ -10,21 +10,20 @@
    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
-    <!-- <link href="carousel.css" rel="stylesheet"> -->
+
     <meta name="google-site-verification" content="nBR2ER8Hcfls6RrkC05coE9yvBWUd3Ugi-helYsZcSs" />
 </head>
   <body>
     <%= render 'layouts/header' %>
-    
+
     <% flash.each do |name, msg| %>
       <%= content_tag(:div, msg, class: "alert alert-info") %>
     <% end %>
-    
+
     <%= yield %>
 
     <%= render 'layouts/footer' %>
-    
+
     <script>
       window.fbAsyncInit = function() {
         FB.init({
@@ -61,6 +60,6 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
+  
   </body>
 </html>
