@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   get "news" => "pages#news"
   get "press" => "pages#press"
   get "speakerrequest" => "pages#speakerrequest"
+  get "successes" => "pages#successes"
   get "team" => "pages#team"
 
   #get "/action" => redirect("http://operationcode.launchrock.co/") #JDavis: capturing this information in-house vs launchrock

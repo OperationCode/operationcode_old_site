@@ -41,6 +41,9 @@ class PagesController < ApplicationController
   def speakerrequest
   end
 
+  def successes
+  end
+
   def team
   end
 end
