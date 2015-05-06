@@ -1,5 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+@media screen and (max-width: 850px) {
+#photos {
+width: 41.6%;
+height:35%;
+ }
+}
+
+
+}
 $body-bg:                     white;
 $font-family-sans-serif:      'Lato', 'Helvetica Neue', Helvetica, Arial,
 sans-serif;
