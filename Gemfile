@@ -39,6 +39,7 @@ gem 'shareable'
 gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
 gem 'annotate', '2.5.0' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position before'
+gem 'skylight'
 
 #####################
 # Development Tools #
