@@ -65,9 +65,10 @@ Building Operation Code is quite simple.
 
 ```sh
 cd operationcode
-npm install
-bower install
-npm run-script build
+gem install bundler
+bundle
+bundle exec rake db:setup
+bundle exec rails server
 ```
 # Pull Requests
 
