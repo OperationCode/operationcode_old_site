@@ -24,6 +24,10 @@ describe VeteransController do
 
     let(:new_veteran) { Veteran.new(veteran_params) }
 
+    before do
+      allow(Veteran).to receive(:new).and_return(new_veteran)
+    end
+
     it "makes a new record with the params" do
       expect(Veteran).to receive(:new).with(veteran_params).and_return(new_veteran)
       post :create, veteran: veteran_params, format: :html
@@ -60,19 +64,30 @@ describe VeteransController do
     end
 
     context "when the record does not save successfully" do
+      before do
+        allow(new_veteran).to receive(:save).and_return(false)
+      end
+
       describe "#html" do
         it "does not send the welcome email" do
           expect(UserMailer).to_not receive(:welcome)
           post :create, veteran: veteran_params, format: :html
         end
 
-        it "renders the new template"
+        it "renders the new template" do
+          post :create, veteran: veteran_params, format: :html
+          expect(response).to render_template(:new)
+        end
       end
 
       describe "#json" do
-        it "renders the errors"
-      end
+        it "renders the errors" do
+          allow(new_veteran).to receive(:errors).and_return("ERRORZ")
 
+          post :create, veteran: veteran_params, format: :json
+          expect(response.body).to include("ERRORZ")
+        end
+      end
     end
   end
 end

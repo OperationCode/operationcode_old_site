@@ -33,8 +33,8 @@ class VeteransController < ApplicationController
         format.html { redirect_to action_path, notice: 'Thanks for signing up!' }
         format.json { render :show, status: :created, location: @veteran }
       else
-#        format.html { render :new }
-#        format.json { render json: @veteran.errors, status: :unprocessable_entity }
+        format.html { render :new }
+        format.json { render json: @veteran.errors, status: :unprocessable_entity }
       end
     end
   end
