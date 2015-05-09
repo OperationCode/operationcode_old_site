@@ -18,7 +18,7 @@ class Veteran < ActiveRecord::Base
 
   def name
     if first_name.present? || last_name.present?
-      first_name.to_s + ' ' + last_name.to_s
+      "#{first_name} #{last_name}"
     else
       email
     end
