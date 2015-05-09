@@ -77,10 +77,9 @@ We love pull requests. Here's a quick guide:
 1. Fork the repo.
 
 2. Run the tests. We only take pull requests with passing tests, and it's great
-to know that you have a clean slate: `npm install && bower install && npm test`.
-(To see tests in the browser, run `npm start` and open `http://localhost:3000/tests/index.html`.)
+to know that you have a clean slate: `bundle exec rspec'
 
-3. Add a test for your change. Only refactoring and documentation changes
+3. Add a test for your change. Only refactoring of code with test coverage and documentation changes
 require no new tests. If you are adding functionality or fixing a bug, we need
 a test! If your change is a new feature, please
 [wrap it in a feature flag].
