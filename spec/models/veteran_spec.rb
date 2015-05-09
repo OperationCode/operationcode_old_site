@@ -3,7 +3,7 @@ require "rails_helper"
 describe Veteran do
   describe "validating the email address" do
     context "when an email address is the correct format" do
-      let(:new_veteran) { Veteran.new(email: "hero@usa.com") }
+      let(:new_veteran) { build(:veteran) }
 
       it "is valid" do
         expect(new_veteran).to be_valid
@@ -12,7 +12,7 @@ describe Veteran do
 
     context "when an email address is not the correct format" do
 
-      let(:new_veteran) { Veteran.new(email: "bademail") }
+      let(:new_veteran) { build(:veteran, email: "bademail") }
 
       it "is not valid" do
         expect(new_veteran).to_not be_valid
@@ -22,8 +22,11 @@ describe Veteran do
 
   describe "#name" do
     context "when a veteran has a first name or last name" do
-      let(:veteran) do
-        Veteran.create(email: "hero@usa.com", first_name: "Billy", last_name: "Bob")
+      let(:veteran) { create(:veteran) }
+
+      before do
+        expect(veteran.first_name).to_not be_nil
+        expect(veteran.last_name).to_not be_nil
       end
 
       it "returns the first name and last name" do
@@ -33,9 +36,7 @@ describe Veteran do
 
     context "when a veteran does not have a first name or last name" do
 
-      let(:veteran) do
-        Veteran.create(email: "hero@usa.com")
-      end
+      let(:veteran) { create(:veteran, first_name: nil, last_name: nil) }
 
       it "returns the email address" do
         expect(veteran.name).to eq(veteran.email)
