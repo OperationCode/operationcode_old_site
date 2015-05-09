@@ -189,6 +189,30 @@ a.btn.btn-default:hover {
   .small_screen_h3 {
     font-size: 12px;
   }
+
+  .picture_background {
+    margin: -30px 5px 5px 5px;
+  }
+
+  .photo-text {
+    width: 100%;
+    margin-left: -12px;
+  }
+
+  .scholar {
+    background-image: none;
+    background-color: grey;
+  }
+
+  .gi-bill {
+    background-image: none;
+    background-color: grey;
+  }
+
+  .mentor {
+    background-image: none;
+    background-color: grey;
+  }
 }
 
 @media (max-width: 350px) {
@@ -202,5 +226,20 @@ a.btn.btn-default:hover {
 
   .small_screen_h3 {
     font-size: 10px;
+  }
+
+  .scholar {
+    background-image: none;
+    background-color: grey;
+  }
+
+  .gi-bill {
+    background-image: none;
+    background-color: grey;
+  }
+
+  .mentor {
+    background-image: none;
+    background-color: grey;
   }
 }
