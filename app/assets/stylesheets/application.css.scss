@@ -15,7 +15,11 @@
  *= require font-awesome
  */
 
- .social-links a {
+:root {
+  -phone-bg-color: #808080;
+}
+
+.social-links a {
    text-align: center;
    display: inline-block;
    width: 36px;
@@ -25,21 +29,21 @@
    margin-right: 7px; /*space between*/
  }
 
- .social-links a i {
+.social-links a i {
    font-size: 20px;
      line-height: 38px;
    color: white;
  }
 
- #facebook {
+#facebook {
      background: #3B5998;
  }
 
- #twitter {
+#twitter {
      background: #6CDFEA;
  }
 
- #instagram {
+#instagram {
      background: #e74c3c;
  }
 
@@ -58,7 +62,6 @@
 }
 
 video {
-  margin-top: -20px;
   background-attachment: fixed;
   width: 100%;
   height: auto;
@@ -91,11 +94,10 @@ video {
   margin-left: 0px !important;
 }
 
-.picture_background {
+.picture-background {
   margin-top: -5px;
   padding-left: 25px;
   width: 100%;
-  height: 100vh;
   margin-bottom: auto;
   background-size: cover;
   background-attachment: fixed;
@@ -103,14 +105,18 @@ video {
 }
 
 .scholar {
+  margin-top: -5px;
+  height: 100vh;
   background-image: image-url('scholarship.jpg');
 }
 
 .gi-bill {
+  height: 100vh;
   background-image: image-url('gi-bill.jpg');
 }
 
 .mentor {
+  height: 100vh;
   background-image: image-url('mentorship.jpg');
 }
 
@@ -195,26 +201,32 @@ a.btn.btn-default:hover {
     margin-left: -12px;
   }
 
-  .picture_background {
-    margin-top: -30px;
+  .picture-background {
+    margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-top: -30px;
   }
 
   .scholar {
-    background-color: #808080;
+    background-color: var(-phone-bg-color);
     background-image: none;
   }
 
   .gi-bill {
-    background-color: #808080;
+    margin-top: -330px;
+    background-color: var(-phone-bg-color);
     background-image: none;
   }
 
   .mentor {
-    background-color: #808080;
+    margin-top: -300px;
+    background-color: var(-phone-bg-color);
     background-image: none;
+  }
+
+  footer {
+    margin-top: -400px;
   }
 }
 
@@ -235,27 +247,27 @@ a.btn.btn-default:hover {
     width: 100%;
     margin-left: -12px;
   }
-  
-  .picture_background {
-    margin-top: -30px;
+
+  .picture-background {
+    margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-top: -30px;
   }
 
-
   .scholar {
-    background-color: #808080;
+    background-color: var(-phone-bg-color);
     background-image: none;
   }
 
   .gi-bill {
-    background-color: #808080;
+    background-color: var(-phone-bg-color);
     background-image: none;
   }
 
   .mentor {
-    background-color: #808080;
+    background-color: var(-phone-bg-color);
     background-image: none;
   }
+
 }
