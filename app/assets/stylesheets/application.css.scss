@@ -190,28 +190,31 @@ a.btn.btn-default:hover {
     font-size: 12px;
   }
 
-  .picture_background {
-    margin: -30px 5px 5px 5px;
-  }
-
   .photo-text {
     width: 100%;
     margin-left: -12px;
   }
 
+  .picture_background {
+    margin-top: -30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
   .scholar {
+    background-color: #808080;
     background-image: none;
-    background-color: grey;
   }
 
   .gi-bill {
+    background-color: #808080;
     background-image: none;
-    background-color: grey;
   }
 
   .mentor {
+    background-color: #808080;
     background-image: none;
-    background-color: grey;
   }
 }
 
@@ -228,27 +231,31 @@ a.btn.btn-default:hover {
     font-size: 10px;
   }
 
-  .picture_background {
-    margin: -30px 5px 5px 5px;
-  }
-
   .photo-text {
     width: 100%;
     margin-left: -12px;
   }
+  
+  .picture_background {
+    margin-top: -30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
 
   .scholar {
+    background-color: #808080;
     background-image: none;
-    background-color: grey;
   }
 
   .gi-bill {
+    background-color: #808080;
     background-image: none;
-    background-color: grey;
   }
 
   .mentor {
+    background-color: #808080;
     background-image: none;
-    background-color: grey;
   }
 }
