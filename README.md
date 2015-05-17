@@ -23,8 +23,6 @@ Our Operation Code contributors on design and implementation:
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
 
-jason@getbeautified.com
-
 ### Contributing
 Bug fixes and features are welcomed.
 
