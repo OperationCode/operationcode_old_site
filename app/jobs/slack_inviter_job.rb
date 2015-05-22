@@ -1,10 +1,13 @@
+require 'slack/client'
+
 class SlackInviterJob < ActiveJob::Base
   queue_as :default
 
-  def perform(*args)
+  def perform(email)
+    # Invites user to general channel
     slack_client.invite \
       email:    email,
-      channels: ENV["SLACK_CHANNELS"].to_s.split(/\s*,\s*/)
+      channels: ["C03GSNF77"]
   end
 
   private
