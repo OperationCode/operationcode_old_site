@@ -29,7 +29,8 @@ class VeteransController < ApplicationController
 
     respond_to do |format|
       if @veteran.save
-        UserMailer.welcome(@veteran).deliver
+        UserMailer.welcome(@veteran).deliver_now
+        @veteran.send_slack_invitation
         format.html { redirect_to action_path, notice: 'Thanks for signing up!' }
         format.json { render :show, status: :created, location: @veteran }
       else

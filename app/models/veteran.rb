@@ -24,4 +24,8 @@ class Veteran < ActiveRecord::Base
       email
     end
   end
+
+  def send_slack_invitation
+    SlackInviterJob.perform_later(email)
+  end
 end
