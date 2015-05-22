@@ -13,7 +13,8 @@
 #
 
 class Veteran < ActiveRecord::Base
-  validates :email, format: { with: /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/,
+  EMAIL_REGEX = /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/
+  validates :email, format: { with: EMAIL_REGEX,
                               message: 'Please provide a valid e-mail address' }
 
   def name
@@ -22,5 +23,9 @@ class Veteran < ActiveRecord::Base
     else
       email
     end
+  end
+
+  def send_slack_invitation
+    SlackInviterJob.perform_later(email)
   end
 end

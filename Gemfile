@@ -8,6 +8,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
+gem 'sidekiq'
 
 #############
 # Front-end #
