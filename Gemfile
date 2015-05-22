@@ -22,6 +22,7 @@ gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'aws-sdk', '~> 1.35.0'
+#cordova (phonegap), Meteor.com
 
 ########################
 # Auth and Permissions #
