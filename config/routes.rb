@@ -25,7 +25,6 @@ Rails.application.routes.draw do
   get "successes" => "pages#successes"
   get "team" => "pages#team"
 
-  #get "/action" => redirect("http://operationcode.launchrock.co/") #JDavis: capturing this information in-house vs launchrock
   get "action" => "veterans#new"
 
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
