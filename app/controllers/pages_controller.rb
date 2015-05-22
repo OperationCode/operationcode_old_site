@@ -26,7 +26,7 @@ class PagesController < ApplicationController
   def faqs
   end
 
-  def learn
+  def online
   end
 
   def media
@@ -45,5 +45,8 @@ class PagesController < ApplicationController
   end
 
   def team
+  end
+
+  def hello
   end
 end
