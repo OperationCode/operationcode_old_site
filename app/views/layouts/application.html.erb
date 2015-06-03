@@ -12,6 +12,10 @@
   <%= csrf_meta_tags %>
 
   <meta name="google-site-verification" content="nBR2ER8Hcfls6RrkC05coE9yvBWUd3Ugi-helYsZcSs" />
+
+  <%= google_webfonts_init({
+    google: ['Open Sans']
+  }) %>
 </head>
   <body>
     <%= render 'layouts/header' %>
