@@ -333,6 +333,3 @@ DEPENDENCIES
   thin
   turbolinks
   uglifier (>= 1.3.0)
-
-BUNDLED WITH
-   1.10.0
