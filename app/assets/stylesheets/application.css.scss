@@ -15,6 +15,10 @@
  *= require font-awesome
  */
 
+  * {
+    font-family: "Open Sans";
+  }
+
  .social-links a {
    text-align: center;
    display: inline-block;
@@ -169,7 +173,7 @@ a.btn.btn-default:hover {
   .phone_view { display: none; }
 
   .small_screen_h2 {
-    font-size: 20px;
+    font-size: 20px;  
   }
 
   .small_screen_h3 {
