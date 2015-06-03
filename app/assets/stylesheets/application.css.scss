@@ -15,50 +15,50 @@
  *= require font-awesome
  */
 
-  * {
-    font-family: "Open Sans";
-  }
+* {
+  font-family: "Open Sans";
+}
 
- .social-links a {
-   text-align: center;
-   display: inline-block;
-   width: 36px;
-   height: 36px;
-   border: 1px solid white;
-   border-radius: 100%;
-   margin-right: 7px; /*space between*/
- }
+.social-links a {
+  text-align: center;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 7px; /*space between*/
+}
 
- .social-links a i {
-   font-size: 20px;
-     line-height: 38px;
-   color: white;
- }
+.social-links a i {
+  font-size: 20px;
+  line-height: 38px;
+  color: white;
+}
 
- #facebook {
-     background: #3B5998;
- }
+#facebook {
+  background: #3B5998;
+}
 
- #twitter {
-     background: #6CDFEA;
- }
+#twitter {
+  background: #6CDFEA;
+}
 
- #instagram {
-     background: #e74c3c;
- }
+#instagram {
+  background: #e74c3c;
+}
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
 }
 
 .video-container iframe,{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 video {
