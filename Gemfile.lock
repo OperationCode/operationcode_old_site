@@ -125,6 +125,8 @@ GEM
       posix-spawn (~> 0.3.8)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
+    google-webfonts-rails (0.0.4)
+      activesupport (> 3.2.0, < 5.0)
     has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
@@ -313,6 +315,7 @@ DEPENDENCIES
   factory_girl_rails
   font-awesome-rails
   github-markup (~> 1.2.1)
+  google-webfonts-rails
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks
