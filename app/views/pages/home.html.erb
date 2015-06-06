@@ -1,86 +1,63 @@
-<div class="jumbotron phone_view">
-  <div class="container">
-    <h2>On a mission to get military veterans coding.
-    </h2>
-    <h3>
 <!--     Veteran-founded and led, Operation Code is focused on increasing the number
     of U.S. Military/ Veterans to careers in software development and coding
     through scholarships and mentorship while putting a dent in the nation's
     technical talent shortage. -->
-    </h3>
-  </div>
-</div>
+
 <div id="wrap">
   <div id="video">
-    <%= video_tag "https://s3-us-west-2.amazonaws.com/operationcode/broll+for+web_hand+typing.mp4", autoplay: "true", muted: "true", loop: "true" %>
-    <div id="overlay">
-      <h2 class="small_screen_h2">Join us on a mission to get military veterans coding.<br>
-      </h2>
-      <h3 class="small_screen_h3">
-  <!--       Veteran-founded and led, Operation Code is focused on increasing the
-        number of U.S. military/ Veterans to careers in software development
-        and coding through scholarships and mentorship while putting a dent in
-        the nation's technical talent shortage. -->
-      </h3>
-    </div>
-  </div>
-  <div class="row scholar picture_background">
-    <div class="photo-text">
-      <div class="photo-text2">
-        <h2 class="center">Scholarship Fellows</h2>
-        <p>A scholarship for a deserving veteran to transition to a
-          software career would be life-changing in every imaginable way. Our
-          veterans proudly hail from every branch of our military and every era after Vietnam. Our capital campaign goal is to crowdfund $7.5 million for scholarships.
-
-    <!--       <iframe src="https://player.vimeo.com/video/124794084" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/124794084"></p> -->
-        </p>
-        <p class="center"><a class="btn btn-default"
-          href="/donate"
-          role="button">Donate</a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="row mentor picture_background">
-    <div class="photo-text">
-      <div class="photo-text2">
-        <h2 class="center">Software Mentorship</h2>
-        <p>Learning to program is both rewarding and challenging, however, no veteran should code alone. Our Software Mentor Protégé Program gets veterans coding through both a software mentor and our community on Slack.</p>
-        <p class="center"><a class="btn btn-default" href="/action" role="button">Enroll now</a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="row gi-bill picture_background">
-    <div class="photo-text">
-      <div class="photo-text2">
-        <h2 class="center">New GI Bill Expansion</h2>
-        <p>Congress can and should create a special category of accreditation that paves the way for veterans to receive this software training at code schools across the country. Join the effort and let your U.S. Senator and Member of Congress know to equalize the education field for America's patriots.
-        </p>
-        <p class="center"><a class="btn btn-default" href="https://www.switchup.org/blog/why-veterans-will-make-excellent-programmers">Read more</a></p>
-      </div>
+    <div id="slides">
+      <li>
+        <div id="overlay"><h1 class="small_screen_h2">Join us on a mission to get military veterans coding.</h1></div>      
+        <img src="/assets/gi-bill.jpg">
+      </li>
+      <li>
+        <img src="/assets/mentorship.jpg">
+        <div id="overlay"><h1 class="small_screen_h2">Join us on a mission to get military veterans coding.</h1></div>
+      </li>
+      <li>
+        <img src="/assets/scholarship.jpg">
+        <div id="overlay"><h1 class="small_screen_h2">Join us on a mission to get military veterans coding.</h1></div>    
+      </li>
     </div>
   </div>
 </div>
 
+<div class="col-lg-10">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#home" data-toggle="tab" aria-expanded="true"><h4>Scholarship Fellows</h4></a></li>
+    <li class=""><a href="#mentoring" data-toggle="tab" aria-expanded="false"><h4>Software Mentorship</h4></a></li>
+    <li class=""><a href="#gi-bill-expansion" data-toggle="tab" aria-expanded="false"><h4>New GI Bill Expansion</h4></a></li>
+  </ul>
+  <div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade active in" id="home">
+      <p><h4>A scholarship for a deserving veteran to transition to a
+          software career would be life-changing in every imaginable way. Our
+          veterans proudly hail from every branch of our military and every era after Vietnam. Our capital campaign goal is to crowdfund $7.5 million for scholarships.</h4></p>
+    </div>
+    <div class="tab-pane fade" id="mentoring">
+      <p><h4>Learning to program is both rewarding and challenging, however, no veteran should code alone. Our Software Mentor Protégé Program gets veterans coding through both a software mentor and our community on Slack.</h4></p>
+    </div>
+    <div class="tab-pane fade" id="gi-bill-expansion">
+      <p><h4>Congress can and should create a special category of accreditation that paves the way for veterans to receive this software training at code schools across the country. Join the effort and let your U.S. Senator and Member of Congress know to equalize the education field for America's patriots.</h4></p>
+    </div>
+  </div>
+</div>
 
-
-
-<hr>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
- $(window).on('resize orientationChanged', function() {
-   var $vid = $('video','#video');
-   var $msg = $('#overlay');
-   $msg.css({
-     top:$vid.offset().top + (($vid.height()/2) - ($msg.height()/2)),
-     left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
-   });
- });
- var $vid = $('video','#video');
- var $msg = $('#overlay');
-  $msg.css({
-    top:$vid.offset().top + (($vid.height()/2) - ($msg.height()/2)),
-    left:$vid.offset().left + (($vid.width()/2) - ($msg.width()/2))
+  $('#slides').slidesjs({
+    width: 940,
+    height: 528,
+    navigation: false,
+    pagination: false,
+    play: {
+      active: false,
+      auto: true,
+      interval: 4000,
+      fade: true,
+      effect: "fade"
+    },
+    effect: {
+      fade: {speed: 1000}
+    }
   });
 </script>
