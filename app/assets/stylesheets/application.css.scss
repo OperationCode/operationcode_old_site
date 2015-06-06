@@ -15,6 +15,19 @@
  *= require font-awesome
  */
 
+.homepage_headline {
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.col-lg-10 {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  margin-left: 8.3%;
+  margin-right: 8.3%;
+}
+
 * {
   font-family: "Open Sans";
 }
@@ -152,8 +165,8 @@ a.btn.btn-default:hover {
   position: absolute;
   text-align: center;
   color: #FFF;
-  top: 350px;
-  width: 80%;
+  top: 280px;
+  width: 100%;
   z-index: 2;
 }
 
