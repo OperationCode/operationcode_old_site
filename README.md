@@ -19,6 +19,7 @@ Our Operation Code contributors on design and implementation:
 * [Fernando Paredes](https://github.com/nanoxd)
 * [James Davis](https://github.com/cavalryjim)
 * [Jason Dinsmore](https://github.com/dinjas)
+* [Ming Zhang](https://github.com/Scripore)
 * [Nell Shamrell-Harrington](https://github.com/nellshamrell)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
