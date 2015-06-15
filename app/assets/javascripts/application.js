@@ -14,3 +14,4 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require jquery.stellar
+//= require jquery.slides.min
