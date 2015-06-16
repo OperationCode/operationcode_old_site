@@ -28,7 +28,7 @@ Rails.application.routes.draw do
   get "action" => "veterans#new"
 
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
-  get "/donate" => redirect("https://www.cogostar.org/projects/operationcode")
+  get "/donate" => redirect("https://www.cogostar.org/payments/new/project/49")
   get "/learn" => redirect("/online")
 
   get "/contribute" => redirect("https://github.com/operationcode/operationcode")
