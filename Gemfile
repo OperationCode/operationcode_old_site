@@ -41,9 +41,9 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'shareable'
 gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
-gem 'annotate', '2.5.0' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position before'
+gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position before'
 gem 'skylight'
-gem 'figaro' #app configuration use ENV variables and a single YAML file
+gem 'figaro' #app configuration using ENV variables and a single YAML file
 
 #####################
 # Development Tools #

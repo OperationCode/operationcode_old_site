@@ -5,9 +5,6 @@ class PagesController < ApplicationController
   def events
   end
 
-  def donate
-  end
-
   def founder
   end
 

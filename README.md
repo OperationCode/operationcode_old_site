@@ -17,6 +17,7 @@ Our Operation Code contributors on design and implementation:
 * [David Molina](https://github.com/davidmolina)
 * [Duane Moody](https://github.com/dmmoody)
 * [Fernando Paredes](https://github.com/nanoxd)
+* [Glenn Espinosa](https://github.com/gxespino)
 * [James Davis](https://github.com/cavalryjim)
 * [Jason Dinsmore](https://github.com/dinjas)
 * [Ming Zhang](https://github.com/Scripore)
