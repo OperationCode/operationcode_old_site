@@ -60,31 +60,23 @@ always have more work to do than time to do it. If you can write some code
 then that will speed the process along.
 
 # Building Operation Code
+1. Install Ruby 2.2.2.
+2. Install PostgreSQL if you dont have it already
+3. Start PostgreSQL
+4. `createuser davidmolina -d`
+5. Install [bundler](http://bundler.io)
+6. clone forked operationcode repo
+7. `cd operationcode`
+8. `bundle install`
+9. `bundle exec rake db:setup`
+10. `bundle exec rails s`
 
-## Mac OS X
-1. install homebrew ( http://brew.sh/ - package manager for OS X)  
-  * If you use macports, you might consider changing to homebrew. 
-  * This step is optional, but will make your life easier.
-2. install postgres if you dont have it already
-  1. ```brew install postgres```
-  2. start postgres ( follow brew directions after install )
-  3. ```createuser davidmolina -d```
-3. install bundler ( http://bundler.io )
-4. Install rbenv ( via homebrew or github, https://github.com/sstephenson/rbenv )
-  1. ```brew update```
-  2. ```brew install rbenv ruby-build```
-5. clone forked operationcode repo
-6. Install Ruby 2.2.2.
-  1. ```cd <forked operationcode repo directory>```
-  2. ```rbenv install 2.2.2``` ( might take a few minutes )
-7. ```bundle install```
-8.  ```bundle exec rake db:setup```
-9.  ```bundle exec rails s```
-
-## Linux
-More details soon, but mostly the same as OS X, but no homebrew, use your distro's package manager.
+## Optional Build Tools
+* [homebrew](http://brew.sh/) is a package manager for OS X
+* [rbenv](https://github.com/sstephenson/rbenv) - tool for switching ruby versions
 
 # Starting Operation Code 
+`bundle exec rails s`
 
 # Pull Requests
 
@@ -140,7 +132,7 @@ Syntax:
 * No trailing whitespace. Blank lines should not have any space.
 * a = b and not a=b.
 * Follow the conventions you see used in the source already.
-* If in doubt, use ruby style guide, https://github.com/bbatsov/ruby-style-guide
+* If in doubt, use [ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 
 Inline Documentation Guidelines:
 
