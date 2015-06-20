@@ -60,16 +60,24 @@ always have more work to do than time to do it. If you can write some code
 then that will speed the process along.
 
 # Building Operation Code
+1. Install Ruby 2.2.2.
+2. Install PostgreSQL if you dont have it already
+3. Start PostgreSQL
+4. `createuser davidmolina -d`
+5. Install [bundler](http://bundler.io)
+6. clone forked operationcode repo
+7. `cd operationcode`
+8. `bundle install`
+9. `bundle exec rake db:setup`
+10. `bundle exec rails s`
 
-Building Operation Code is quite simple.
+## Optional Build Tools
+* [homebrew](http://brew.sh/) is a package manager for OS X
+* [rbenv](https://github.com/sstephenson/rbenv) - tool for switching ruby versions
 
-```sh
-cd operationcode
-gem install bundler
-bundle
-bundle exec rake db:setup
-bundle exec rails server
-```
+# Starting Operation Code 
+`bundle exec rails s`
+
 # Pull Requests
 
 We love pull requests. Here's a quick guide:
@@ -124,6 +132,7 @@ Syntax:
 * No trailing whitespace. Blank lines should not have any space.
 * a = b and not a=b.
 * Follow the conventions you see used in the source already.
+* If in doubt, use [ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 
 Inline Documentation Guidelines:
 
