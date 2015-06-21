@@ -1,53 +1,36 @@
-# Operation Code
+# [Operation Code](http://operationcode.org)
 
-[Operation Code](http://operationcode.org) is a project founded by [David Molina](http://davidmolina.github.io/), a former U.S. Army Captain who tried using his New GI Bill to cover code school tuition, room and board in 2012, and again in 2014 and couldn't. Currently, veterans are forced to pay out-of-pocket or privately finance their way despite earning this education benefit.
+Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by the core team [core team](https://github.com/orgs/operationcode/people) with the support and involvement of the [community](http://operationcode.org/contributors).
 
-Releasing the source code for this project is meant to empower veterans and all developers everywhere to contribute their energy and time to this project. What could be better than America's current greatest generation trained in modern software development?
+Releasing the source code for this project is meant to empower military veterans and all developers everywhere to contribute their ideas, energy and time to help close the nation's technical talent shortage with American patriots trained in modern software development.
 
-### Requirements
-[Ruby on Rails](https://github.com/rails/rails) to get started.
+Learn more at: [http://operationcode.org](http://operationcode.org).
 
-###Contributors
+## Table of contents
 
-Our Operation Code contributors on design and implementation:
+- [About](#about)
+- [Contributing](#contributing)
+- [Community](#community)
+- [Copyright and license](#copyright-and-license)
 
-* [Alex Beeken](https://github.com/alexbeeken)
-* [Alex Kaufman](https://github.com/alexkaufman06)
-* [Chris Kibble](https://github.com/ckib16)
-* [David Molina](https://github.com/davidmolina)
-* [Duane Moody](https://github.com/dmmoody)
-* [Fernando Paredes](https://github.com/nanoxd)
-* [James Davis](https://github.com/cavalryjim)
-* [Jason Dinsmore](https://github.com/dinjas)
-* [Ming Zhang](https://github.com/Scripore)
-* [Nell Shamrell-Harrington](https://github.com/nellshamrell)
-* [Shawna Scott](https://github.com/shawnacscott)
-* [Sylwia Bialczak](https://github.com/ArgonCode)
+## About
 
-### Contributing
-Bug fixes and features are welcomed.
+Veteran-founded and led, Operation Code is on a mission to get more military veterans coding:
+* [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
+* [Source code](http://github.com/operationcode/operationcode) is available.
+* [Issue tracker](https://github.com/operationcode/operationcode/issues?q=is%3Aopen) lists outstanding issues.
 
-Everyone is encouraged to contribute to the project by forking and submitting a pull request. Steps:
+## Contributing
 
-1. Fork this repository
-2. Create an issue or find an open issue to work on
-3. Create your feature branch (git checkout -b my-new-feature)
-4. Commit your changes (git commit -am 'Added some feature')
-5. Push to the branch (git push origin my-new-feature)
-6. Create new Pull Request
-7. Identify the issue that corresponds to your Pull Request: https://github.com/blog/1506-closing-issues-via-pull-requests
+Please read through our [contributing guidelines](https://github.com/operationcode/operationcode/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Send Operation Code a [Tweet](https://twitter.com/operation_code) if you need help.
+Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/#html).
 
-### License
+## Community
+
+Get updates on Operation Code's development.
+- Follow [@operation_code on Twitter](https://twitter.com/operation_code).
+
+## Copyright and license
+
 Ruby on Rails is released under the [MIT License](http://opensource.org/licenses/MIT).
-
-### Spread the Word
-Join the conversation on [Twitter](https://twitter.com/operation_code) and military/veterans can [sign](http://operationcode.org/action) the petition to tell Congress to expand the New GI Bill and sign up for our software mentor protégé program.
-
-### Acknowledgments
-Thanks to [Chris Hough](https://github.com/chrishough) for leading the first charge.
-
-Special thanks to all the amazing Ruby developers who've provided enormous encouragement and advice, and supporters who have signed up as an [Operation Code Ambassador](http://operationcode.us10.list-manage.com/subscribe?u=0ab8e2b2d6c6608926c4f17d6&id=b1e19ac77b)!
-
-Thank you. We couldn't have come this far without your feedback, comments, thoughts, advice and generous resource support.
