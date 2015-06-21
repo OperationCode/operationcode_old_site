@@ -12,7 +12,7 @@ The [issue tracker](https://github.com/OperationCode/operationcode/issues) is
 the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests)
 and [submitting pull requests](#pull-requests), but please respect the following restrictions:
 
-* Please **do not** use the issue tracker for personal support requests. [Twitter](README.md#community) is a better place to get help. If you're already enrolled in Operation Code, we'll often take the conversation into [Slack](https://operation-code.slack.com) and hammer out the details.
+* Please **do not** use the issue tracker for personal support requests. [Twitter](http://twitter.com/operation_code) is a better place to get help. If you're already enrolled in Operation Code, we'll often take the conversation into [Slack](https://operation-code.slack.com) and hammer out the details.
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 
@@ -22,7 +22,7 @@ Our bug tracker utilizes several labels to help organize and identify issues. He
 
 - `bug` - Issues that are reported to us via [Twitter](http://twitter.com/operation_code) or [Issues](https://github.com/operationcode/operationcode/issues).
 
-- `enhancement` - Issues that are suggested through [Twitter](http://twitter.com/operation_code), [email](contact@operationcode.org), or [Slack](https://operation-code.slack.com).
+- `enhancement` - Issues that are suggested through [Twitter](http://twitter.com/operation_code) or [Slack](https://operation-code.slack.com).
 
 ## Bug reports
 
@@ -30,7 +30,7 @@ A bug is a _demonstrable problem_ that is caused by the code in the repository. 
 
 Guidelines for bug reports:
 
-0. **Validate and lint your code** &mdash; [validate your HTML](http://html5.validator.nu)
+0. **Validate and lint your code** &mdash; [validate your HTML](http://validator.w3.org)
    and [lint your HTML](http://www.bootlint.com) to ensure your problem isn't caused by a simple error in your own code.
 
 1. **Use the GitHub issue search** &mdash; check if the issue has already been reported.
@@ -84,9 +84,8 @@ Still want to contribute? Carry on.
 ## Environment setup
 1. Install [latest Ruby](https://www.ruby-lang.org/en/downloads/)
 2. Install [latest Rails](http://docs.railsbridge.org/installfest/choose_your_operating_system)
-2. Install [PostgreSQL](http://www.postgresql.org)
-3. Start PostgreSQL
-4. `createuser davidmolina -d`
+3. Install [PostgreSQL](http://www.postgresql.org)
+4. Start PostgreSQL
 5. Install [Bundler](http://bundler.io)
 
 ## Optional build tools
@@ -95,7 +94,7 @@ Still want to contribute? Carry on.
 
 ## Pull requests
 
-Good pull requests—patches, improvements, new features—are a fantastic
+Good pull requests-patches, improvements, new features&mdash;are a fantastic
 help to better tell our story and get more veterans coding. They should remain focused in scope and avoid containing unrelated commits.
 
 **Please check with our issues first** before embarking on any significant pull request (e.g. implementing features, refactoring code, porting to a different language), otherwise you risk spending a lot of time working on something that the core team might not want to merge into the project.
