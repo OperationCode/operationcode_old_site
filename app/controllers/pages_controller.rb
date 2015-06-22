@@ -32,10 +32,16 @@ class PagesController < ApplicationController
   def media
   end
 
+  def mentorship
+  end
+
   def mission
   end
 
   def press
+  end
+
+  def scholarships
   end
 
   def speakerrequest
