@@ -23,9 +23,14 @@ class DonationsController < ApplicationController
 
     respond_to do |format|
       if @donation.save
-        format.html { redirect_to root_url }
+        DonationMailer.thankyou(@donation).deliver_now
+        format.html { redirect_to root_url, 
+                      :flash => { :success => "Thank you for your generous donation!"}
+                    }
       else
-        format.html { redirect_to new_donation_path }
+        format.html { redirect_to new_donation_path,
+                      :flash => { :error => "There was an error processing your donation, please retry."} 
+                    }
       end
     end
 
