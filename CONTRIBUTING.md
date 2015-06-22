@@ -159,6 +159,10 @@ included in the project. Everyone is encouraged to contribute to the project by 
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
     with a clear title and description against the `master` branch.
 
+## Add yourself
+
+When you make a pull request and it's successfully merged, make sure to add your name to the list of contributors in CONTRIBUTORS.md.
+
 ## Code guidelines
 
 ### HTML
@@ -182,6 +186,10 @@ included in the project. Everyone is encouraged to contribute to the project by 
 - 2 spaces (no tabs)
 - strict mode
 - "Attractive"
+
+## Thanks
+
+Huge thanks to [Twitter Bootstrap](https://github.com/twbs/bootstrap) whose [contributing guide](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md) this is based off of.
 
 ## License
 
