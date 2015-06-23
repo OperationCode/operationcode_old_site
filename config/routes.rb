@@ -10,8 +10,8 @@ Rails.application.routes.draw do
   get "contact" => "pages#contact"
   get "contributors" => "pages#contributors"
   get "codeschools" => "pages#codeschools"
-  get "events" => "pages#events"
   get "employers" => "pages#employers"
+  get "events" => "pages#events"
   get "faq" => "pages#faq"
   get "founder" => "pages#founder"
   get "hackathons" => "pages#hackathons"
@@ -31,7 +31,7 @@ Rails.application.routes.draw do
   get "action" => "veterans#new"
 
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
-  get "/donate" => redirect("https://www.cogostar.org/payments/new/project/49")
+  get "/donate" => redirect("/contributors")
   get "/learn" => redirect("/online")
 
   get "/contribute" => redirect("https://github.com/operationcode/operationcode")
