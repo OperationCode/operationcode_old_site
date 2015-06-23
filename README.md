@@ -1,6 +1,6 @@
 # [Operation Code](http://operationcode.org)
 
-Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by the core team [core team](https://github.com/orgs/operationcode/people) with the support and involvement of the [community](http://operationcode.org/contributors).
+Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by the [core team](https://github.com/orgs/operationcode/people) with the support and involvement of the [community](http://operationcode.org/contributors).
 
 Releasing the source code for this project is meant to empower military veterans and all developers everywhere to contribute their ideas, energy and time to help close the nation's technical talent shortage with American patriots trained in modern software development.
 
