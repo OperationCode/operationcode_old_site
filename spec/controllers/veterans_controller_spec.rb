@@ -49,7 +49,7 @@ describe VeteransController do
           user_mailer_double = double(UserMailer, welcome: "<h1>A Mailer</h1>")
           allow(UserMailer).to receive(:welcome).and_return(user_mailer_double)
 
-          expect(user_mailer_double).to receive(:deliver).and_return(true)
+          expect(user_mailer_double).to receive(:deliver_now).and_return(true)
 
           post :create, veteran: veteran_params, format: :html
         end
