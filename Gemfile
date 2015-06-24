@@ -5,7 +5,7 @@ ruby '2.2.2'
 # Server and DB #
 #################
 
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.2'
 gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
 gem 'sidekiq'
