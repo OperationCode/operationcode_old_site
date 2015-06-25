@@ -22,14 +22,13 @@ describe VeteransController do
       }
     end
 
-    let(:new_veteran) { Veteran.new(veteran_params) }
-
     before do
-      allow(Veteran).to receive(:new).and_return(new_veteran)
+      allow_any_instance_of(Veteran).to receive(:new)
+      allow_any_instance_of(Veteran).to receive(:send_slack_invitation)
     end
 
     it "makes a new record with the params" do
-      expect(Veteran).to receive(:new).with(veteran_params).and_return(new_veteran)
+      expect(Veteran).to receive(:new).with(veteran_params).and_return(Veteran.new(veteran_params))
       post :create, veteran: veteran_params, format: :html
     end
 
@@ -49,8 +48,13 @@ describe VeteransController do
           user_mailer_double = double(UserMailer, welcome: "<h1>A Mailer</h1>")
           allow(UserMailer).to receive(:welcome).and_return(user_mailer_double)
 
-          expect(user_mailer_double).to receive(:deliver).and_return(true)
+          expect(user_mailer_double).to receive(:deliver_now).and_return(true)
 
+          post :create, veteran: veteran_params, format: :html
+        end
+
+        it "sends slack invitation" do
+          expect_any_instance_of(Veteran).to receive(:send_slack_invitation).exactly(1).times
           post :create, veteran: veteran_params, format: :html
         end
       end
@@ -65,7 +69,7 @@ describe VeteransController do
 
     context "when the record does not save successfully" do
       before do
-        allow(new_veteran).to receive(:save).and_return(false)
+        allow_any_instance_of(Veteran).to receive(:save).and_return(false)
       end
 
       describe "#html" do
@@ -82,7 +86,7 @@ describe VeteransController do
 
       describe "#json" do
         it "renders the errors" do
-          allow(new_veteran).to receive(:errors).and_return("ERRORZ")
+          allow_any_instance_of(Veteran).to receive(:errors).and_return("ERRORZ")
 
           post :create, veteran: veteran_params, format: :json
           expect(response.body).to include("ERRORZ")
