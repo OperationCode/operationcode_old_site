@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :veterans
 
   get "about" => "pages#about"
-  get "board" => "pages#board"
+  get "staff" => "pages#staff"
   get "contact" => "pages#contact"
   get "contributors" => "pages#contributors"
   get "codeschools" => "pages#codeschools"
