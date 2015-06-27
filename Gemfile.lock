@@ -16,6 +16,14 @@ GIT
       ransack (~> 1.3)
       sass-rails
 
+GIT
+  remote: https://github.com/stripe/stripe-ruby
+  revision: 37d1a0b8bf9cd16707bfe526ba1a76e0c6502066
+  specs:
+    stripe (1.22.0)
+      json (~> 1.8.1)
+      rest-client (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -108,6 +116,8 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
+    domain_name (0.5.24)
+      unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     eventmachine (1.0.7)
     execjs (2.3.0)
@@ -116,6 +126,8 @@ GEM
     factory_girl_rails (4.4.1)
       factory_girl (~> 4.4.0)
       railties (>= 3.0.0)
+    figaro (1.1.1)
+      thor (~> 0.14)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
     formtastic (3.1.3)
@@ -132,6 +144,8 @@ GEM
       activesupport (>= 3.2, < 5)
     hike (1.2.3)
     hitimes (1.2.2)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     i18n (0.7.0)
     inherited_resources (1.6.0)
       actionpack (>= 3.2, < 5)
@@ -226,7 +240,8 @@ GEM
       redis (~> 3.0, >= 3.0.4)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
-    rest-client (1.7.3)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
     rspec-core (3.0.4)
@@ -263,7 +278,7 @@ GEM
     skylight (0.6.0)
       activesupport (>= 3.0.0)
     slop (3.6.0)
-    spring (1.3.3)
+    spring (1.3.6)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -273,10 +288,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
-    stripe (1.20.1)
-      json (~> 1.8.1)
-      mime-types (>= 1.25, < 3.0)
-      rest-client (~> 1.4)
     thin (1.6.3)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0)
@@ -293,6 +304,9 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
     uuidtools (2.1.5)
     warden (1.2.3)
       rack (>= 1.0)
@@ -313,6 +327,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise (= 3.4.1)
   factory_girl_rails
+  figaro
   font-awesome-rails
   github-markup (~> 1.2.1)
   google-webfonts-rails
@@ -332,10 +347,10 @@ DEPENDENCIES
   skylight
   spring
   sprockets-rails (~> 2.0)
-  stripe
+  stripe!
   thin
   turbolinks
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
-   1.10.3
+   1.10.4

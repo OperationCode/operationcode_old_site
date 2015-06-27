@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   resources :veterans
 
+  resources :donations
+
   get "about" => "pages#about"
   get "staff" => "pages#staff"
   get "contact" => "pages#contact"
@@ -31,7 +33,7 @@ Rails.application.routes.draw do
   get "action" => "veterans#new"
 
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
-  get "/donate" => redirect("/contributors")
+
   get "/learn" => redirect("/online")
 
   get "/contribute" => redirect("https://github.com/operationcode/operationcode")
