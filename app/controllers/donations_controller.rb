@@ -14,7 +14,7 @@ class DonationsController < ApplicationController
       :description  => "Donation of $#{@donation.total} to Operation Code",
     )
 
-    charge = Stripe::Charge.create(
+    Stripe::Charge.create(
       :customer     => customer.id,
       :amount       => @donation.total,
       :description  => "Donation of $#{@donation.total} to Operation Code",
