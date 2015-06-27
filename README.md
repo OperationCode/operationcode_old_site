@@ -14,7 +14,7 @@ Learn more at: [http://operationcode.org](http://operationcode.org).
 - [Copyright and license](#copyright-and-license)
 
 ## About
-=======
+
 * [Alex Beeken](https://github.com/alexbeeken)
 * [Alex Kaufman](https://github.com/alexkaufman06)
 * [Chris Kibble](https://github.com/ckib16)
@@ -28,6 +28,7 @@ Learn more at: [http://operationcode.org](http://operationcode.org).
 * [Nell Shamrell-Harrington](https://github.com/nellshamrell)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
+
 
 Veteran-founded and led, Operation Code is on a mission to get more military veterans coding:
 * [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
