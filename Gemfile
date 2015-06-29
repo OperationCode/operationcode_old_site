@@ -30,7 +30,7 @@ gem 'google-webfonts-rails' #adds Google WebFonts to Rails application
 # Auth and Permissions #
 ########################
 
-gem 'stripe'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
 gem 'activeadmin', github: 'activeadmin'
 
@@ -41,8 +41,9 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'shareable'
 gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
-gem 'annotate', '2.5.0' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position before'
+gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position before'
 gem 'skylight'
+gem 'figaro' #app configuration using ENV variables and a single YAML file
 
 #####################
 # Development Tools #

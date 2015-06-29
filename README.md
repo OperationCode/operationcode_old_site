@@ -15,6 +15,21 @@ Learn more at: [http://operationcode.org](http://operationcode.org).
 
 ## About
 
+* [Alex Beeken](https://github.com/alexbeeken)
+* [Alex Kaufman](https://github.com/alexkaufman06)
+* [Chris Kibble](https://github.com/ckib16)
+* [David Molina](https://github.com/davidmolina)
+* [Duane Moody](https://github.com/dmmoody)
+* [Fernando Paredes](https://github.com/nanoxd)
+* [Glenn Espinosa](https://github.com/gxespino)
+* [James Davis](https://github.com/cavalryjim)
+* [Jason Dinsmore](https://github.com/dinjas)
+* [Ming Zhang](https://github.com/Scripore)
+* [Nell Shamrell-Harrington](https://github.com/nellshamrell)
+* [Shawna Scott](https://github.com/shawnacscott)
+* [Sylwia Bialczak](https://github.com/ArgonCode)
+
+
 Veteran-founded and led, Operation Code is on a mission to get more military veterans coding:
 * [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
 * [Source code](http://github.com/operationcode/operationcode) is available.
