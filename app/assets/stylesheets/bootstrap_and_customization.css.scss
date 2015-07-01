@@ -77,18 +77,18 @@ img {
 }
 
 footer {
-  box-shadow: 0px -2px 4px rgba(194, 194, 194, 0.44);
+  box-shadow: 0 -2px 4px rgba(194, 194, 194, 0.44);
   margin-top: 25px;
   padding-bottom: 10px;
 }
 
 a.btn.btn-default {
   background-color: rgba(255, 255, 255, 0.3);
-  color: gray;
+  color: #808080;
   &:hover {
-    color: #FFF;
-    background-color: #019C91;
-    border-color: #019C91;
+    color: #ffffff;
+    background-color: #019c91;
+    border-color: #019c91;
   }
 }
 
@@ -96,16 +96,17 @@ a.btn.btn-default {
   float: right;
   a {
     font-size: 18px;
-    margin: 22px 0px;
+    margin: 22px 0;
   }
 }
+
 .navbar-default {
   height: 78px;
 }
 
 .small_screen_h2 {
   font-size: 40px;
-  text-shadow: 1px 1px 7px #000;
+  text-shadow: 1px 1px 7px #000000;
   max-width: 1200px;
   width: 800px;
   margin-left: auto;
@@ -117,8 +118,6 @@ a.btn.btn-default {
     height: 50px;
   }
 }
-
-
 
 .content {
   -webkit-background-size: cover;
@@ -147,22 +146,24 @@ a:hover {
 }
 
 .navbar-toggle {
-  margin-top: 22px;
   margin-right: 25px;
+  margin-top: 22px;
 }
-.navbar-collapse {
-  background-color: #FFF;
 
+.navbar-collapse {
+  background-color: #ffffff;
 }
+
 @media (max-width: 930px) {
 
   .navbar-nav {
     float:left;
     a {
       font-size: 15px;
-      margin: 22px 0px;
+      margin: 22px 0;
+    }
   }
-}
+
 }
 
 
