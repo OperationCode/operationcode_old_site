@@ -95,6 +95,8 @@ a.btn.btn-default {
 
 .navbar-nav {
   float: right;
+  max-height: 77px;
+  margin: -6px 0px;
 
   a {
     font-size: 18px;
@@ -158,7 +160,6 @@ a:hover {
 }
 
 @media (max-width: 930px) {
-
   .navbar-nav {
     float:left;
 
