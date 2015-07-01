@@ -158,11 +158,15 @@ a:hover {
 .navbar-collapse {
   background-color: #ffffff;
 }
-
+@media (max-width: 770px) {
+  .navbar-nav {
+    max-height: none;
+  }
+}
 @media (max-width: 930px) {
   .navbar-nav {
     float:left;
-
+    max-height: none;
     a {
       font-size: 15px;
       margin: 22px 0;
