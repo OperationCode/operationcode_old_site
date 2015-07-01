@@ -82,7 +82,7 @@ footer {
   padding-bottom: 10px;
 }
 
-a.btn.btn-default {
+.btn.btn-default {
   background-color: rgba(255, 255, 255, 0.3);
   color: #808080;
 
@@ -95,7 +95,7 @@ a.btn.btn-default {
 
 .navbar-nav {
   float: right;
-  margin: -6px 0px;
+  margin: -6px 0;
   max-height: 77px;
 
   a {
@@ -110,11 +110,11 @@ a.btn.btn-default {
 
 .small-screen-h2 {
   font-size: 40px;
-  text-shadow: 1px 1px 7px #000000;
-  max-width: 1200px;
-  width: 800px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1200px;
+  text-shadow: 1px 1px 7px #000000;
+  width: 800px;
 }
 
 .navbar .navbar-header .navbar-brand {
