@@ -85,6 +85,7 @@ footer {
 a.btn.btn-default {
   background-color: rgba(255, 255, 255, 0.3);
   color: #808080;
+
   &:hover {
     color: #ffffff;
     background-color: #019c91;
@@ -94,6 +95,7 @@ a.btn.btn-default {
 
 .navbar-nav {
   float: right;
+
   a {
     font-size: 18px;
     margin: 22px 0;
@@ -114,6 +116,7 @@ a.btn.btn-default {
 }
 
 .navbar .navbar-header .navbar-brand {
+
   img {
     height: 50px;
   }
@@ -158,6 +161,7 @@ a:hover {
 
   .navbar-nav {
     float:left;
+
     a {
       font-size: 15px;
       margin: 22px 0;
