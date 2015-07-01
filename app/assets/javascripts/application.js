@@ -17,3 +17,12 @@
 //= require jquery.slides.min
 
 
+$(window).scroll(function(){
+    var fromTopPx = 200; // distance to trigger
+    var scrolledFromtop = $(window).scrollTop();
+    if(scrolledFromtop > fromTopPx){
+        $('.navbar-brand img').addClass('scrolled');
+    }else{
+        $('html').removeClass('scrolled');
+    }
+});
