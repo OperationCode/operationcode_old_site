@@ -317,9 +317,4 @@ module Stripe
   end
 end
 
-Rails.configuration.stripe = {
-  :publishable_key => ENV['pk_live_bqebTTza5PGXJcAAaivllE03'],
-  :secret_key      => ENV['sk_live_gEwdzs9804SZ6QEgZv8BbAXY']
-}
-
 Stripe.api_key = Rails.configuration.stripe[:secret_key]
