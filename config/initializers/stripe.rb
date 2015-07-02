@@ -317,4 +317,4 @@ module Stripe
   end
 end
 
-Stripe.api_key = Rails.configuration.stripe[:secret_key]
+Stripe.api_key = Rails.configuration.stripe[:secret_live_key]
