@@ -16,6 +16,13 @@
   <%= google_webfonts_init({
     google: ['Open Sans']
   }) %>
+      <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+
+  <script type="text/javascript">
+    // This identifies your website in the createToken call below
+    Stripe.setPublishableKey('pk_live_bqebTTza5PGXJcAAaivllE03');
+    // ...
+  </script>
 </head>
   <body>
     <%= render 'layouts/header' %>
@@ -29,7 +36,5 @@
     <%= render 'layouts/footer' %>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-
   </body>
 </html>
