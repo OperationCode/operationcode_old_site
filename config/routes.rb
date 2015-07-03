@@ -34,6 +34,7 @@ Rails.application.routes.draw do
 
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
   get "/donate" => redirect("/contributors")
+
   get "/learn" => redirect("/online")
 
   get "/contribute" => redirect("https://github.com/operationcode/operationcode")
