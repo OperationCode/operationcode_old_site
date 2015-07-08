@@ -24,12 +24,12 @@ class DonationsController < ApplicationController
     respond_to do |format|
       if @donation.save
         DonationMailer.thankyou(@donation).deliver_now
-        format.html { redirect_to root_url, 
+        format.html { redirect_to root_url,
                       :flash => { :success => "Thank you for your generous donation!"}
                     }
       else
         format.html { redirect_to new_donation_path,
-                      :flash => { :error => "There was an error processing your donation, please retry."} 
+                      :flash => { :error => "There was an error processing your donation, please retry."}
                     }
       end
     end
@@ -42,7 +42,7 @@ class DonationsController < ApplicationController
   private
 
   def donation_params
-    params.require(:donation).permit(:name, :email, :amount)
+    params.require(:donation).permit(:name, :email, :amount, :first_name, :last_name)
   end
 
 end
