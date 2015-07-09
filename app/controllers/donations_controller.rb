@@ -6,7 +6,7 @@ class DonationsController < ApplicationController
   def create
     @donation = Donation.new(donation_params)
 
-    token = params[:stripeToken]
+    token = donation_params[:stripeToken]
 
     customer = Stripe::Customer.create(
       :email        => @donation.email,
@@ -31,16 +31,8 @@ class DonationsController < ApplicationController
         format.html { redirect_to new_donation_path,
                       :flash => { :error => "There was an error processing your donation, please retry."}
                     }
-        format.html {
-          redirect_to root_url,
-          flash: { success: "Thank you for your generous donation!"}
-        }
       end
 
-        format.html {
-          redirect_to new_donation_path,
-          flash: { error: "There was an error processing your donation, please retry."}
-        }
     end
 
   rescue Stripe::CardError => e
