@@ -10,7 +10,7 @@ class DonationsController < ApplicationController
 
     customer = Stripe::Customer.create(
       :email        => @donation.email,
-      :card         => token,
+      :source         => token,
       :description  => "Donation of $#{@donation.total} to Operation Code",
     )
 
