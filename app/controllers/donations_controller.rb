@@ -6,7 +6,7 @@ class DonationsController < ApplicationController
   def create
     @donation = Donation.new(donation_params)
 
-    token = params[:stripeKey]
+    token = params[:stripeToken]
 
     customer = Stripe::Customer.create(
       :email        => @donation.email,
