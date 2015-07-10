@@ -1,5 +1,7 @@
 class Donation < ActiveRecord::Base
-  def total
-    amount * 100
-  end 
+    validates :first_name, :last_name, :email, presence:true
+
+    def total
+      amount *100
+    end
 end

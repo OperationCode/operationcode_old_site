@@ -24,7 +24,7 @@ class DonationsController < ApplicationController
       if @donation.save
         DonationMailer.thankyou(@donation).deliver_now
         format.html { redirect_to root_url,
-                      :flash => { :success => "Thank you for your generous donation!"}
+                      :flash => { :success => "Thank you for your generous donation to Operation Code! Please check your email for your receipt."}
                     }
       else
         format.html { redirect_to new_donation_path,
