@@ -2,69 +2,64 @@
 number of U.S. Military/ Veterans to careers in software development and coding
 through scholarships and mentorship while putting a dent in the nation's
 technical talent shortage. -->
-
 <div id="wrap">
   <div id="video">
     <div id="slides">
       <li>
-        <div id="overlay"><h1 class="small_screen_h2">Welcome back. You served your country.</br>Now let's get you coding and to your next mission.</h1></div>
+        <div id="overlay"><h1 class="small-screen-h2">Welcome back. You served your country.</br>Now let's get you coding and to your next mission.</h1></div>
         <img src="/assets/gi-bill.jpg">
       </li>
       <li>
         <img src="/assets/mentorship.jpg">
-        <div id="overlay"><h1 class="small_screen_h2">No veteran should learn to code alone.</br>We provide veterans 1-on-1 software mentorship and Peer-to-Peer software mentorship support to get veterans coding today.</h1></div>
+        <div id="overlay"><h1 class="small-screen-h2">No veteran should learn to code alone.</br>We provide veterans 1-on-1 software mentorship and Peer-to-Peer software mentorship support to get veterans coding today.</h1></div>
       </li>
       <li>
         <img src="/assets/scholarship.jpg">
-        <div id="overlay"><h1 class="small_screen_h2">Expanding the software and technology talent pipeline with Americans who've served their country and can code. Service to country continues.</h1></div>
+        <div id="overlay"><h1 class="small-screen-h2">Expanding the software and technology talent pipeline with Americans who've served their country and can code. Service to country continues.</h1></div>
       </li>
     </div>
   </div>
 </div>
-
-<div class="col-lg-10">
-  <ul class="nav nav-tabs">
-    <li class=""><a href="#home" data-toggle="tab" aria-expanded="true"><h4>Coding Scholarships</h4></a></li>
-    <li class=""><a href="#mentoring" data-toggle="tab" aria-expanded="false"><h4>Software Mentor Protégé Program</h4></a></li>
-    <li class="active"><a href="#gi-bill-expansion" data-toggle="tab" aria-expanded="false"><h4>Employer Services</h4></a></li>
-  </ul>
-  <div id="myTabContent" class="tab-content">
-
-    <div class="tab-pane fade" id="home">
-      <p><h4>Your generous, tax deductible donation to Operation Code enables us to help service-members returning home from the current conflicts to seamlessly transition to a career in software development. With your help, we'll help fill in the gap so that more veterans can get the software training and help fill the nation's technical talent shortage.</h4></p>
-
-      <p class="center"><%= link_to 'Donate', new_donation_path %></p>
-
-    </div>
-
-    <div class="tab-pane fade" id="mentoring">
-      <p><h4>Learning to code and join an American software company can be daunting if your entire career has been serving our country. Our Software Mentor Protégé Program gets veterans coding through both 1-on-1 software mentorship as well as our Peer-to-Peer community. Our vetted software developers are experts in their craft and help our veterans debug their code quicker so they can keep coding, join the ranks as software developers and begin making invaluable open source software contributions today.</h4></p>
-      <p class="center"><a class="btn btn-default" href="/mentorship" role="button">Read more</a></p>
-    </div>
-
-    <div class="tab-pane fade active in" id="gi-bill-expansion">
-      <p><h4>The men and women of our Armed Forces have already proven themselves on and off the battlefield with their leadership, tenacity, navigating complex situations, and managing teams to mission success. Hiring veterans is not only a smart investment in your company, but as an Employer Partner we help deepen the pool of diverse applicants who not only bring these soft skills to the table, but can also code.</h4></p>
-      <p class="center"><a class="btn btn-default" href="/employers" role="button">Learn more</a></p>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <ul class="nav nav-tabs">
+        <li class=""><a href="#home" data-toggle="tab" aria-expanded="true"><h4>Coding Scholarships</h4></a></li>
+        <li class=""><a href="#mentoring" data-toggle="tab" aria-expanded="false"><h4>Software Mentor Protégé Program</h4></a></li>
+        <li class="active"><a href="#gi-bill-expansion" data-toggle="tab" aria-expanded="false"><h4>Employer Services</h4></a></li>
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade" id="home">
+          <p><h4>Your generous, tax deductible donation to Operation Code enables us to help service-members returning home from the current conflicts to seamlessly transition to a career in software development. With your help, we'll help fill in the gap so that more veterans can get the software training and help fill the nation's technical talent shortage.</h4></p>
+          <p class="center"><%= link_to 'Donate', new_donation_path, class: "btn btn-default" %></p>
+        </div>
+        <div class="tab-pane fade" id="mentoring">
+          <p><h4>Learning to code and join an American software company can be daunting if your entire career has been serving our country. Our Software Mentor Protégé Program gets veterans coding through both 1-on-1 software mentorship as well as our Peer-to-Peer community. Our vetted software developers are experts in their craft and help our veterans debug their code quicker so they can keep coding, join the ranks as software developers and begin making invaluable open source software contributions today.</h4></p>
+          <p class="center"><a class="btn btn-default" href="/mentorship" role="button">Read more</a></p>
+        </div>
+        <div class="tab-pane fade active in" id="gi-bill-expansion">
+          <p><h4>The men and women of our Armed Forces have already proven themselves on and off the battlefield with their leadership, tenacity, navigating complex situations, and managing teams to mission success. Hiring veterans is not only a smart investment in your company, but as an Employer Partner we help deepen the pool of diverse applicants who not only bring these soft skills to the table, but can also code.</h4></p>
+          <p class="center"><a class="btn btn-default" href="/employers" role="button">Learn more</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
 <script>
-  $('#slides').slidesjs({
-    width: 940,
-    height: 528,
-    navigation: false,
-    pagination: false,
-    play: {
-      active: false,
-      auto: true,
-      interval: 5000,
-      fade: true,
-      effect: "fade"
-    },
-    effect: {
-      fade: {speed: 1000}
-    }
-  });
+$('#slides').slidesjs({
+  width: 940,
+  height: 528,
+  navigation: false,
+  pagination: false,
+  play: {
+  active: false,
+  auto: true,
+  interval: 5000,
+  fade: true,
+  effect: "fade"
+},
+  effect: {
+    fade: {speed: 1000}
+  }
+});
 </script>
-<hr>

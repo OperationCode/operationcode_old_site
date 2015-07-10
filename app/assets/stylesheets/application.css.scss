@@ -99,10 +99,6 @@ video {
   margin: auto;
 }
 
-.row {
-  margin-left: 0px !important;
-}
-
 .picture_background {
   margin-top: -5px;
   padding-left: 25px;
@@ -180,8 +176,8 @@ a.btn.btn-default:hover {
 
   .phone_view { display: none; }
 
-  .small_screen_h2 {
-    font-size: 20px;  
+  .small-screen-h2 {
+    font-size: 20px;
   }
 
   .small_screen_h3 {
@@ -194,7 +190,7 @@ a.btn.btn-default:hover {
   #video video { display: none; }
   #overlay { display: none; }
 
-  .small_screen_h2 {
+  .small-screen-h2 {
     font-size: 15px;
   }
 
@@ -235,7 +231,7 @@ a.btn.btn-default:hover {
   #video video { display: none; }
   #overlay { display: none; }
 
-  .small_screen_h2 {
+  .small-screen-h2 {
     font-size: 12px;
   }
 
@@ -247,7 +243,7 @@ a.btn.btn-default:hover {
     width: 100%;
     margin-left: -12px;
   }
-  
+
   .picture_background {
     margin-top: -30px;
     margin-left: 5px;
