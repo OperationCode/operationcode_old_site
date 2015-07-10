@@ -6,6 +6,11 @@ class DonationsController < ApplicationController
   def create
     @donation = Donation.new(donation_params)
 
+    unless @donation.valid?
+      flash[:error] = 'Please verify all required fields are completed.'
+      return redirect_to new_donation_path
+    end
+
     token = params[:stripeToken]
 
     customer = Stripe::Customer.create(
@@ -15,8 +20,8 @@ class DonationsController < ApplicationController
 
     charge = Stripe::Charge.create(
       :customer     => customer.id,
-      :amount       => @donation.total,
-      :description  => "Donation of $#{@donation.total} to Operation Code",
+      :amount       => @donation.total_for_stripe,
+      :description  => "Donation of $#{@donation.amount} to Operation Code",
       :currency     => 'usd'
     )
 
