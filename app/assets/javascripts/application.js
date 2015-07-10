@@ -16,4 +16,3 @@
 //= require jquery.stellar
 //= require jquery.slides.min
 
-
