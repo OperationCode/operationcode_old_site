@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
   resources :veterans
-  resources :donations
+  resources :donations, only: [:index, :new, :create]
 
   get "about" => "pages#about"
   get "staff" => "pages#staff"
