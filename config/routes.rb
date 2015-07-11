@@ -32,7 +32,7 @@ Rails.application.routes.draw do
   get "action" => "veterans#new"
 
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
-  get "/donate" => redirect("/contributors")
+  get "/donate" => redirect("/donations/new")
 
   get "/learn" => redirect("/online")
 
