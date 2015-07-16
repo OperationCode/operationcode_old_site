@@ -67,7 +67,7 @@ video {
   z-index: 1;
   background: transparent;
   background-image: url("");
-  backgrond-size: cover;
+  background-size: cover;
   transition: 1s opacity;
   object-fit: contain;
 }
@@ -256,5 +256,3 @@ a.btn.btn-default:hover {
     background-image: none;
   }
 }
-
-
