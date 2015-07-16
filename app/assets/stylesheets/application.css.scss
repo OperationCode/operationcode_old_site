@@ -144,10 +144,14 @@ a.btn.btn-default:hover {
 #overlay {
   position: absolute;
   text-align: center;
+  padding: 0 20px 10px;
   color: #FFF;
   top: 280px;
-  width: 100%;
+  left: 10%;
+  width: 80%;
   z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
 }
 
 @media (max-width: 650px) {
