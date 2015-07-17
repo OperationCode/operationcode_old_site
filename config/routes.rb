@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   get "mission" => "pages#mission"
   get "news" => "pages#news"
   get "press" => "pages#press"
+  get "privacy" => "pages#privacy"
   get "scholarships" => "pages#scholarships"
   get "speakerrequest" => "pages#speakerrequest"
   get "successes" => "pages#successes"

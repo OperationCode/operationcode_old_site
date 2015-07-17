@@ -37,6 +37,9 @@ class PagesController < ApplicationController
 
   def press
   end
+  
+  def privacy
+  end
 
   def scholarships
   end
