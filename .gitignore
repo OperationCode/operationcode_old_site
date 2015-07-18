@@ -21,7 +21,11 @@
 # Ignore application configuration
 /config/application.yml
 
-#Ignore certificate keys
+# Ignore SSL keys
+bundle.pem
+server.crt
 server.csr
 server.key
 server.pass.key
+STAR_operationcode_org.key
+STAR_operationcode_org.pem
