@@ -1,8 +1,8 @@
 Rails.application.configure do
+  # Settings specified here will take precedence over those in config/application.rb.
+
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   config.force_ssl = true
-
-  # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -27,7 +27,6 @@ Rails.application.configure do
     domain:               'operationcode.org',
     authentication:       :plain,
     enable_starttls_auto: true
-
   }
   config.action_mailer.default_url_options = { host: 'www.operationcode.org' }
 
