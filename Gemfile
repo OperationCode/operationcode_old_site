@@ -9,8 +9,6 @@ gem 'rails', '4.2.2'
 gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
 gem 'sidekiq'
-# gem 'rack-ssl-enforcer'
-
 #############
 # Front-end #
 #############
