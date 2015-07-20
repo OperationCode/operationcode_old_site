@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   resources :donations, only: [:index, :new, :create]
 
   get "about" => "pages#about"
-  get "staff" => "pages#staff"
+  get "board" => "pages#board"
   get "contact" => "pages#contact"
   get "contributors" => "pages#contributors"
   get "codeschools" => "pages#codeschools"
@@ -16,7 +16,6 @@ Rails.application.routes.draw do
   get "faq" => "pages#faq"
   get "founder" => "pages#founder"
   get "hackathons" => "pages#hackathons"
-  get "hello" => "pages#hello"
   get "history" => "pages#history"
   get "online" => "pages#online"
   get "media" => "pages#media"
@@ -34,9 +33,9 @@ Rails.application.routes.draw do
 
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
   get "/donate" => redirect("/donations/new")
-
+  get "/staff" => redirect("/board")
+  get "/hello" => redirect("/founder")
   get "/learn" => redirect("/online")
-
   get "/contribute" => redirect("https://github.com/operationcode/operationcode")
 
   root "pages#home"
