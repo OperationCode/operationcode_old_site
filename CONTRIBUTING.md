@@ -161,7 +161,7 @@ included in the project. Everyone is encouraged to contribute to the project by 
 
 ## Add yourself
 
-When you make a pull request and it's successfully merged, make sure to add your name to the list of contributors in CONTRIBUTORS.md.
+When you make a pull request and it's successfully merged, make sure to add your name to the list of contributors in [CONTRIBUTORS.md](https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTORS.md).
 
 ## Code guidelines
 
