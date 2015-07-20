@@ -5,6 +5,8 @@ Operation Code is an open source community dedicated to getting military veteran
 Releasing the source code for this project is meant to empower military veterans and all developers everywhere to contribute their ideas, energy and time to help close the nation's technical talent shortage with American patriots trained in modern software development. What could be better than reducing veterans unemployment with our very own?
 
 Learn more at: [https://www.operationcode.org](http://operationcode.org).
+Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate).
+Questions? Get in touch: [contact@operationcode.org](contact@operationcode.org).
 
 ## Table of contents
 
@@ -14,21 +16,6 @@ Learn more at: [https://www.operationcode.org](http://operationcode.org).
 - [Copyright and license](#copyright-and-license)
 
 ## About
-
-* [Alex Beeken](https://github.com/alexbeeken)
-* [Alex Kaufman](https://github.com/alexkaufman06)
-* [Chris Kibble](https://github.com/ckib16)
-* [David Molina](https://github.com/davidmolina)
-* [Duane Moody](https://github.com/dmmoody)
-* [Fernando Paredes](https://github.com/nanoxd)
-* [Glenn Espinosa](https://github.com/gxespino)
-* [James Davis](https://github.com/cavalryjim)
-* [Jason Dinsmore](https://github.com/dinjas)
-* [Ming Zhang](https://github.com/Scripore)
-* [Nell Shamrell-Harrington](https://github.com/nellshamrell)
-* [Shawna Scott](https://github.com/shawnacscott)
-* [Sylwia Bialczak](https://github.com/ArgonCode)
-
 
 Veteran-founded and led, Operation Code is on a mission to get more military veterans coding:
 * [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
