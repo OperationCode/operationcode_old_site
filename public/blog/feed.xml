@@ -6,8 +6,8 @@
 </description>
     <link>https://operationcode.org/blog/</link>
     <atom:link href="https://operationcode.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Jul 2015 21:51:51 -0400</pubDate>
-    <lastBuildDate>Mon, 20 Jul 2015 21:51:51 -0400</lastBuildDate>
+    <pubDate>Mon, 20 Jul 2015 22:32:25 -0400</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2015 22:32:25 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -30,6 +30,33 @@
         <pubDate>Mon, 20 Jul 2015 17:05:58 -0400</pubDate>
         <link>https://operationcode.org/blog/jekyll/update/2015/07/20/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/jekyll/update/2015/07/20/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Our First Operation Code Test Post</title>
+        <description>&lt;p&gt;Here’s a quick post I made by adding a file to the &lt;code&gt;/blog/_posts&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;Once the post is saved you have to rebuild the the Jekyll site to update and show the new post.&lt;/p&gt;
+
+&lt;p&gt;To do:&lt;br /&gt;
+- get rid of the about page in &lt;code&gt;blog/about.md&lt;/code&gt;&lt;br /&gt;
+- BLOG: add a “Home” link to the site root url so people can get back to main OpCode site and out of the blog&lt;br /&gt;
+- MAIN NAV BAR: add a “Blpg link to pointing to &lt;code&gt;/blog&lt;/code&gt;&lt;br /&gt;
+- consider adding new themes&lt;br /&gt;
+- add some posts!&lt;br /&gt;
+- re-building the Jekyll page:&lt;br /&gt;
+  - PRODUCTION: figure out a way to automate or ease the rebuilding of the Jekyll site once somebody posts something new&lt;br /&gt;
+  - DEVELOPMENT/LOCAL: add the “Extra: Automation” rake task from http://www.sitepoint.com/jekyll-rails/&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jul 2015 17:05:58 -0400</pubDate>
+        <link>https://operationcode.org/blog/jekyll/update/2015/07/20/Our-First-Post.html</link>
+        <guid isPermaLink="true">https://operationcode.org/blog/jekyll/update/2015/07/20/Our-First-Post.html</guid>
         
         
         <category>jekyll</category>

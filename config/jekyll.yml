@@ -1,6 +1,7 @@
 # See http://www.sitepoint.com/jekyll-rails/
 # Site settings
 title: Operation Code Blog
+email: contact@operationcode.org
 
 description: > # this means to ignore newlines until "baseurl:"
   Operation Code is on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.
