@@ -48,6 +48,12 @@ gem 'figaro' #app configuration using ENV variables and a single YAML file
 # Development Tools #
 #####################
 
+group :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+end
+
 group :development do
   gem 'quiet_assets'
   gem 'pry-byebug'
@@ -59,13 +65,7 @@ group :development do
   gem 'spring'
   gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
   gem 'xray-rails' #https://github.com/brentd/xray-rails
-  gem "thin"
-end
-
-group :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
-  gem 'capybara'
+  gem 'thin'
 end
 
 group :production do
