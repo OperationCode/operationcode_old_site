@@ -1,0 +1,14 @@
+# See http://www.sitepoint.com/jekyll-rails/
+# Site settings
+title: Operation Code Blog
+
+description: > # this means to ignore newlines until "baseurl:"
+  Operation Code is on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "https://operationcode.org" # the base hostname & protocol for your site
+twitter_username: operation_code
+github_username:  OperationCode
+
+# Build settings
+markdown: kramdown

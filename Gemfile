@@ -43,6 +43,7 @@ gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
 gem 'skylight'
 gem 'figaro' #app configuration using ENV variables and a single YAML file
+gem 'jekyll' #blogging gem
 
 #####################
 # Development Tools #
