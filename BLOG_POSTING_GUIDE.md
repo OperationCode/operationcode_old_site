@@ -55,9 +55,11 @@ Submit a [standard pull request](https://github.com/OperationCode/operationcode/
 - checked that Jekyll published your final, static HTML page that will be served out by the web server in `/public/blog/`.
 
 ##Current Issues
-- running `rake jekyll` re-builds the site fine, but shows `rake aborted! Don't know how to build task 'jekyll'
+- running `rake jekyll` re-builds the site fine, but shows `rake aborted! Don't know how to build task 'jekyll'`  
+- For now, may need to use images from other hosted sites like Imgur. Haven't figured out how to store/add in Rails app. See "asset pipeline flow" in future tasks below
 
 ##Future tasks
+- consider adding [asset pipeline flow](http://www.sitepoint.com/jekyll-rails/) for pictures, scripts etc. See "Extra: Using Rails-like Assets".
 - consider adding a [new theme](http://drjekyllthemes.github.io/)
 - add some posts!
 
