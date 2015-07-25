@@ -155,6 +155,9 @@ included in the project. Everyone is encouraged to contribute to the project by 
 
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description against the `master` branch.
 
+## Contributing blog posts
+Please see the [BLOG_POSTING_GUIDE](https://github.com/OperationCode/operationcode/blob/master/BLOG_POSTING_GUIDE.md). It will walk you thru the use of Jekyll and how to submit pull requests to publish your blog post.
+
 ## Add yourself
 
 When you make a pull request and it's successfully merged, make sure to add your name to the list of contributors in [CONTRIBUTORS.md](https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTORS.md).

@@ -6,9 +6,22 @@
 </description>
     <link>https://operationcode.org/blog/</link>
     <atom:link href="https://operationcode.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Jul 2015 14:46:55 -0400</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2015 14:46:55 -0400</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2015 16:48:32 -0400</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2015 16:48:32 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Operation Code 1st Post</title>
+        <description>&lt;p&gt;Hello World! We’re Operation Code. And we’re on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.&lt;/p&gt;
+
+&lt;p&gt;Check back here for our latest updates.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Jul 2015 12:43:00 -0400</pubDate>
+        <link>https://operationcode.org/blog/2015/07/25/Our-First-Post.html</link>
+        <guid isPermaLink="true">https://operationcode.org/blog/2015/07/25/Our-First-Post.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
