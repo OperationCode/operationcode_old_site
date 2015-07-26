@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Operation Code
 
 [Operation Code](http://operationcode.org) is a project founded by [David Molina](http://davidmolina.github.io/), a former U.S. Army Captain who tried using his New GI Bill to cover code school tuition, room and board in 2012, and again in 2014 and couldn't. Currently, veterans are forced to pay out-of-pocket or privately finance their way despite earning this education benefit.
@@ -51,3 +52,45 @@ Thanks to [Chris Hough](https://github.com/chrishough) for leading the first cha
 Special thanks to all the amazing Ruby developers who've provided enormous encouragement and advice, and supporters who have signed up as an [Operation Code Ambassador](http://operationcode.us10.list-manage.com/subscribe?u=0ab8e2b2d6c6608926c4f17d6&id=b1e19ac77b)!
 
 Thank you. We couldn't have come this far without your feedback, comments, thoughts, advice and generous resource support.
+=======
+# [Operation Code](http://operationcode.org)
+
+Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](http://operationcode.org/contributors).
+
+Releasing the source code for this project is meant to empower military veterans and all developers everywhere to contribute their ideas, energy and time to help close the nation's technical talent shortage with American patriots trained in modern software development. What could be better than reducing veterans unemployment with our very own?
+
+Learn more at: [https://www.operationcode.org](http://operationcode.org).
+
+Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate).
+
+Questions? Get in touch: [contact@operationcode.org](mailto:contact@operationcode.org).
+
+## Table of contents
+
+- [About](#about)
+- [Contributing](#contributing)
+- [Community](#community)
+- [Copyright and license](#copyright-and-license)
+
+## About
+
+Veteran-founded and led, Operation Code is on a mission to get more military veterans coding:
+* [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
+* [Source code](http://github.com/operationcode/operationcode) is available.
+* [Issue tracker](https://github.com/operationcode/operationcode/issues?q=is%3Aopen) lists outstanding issues.
+
+## Contributing
+
+Please read through our [contributing guidelines](https://github.com/operationcode/operationcode/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/#html).
+
+## Community
+
+Get updates on Operation Code's development.
+- Follow [@operation_code on Twitter](https://twitter.com/operation_code).
+
+## Copyright and license
+
+Ruby on Rails is released under the [MIT License](http://opensource.org/licenses/MIT).
+>>>>>>> upstream/master

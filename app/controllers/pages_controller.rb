@@ -2,10 +2,26 @@ class PagesController < ApplicationController
   def about
   end
 
+  def board
+  end
+
+<<<<<<< HEAD
+  def donate
+=======
+  def codeschools
+  end
+
+  def contact
+  end
+
+  def contributors
+  end
+
   def events
   end
 
-  def donate
+  def faqs
+>>>>>>> upstream/master
   end
 
   def founder
@@ -14,12 +30,16 @@ class PagesController < ApplicationController
   def hackathons
   end
 
-  def contact
+  def hello
   end
 
-  def codeschools
+  def media
   end
 
+  def mentorship
+  end
+
+<<<<<<< HEAD
   def contributors
   end
 
@@ -48,5 +68,32 @@ class PagesController < ApplicationController
   end
 
   def hello
+=======
+  def mission
+  end
+
+  def online
+  end
+
+  def press
+  end
+
+  def privacy
+  end
+
+  def scholarships
+  end
+
+  def speakerrequest
+  end
+
+  def staff
+  end
+
+  def successes
+  end
+
+  def team
+>>>>>>> upstream/master
   end
 end

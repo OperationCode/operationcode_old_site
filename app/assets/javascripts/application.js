@@ -15,3 +15,7 @@
 //= require bootstrap
 //= require jquery.stellar
 //= require jquery.slides.min
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master

@@ -15,10 +15,10 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
-  
+
   # JDavis: adding this for Devise.
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-  
+
   # JDavis: using letter_opener for viewing emails in development
   config.action_mailer.delivery_method = :letter_opener
 

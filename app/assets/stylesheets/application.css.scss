@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -46,6 +47,11 @@
   -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+=======
+@import "active_admin";
+@import "font-awesome";
+@import "bootstrap_and_customization";
+>>>>>>> upstream/master
 
 .col-lg-10 {
   display: block;
@@ -54,7 +60,13 @@
   margin-right: 8.3%;
   margin-top: 40px;
 }
+<<<<<<< HEAD
 
+=======
+a {
+  text-decoration: none !important;
+}
+>>>>>>> upstream/master
 * {
   font-family: "Open Sans";
 }
@@ -110,7 +122,11 @@ video {
   z-index: 1;
   background: transparent;
   background-image: url("");
+<<<<<<< HEAD
   backgrond-size: cover;
+=======
+  background-size: cover;
+>>>>>>> upstream/master
   transition: 1s opacity;
   object-fit: contain;
 }
@@ -131,10 +147,13 @@ video {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .row {
   margin-left: 0px !important;
 }
 
+=======
+>>>>>>> upstream/master
 .picture_background {
   margin-top: -5px;
   padding-left: 25px;
@@ -212,8 +231,13 @@ a.btn.btn-default:hover {
 
   .phone_view { display: none; }
 
+<<<<<<< HEAD
   .small_screen_h2 {
     font-size: 20px;  
+=======
+  .small-screen-h2 {
+    font-size: 20px;
+>>>>>>> upstream/master
   }
 
   .small_screen_h3 {
@@ -226,7 +250,11 @@ a.btn.btn-default:hover {
   #video video { display: none; }
   #overlay { display: none; }
 
+<<<<<<< HEAD
   .small_screen_h2 {
+=======
+  .small-screen-h2 {
+>>>>>>> upstream/master
     font-size: 15px;
   }
 
@@ -267,7 +295,11 @@ a.btn.btn-default:hover {
   #video video { display: none; }
   #overlay { display: none; }
 
+<<<<<<< HEAD
   .small_screen_h2 {
+=======
+  .small-screen-h2 {
+>>>>>>> upstream/master
     font-size: 12px;
   }
 
@@ -279,7 +311,11 @@ a.btn.btn-default:hover {
     width: 100%;
     margin-left: -12px;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> upstream/master
   .picture_background {
     margin-top: -30px;
     margin-left: 5px;
