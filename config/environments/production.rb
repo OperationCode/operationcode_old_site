@@ -27,6 +27,10 @@ Rails.application.configure do
     domain:               'operationcode.org',
     authentication:       :plain,
     enable_starttls_auto: true
+<<<<<<< HEAD
+
+=======
+>>>>>>> upstream/master
   }
   config.action_mailer.default_url_options = { host: 'www.operationcode.org' }
 

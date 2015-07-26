@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def board
   end
 
+<<<<<<< HEAD
+  def donate
+=======
   def codeschools
   end
 
@@ -18,6 +21,7 @@ class PagesController < ApplicationController
   end
 
   def faqs
+>>>>>>> upstream/master
   end
 
   def founder
@@ -35,6 +39,36 @@ class PagesController < ApplicationController
   def mentorship
   end
 
+<<<<<<< HEAD
+  def contributors
+  end
+
+  def faqs
+  end
+
+  def online
+  end
+
+  def media
+  end
+
+  def mission
+  end
+
+  def press
+  end
+
+  def speakerrequest
+  end
+
+  def successes
+  end
+
+  def team
+  end
+
+  def hello
+=======
   def mission
   end
 
@@ -60,5 +94,6 @@ class PagesController < ApplicationController
   end
 
   def team
+>>>>>>> upstream/master
   end
 end

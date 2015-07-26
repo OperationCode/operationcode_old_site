@@ -5,7 +5,11 @@ ruby '2.2.2'
 # Server and DB #
 #################
 
+<<<<<<< HEAD
+gem 'rails', '4.2.0'
+=======
 gem 'rails', '4.2.2'
+>>>>>>> upstream/master
 gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
 gem 'sidekiq'
@@ -41,8 +45,13 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'shareable'
 gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
+<<<<<<< HEAD
+gem 'annotate', '2.5.0' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position before'
+gem 'skylight'
+=======
 gem 'skylight'
 gem 'figaro' #app configuration using ENV variables and a single YAML file
+>>>>>>> upstream/master
 
 #####################
 # Development Tools #
@@ -63,9 +72,18 @@ group :development do
   gem 'railroady'
   gem 'letter_opener'
   gem 'spring'
+<<<<<<< HEAD
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+=======
   gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
   gem 'xray-rails' #https://github.com/brentd/xray-rails
   gem 'thin'
+>>>>>>> upstream/master
 end
 
 group :production do

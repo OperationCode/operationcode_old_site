@@ -17,6 +17,8 @@
 
 # Ignore OSX system files.
 .DS_Store
+<<<<<<< HEAD
+=======
 
 # Ignore application configuration
 /config/application.yml
@@ -29,3 +31,4 @@ server.key
 server.pass.key
 STAR_operationcode_org.key
 STAR_operationcode_org.pem
+>>>>>>> upstream/master

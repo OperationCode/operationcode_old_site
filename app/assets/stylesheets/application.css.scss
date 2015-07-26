@@ -1,6 +1,57 @@
+<<<<<<< HEAD
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_self
+ *= require bootstrap_and_customization
+ *= require font-awesome
+ */
+
+#map-container { 
+  border-color: #fff;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 7px;
+  box-shadow: 2px 2px 10px #B1B1B1;
+  height: 400px;
+  margin-top: 25px;
+  width: 50px;
+}
+#map { 
+  height: 384px;
+  width: 100%;
+}
+
+.search-location {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba (0, 0, 0, 0.075);
+  color: #555;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+=======
 @import "active_admin";
 @import "font-awesome";
 @import "bootstrap_and_customization";
+>>>>>>> upstream/master
 
 .col-lg-10 {
   display: block;
@@ -9,9 +60,13 @@
   margin-right: 8.3%;
   margin-top: 40px;
 }
+<<<<<<< HEAD
+
+=======
 a {
   text-decoration: none !important;
 }
+>>>>>>> upstream/master
 * {
   font-family: "Open Sans";
 }
@@ -67,7 +122,11 @@ video {
   z-index: 1;
   background: transparent;
   background-image: url("");
+<<<<<<< HEAD
+  backgrond-size: cover;
+=======
   background-size: cover;
+>>>>>>> upstream/master
   transition: 1s opacity;
   object-fit: contain;
 }
@@ -88,6 +147,13 @@ video {
   margin: auto;
 }
 
+<<<<<<< HEAD
+.row {
+  margin-left: 0px !important;
+}
+
+=======
+>>>>>>> upstream/master
 .picture_background {
   margin-top: -5px;
   padding-left: 25px;
@@ -165,8 +231,13 @@ a.btn.btn-default:hover {
 
   .phone_view { display: none; }
 
+<<<<<<< HEAD
+  .small_screen_h2 {
+    font-size: 20px;  
+=======
   .small-screen-h2 {
     font-size: 20px;
+>>>>>>> upstream/master
   }
 
   .small_screen_h3 {
@@ -179,7 +250,11 @@ a.btn.btn-default:hover {
   #video video { display: none; }
   #overlay { display: none; }
 
+<<<<<<< HEAD
+  .small_screen_h2 {
+=======
   .small-screen-h2 {
+>>>>>>> upstream/master
     font-size: 15px;
   }
 
@@ -220,7 +295,11 @@ a.btn.btn-default:hover {
   #video video { display: none; }
   #overlay { display: none; }
 
+<<<<<<< HEAD
+  .small_screen_h2 {
+=======
   .small-screen-h2 {
+>>>>>>> upstream/master
     font-size: 12px;
   }
 
@@ -232,7 +311,11 @@ a.btn.btn-default:hover {
     width: 100%;
     margin-left: -12px;
   }
+<<<<<<< HEAD
+  
+=======
 
+>>>>>>> upstream/master
   .picture_background {
     margin-top: -30px;
     margin-left: 5px;

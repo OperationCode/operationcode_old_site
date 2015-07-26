@@ -22,6 +22,16 @@ describe VeteransController do
       }
     end
 
+<<<<<<< HEAD
+    let(:new_veteran) { Veteran.new(veteran_params) }
+
+    before do
+      allow(Veteran).to receive(:new).and_return(new_veteran)
+    end
+
+    it "makes a new record with the params" do
+      expect(Veteran).to receive(:new).with(veteran_params).and_return(new_veteran)
+=======
     before do
       allow_any_instance_of(Veteran).to receive(:new)
       allow_any_instance_of(Veteran).to receive(:send_slack_invitation)
@@ -29,6 +39,7 @@ describe VeteransController do
 
     it "makes a new record with the params" do
       expect(Veteran).to receive(:new).with(veteran_params).and_return(Veteran.new(veteran_params))
+>>>>>>> upstream/master
       post :create, veteran: veteran_params, format: :html
     end
 
@@ -48,6 +59,10 @@ describe VeteransController do
           user_mailer_double = double(UserMailer, welcome: "<h1>A Mailer</h1>")
           allow(UserMailer).to receive(:welcome).and_return(user_mailer_double)
 
+<<<<<<< HEAD
+          expect(user_mailer_double).to receive(:deliver).and_return(true)
+
+=======
           expect(user_mailer_double).to receive(:deliver_now).and_return(true)
 
           post :create, veteran: veteran_params, format: :html
@@ -55,6 +70,7 @@ describe VeteransController do
 
         it "sends slack invitation" do
           expect_any_instance_of(Veteran).to receive(:send_slack_invitation).exactly(1).times
+>>>>>>> upstream/master
           post :create, veteran: veteran_params, format: :html
         end
       end
@@ -69,7 +85,11 @@ describe VeteransController do
 
     context "when the record does not save successfully" do
       before do
+<<<<<<< HEAD
+        allow(new_veteran).to receive(:save).and_return(false)
+=======
         allow_any_instance_of(Veteran).to receive(:save).and_return(false)
+>>>>>>> upstream/master
       end
 
       describe "#html" do
@@ -86,7 +106,11 @@ describe VeteransController do
 
       describe "#json" do
         it "renders the errors" do
+<<<<<<< HEAD
+          allow(new_veteran).to receive(:errors).and_return("ERRORZ")
+=======
           allow_any_instance_of(Veteran).to receive(:errors).and_return("ERRORZ")
+>>>>>>> upstream/master
 
           post :create, veteran: veteran_params, format: :json
           expect(response.body).to include("ERRORZ")
