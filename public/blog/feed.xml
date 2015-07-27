@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operation Code Blog</title>
+    <description>Operation Code is on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.
+</description>
+    <link>https://operationcode.org/blog/</link>
+    <atom:link href="https://operationcode.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 25 Jul 2015 17:15:30 -0400</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2015 17:15:30 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Operation Code 1st Post</title>
+        <description>&lt;p&gt;Hello World! We’re Operation Code. And we’re on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.&lt;/p&gt;
+
+&lt;p&gt;Check back here for our latest updates.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Jul 2015 12:43:00 -0400</pubDate>
+        <link>https://operationcode.org/blog/2015/07/25/Our-First-Post.html</link>
+        <guid isPermaLink="true">https://operationcode.org/blog/2015/07/25/Our-First-Post.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
