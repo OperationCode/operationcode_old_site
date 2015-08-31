@@ -38,6 +38,9 @@ class PagesController < ApplicationController
   def mission
   end
 
+  def newgibill
+  end
+
   def online
   end
 

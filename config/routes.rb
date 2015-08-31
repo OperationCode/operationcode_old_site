@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   get "media" => "pages#media"
   get "mentorship" => "pages#mentorship"
   get "mission" => "pages#mission"
-  get "news" => "pages#news"
+  get "newgibill" => "pages#newgibill"
   get "press" => "pages#press"
   get "privacy" => "pages#privacy"
   get "scholarships" => "pages#scholarships"
@@ -39,6 +39,7 @@ Rails.application.routes.draw do
   get "/hello" => redirect("/founder")
   get "/learn" => redirect("/online")
   get "/contribute" => redirect("https://github.com/operationcode/operationcode")
+  get "/news" => redirect("/newgibill")
 
   root "pages#home"
 end
