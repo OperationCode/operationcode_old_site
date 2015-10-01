@@ -21,6 +21,9 @@
 # Ignore application configuration
 /config/application.yml
 
+# Ignore sass cache
+.sass-cache
+
 # Ignore SSL keys
 bundle.pem
 server.crt
