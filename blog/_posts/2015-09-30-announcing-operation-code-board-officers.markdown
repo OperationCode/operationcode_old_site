@@ -12,4 +12,4 @@ Board of Directors: Josh Carter, Aimee Knight, Fernando Paredes, and Elmer Thoma
 
 Go forth and code,
 
-David and the Operation Code team
+*David Molina is Founder and Executive Director at Operation Code, and a former Army Captain. He resides in Portland, Oregon.*
