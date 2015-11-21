@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :donations, only: [:index, :new, :create]
 
   get "about" => "pages#about"
+  get "apprentices" => "pages#apprentices"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
   get "contributors" => "pages#contributors"
