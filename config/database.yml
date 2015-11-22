@@ -16,13 +16,9 @@ development:
   encoding: unicode
   database: operationcode_development
   pool: 5
-  username: davidmolina
-  password:
 
 test:
   adapter: postgresql
   encoding: unicode
   database: operationcode_test
   pool: 5
-  username: davidmolina
-  password:
