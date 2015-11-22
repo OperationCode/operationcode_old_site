@@ -9,6 +9,7 @@ gem 'rails', '4.2.2'
 gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
 gem 'sidekiq'
+gem 'thin'
 
 #############
 # Front-end #
@@ -66,10 +67,8 @@ group :development do
   gem 'spring'
   gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
   gem 'xray-rails' #https://github.com/brentd/xray-rails
-  gem 'thin'
 end
 
 group :production do
   gem 'rails_12factor'
-  gem 'thin'
 end
