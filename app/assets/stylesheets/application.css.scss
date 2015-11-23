@@ -1,6 +1,8 @@
 @import "active_admin";
 @import "font-awesome";
 @import "bootstrap_and_customization";
+@import 'bootstrap/variables';
+
 
 .col-lg-10 {
   display: block;
@@ -264,12 +266,12 @@ a.btn.btn-default:hover {
 #cta {
   color: #fff;
   background-color: #C9D6DF;
-                padding: 40px;
-
-                padding-bottom: 240px;
-                background: #d4d4d4 url('code_background.jpg');
-                                background-repeat: no-repeat;
-                margin-bottom: 50px;
+  padding: 40px;
+  background: #d4d4d4 url('code_background.jpg');
+  margin-bottom: 50px;
+  @media (min-width: $screen-sm-min) {
+    padding-bottom: 240px;
+  }
 }
 
 #page-wrapper {
@@ -548,11 +550,25 @@ a.btn.btn-default:hover {
 //=========================================== apprentice profiles
 
 
-div#profile-container { display: flex; justify-content: space-between; }
-div#profile-container figure {
-  display: inline-block;
+div#profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: $screen-sm-min) {
+    flex-direction: row;
   }
+}
+div#profile-container figure {
+  margin-bottom: 4rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @media (min-width: $screen-sm-min) {
+    margin-bottom: 0;
+  }
+}
 div#profile-container figure div {
+  margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
   background-blend-mode: luminosity;
