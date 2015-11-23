@@ -265,7 +265,7 @@ a.btn.btn-default:hover {
   color: #fff;
   background-color: #C9D6DF;
                 padding: 40px;
-                
+
                 padding-bottom: 240px;
                 background: #d4d4d4 url('code_background.jpg');
                                 background-repeat: no-repeat;
@@ -288,7 +288,7 @@ a.btn.btn-default:hover {
   overflow: hidden;
   transition: all 0.5s ease;
   color: #fff;
-  
+
   &:before, &:after{
     content: "";
     position: absolute;
@@ -303,17 +303,17 @@ a.btn.btn-default:hover {
     background: rgb(255, 179, 0);
     z-index: -2;
   }
-  
+
   &:after{
     background: rgba(0, 0, 0, .1);
     z-index: -1;
     left: -100%;
   }
-  
+
   &:hover, &:focus{
     cursor: pointer;
     &:after{
-      left: 0; 
+      left: 0;
       width: 100%;
     }
   }
@@ -331,9 +331,9 @@ a.btn.btn-default:hover {
 .arrows path {
 	stroke: #2994D1;
 	fill: transparent;
-	stroke-width: 1px;	
+	stroke-width: 1px;
 	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
+	-webkit-animation: arrow 2s infinite;
 }
 
 @keyframes arrow
@@ -362,7 +362,7 @@ a.btn.btn-default:hover {
 	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
 }
 
-.arrows path.a3 {	
+.arrows path.a3 {
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
@@ -549,40 +549,39 @@ a.btn.btn-default:hover {
 
 
 div#profile-container { display: flex; justify-content: space-between; }
-div#profile-container figure { 
+div#profile-container figure {
   display: inline-block;
   }
 div#profile-container figure div {
   border-radius: 50%;
-  overflow: hidden; 
+  overflow: hidden;
   background-blend-mode: luminosity;
   border: 5px solid #000;
   width: 24rem; height: 24rem;
   transition: .4s linear;
 }
-div#profile-container figure div:hover { 
+div#profile-container figure div:hover {
   border: 8px solid #000;
   background-color: transparent;
 }
-div#profile-container figcaption { 
+div#profile-container figcaption {
   margin-top: 1rem;
-  text-align: center; 
+  text-align: center;
 }
 .person1 {
-  background: url(https://octodex.github.com/images/homercat.png) no-repeat center 
+  background: url(https://s3-us-west-2.amazonaws.com/operationcode/mingz.jpeg) no-repeat center
     hsl(200,50%,50%);
   background-size: cover;
 }
-.person2 { 
-  background: url(https://octodex.github.com/images/homercat.png) no-repeat center 
-    hsl(200,50%,50%); 
+.person2 {
+  background: url(https://s3-us-west-2.amazonaws.com/operationcode/ewingk.jpg) no-repeat center
+    hsl(200,50%,50%);
   background-size: cover;
 }
-.person3 { 
-  background: url(https://octodex.github.com/images/homercat.png) no-repeat center 
-    hsl(200,50%,50%); 
+.person3 {
+  background: url(https://s3-us-west-2.amazonaws.com/operationcode/jhampton.jpeg) no-repeat center
+    hsl(200,50%,50%);
   background-size: cover;
 }
 
 //=========================================== apprentice profiles END
-
