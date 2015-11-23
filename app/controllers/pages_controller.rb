@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def contributors
+  def sponsors
   end
 
   def events

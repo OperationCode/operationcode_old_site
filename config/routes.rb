@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get "apprentices" => "pages#apprentices"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
-  get "contributors" => "pages#contributors"
+  get "sponsors" => "pages#sponsors"
   get "codeschools" => "pages#codeschools"
   get "employers" => "pages#employers"
   get "events" => "pages#events"
@@ -31,6 +31,8 @@ Rails.application.routes.draw do
   get "team" => "pages#team"
 
   get "action" => "veterans#new"
+
+  get "/blog" => redirect("https://www.operationcode.org/blog")
 
   get "/hire" => redirect("mailto:david@operationcode.org")
   get "/flatiron" => redirect("https://learn.co/learn-together")
