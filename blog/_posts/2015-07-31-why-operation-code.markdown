@@ -1,8 +1,9 @@
 ---
+title:  Why Operation Code
+date:   2015-07-31
+tags:   News
+author: David Molina
 layout: post
-title:  "Why Operation Code"
-date:   2015-07-31 21:05:58
-categories:
 ---
 This week we proudly launched our Operation Code blog where we'll share thoughts, insights and lessons learned as we build a coding veterans service organization. While these [two Operation Code videos](https://operationcode.org/mission) best tell our story, let me explain here the "why" we exist.
 
