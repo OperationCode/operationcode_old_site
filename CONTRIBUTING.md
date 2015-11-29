@@ -118,8 +118,8 @@ included in the project. Everyone is encouraged to contribute to the project by 
    bundle install
    # To create development and test databases
    bundle exec rake db:setup
-   # To start the [server](http://localhost:3000)
-   bundle exec rails s
+   # To start the [server](http://localhost:3000) (if you receive a certificate error in your browser, go ahead and accept the certificate)
+   thin start --ssl
    # Assign the original repo to a remote called "upstream"
    git remote add upstream https://github.com/operationcode/operationcode.git
    ```
