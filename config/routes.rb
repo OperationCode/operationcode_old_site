@@ -33,8 +33,8 @@ Rails.application.routes.draw do
   get "action" => "veterans#new"
 
   get "/blog" => redirect("https://www.operationcode.org/blog")
+  get "/contact" => redirect("mailto:david@operationcode.org")
 
-  get "/hire" => redirect("mailto:david@operationcode.org")
   get "/flatiron" => redirect("https://learn.co/learn-together")
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
   get "/donate" => redirect("/donations/new")
