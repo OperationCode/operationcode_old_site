@@ -43,6 +43,7 @@ Rails.application.routes.draw do
   get "/learn" => redirect("/online")
   get "/contribute" => redirect("https://github.com/operationcode/operationcode")
   get "/news" => redirect("/newgibill")
+  get "/join" => redirect("/action")
 
   root "pages#home"
 end
