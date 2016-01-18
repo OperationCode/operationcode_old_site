@@ -8,7 +8,7 @@ Learn more at: [https://www.operationcode.org](http://operationcode.org).
 
 Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate).
 
-Questions? Get in touch: [contact@operationcode.org](mailto:contact@operationcode.org).
+Questions? Get in touch: [david@operationcode.org](mailto:david@operationcode.org).
 
 ## Table of contents
 
