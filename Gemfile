@@ -10,6 +10,7 @@ gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
 gem 'sidekiq'
 gem 'thin'
+gem 'newrelic_rpm'
 
 #############
 # Front-end #
