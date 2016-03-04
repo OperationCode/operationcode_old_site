@@ -13,8 +13,7 @@ Five conferences have kindly offered scholarship opportunities for members of Op
 * [Ruby on Ales](https://ruby.onales.com/) - March 31 & April 1, 2016 - Bend, OR
 * [Git Merge](http://git-merge.com/) - April 5, 2016 - New York, NY
 * [OSCON](http://conferences.oreilly.com/oscon/open-source-us) - May 16 - 19, 2016 - Austin, TX
-* [Signal](https://www.twilio.com/signal) - May 24 & 25, 2016 - San Francisco, CA
-Take on the buy one, give one Giving Challenge for SIGNAL, visit [twilio.com/signal/registration](twilio.com/signal/registration) and use the code OPCODEB1G1. Better yet, [tell your boss](https://s3.amazonaws.com/ahoy-assets.twilio.com/Signal/2016/SIGNAL%202016%20-%20Justify%20Your%20Trip.pdf) to help you help others. 
+* [Signal](https://www.twilio.com/signal) - May 24 & 25, 2016 - San Francisco, CA: Take on the buy one, give one Giving Challenge for SIGNAL, visit [twilio.com/signal/registration](twilio.com/signal/registration) and use the code OPCODEB1G1. Better yet, [tell your boss](https://s3.amazonaws.com/ahoy-assets.twilio.com/Signal/2016/SIGNAL%202016%20-%20Justify%20Your%20Trip.pdf) to help you help others.
 * [Velocity](http://conferences.oreilly.com/velocity) - June 20 - 23, 2016 - Santa Clara
 
 To apply for scholarship to Ruby on Ales, Git Merge, and Signal please [join Operation Code](https://operationcode.org/action).  This will invite you to the Operation Code slack channel.  DM the Operation Code Scholarship Chair @nellshamrell from Slack with your name, email, branch of service, and one sentence about why you would like to attend the conference.
