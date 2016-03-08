@@ -6,9 +6,38 @@
 </description>
     <link>https://operationcode.org/blog/</link>
     <atom:link href="https://operationcode.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Feb 2016 15:54:46 -0800</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2016 15:54:46 -0800</lastBuildDate>
+    <pubDate>Mon, 07 Mar 2016 16:17:37 -0800</pubDate>
+    <lastBuildDate>Mon, 07 Mar 2016 16:17:37 -0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Upcoming Conference Scholarships!</title>
+        <description>&lt;p&gt;One of the best ways to learn, network, and find job opportunities in the IT industry is through attending conferences.  My very first tech conference was Cascadia Ruby 2011 where I was amazed at the variety of talks (many covering technologies and techniques I was immediately able to apply in my work), the interesting conversations in the “hallway track”, and the joy of talking with others working with the same technologies I was learning.&lt;/p&gt;
+
+&lt;p&gt;Five conferences have kindly offered scholarship opportunities for members of Operation Code.  These scholarships will provide a free ticket to attend the conference.  Unfortunately, we are not able to cover travel expenses at this time, but we will encourage scholarship recipients to team up in carpooling, housing, etc.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ruby.onales.com/&quot;&gt;Ruby on Ales&lt;/a&gt; - March 31 &amp;amp; April 1, 2016 - Bend, OR&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://git-merge.com/&quot;&gt;Git Merge&lt;/a&gt; - April 5, 2016 - New York, NY&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://conferences.oreilly.com/oscon/open-source-us&quot;&gt;OSCON&lt;/a&gt; - May 16 - 19, 2016 - Austin, TX&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.twilio.com/signal&quot;&gt;Signal&lt;/a&gt; - May 24 &amp;amp; 25, 2016 - San Francisco, CA: Take on the buy one, give one Giving Challenge for SIGNAL, visit &lt;a href=&quot;twilio.com/signal/registration&quot;&gt;twilio.com/signal/registration&lt;/a&gt; and use the code OPCODEB1G1. Better yet, &lt;a href=&quot;https://s3.amazonaws.com/ahoy-assets.twilio.com/Signal/2016/SIGNAL%202016%20-%20Justify%20Your%20Trip.pdf&quot;&gt;tell your boss&lt;/a&gt; to help you help others.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://conferences.oreilly.com/velocity&quot;&gt;Velocity&lt;/a&gt; - June 20 - 23, 2016 - Santa Clara&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To apply for scholarship to Ruby on Ales, Git Merge, and Signal please &lt;a href=&quot;https://operationcode.org/action&quot;&gt;join Operation Code&lt;/a&gt;.  This will invite you to the Operation Code slack channel.  DM the Operation Code Scholarship Chair @nellshamrell from Slack with your name, email, branch of service, and one sentence about why you would like to attend the conference.&lt;/p&gt;
+
+&lt;p&gt;To apply for a scholarship to OSCON or Velocity, please apply through &lt;a href=&quot;http://www.oreilly.com/conferences/diversity-application.csp&quot;&gt;this page&lt;/a&gt; for a Conference Diversity and Inclusion Scholarship.  Please feel free to DM @nellshamrell or @david in the Operation Code slack if you’d like assistance!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nell Shamrell-Harrington is a volunteer and scholarship committee chair of Operation Code.  She is the proud daughter of two Air Force officers.  She resides in Seattle, WA.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Mar 2016 00:00:00 -0800</pubDate>
+        <link>https://operationcode.org/blog/2016/03/02/conference-scholarships.html</link>
+        <guid isPermaLink="true">https://operationcode.org/blog/2016/03/02/conference-scholarships.html</guid>
+        
+        <category>News</category>
+        
+        
+      </item>
     
       <item>
         <title>Linux Academy Supports U.S. Veterans</title>
