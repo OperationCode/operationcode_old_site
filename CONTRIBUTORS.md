@@ -15,6 +15,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Jason Dinsmore](https://github.com/dinjas)
 * [Ming Zhang](https://github.com/Scripore)
 * [Nell Shamrell-Harrington](https://github.com/nellshamrell)
+* [Raphael Serota](https://github.com/rserota)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
 

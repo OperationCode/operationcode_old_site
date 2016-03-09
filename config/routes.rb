@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   resources :donations, only: [:index, :new, :create]
 
   get "about" => "pages#about"
-  get "apprentices" => "pages#apprentices"
+  get "deploy" => "pages#deploy"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
   get "sponsors" => "pages#sponsors"
@@ -32,6 +32,7 @@ Rails.application.routes.draw do
 
   get "action" => "veterans#new"
 
+  get "apprentices" => "pages#deploy"
   get "/blog" => redirect("https://www.operationcode.org/blog")
   get "/contact" => redirect("mailto:david@operationcode.org")
 
@@ -41,7 +42,7 @@ Rails.application.routes.draw do
   get "/staff" => redirect("/board")
   get "/hello" => redirect("/founder")
   get "/learn" => redirect("/online")
-  get "/contribute" => redirect("https://github.com/operationcode/operationcode")
+  get "/contribute" => redirect("https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md")
   get "/news" => redirect("/newgibill")
   get "/join" => redirect("/action")
 

@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def apprentices
+  def deploy
   end
 
   def board
