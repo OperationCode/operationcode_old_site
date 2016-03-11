@@ -8,8 +8,8 @@ class SlackNotifierJob < ActiveJob::Base
   end
 
   def perform(message)
-    res = slack_client.post_message_to channel: '#testing', with_text: message
-    Rails.logger.debug("Notified channel: #{res}")
+    res = slack_client.post_message_to channel: '#general', with_text: message
+    Rails.logger.debug("Notified channel: #{res.inspect}")
   end
 
   private
