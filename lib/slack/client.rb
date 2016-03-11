@@ -1,9 +1,9 @@
 require "net/http"
 
 module Slack
-  INVITE_PATH = '/api/users.admin.invite'
-  POST_MESSAGE_PATH = '/api/chat.postMessage'
-  BOT_USERNAME = 'OpCodeBot'
+  INVITE_PATH = '/api/users.admin.invite'.freeze
+  POST_MESSAGE_PATH = '/api/chat.postMessage'.freeze
+  BOT_USERNAME = 'OpCodeBot'.freeze
 
   class Client
     RequestFailed = Class.new(StandardError)
@@ -51,10 +51,7 @@ module Slack
       raise PostMessageFailed.new(body.to_s)
     end
 
-
-    ###############
     private
-    ###############
 
     def send_api_request(to:, payload:)
       res = Net::HTTP.start(@domain, 443, use_ssl: true) do |http|
