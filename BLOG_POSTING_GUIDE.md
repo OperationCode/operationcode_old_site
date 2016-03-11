@@ -51,11 +51,10 @@ You'll notice that your blog post has been turned into an actual static HTML pag
 ###Submit Pull Request To Publish On Production Site
 Submit a [standard pull request](https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md) with your post already published to a static HTML page. To clarify, this means you accomplished the following:
 - added your post markdown file to the `/blog/_posts` folder
-- rebuilt the Jekyll blog using `rake jekyll` from the terminal
+- rebuilt the Jekyll blog using `rake jekyll:generate` from the terminal
 - checked that Jekyll published your final, static HTML page that will be served out by the web server in `/public/blog/`.
 
 ##Current Issues
-- running `rake jekyll` re-builds the site fine, but shows `rake aborted! Don't know how to build task 'jekyll'`  
 - For now, may need to use images from other hosted sites like Imgur. Haven't figured out how to store/add in Rails app. See "asset pipeline flow" in future tasks below
 
 ##Future tasks
