@@ -5,5 +5,6 @@ class ApplicationController < ActionController::Base
 
   def ssl_configured?
     !Rails.env.production?
+    !Rails.env.test?
   end
 end

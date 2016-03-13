@@ -22,9 +22,20 @@ describe VeteransController do
       }
     end
 
+    let(:api_key) { 'abc123' }
+    let(:list_id) { 'my_list_id' }
+    let(:gibbon)  { Gibbon::Request.new(api_key: api_key) }
+
+
     before do
       allow_any_instance_of(Veteran).to receive(:new)
       allow_any_instance_of(Veteran).to receive(:send_slack_invitation)
+
+      ENV['MAILCHIMP_API_KEY'] = api_key
+      ENV['MAILCHIMP_LIST_ID'] = list_id
+
+      allow(Gibbon::Request).to receive(:new).and_return(gibbon)
+      allow(gibbon).to receive_message_chain(:lists, :members, :create).and_return('200')
     end
 
     it "makes a new record with the params" do
@@ -56,6 +67,33 @@ describe VeteransController do
         it "sends slack invitation" do
           expect_any_instance_of(Veteran).to receive(:send_slack_invitation).exactly(1).times
           post :create, veteran: veteran_params, format: :html
+        end
+
+        context 'adding to the Mailchimp list' do
+          it 'creates a new instance of Gibbon' do
+            expect(Gibbon::Request).to receive(:new).with(api_key: api_key).and_return(gibbon)
+            post :create, veteran: veteran_params, format: :html
+          end
+
+          it 'finds the the correct list' do
+            expect(gibbon).to receive(:lists).with(list_id)
+            post :create, veteran: veteran_params, format: :html
+          end
+
+          it 'adds the veteran as a member to the list' do
+            expect(gibbon).to receive_message_chain(:lists, :members, :create).with(
+              body: {
+                email_address: veteran_params[:email],
+                status: 'subscribed',
+                merge_fields: {
+                  FNAME: veteran_params[:first_name],
+                  LNAME: veteran_params[:last_name]
+                }
+              }
+            )
+
+            post :create, veteran: veteran_params, format: :html
+          end
         end
       end
 
