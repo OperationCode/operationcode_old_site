@@ -34,7 +34,6 @@ describe VeteransController do
     end
 
     context "when the record saves successfully" do
-
       describe "#html" do
         it "redirects to the action_path" do
           post :create, veteran: veteran_params, format: :html
