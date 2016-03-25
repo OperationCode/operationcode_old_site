@@ -25,6 +25,7 @@ describe VeteransController do
     before do
       allow_any_instance_of(Veteran).to receive(:new)
       allow_any_instance_of(Veteran).to receive(:send_slack_invitation)
+      allow_any_instance_of(Veteran).to receive(:add_to_mailchimp)
     end
 
     it "makes a new record with the params" do
@@ -55,6 +56,11 @@ describe VeteransController do
 
         it "sends slack invitation" do
           expect_any_instance_of(Veteran).to receive(:send_slack_invitation).exactly(1).times
+          post :create, veteran: veteran_params, format: :html
+        end
+
+        it "adds to Mailchimp" do
+          expect_any_instance_of(Veteran).to receive(:add_to_mailchimp).exactly(1).times
           post :create, veteran: veteran_params, format: :html
         end
       end

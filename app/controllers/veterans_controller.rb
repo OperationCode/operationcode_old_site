@@ -31,6 +31,8 @@ class VeteransController < ApplicationController
       if @veteran.save
         UserMailer.welcome(@veteran).deliver_now
         @veteran.send_slack_invitation
+        @veteran.add_to_mailchimp
+
         format.html { redirect_to action_path, notice: 'Thanks for signing up!' }
         format.json { render :show, status: :created, location: @veteran }
       else
