@@ -28,6 +28,7 @@ class DonationsController < ApplicationController
     respond_to do |format|
       if @donation.save
         DonationMailer.thankyou(@donation).deliver_now
+        SlackNotifierJob.perform_now('Someone awesome has just donated to Operation Code!')
         format.html { redirect_to root_url,
                       :flash => { :success => "Thank you for your generous donation to Operation Code! Please check your email for your receipt."}
                     }
