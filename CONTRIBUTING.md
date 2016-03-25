@@ -22,7 +22,9 @@ Our bug tracker utilizes several labels to help organize and identify issues. He
 
 - `bug` - Issues that are reported to us via [Twitter](http://twitter.com/operation_code) or [Issues](https://github.com/operationcode/operationcode/issues).
 
-- `enhancement` - Issues that are suggested through [Twitter](http://twitter.com/operation_code) or [Slack](https://operation-code.slack.com).
+- `feature` - Issues that are suggested through [Twitter](http://twitter.com/operation_code) or [Slack](https://operation-code.slack.com).
+
+- `beginner-friendly` - Issues that are suited for beginners
 
 ## Bug reports
 
@@ -61,6 +63,8 @@ Any other information you want to share that is relevant to the issue being repo
 
 [Hound](https://houndci.com) is a bot and part of the core team that hangs out in our GitHub issue tracker and automatically checks for style validation errors during pull requests. If it finds any errors, it will post a follow-up comment on the issue and point out the errors. Think of Hound as your Drill Sergeant. If this happens with a pull request you're submitting, please fix the errors and resubmit. Hound allows the core team to better review and maintain a clean codebase.
 
+[Travis](https://travis-ci.org/) runs our test suite on each check in and soon will even deploy each change that gets merged.
+
 ## Feature requests
 
 Feature requests are welcome. But take a moment to find out whether your idea
@@ -91,6 +95,11 @@ Still want to contribute? Carry on.
 ## Optional build tools
 * Install [Homebrew](http://brew.sh/), a package manager for OS X
 * Install [rbenv](https://github.com/sstephenson/rbenv), a tool for switching ruby versions
+
+## Beginner and don't know where to start?
+
+We've got you covered. Just pick an issue from our hand selected issues [here](https://github.com/OperationCode/operationcode/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
+Leave a comment letting everyone know you're going to work on it. If you need clarification or help don't be afraid to ask!
 
 ## Pull requests
 
@@ -185,6 +194,10 @@ When you make a pull request and it's successfully merged, make sure to add your
 - 2 spaces (no tabs)
 - strict mode
 - "Attractive"
+
+### Ruby
+
+[Follow the ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 
 ## Thanks
 
