@@ -59,4 +59,6 @@ class PagesController < ApplicationController
   def successes
   end
 
+  def android
+  end
 end

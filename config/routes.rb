@@ -28,6 +28,7 @@ Rails.application.routes.draw do
   get "scholarships" => "pages#scholarships"
   get "speakerrequest" => "pages#speakerrequest"
   get "successes" => "pages#successes"
+  get "android" => "pages#android"
 
   get "action" => "veterans#new"
 
