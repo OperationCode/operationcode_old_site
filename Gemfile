@@ -47,6 +47,7 @@ gem 'skylight'
 gem 'figaro' #app configuration using ENV variables and a single YAML file
 gem 'jekyll' #blogging gem
 gem 'gibbon' #API wrapper for the Mailchimp API
+gem 'google-analytics-rails', '1.1.0'
 
 #####################
 # Development Tools #
