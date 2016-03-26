@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   resources :veterans
   resources :donations, only: [:index, :new, :create]
 
-  get "about" => "pages#about"
   get "deploy" => "pages#deploy"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
