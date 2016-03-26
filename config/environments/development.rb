@@ -42,6 +42,6 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   # Separate Google Analytics tracker for each environment
-  GA.tracker = ""
+  GA.tracker = "UA-75642413-3"
 
 end
