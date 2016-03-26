@@ -32,7 +32,6 @@ Rails.application.routes.draw do
 
   get "action" => "veterans#new"
 
-  get "apprentices" => "pages#deploy"
   get "/blog" => redirect("https://www.operationcode.org/blog")
   get "/contact" => redirect("mailto:david@operationcode.org")
 
