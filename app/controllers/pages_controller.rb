@@ -29,9 +29,6 @@ class PagesController < ApplicationController
   def hackathons
   end
 
-  def hello
-  end
-
   def media
   end
 
@@ -59,12 +56,9 @@ class PagesController < ApplicationController
   def speakerrequest
   end
 
-  def staff
-  end
-
   def successes
   end
 
-  def team
+  def android
   end
 end

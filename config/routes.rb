@@ -28,19 +28,16 @@ Rails.application.routes.draw do
   get "scholarships" => "pages#scholarships"
   get "speakerrequest" => "pages#speakerrequest"
   get "successes" => "pages#successes"
-  get "team" => "pages#team"
+  get "android" => "pages#android"
 
   get "action" => "veterans#new"
 
-  get "apprentices" => "pages#deploy"
   get "/blog" => redirect("https://www.operationcode.org/blog")
   get "/contact" => redirect("mailto:david@operationcode.org")
 
   get "/flatiron" => redirect("https://learn.co/learn-together")
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
   get "/donate" => redirect("/donations/new")
-  get "/staff" => redirect("/board")
-  get "/hello" => redirect("/founder")
   get "/learn" => redirect("/online")
   get "/contribute" => redirect("https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md")
   get "/news" => redirect("/newgibill")
