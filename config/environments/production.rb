@@ -95,5 +95,4 @@ Rails.application.configure do
 
   # Separate Google Analytics tracker for each environment
   GA.tracker = "UA-75642413-1"
-
 end
