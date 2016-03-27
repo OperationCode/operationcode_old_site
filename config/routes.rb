@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   resources :veterans
   resources :donations, only: [:index, :new, :create]
 
-  get "about" => "pages#about"
   get "deploy" => "pages#deploy"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
@@ -29,7 +28,7 @@ Rails.application.routes.draw do
   get "scholarships" => "pages#scholarships"
   get "speakerrequest" => "pages#speakerrequest"
   get "successes" => "pages#successes"
-  get "team" => "pages#team"
+  get "android" => "pages#android"
 
   get "action" => "veterans#new"
 
@@ -39,8 +38,6 @@ Rails.application.routes.draw do
   get "/flatiron" => redirect("https://learn.co/learn-together")
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
   get "/donate" => redirect("/donations/new")
-  get "/staff" => redirect("/board")
-  get "/hello" => redirect("/founder")
   get "/learn" => redirect("/online")
   get "/contribute" => redirect("https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md")
   get "/news" => redirect("/newgibill")
