@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
   def android
   end
-  
+
   def deploy
   end
 
