@@ -92,4 +92,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Separate Google Analytics tracker for each environment
+  GA.tracker = "UA-75642413-1"
 end
