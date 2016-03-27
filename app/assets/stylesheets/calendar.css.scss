@@ -1,0 +1,35 @@
+.calendar-container {
+  text-align: center;
+}
+
+.calendar-header {
+  border-bottom: 1px solid $gray-lighter;
+  font-size: 28px;
+  padding-bottom: 9px;
+  text-align: left;
+
+  @media(min-width: 768px) {
+    font-size: 36px;
+  }
+}
+
+.calendar-subheader {
+  display: block;
+  padding: 10px 0 0;
+
+  @media(min-width: 768px) {
+    display: inline;
+    padding: 0 0 0 20px;
+  }
+}
+
+.calendar-iframe {
+  border-radius: 5px;
+  height: 480px; // mobile-first height
+  margin-bottom: 20px;
+
+  // increase calendar height at wider screens
+  @media (min-width: 768px) {
+    height: 600px;
+  }
+}
