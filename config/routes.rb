@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :donations, only: [:index, :new, :create]
 
   get "about" => "pages#about"
+  get "android" => "pages#android"
   get "deploy" => "pages#deploy"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
