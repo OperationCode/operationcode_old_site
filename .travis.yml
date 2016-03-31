@@ -10,6 +10,6 @@ deploy:
   provider: heroku
   api_key:
     secure: IjVV/RT2ewpGGM3/lX3mjEzroHzKWVNMKQJTQK/i/z2dOA2bmxFHvqLP1cvuiW7LAyzvCiIbTflDr1kyIQnBUlIfHWgQCwAFbhL74FxnNYznZ6eDovtlkV9a/2Xq6CEX0BdFtbyGEXWto+zqO+R0iXEZ4suaswzRxKBde4RXG1I=
-  app: operationcode-test
+  app: opcod3
   on:
     repo: OperationCode/operationcode
