@@ -1,12 +1,12 @@
 # Contributing to Operation Code
 
-So you want to learn how to program? Contributing to Operation Code is a great place to get started! This document will help you get from 0 to deploying code in no time! 
+So you want to learn how to program? Contributing to Operation Code is a great place to get started! This document will help you get from zero to deploying code in no time! 
 
 ## Table Of Contents
 1. [Quickstart](#quickstart)
 2. [Finding an issue](#finding-an-issue)
 3. [Setting up your environment](#setting-up-your-environment)
-4. [Working On Your Issue](#getting-the-code)
+4. [Working on your issue](#getting-the-code)
 5. [Submitting your changes](#submitting-your-changes)
 6. [Contributing blog posts](#contributing-blog-posts)
 7. [Code Standards](#code-standards)
@@ -111,7 +111,7 @@ Each pull request should:
 
 * be tied to 1 issue
 * be fully tested
-* have it's own tests
+* have its own tests
 * not break existing tests
 
 Once your pull request has been submitted it will be reviewed by a core team member. This process helps to familiarize more people with the codebase, and provides a second set of eyes and perspective to your new feature.
@@ -150,7 +150,7 @@ Please see the [BLOG_POSTING_GUIDE](https://github.com/OperationCode/operationco
 [Adhere to the Code Guide.](http://codeguide.co/#css)
 
 - When feasible, default color palettes should comply with [WCAG color contrast guidelines](http://www.w3.org/TR/WCAG20/#visual-audio-contrast).
-- Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines/) for more details.
+- Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines) for more details.
 
 ### JS
 
