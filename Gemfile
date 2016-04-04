@@ -26,14 +26,13 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'aws-sdk', '~> 1.35.0'
 gem 'google-webfonts-rails' #adds Google WebFonts to Rails application
-#cordova (phonegap), Meteor.com
 
 ########################
 # Auth and Permissions #
 ########################
 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
-gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
+gem 'devise', '3.4.1'
 gem 'activeadmin', github: 'activeadmin'
 
 ########
@@ -69,8 +68,7 @@ group :development do
   gem 'letter_opener'
   gem 'spring'
   gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
-  gem 'xray-rails' #https://github.com/brentd/xray-rails
-  gem 'thin'
+  gem 'xray-rails'
 end
 
 group :production do
