@@ -12,6 +12,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 
+  <%= analytics_init if GoogleAnalytics.valid_tracker? %>
   <meta name="google-site-verification" content="nBR2ER8Hcfls6RrkC05coE9yvBWUd3Ugi-helYsZcSs" />
 
   <%= google_webfonts_init({
