@@ -1,7 +1,15 @@
 language: ruby
+cache: bundler
 services:
-  - postgresql
+- postgresql
 before_script:
-  - psql -c 'create database operationcode_test;' -U postgres
-  - RAILS_ENV=test bundle exec rake db:migrate
-  - RAILS_ENV=test bundle exec rake db:test:prepare
+- psql -c 'create database operationcode_test;' -U postgres
+- RAILS_ENV=test bundle exec rake db:migrate
+- RAILS_ENV=test bundle exec rake db:test:prepare
+deploy:
+  provider: heroku
+  api_key:
+    secure: IjVV/RT2ewpGGM3/lX3mjEzroHzKWVNMKQJTQK/i/z2dOA2bmxFHvqLP1cvuiW7LAyzvCiIbTflDr1kyIQnBUlIfHWgQCwAFbhL74FxnNYznZ6eDovtlkV9a/2Xq6CEX0BdFtbyGEXWto+zqO+R0iXEZ4suaswzRxKBde4RXG1I=
+  app: opcod3
+  on:
+    repo: OperationCode/operationcode
