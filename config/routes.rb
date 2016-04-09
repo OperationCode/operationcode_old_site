@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get "deploy" => "pages#deploy"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
+  get "calendar" => "pages#calendar"
   get "sponsors" => "pages#sponsors"
   get "codeschools" => "pages#codeschools"
   get "employers" => "pages#employers"

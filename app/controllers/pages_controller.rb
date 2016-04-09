@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def codeschools
   end
 
+  def calendar
+  end
+
   def contact
   end
 
