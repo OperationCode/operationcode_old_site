@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.3.0'
 
 #################
 # Server and DB #
@@ -47,6 +47,7 @@ gem 'skylight'
 gem 'figaro' #app configuration using ENV variables and a single YAML file
 gem 'jekyll' #blogging gem
 gem 'gibbon' #API wrapper for the Mailchimp API
+gem 'google-analytics-rails', '1.1.0'
 
 #####################
 # Development Tools #
@@ -70,7 +71,6 @@ group :development do
   gem 'spring'
   gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
   gem 'xray-rails' #https://github.com/brentd/xray-rails
-  gem 'thin'
 end
 
 group :production do
