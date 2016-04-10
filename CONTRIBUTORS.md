@@ -25,4 +25,4 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
 
-When you see them, say Hooah, Oorah, or just say hi and thank them for supporting our mission to get more military and veterans coding.
+When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
