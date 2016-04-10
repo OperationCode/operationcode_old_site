@@ -317,7 +317,7 @@ GEM
     skylight (0.10.3)
       activesupport (>= 3.0.0)
     slop (3.6.0)
-    spring (1.6.4)
+    spring (1.7.0)
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)

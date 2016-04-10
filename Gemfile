@@ -71,7 +71,6 @@ group :development do
   gem 'spring'
   gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
   gem 'xray-rails' #https://github.com/brentd/xray-rails
-  gem 'thin'
 end
 
 group :production do
