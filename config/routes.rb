@@ -30,7 +30,7 @@ Rails.application.routes.draw do
   get "successes" => "pages#successes"
 
   get "action" => "veterans#new"
-  get "blog" => redirect("https://medium.com/@operation_code")
+  get "/blog" => redirect("https://medium.com/@operation_code")
   get "/contact" => redirect("mailto:david@operationcode.org")
 
   get "/flatiron" => redirect("https://learn.co/learn-together")
