@@ -81,4 +81,32 @@ describe Slack::Client do
       end.to raise_error(Slack::Client::RequestFailed)
     end
   end
+
+  describe 'fetching users.list' do
+    before(:all) do
+      @fetch_url = URI.join(
+        "https://#{@slack_client.domain}",
+        Slack::USERS_LIST_PATH).to_s
+    end
+
+    it 'returns true if all is well' do
+      stub_request(:post, /#{Regexp.quote(@fetch_url)}.*/).to_return(
+        status: 200, body: '{"ok": true}', headers: {}
+      )
+
+      expect(@slack_client.fetch_users_list['ok']).to equal true
+    end
+
+    it 'returns a user count of 1 with one slack member' do
+      stub_request(:post, /#{Regexp.quote(@fetch_url)}.*/).to_return(
+        status: 200,
+        body: '{"ok":true,
+               "members": [ { "profile": { "email": "test@example.com" } } ]
+        }',
+        headers: {}
+      )
+
+      expect(@slack_client.fetch_users_list['members'].count).to equal 1
+    end
+  end
 end

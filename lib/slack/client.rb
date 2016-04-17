@@ -3,12 +3,14 @@ require "net/http"
 module Slack
   INVITE_PATH = '/api/users.admin.invite'.freeze
   POST_MESSAGE_PATH = '/api/chat.postMessage'.freeze
+  USERS_LIST_PATH = '/api/users.list'.freeze
   BOT_USERNAME = 'OpCodeBot'.freeze
 
   class Client
     RequestFailed = Class.new(StandardError)
     InviteFailed = Class.new(StandardError)
     PostMessageFailed = Class.new(StandardError)
+    FetchUsersListFailed = Class.new(StandardError)
 
     attr_reader :domain
 
@@ -51,6 +53,19 @@ module Slack
       raise PostMessageFailed.new(body.to_s)
     end
 
+    def fetch_users_list(presence: 0)
+      body = send_api_request(
+        to: USERS_LIST_PATH,
+        payload: {
+          token:    @token,
+          presence: presence
+        }
+      )
+
+      return body if body['ok'] == true || body['ok'] == 'true'
+      raise FetchUsersListFailed.new(body.to_s)
+    end
+
     private
 
     def send_api_request(to:, payload:)
@@ -63,7 +78,7 @@ module Slack
 
       raise RequestFailed.new("HTTP status code: #{res.code}") unless res.is_a?(Net::HTTPSuccess)
 
-      body = JSON.parse(res.body)
+      JSON.parse(res.body)
     end
   end
 end
