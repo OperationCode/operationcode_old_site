@@ -27,11 +27,13 @@ describe Slack::Utils do
     end
 
     it 'returns true if email is a member email' do
-      expect(@slack_utils.email_is_registered?('second@example.com')).to equal true
+      check = @slack_utils.email_is_registered?('second@example.com')
+      expect(check).to equal true
     end
 
     it 'returns false if email is not a member email' do
-      expect(@slack_utils.email_is_registered?('false@example.com')).to equal false
+      check = @slack_utils.email_is_registered?('false@example.com')
+      expect(check).to equal false
     end
   end
 end
