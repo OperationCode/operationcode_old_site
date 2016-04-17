@@ -37,8 +37,3 @@ describe Slack::Utils do
     end
   end
 end
-
-
-
-
-
