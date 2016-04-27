@@ -15,6 +15,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Glenn Espinosa](https://github.com/gxespino)
 * [James Davis](https://github.com/cavalryjim)
 * [Jason Dinsmore](https://github.com/dinjas)
+* [Jesse James](https://github.com/jrjamespdx)
 * [Josh Springer](https://github.com/jdspringr07)
 * [Krystyna Ewing](https://github.com/Wimsy113)
 * [Michael Alexander](https://github.com/cenderin)
