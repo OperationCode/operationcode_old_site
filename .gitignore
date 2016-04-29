@@ -20,7 +20,6 @@
 
 # Ignore application configuration
 /config/application.yml
-/config/initializers/stripe.rb
 
 # Ignore sass cache
 .sass-cache
