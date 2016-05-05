@@ -22,9 +22,8 @@ On March 8th, Pete wired over $850 to include with our IRS application and it ma
 
 Special thanks to Dave Parker of Code Fellows, Michael Kaiser-Nyman of Epicodus, Mark Grimes of NedSpace, Maggi Molina of VetStartups and Raf Jauregui of SRVD for their support of our mission. Very special thanks to Mrs. Grace Stratton and Mrs. Jocelyn Tyree of Sen. Ron Wyden's office.
 
-Most especially my better half, Edith, and three young daughters, Maya, Paloma & Citlali, for their emotional support and love.
-
-We hope you'll join us today, tomorrow and well into the future in our commitment of supporting the programming aspirations of America's finest.
+Most especially my better half, Edith, and three young daughters, Maya, Paloma & Citlali, for their emotional support and love. Our board of directors for their persistence, oversight, and due diligence. Thank you. 
+We hope you'll join us today, tomorrow and well into the future in our commitment of [supporting](http://operationcode.org/donate) the programming aspirations of America's finest.
 
 Cheers and keep coding,
 
