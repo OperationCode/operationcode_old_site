@@ -17,6 +17,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Jason Dinsmore](https://github.com/dinjas)
 * [Jesse James](https://github.com/jrjamespdx)
 * [Josh Springer](https://github.com/jdspringr07)
+* [Kevin Falting](https://github.com/KevinRoss-)
 * [Krystyna Ewing](https://github.com/Wimsy113)
 * [Michael Alexander](https://github.com/cenderin)
 * [Ming Zhang](https://github.com/Scripore)
