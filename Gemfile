@@ -16,7 +16,7 @@ gem 'newrelic_rpm'
 # Front-end #
 #############
 
-gem 'sass-rails', '~> 4.0.3' #review node folders
+gem 'sass-rails', '~> 4.0.3' # Review node folders
 gem 'bootstrap-sass'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -25,15 +25,15 @@ gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'aws-sdk', '~> 1.35.0'
-gem 'google-webfonts-rails' #adds Google WebFonts to Rails application
-#cordova (phonegap), Meteor.com
+gem 'google-webfonts-rails' # adds Google WebFonts to Rails application
+# cordova (phonegap), Meteor.com
 
 ########################
 # Auth and Permissions #
 ########################
 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
-gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
+gem 'devise', '3.4.1' # JDavis: devise is the Rails standard for authentication
 gem 'activeadmin', github: 'activeadmin'
 
 ########
@@ -44,9 +44,9 @@ gem 'shareable'
 gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
 gem 'skylight'
-gem 'figaro' #app configuration using ENV variables and a single YAML file
-gem 'jekyll' #blogging gem
-gem 'gibbon' #API wrapper for the Mailchimp API
+gem 'figaro' # app configuration using ENV variables and a single YAML file
+gem 'jekyll' # blogging gem
+gem 'gibbon' # API wrapper for the Mailchimp API
 gem 'google-analytics-rails', '1.1.0'
 
 #####################
@@ -69,8 +69,8 @@ group :development do
   gem 'railroady'
   gem 'letter_opener'
   gem 'spring'
-  gem 'annotate' #JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
-  gem 'xray-rails' #https://github.com/brentd/xray-rails
+  gem 'annotate' # Adds the table fields to the model file.To use, run 'annotate --position after'
+  gem 'xray-rails' # https://github.com/brentd/xray-rails
 end
 
 group :production do
