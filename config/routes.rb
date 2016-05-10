@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :veterans
   resources :donations, only: [:index, :new, :create]
 
+  get "about" => "pages#about"
   get "deploy" => "pages#deploy"
   get "board" => "pages#board"
   get "contact" => "pages#contact"
@@ -30,7 +31,7 @@ Rails.application.routes.draw do
   get "successes" => "pages#successes"
   get "action" => "veterans#new"
   get "blog" => "pages#blog"
-  
+
   get "/contact" => redirect("mailto:david@operationcode.org")
   get "/flatiron" => redirect("https://learn.co/learn-together")
   get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
