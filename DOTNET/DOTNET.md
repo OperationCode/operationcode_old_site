@@ -4,7 +4,7 @@ This guide is aimed at veterans who are wishing to learn programming on Microsof
 
 ## Quick Start
 
-If you are really impatient  (or already think you know shit), you can just jump in right away by; 
+If you are really impatient  (or already think you know shit), you can just jump in right away by;
 
 - Downloading and Installing the Free Visual Studio Community Edition [here](https://www.visualstudio.net).
 
@@ -18,13 +18,13 @@ If you are really impatient  (or already think you know shit), you can just jump
 
 # Intro to Programming
 
-People get intimated by computers, but really they are dumb as shit. A computer can't do anything you don't tell it to do. 
+People get intimated by computers, but really they are dumb as shit. A computer can't do anything you don't tell it to do.
 Thinking about it, that means everything your computer, tablet, cell phone, or TV does was programmed to do that single thing by someone.
 So pretty much, programming is about making the computer your bitch. Cool right?
 
-But how do we tell computers what to do? 
+But how do we tell computers what to do?
 
-Spoiler alert: Not like this! 
+Spoiler alert: Not like this!
 
 ![alt text][scotty-talks]
 [scotty-talks]: scotty_trek4.jpg "Hello, Computer!"
@@ -40,6 +40,3 @@ The process to run a .NET program goes like this;
 - The .NET runtime see that you are trying to run a program in IL, and it translates the program into machine language in real time.
 
 Most .NET programmers never touch the IL. Then there are some basement-dwelling neckbeards that write exclusively in it when they aren't trolling reddit, but that's another conversation entirely.
-
-
-
