@@ -18,7 +18,7 @@ As Marine veteran [@jjamespdx](https://twitter.com/jjamespdx) put it, "For some 
 
 So there you go. Short suspense. [Apply ASAP](https://operation-code.slack.com/messages/@nellshamrell/).
 
-Current status: 2 tickets remaining.
+Current status: 1 ticket remaining.
 
 Cheers and keep coding,
 
