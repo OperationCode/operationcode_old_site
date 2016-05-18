@@ -4,14 +4,15 @@ require 'slack/utils'
 describe Slack::Utils do
   # Set up Sclack::Client
   before(:all) do
-    @slack_utils = Slack::Utils.new()
+    @slack_utils = Slack::Utils.new
   end
 
   describe 'confirming email is registered' do
     before(:all) do
       @fetch_url = URI.join(
         "https://#{@slack_utils.client.domain}",
-        Slack::USERS_LIST_PATH).to_s
+        Slack::USERS_LIST_PATH
+      ).to_s
     end
 
     before(:each) do

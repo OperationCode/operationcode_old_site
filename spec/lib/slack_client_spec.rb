@@ -14,7 +14,8 @@ describe Slack::Client do
     before(:all) do
       @post_url = URI.join(
         "https://#{@slack_client.domain}",
-        Slack::INVITE_PATH).to_s
+        Slack::INVITE_PATH
+      ).to_s
     end
 
     it 'returns true if all is well' do
@@ -41,7 +42,8 @@ describe Slack::Client do
     before(:all) do
       @post_url = URI.join(
         "https://#{@slack_client.domain}",
-        Slack::POST_MESSAGE_PATH).to_s
+        Slack::POST_MESSAGE_PATH
+      ).to_s
     end
 
     it 'returns true if all is well' do
@@ -86,7 +88,8 @@ describe Slack::Client do
     before(:all) do
       @fetch_url = URI.join(
         "https://#{@slack_client.domain}",
-        Slack::USERS_LIST_PATH).to_s
+        Slack::USERS_LIST_PATH
+      ).to_s
     end
 
     it 'returns true if all is well' do

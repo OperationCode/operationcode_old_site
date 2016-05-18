@@ -17,6 +17,8 @@ class Veteran < ActiveRecord::Base
   validates :email, format: { with: EMAIL_REGEX,
                               message: 'Please provide a valid e-mail address' }
 
+  attr_accessor :request_mentor
+
   def name
     if first_name.present? || last_name.present?
       "#{first_name} #{last_name}"
@@ -29,6 +31,12 @@ class Veteran < ActiveRecord::Base
     SlackInviterJob.perform_later(email)
   end
 
+  def send_mentor_request
+    message = "A new user (#{first_name} #{last_name} <#{email}>) "\
+      "has requested a mentor in the following area: #{request_mentor}"
+    SlackNotifierJob.perform_now(message, channel: 'mentors')
+  end
+
   def add_to_mailchimp
     gibbon = Gibbon::Request.new(api_key: ENV['MAILCHIMP_API_KEY'])
 
@@ -36,10 +44,7 @@ class Veteran < ActiveRecord::Base
       body: {
         email_address: email,
         status: 'subscribed',
-        merge_fields: {
-          FNAME: first_name,
-          LNAME: last_name
-        }
+        merge_fields: { FNAME: first_name, LNAME: last_name }
       }
     )
   end
