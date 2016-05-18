@@ -264,11 +264,12 @@ a.btn.btn-default:hover {
 
 //=========================================== apprentice page
 
+
 #cta {
-  color: #fff;
+  color: #000000;
   background-color: #C9D6DF;
   padding: 40px;
-  background: #d4d4d4 url('code_background.jpg');
+  background: #d4d4d4 url('background.png');
   margin-bottom: 50px;
   @media (min-width: $screen-sm-min) {
     padding-bottom: 240px;
