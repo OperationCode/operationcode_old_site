@@ -8,7 +8,7 @@ layout: post
 
 Operation Code 10k Slack Message Limit is History
 
-Our Software Mentor Protégé Program leverages real-time messaging application, Slack](https://slack.com), to welcome transitioning military, guard & reserve soldiers, veterans and their families share code and get help hacking on their websites or web applications, quickly communicate between volunteers and the board, all in a decentralized, asynchronous platform.
+Our Software Mentor Protégé Program leverages real-time messaging application, [Slack](https://slack.com), to welcome transitioning military, guard & reserve soldiers, veterans and their families share code and get help hacking on their websites or web applications, quickly communicate between volunteers and the board, all in a decentralized, asynchronous platform.
 
 Earlier last year iOS/Android developer [Fernando Paredes](https://github.com/nanoxd) setup Slack and seamlessly integrated it into our Ruby on Rails application so that each time a new veteran joined, he/she would get an immediate invite and join us. But as you can imagine we quickly capped the 10k message limit prohibiting anyone to see past a few page scrolls. Last summer I sent over a request to Slack, but due to tax-exemption status couldn't get it lifted. Fortunately, all that changed earlier this month with the IRS approving our tax-exemption.
 
