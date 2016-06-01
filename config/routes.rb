@@ -1,46 +1,45 @@
 Rails.application.routes.draw do
-
-  devise_for :veterans
+  devise_for :veterans, controllers: { registrations: 'veterans/registrations' }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
   resources :veterans
   resources :donations, only: [:index, :new, :create]
 
-  get "about" => "pages#about"
-  get "deploy" => "pages#deploy"
-  get "board" => "pages#board"
-  get "contact" => "pages#contact"
-  get "calendar" => "pages#calendar"
-  get "sponsors" => "pages#sponsors"
-  get "codeschools" => "pages#codeschools"
-  get "employers" => "pages#employers"
-  get "events" => "pages#events"
-  get "faq" => "pages#faq"
-  get "founder" => "pages#founder"
-  get "hackathons" => "pages#hackathons"
-  get "history" => "pages#history"
-  get "online" => "pages#online"
-  get "media" => "pages#media"
-  get "mentorship" => "pages#mentorship"
-  get "mission" => "pages#mission"
-  get "newgibill" => "pages#newgibill"
-  get "press" => "pages#press"
-  get "privacy" => "pages#privacy"
-  get "scholarships" => "pages#scholarships"
-  get "speakerrequest" => "pages#speakerrequest"
-  get "successes" => "pages#successes"
-  get "action" => "veterans#new"
-  get "blog" => "pages#blog"
+  get 'about' => 'pages#about'
+  get 'deploy' => 'pages#deploy'
+  get 'board' => 'pages#board'
+  get 'contact' => 'pages#contact'
+  get 'calendar' => 'pages#calendar'
+  get 'sponsors' => 'pages#sponsors'
+  get 'codeschools' => 'pages#codeschools'
+  get 'employers' => 'pages#employers'
+  get 'events' => 'pages#events'
+  get 'faq' => 'pages#faq'
+  get 'founder' => 'pages#founder'
+  get 'hackathons' => 'pages#hackathons'
+  get 'history' => 'pages#history'
+  get 'online' => 'pages#online'
+  get 'media' => 'pages#media'
+  get 'mentorship' => 'pages#mentorship'
+  get 'mission' => 'pages#mission'
+  get 'newgibill' => 'pages#newgibill'
+  get 'press' => 'pages#press'
+  get 'privacy' => 'pages#privacy'
+  get 'scholarships' => 'pages#scholarships'
+  get 'speakerrequest' => 'pages#speakerrequest'
+  get 'successes' => 'pages#successes'
+  get 'action' => 'veterans#new'
+  get 'blog' => 'pages#blog'
 
-  get "/contact" => redirect("mailto:david@operationcode.org")
-  get "/flatiron" => redirect("https://learn.co/learn-together")
-  get "/launchparty" => redirect("http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488")
-  get "/donate" => redirect("/donations/new")
-  get "/learn" => redirect("/online")
-  get "/contribute" => redirect("https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md")
-  get "/news" => redirect("/newgibill")
-  get "/join" => redirect("/action")
+  get '/contact' => redirect('mailto:david@operationcode.org')
+  get '/flatiron' => redirect('https://learn.co/learn-together')
+  get '/launchparty' => redirect('http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488')
+  get '/donate' => redirect('/donations/new')
+  get '/learn' => redirect('/online')
+  get '/contribute' => redirect('https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md')
+  get '/news' => redirect('/newgibill')
+  get '/join' => redirect('/action')
 
-  root "pages#home"
+  root 'pages#home'
 end
