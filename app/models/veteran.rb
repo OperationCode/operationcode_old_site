@@ -19,6 +19,13 @@ class Veteran < ActiveRecord::Base
 
   attr_accessor :request_mentor
 
+  geocoded_by :zip
+  after_validation :geocode, if: ->(v){ v.zip.present? && v.zip_changed? }
+
+  def self.lat_longs
+    Veteran.where.not(zip: nil).pluck('DISTINCT latitude, longitude')
+  end
+
   def name
     if first_name.present? || last_name.present?
       "#{first_name} #{last_name}"

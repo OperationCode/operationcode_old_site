@@ -1,3 +1,17 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
+
+$ ->
+  veteranMap = L.map('veterans_map').setView([37.0902, -95.7129], 4)
+  osmUrl = '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+  osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+  L.tileLayer(osmUrl, {
+    attribution: osmAttrib
+    maxZoom: 18,
+  }).addTo(veteranMap)
+  latlongs = $('#veterans_map').data('lat-longs')
+  $.each latlongs, (i, value) ->
+    if value[0] is null || value[1] is null
+      return
+    L.marker(value).addTo(veteranMap)
