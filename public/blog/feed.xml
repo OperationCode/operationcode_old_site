@@ -6,9 +6,38 @@
 </description>
     <link>https://operationcode.org/blog/</link>
     <atom:link href="https://operationcode.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jun 2016 22:49:44 -0400</pubDate>
-    <lastBuildDate>Mon, 13 Jun 2016 22:49:44 -0400</lastBuildDate>
+    <pubDate>Fri, 17 Jun 2016 23:18:18 -0700</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2016 23:18:18 -0700</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Google for Nonprofits</title>
+        <description>&lt;p&gt;Google is known for search. When we get stuck coding we Google every command line or inspect element error which leads to a blog, StackOverFlow, YouTube video, an article or a podcast that helps us get closer to the solution.&lt;/p&gt;
+
+&lt;p&gt;Google is &lt;em&gt;also&lt;/em&gt; known for helping nonprofits get more done through the &lt;a href=&quot;https://www.google.com/nonprofits/&quot;&gt;Google for Nonprofits&lt;/a&gt; program.&lt;/p&gt;
+
+&lt;p&gt;Prior to being enrolled in the program, we paid monthly to have a few email accounts for the team and this limited us in terms of growth and volunteer staff. That all just changed.&lt;/p&gt;
+
+&lt;p&gt;These past two weeks Operation Code has grown leaps and bounds organizationally, as we started issuing Operation Code email accounts to the software mentorship, scholarship, employer services, deploy and advocacy teams. Google for Nonprofits is enabling Operation Code to better coordinate, integrate and synchronize our services to better serve our military veterans coding community.&lt;/p&gt;
+
+&lt;p&gt;From their web page:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Google for Nonprofits offers organizations like yours free access to Google tools like Gmail, Google Calendar, Google Drive, Google Ad Grants, YouTube for Nonprofits and more. These tools can help you reach new donors and volunteers, work more efficiently, and tell your nonprofit’s story.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thank you so much, Google, for helping us in changing the world for those who’ve served our country.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director of Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+        <link>https://operationcode.org/blog/2016/06/17/google-for-nonprofits.html</link>
+        <guid isPermaLink="true">https://operationcode.org/blog/2016/06/17/google-for-nonprofits.html</guid>
+        
+        <category>News</category>
+        
+        
+      </item>
     
       <item>
         <title>Node Summit</title>
@@ -26,7 +55,7 @@
 
 &lt;p&gt;&lt;em&gt;Nell Shamrell-Harrington is a volunteer and scholarship committee chair of Operation Code. She is the proud daughter of two Air Force officers. She resides in Seattle, WA.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 08 Jun 2016 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 08 Jun 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/06/08/node-summit-sf.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/06/08/node-summit-sf.html</guid>
         
@@ -49,7 +78,7 @@
 
 &lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 May 2016 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 20 May 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/05/20/techsoup.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/05/20/techsoup.html</guid>
         
@@ -73,7 +102,7 @@ New military veterans who just joined Operation Code will now enjoy a more seaml
 
 &lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 May 2016 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 20 May 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/05/20/slack.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/05/20/slack.html</guid>
         
@@ -108,7 +137,7 @@ New military veterans who just joined Operation Code will now enjoy a more seaml
 
 &lt;p&gt;&lt;em&gt;Mark Kerr is Chairman of the Operation Code Board of Directors, Development Advisor to U.S. Southern Command, and an Iraq &amp;amp; Afghanistan war Army veteran. He resides in Miami Beach, Florida.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 14 May 2016 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 14 May 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/05/14/benefits-creep-part-1.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/05/14/benefits-creep-part-1.html</guid>
         
@@ -176,7 +205,7 @@ Don’t forget about all the easy stuff that the Military taught you. Right plac
 
 &lt;p&gt;&lt;em&gt;Charles Webster is a junior PHP developer and an open source fan. He is an Army veteran and currently resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 14 May 2016 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 14 May 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/05/14/beating-the-odds.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/05/14/beating-the-odds.html</guid>
         
@@ -205,7 +234,7 @@ Don’t forget about all the easy stuff that the Military taught you. Right plac
 
 &lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 May 2016 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 10 May 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/05/10/codeconf-la.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/05/10/codeconf-la.html</guid>
         
@@ -239,7 +268,7 @@ We hope you’ll join us today, tomorrow and well into the future in our commitm
 
 &lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 04 May 2016 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 04 May 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/05/04/501c3-confirmed.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/05/04/501c3-confirmed.html</guid>
         
@@ -266,7 +295,7 @@ We hope you’ll join us today, tomorrow and well into the future in our commitm
 
 &lt;p&gt;&lt;em&gt;Jesse James is a Ruby on Rails developer for TripGrid, a travel planning software startup.  He is a Marine Corps veteran and currently resides in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 26 Apr 2016 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 26 Apr 2016 00:00:00 -0700</pubDate>
         <link>https://operationcode.org/blog/2016/04/26/ruby-on-ales-2016.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/04/26/ruby-on-ales-2016.html</guid>
         
@@ -295,28 +324,9 @@ We hope you’ll join us today, tomorrow and well into the future in our commitm
 
 &lt;p&gt;&lt;em&gt;Nell Shamrell-Harrington is a volunteer and scholarship committee chair of Operation Code.  She is the proud daughter of two Air Force officers.  She resides in Seattle, WA.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 02 Mar 2016 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 02 Mar 2016 00:00:00 -0800</pubDate>
         <link>https://operationcode.org/blog/2016/03/02/conference-scholarships.html</link>
         <guid isPermaLink="true">https://operationcode.org/blog/2016/03/02/conference-scholarships.html</guid>
-        
-        <category>News</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Linux Academy Supports U.S. Veterans</title>
-        <description>&lt;p&gt;When I began my career as a software developer I remember being mystified by the systems which made the applications I wrote available over the internet.  As I took my first tentative steps into the world of system administration, I found that resources for learning these skills were few and tended to assume knowledge I did not have.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://linuxacademy.com&quot;&gt;Linux Academy&lt;/a&gt; has taken bold steps into providing accessible and excellent quality system administration instruction.  Along with the basics of Linux, Linux Academy also provides extensive depth on the latest technologies like Amazon Web Services and Docker.  They are an extremely valuable resource to both new developers and seasoned system administrators looking to level up their skills.&lt;/p&gt;
-
-&lt;p&gt;Linux Academy was also gracious enough to provide us with a number of free 6 month subscriptions, which are already being used by our veterans to learn new skills and build upon the skills they have learned at coding bootcamps.  We thank Linux Academy for helping our veterans learn the Linux skills of today and lay the foundation for the Linux and system administration skills of tomorrow!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Nell Shamrell-Harrington is a volunteer and scholarship committee chair of Operation Code.  She is the proud daughter of two Air Force officers.  She resides in Seattle, WA.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Nov 2015 00:00:00 -0500</pubDate>
-        <link>https://operationcode.org/blog/2015/11/17/linux-academy.html</link>
-        <guid isPermaLink="true">https://operationcode.org/blog/2015/11/17/linux-academy.html</guid>
         
         <category>News</category>
         
