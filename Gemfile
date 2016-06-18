@@ -26,7 +26,7 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'aws-sdk', '~> 1.35.0'
 gem 'google-webfonts-rails' #adds Google WebFonts to Rails application
-#cordova (phonegap), Meteor.com
+gem 'gmaps4rails'
 
 ########################
 # Auth and Permissions #
@@ -48,6 +48,7 @@ gem 'figaro' #app configuration using ENV variables and a single YAML file
 gem 'jekyll' #blogging gem
 gem 'gibbon' #API wrapper for the Mailchimp API
 gem 'google-analytics-rails', '1.1.0'
+gem 'geocoder'
 
 #####################
 # Development Tools #
