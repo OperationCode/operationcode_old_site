@@ -1,3 +1,5 @@
+// = require leaflet
+
 @import "active_admin";
 @import "font-awesome";
 @import "bootstrap_and_customization";
@@ -600,5 +602,7 @@ div#profile-container figcaption {
     hsl(200,50%,50%);
   background-size: cover;
 }
+
+.veterans-map { height: 480px; }
 
 //=========================================== apprentice profiles END
