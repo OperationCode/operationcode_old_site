@@ -26,7 +26,7 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'aws-sdk', '~> 1.35.0'
 gem 'google-webfonts-rails' #adds Google WebFonts to Rails application
-gem 'gmaps4rails'
+gem 'leaflet-rails'
 
 ########################
 # Auth and Permissions #
