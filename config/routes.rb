@@ -29,7 +29,6 @@ Rails.application.routes.draw do
   get 'scholarships' => 'pages#scholarships'
   get 'speakerrequest' => 'pages#speakerrequest'
   get 'successes' => 'pages#successes'
-  get 'action' => 'veterans#new'
   get 'blog' => 'pages#blog'
 
   get '/contact' => redirect('mailto:david@operationcode.org')

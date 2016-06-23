@@ -1,4 +1,9 @@
-<p id="notice"><%= notice %></p>
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-md-12" role="main">
+      <p id="notice"><%= notice %></p>
 
-<%= link_to 'Edit', edit_veteran_path(@veteran) %> |
-<%= link_to 'Back', veterans_path %>
+      Hello my name is <%= @veteran.first_name %>
+  </div>
+</div>
+
