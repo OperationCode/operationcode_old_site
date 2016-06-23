@@ -1,16 +1,15 @@
 class VeteransController < ApplicationController
   before_action :set_veteran, only: [:show, :edit, :update, :destroy]
   before_action :set_mentor_types, only: [:new, :create]
-
-  # GET /veterans
-  # GET /veterans.json
-  def index
-    @veterans = Veteran.all
-  end
+  before_action :authenticate_veteran!, only: [:profile]
 
   # GET /veterans/1
   # GET /veterans/1.json
   def show
+  end
+
+  def profile
+    @veteran = current_veteran
   end
 
   # GET /veterans/new
@@ -28,7 +27,7 @@ class VeteransController < ApplicationController
     @veteran = Veteran.new(veteran_params)
     if @veteran.save
       send_notifications
-      redirect_to @veteran, notice: 'Thanks for signing up!'
+      redirect_to profile_path, notice: 'Thanks for signing up!'
     else
       render :new
     end

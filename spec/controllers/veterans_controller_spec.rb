@@ -39,7 +39,7 @@ describe VeteransController do
       describe '#html' do
         it 'redirects to the veterans profile' do
           post :create, veteran: veteran_params, format: :html
-          expect(response).to redirect_to veteran_path Veteran.last
+          expect(response).to redirect_to profile_path
         end
 
         it 'shows a notice' do
