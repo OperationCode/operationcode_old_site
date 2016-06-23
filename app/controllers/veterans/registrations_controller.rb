@@ -25,7 +25,16 @@ class Veterans
     end
 
     def veteran_params
-      params.require(:veteran).permit(:first_name, :last_name, :email, :zip, :service_branch, :request_mentor, :password, :password_confirmation)
+      params.require(:veteran).permit(
+        :first_name,
+        :last_name,
+        :email,
+        :zip,
+        :service_branch,
+        :request_mentor,
+        :password,
+        :password_confirmation
+      )
     end
 
     def send_notifications
