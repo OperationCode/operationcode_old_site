@@ -1,4 +1,4 @@
-class Veterans
+module Veterans
   class RegistrationsController < Devise::RegistrationsController
     before_action :set_mentor_types, only: [:new, :create]
 

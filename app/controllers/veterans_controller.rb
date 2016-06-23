@@ -28,7 +28,7 @@ class VeteransController < ApplicationController
     @veteran = Veteran.new(veteran_params)
     if @veteran.save
       send_notifications
-      redirect_to action_path, notice: 'Thanks for signing up!'
+      redirect_to @veteran, notice: 'Thanks for signing up!'
     else
       render :new
     end
@@ -64,7 +64,7 @@ class VeteransController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def veteran_params
-    params.require(:veteran).permit(:first_name, :last_name, :email, :zip, :service_branch, :request_mentor)
+    params.require(:veteran).permit(:first_name, :last_name, :email, :zip, :service_branch, :request_mentor, :password, :password_confirmation)
   end
 
   def set_mentor_types

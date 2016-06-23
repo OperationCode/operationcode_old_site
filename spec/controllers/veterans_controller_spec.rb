@@ -18,7 +18,9 @@ describe VeteransController do
       {
         email: 'billybob@email.com',
         first_name: 'Billy',
-        last_name: 'Bob'
+        last_name: 'Bob',
+        password: 'password',
+        password_confirmation: 'password'
       }
     end
 
@@ -29,15 +31,15 @@ describe VeteransController do
     end
 
     it 'makes a new record with the params' do
-      expect(Veteran).to receive(:new).with(veteran_params).and_return(Veteran.new(veteran_params))
+      expect(Veteran).to receive(:new).with(veteran_params).and_return( Veteran.new(veteran_params))
       post :create, veteran: veteran_params, format: :html
     end
 
     context 'when the record saves successfully' do
       describe '#html' do
-        it 'redirects to the action_path' do
+        it 'redirects to the veterans profile' do
           post :create, veteran: veteran_params, format: :html
-          expect(response).to redirect_to(action_path)
+          expect(response).to redirect_to veteran_path Veteran.last
         end
 
         it 'shows a notice' do
