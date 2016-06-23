@@ -14,7 +14,7 @@ class Veterans
         send_notifications
         redirect_to @veteran
       else
-       render :new
+        render :new
       end
     end
 
