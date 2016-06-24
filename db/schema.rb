@@ -75,6 +75,8 @@ ActiveRecord::Schema.define(version: 20160527025526) do
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
     t.inet     "last_sign_in_ip"
+    t.float    "latitude"
+    t.float    "longitude"
   end
 
   add_index "veterans", ["email"], name: "index_veterans_on_email", unique: true, using: :btree

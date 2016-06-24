@@ -2,6 +2,13 @@ class VeteransController < ApplicationController
   before_action :set_veteran, only: [:show, :edit, :update, :destroy]
   before_action :set_mentor_types, only: [:new, :create]
   before_action :authenticate_veteran!, only: [:profile]
+  before_filter :send_to_home, except: [:new, :create, :map]
+
+  # GET /veterans
+  # GET /veterans.json
+  def index
+    @veterans = Veteran.all
+  end
 
   # GET /veterans/1
   # GET /veterans/1.json
@@ -31,6 +38,10 @@ class VeteransController < ApplicationController
   def destroy
     @veteran.destroy
     redirect_to veterans_url, notice: 'Veteran was successfully destroyed.'
+  end
+
+  def map
+    @lat_longs = Veteran.lat_longs
   end
 
   private
