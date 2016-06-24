@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   get :profile, to: 'veterans#profile'
   get '/veterans/map', to: 'veterans#map'
   resources :veterans, only: [:new, :create]
-  ActiveAdmin.routes(self)
 
   resources :donations, only: [:index, :new, :create]
 
@@ -33,10 +32,7 @@ Rails.application.routes.draw do
   get 'scholarships' => 'pages#scholarships'
   get 'speakerrequest' => 'pages#speakerrequest'
   get 'successes' => 'pages#successes'
-<<<<<<< HEAD
-=======
   get 'action' => 'veterans#new'
->>>>>>> upstream/master
   get 'blog' => 'pages#blog'
 
   get '/contact' => redirect('mailto:david@operationcode.org')

@@ -2,7 +2,7 @@ class VeteransController < ApplicationController
   before_action :set_veteran, only: [:show, :edit, :update, :destroy]
   before_action :set_mentor_types, only: [:new, :create]
   before_action :authenticate_veteran!, only: [:profile]
-  before_filter :send_to_home, except: [:new, :create, :map]
+  before_filter :send_to_home, except: [:new, :create, :map, :profile]
 
   # GET /veterans
   # GET /veterans.json

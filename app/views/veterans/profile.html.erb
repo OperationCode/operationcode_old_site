@@ -7,32 +7,18 @@
         </div>
 
         <div class="panel-body">
-          <dl>
-            <dt>Email</dt>
-            <dd><%= @veteran.email %></dd>
-          </dl>
-          <dl>
-            <dt>Name</dt>
-            <dd><%= @veteran.name %></dd>
-          </dl>
-          <dl>
-            <dt>Joined</dt>
-            <dd><%= @veteran.created_at %></dd>
-          </dl>
+          <%=  render partial: 'veterans/profile/details' %>
         </div>
       </div>
     </div>
     <div class="col-md-7" role="main">
       <div class="panel panel-default">
         <div class="panel-heading">
-        <h3 class="panel-title">Feed</h3>
+          <h3 class="panel-title">Feed</h3>
         </div>
 
         <div class="panel-body">
-          <dl>
-            <dt>24 June 2016 9am
-            <dd>Study Group
-          </dl>
+          <%=  render partial: 'veterans/profile/announcements' %>
         </div>
       </div>
     </div>
@@ -45,7 +31,7 @@
         </div>
 
         <div class="panel-body">
-          <center><i>You have not requested a mentor</i></center>
+          <%=  render partial: 'veterans/profile/mentor' %>
         </div>
       </div>
     </div>
