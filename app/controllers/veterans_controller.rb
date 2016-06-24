@@ -12,25 +12,8 @@ class VeteransController < ApplicationController
     @veteran = current_veteran
   end
 
-  # GET /veterans/new
-  def new
-    @veteran = Veteran.new
-  end
-
   # GET /veterans/1/edit
   def edit
-  end
-
-  # POST /veterans
-  # POST /veterans.json
-  def create
-    @veteran = Veteran.new(veteran_params)
-    if @veteran.save
-      send_notifications
-      redirect_to profile_path, notice: 'Thanks for signing up!'
-    else
-      render :new
-    end
   end
 
   # PATCH/PUT /veterans/1
@@ -63,17 +46,15 @@ class VeteransController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def veteran_params
-    params.require(:veteran).permit(:first_name, :last_name, :email, :zip, :service_branch, :request_mentor, :password, :password_confirmation)
-  end
-
-  def set_mentor_types
-    @mentor_types = %w(Ruby/Rails Javascript Mobile Not\ Sure)
-  end
-
-  def send_notifications
-    UserMailer.welcome(@veteran).deliver_now
-    @veteran.send_slack_invitation
-    @veteran.send_mentor_request unless veteran_params[:request_mentor].blank?
-    @veteran.add_to_mailchimp
+    params.require(:veteran).permit(
+      :first_name,
+      :last_name,
+      :email,
+      :zip,
+      :service_branch,
+      :request_mentor,
+      :password,
+      :password_confirmation
+    )
   end
 end
