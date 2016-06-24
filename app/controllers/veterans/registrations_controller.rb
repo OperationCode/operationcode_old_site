@@ -12,6 +12,10 @@ module Veterans
       super
     end
 
+    def edit
+      super
+    end
+
     private
 
     def set_mentor_types
