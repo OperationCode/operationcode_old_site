@@ -56,6 +56,7 @@ Submit a [standard pull request](https://github.com/OperationCode/operationcode/
 
 ##Current Issues
 - For now, may need to use images from other hosted sites like Imgur. Haven't figured out how to store/add in Rails app. See "asset pipeline flow" in future tasks below
+- Use `rake jekyll:generate` inside `/blog` to generate blog.
 
 ##Future tasks
 - consider adding [asset pipeline flow](http://www.sitepoint.com/jekyll-rails/) for pictures, scripts etc. See "Extra: Using Rails-like Assets".
