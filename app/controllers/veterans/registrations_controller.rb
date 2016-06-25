@@ -1,13 +1,17 @@
 module Veterans
   class RegistrationsController < Devise::RegistrationsController
-    before_action :set_mentor_types, only: [:new, :create]
+    before_action :set_mentor_types, only: [:new, :create, :edit]
 
     # GET /resource/sign_up
     def new
+      @mentor_types = []
       super
     end
 
     def edit
+      @veteran = current_veteran
+      Rails.logger.info "VETERAN: #{current_veteran.inspect}"
+
       super
     end
 
