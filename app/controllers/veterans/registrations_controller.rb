@@ -7,11 +7,6 @@ module Veterans
       super
     end
 
-    # POST /resource
-    def create
-      super
-    end
-
     def edit
       super
     end
