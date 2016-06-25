@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe VeteransController do
+describe RegistrationsController do
   describe '#new' do
     it 'makes a new record' do
       get :new
