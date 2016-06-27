@@ -32,6 +32,9 @@ class PagesController < ApplicationController
   def hackathons
   end
 
+  def jgguide
+  end
+
   def media
   end
 
