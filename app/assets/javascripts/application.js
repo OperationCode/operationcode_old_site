@@ -15,4 +15,6 @@
 //= require bootstrap
 //= require jquery.stellar
 //= require jquery.slides.min
+//= require leaflet
+//= require veterans
 
