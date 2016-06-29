@@ -15,7 +15,7 @@
 class Veteran < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
+  devise :database_authenticatable, :confirmable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   EMAIL_REGEX = /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/
   validates :email, format: { with: EMAIL_REGEX,
@@ -48,7 +48,7 @@ class Veteran < ActiveRecord::Base
   def send_mentor_request
     message = "A new user (#{first_name} #{last_name} <#{email}>) "\
       "has requested a mentor in the following area: #{request_mentor}"
-    SlackNotifierJob.perform_now(message, channel: 'mentors')
+    SlackNotifierJob.perform_later(message, channel: 'mentors')
   end
 
   def add_to_mailchimp

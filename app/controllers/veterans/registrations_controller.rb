@@ -15,7 +15,7 @@ module Veterans
       @veteran = Veteran.new(veteran_params)
       if @veteran.save
         send_notifications
-        redirect_to profile_url(@veteran), notice: 'Thanks for signing up!'
+        redirect_to :root, notice: 'Thanks for signing up! Please check your email to log in.'
       else
         render :new
       end
@@ -23,6 +23,7 @@ module Veterans
 
     private
 
+    # TODO: move this to the veteran (mentor?) model
     def set_mentor_types
       @mentor_types = %w(Ruby/Rails Javascript Mobile Not\ Sure)
     end
