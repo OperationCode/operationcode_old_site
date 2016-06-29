@@ -4,14 +4,10 @@ class VeteransController < ApplicationController
   before_action :authenticate_veteran!, only: [:profile]
   before_filter :send_to_home, except: [:new, :map, :profile]
 
-  # GET /veterans
-  # GET /veterans.json
   def index
     @veterans = Veteran.all
   end
 
-  # GET /veterans/1
-  # GET /veterans/1.json
   def show
   end
 
@@ -19,12 +15,9 @@ class VeteransController < ApplicationController
     @veteran = current_veteran
   end
 
-  # GET /veterans/1/edit
   def edit
   end
 
-  # PATCH/PUT /veterans/1
-  # PATCH/PUT /veterans/1.json
   def update
     if @veteran.update(veteran_params)
       redirect_to @veteran, notice: 'Veteran was successfully updated.'
@@ -33,8 +26,6 @@ class VeteransController < ApplicationController
     end
   end
 
-  # DELETE /veterans/1
-  # DELETE /veterans/1.json
   def destroy
     @veteran.destroy
     redirect_to veterans_url, notice: 'Veteran was successfully destroyed.'
