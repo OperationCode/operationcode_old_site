@@ -15,7 +15,8 @@ module Veterans
       @veteran = Veteran.new(veteran_params)
       if @veteran.save
         send_notifications
-        redirect_to :root, notice: 'Thanks for signing up! Please check your email to log in.'
+        sign_in @veteran
+        redirect_to :profile, notice: 'Thanks for signing up! Please check your email to log in.'
       else
         render :new
       end
