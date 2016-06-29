@@ -1,6 +1,6 @@
 module Veterans
   class RegistrationsController < Devise::RegistrationsController
-    before_action :set_mentor_types, only: [:new, :create, :edit]
+    before_action :set_mentor_types, only: [:new, :create, :edit, :update]
 
     # GET /resource/sign_up
     def new

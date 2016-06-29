@@ -9,7 +9,7 @@ class MailchimpInviterJob < ActiveJob::Base
         email_address: email,
         status: 'subscribed',
         merge_fields: { FNAME: first_name, LNAME: last_name }
-        }
-     )
+      }
+    )
   end
 end
