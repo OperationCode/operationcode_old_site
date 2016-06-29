@@ -1,18 +1,24 @@
 module Veterans
   class RegistrationsController < Devise::RegistrationsController
-    before_action :set_mentor_types, only: [:new, :create, :edit, :update]
+    before_action :set_mentor_types
 
-    # GET /resource/sign_up
     def new
-      @mentor_types = []
       super
     end
 
     def edit
       @veteran = current_veteran
-      Rails.logger.info "VETERAN: #{current_veteran.inspect}"
-
       super
+    end
+
+    def create
+      @veteran = Veteran.new(veteran_params)
+      if @veteran.save
+        send_notifications
+        redirect_to profile_url(@veteran), notice: 'Thanks for signing up!'
+      else
+        render :new
+      end
     end
 
     private
@@ -39,6 +45,15 @@ module Veterans
       @veteran.send_slack_invitation
       @veteran.send_mentor_request unless veteran_params[:request_mentor].blank?
       @veteran.add_to_mailchimp
+    end
+
+    # Disables requiring a password to edit your profile
+    def update_resource(resource, params)
+      resource.update_without_password(params)
+    end
+
+    def after_update_path_for(_resource)
+      profile_path
     end
   end
 end

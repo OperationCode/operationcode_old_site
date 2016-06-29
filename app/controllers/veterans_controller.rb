@@ -1,8 +1,7 @@
 class VeteransController < ApplicationController
   before_action :set_veteran, only: [:show, :edit, :update, :destroy]
-  before_action :set_mentor_types, only: [:new]
   before_action :authenticate_veteran!, only: [:profile]
-  before_filter :send_to_home, except: [:new, :map, :profile]
+  before_filter :send_to_home, except: [:map, :profile]
 
   def index
     @veterans = Veteran.all
