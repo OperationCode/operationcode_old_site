@@ -2,7 +2,7 @@
 require 'slack/utils'
 
 describe Slack::Utils do
-  # Set up Sclack::Client
+  # Set up Slack::Client
   before(:all) do
     @slack_utils = Slack::Utils.new
   end

@@ -17,4 +17,3 @@
 //= require jquery.slides.min
 //= require leaflet
 //= require veterans
-

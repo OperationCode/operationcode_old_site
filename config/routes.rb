@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  devise_for :veterans, controllers: { registrations: 'veterans/registrations' }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  get :profile, to: 'veterans#profile'
   get '/veterans/map', to: 'veterans#map'
-  resources :veterans
+  resources :veterans, only: [:new, :create]
+
   resources :donations, only: [:index, :new, :create]
 
   get 'about' => 'pages#about'
