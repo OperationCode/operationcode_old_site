@@ -1,7 +1,5 @@
 module Veterans
   class RegistrationsController < Devise::RegistrationsController
-    before_action :set_mentor_types
-
     def new
       super
     end
@@ -24,11 +22,6 @@ module Veterans
 
     private
 
-    # TODO: move this to the veteran (mentor?) model
-    def set_mentor_types
-      @mentor_types = %w(Ruby/Rails Javascript Mobile Not\ Sure)
-    end
-
     def veteran_params
       params.require(:veteran).permit(
         :first_name,
@@ -38,14 +31,15 @@ module Veterans
         :service_branch,
         :request_mentor,
         :password,
-        :password_confirmation
+        :password_confirmation,
+        :wants_mentor
       )
     end
 
     def send_notifications
       UserMailer.welcome(@veteran).deliver_now
       @veteran.send_slack_invitation
-      @veteran.send_mentor_request unless veteran_params[:request_mentor].blank?
+      @veteran.send_mentor_request if veteran_params[:wants_mentor]
       @veteran.add_to_mailchimp
     end
 
