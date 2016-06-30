@@ -50,13 +50,7 @@
 
     <div class="form-group">
       <div class="col-md-6">
-        <%= select_tag(:veteran_request_mentor,
-                     options_for_select(@mentor_types),
-                     include_blank: 'No Thanks',
-                     name: 'veteran[request_mentor]',
-                     prompt: 'request a mentor',
-                     class: 'form-control')
-        %>
+        <%= f.check_box :wants_mentor %> Have a mentor contact me
       </div>
     </div>
 

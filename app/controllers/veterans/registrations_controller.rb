@@ -1,7 +1,5 @@
 module Veterans
   class RegistrationsController < Devise::RegistrationsController
-    before_action :set_mentor_types
-
     def new
       super
     end
@@ -24,11 +22,6 @@ module Veterans
 
     private
 
-    # TODO: move this to the veteran (mentor?) model
-    def set_mentor_types
-      @mentor_types = %w(Ruby/Rails Javascript Mobile Not\ Sure)
-    end
-
     def veteran_params
       params.require(:veteran).permit(
         :first_name,
@@ -38,7 +31,8 @@ module Veterans
         :service_branch,
         :request_mentor,
         :password,
-        :password_confirmation
+        :password_confirmation,
+        :wants_mentor
       )
     end
 
