@@ -46,8 +46,7 @@ class Veteran < ActiveRecord::Base
   end
 
   def send_mentor_request
-    message = "A new user (#{first_name} #{last_name} <#{email}>) "\
-      "has requested a mentor in the following area: #{request_mentor}"
+    message = "A new user (#{first_name} #{last_name} <#{email}>) has requested a mentor."
     SlackNotifierJob.perform_later(message, channel: 'mentors')
   end
 

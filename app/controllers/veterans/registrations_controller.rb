@@ -39,7 +39,7 @@ module Veterans
     def send_notifications
       UserMailer.welcome(@veteran).deliver_now
       @veteran.send_slack_invitation
-      @veteran.send_mentor_request unless veteran_params[:request_mentor].blank?
+      @veteran.send_mentor_request unless veteran_params[:wants_mentor].blank?
       @veteran.add_to_mailchimp
     end
 
