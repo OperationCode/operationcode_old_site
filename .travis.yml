@@ -13,6 +13,8 @@ deploy:
   app: opcod3
   on:
     repo: OperationCode/operationcode
+  run:
+    "rake db:migrate"
 notifications:
   slack:
     secure: iT5O6nPXUfThuPLhLXY1q6iNPrJfXxwv78ZynDiZZ2HjUqk98F7LTLY4dAXabbPL2w4hY9YcE8gTXch5n+eyjIaCSNHiR6VMJuxdhiw7uolAy5F71rEMyhNmZbe7X+lqNTp5GpoBUU2oCrT3Hh30lE8Z3c1XrQ+hvm0vh7Y1hXs=
