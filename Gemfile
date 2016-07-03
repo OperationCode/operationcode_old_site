@@ -43,25 +43,26 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'shareable'
 gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
-gem 'skylight'
 gem 'figaro' #app configuration using ENV variables and a single YAML file
 gem 'jekyll' #blogging gem
 gem 'gibbon' #API wrapper for the Mailchimp API
 gem 'google-analytics-rails', '1.1.0'
 gem 'geocoder'
+gem 'carmen'
 
 #####################
 # Development Tools #
 #####################
 
 group :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
   gem 'capybara'
   gem 'webmock'
+  gem 'minitest-rails'
 end
 
 group :development do
+  gem 'guard'
+  gem 'guard-minitest'
   gem 'quiet_assets'
   gem 'pry-byebug'
   gem 'pry-rails'

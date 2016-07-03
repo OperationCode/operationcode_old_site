@@ -97,6 +97,8 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    carmen (1.0.2)
+      activesupport (>= 3.0.0)
     coderay (1.1.1)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -119,17 +121,11 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    diff-lcs (1.2.5)
     domain_name (0.5.20160310)
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     eventmachine (1.2.0.1)
     execjs (2.6.0)
-    factory_girl (4.7.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (4.7.0)
-      factory_girl (~> 4.7.0)
-      railties (>= 3.0.0)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.10)
@@ -137,6 +133,7 @@ GEM
       thor (~> 0.14)
     font-awesome-rails (4.6.2.0)
       railties (>= 3.2, < 5.1)
+    formatador (0.2.5)
     formtastic (3.1.4)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -151,6 +148,19 @@ GEM
     google-analytics-rails (1.1.0)
     google-webfonts-rails (0.0.4)
       activesupport (> 3.2.0, < 5.0)
+    guard (2.14.0)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, < 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-minitest (2.4.5)
+      guard-compat (~> 1.2)
+      minitest (>= 3.0)
     has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
@@ -205,6 +215,7 @@ GEM
       rb-inotify (>= 0.9.7)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
+    lumberjack (1.0.10)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
     mercenary (0.3.6)
@@ -212,12 +223,19 @@ GEM
     mime-types (2.99.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
+    minitest-rails (2.2.1)
+      minitest (~> 5.7)
+      railties (~> 4.1)
     multi_json (1.12.0)
     multipart-post (2.0.0)
+    nenv (0.3.0)
     netrc (0.11.0)
     newrelic_rpm (3.15.2.317)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    notiffany (0.1.0)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
     orm_adapter (0.5.0)
     pg (0.18.4)
     polyamorous (1.3.0)
@@ -285,23 +303,6 @@ GEM
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
     rouge (1.10.1)
-    rspec-core (3.4.4)
-      rspec-support (~> 3.4.0)
-    rspec-expectations (3.4.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-mocks (3.4.1)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-rails (3.4.2)
-      actionpack (>= 3.0, < 4.3)
-      activesupport (>= 3.0, < 4.3)
-      railties (>= 3.0, < 4.3)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
     safe_yaml (1.0.4)
     sass (3.2.19)
     sass-rails (4.0.5)
@@ -312,12 +313,11 @@ GEM
     shareable (1.1.4)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    shellany (0.0.1)
     sidekiq (4.1.2)
       concurrent-ruby (~> 1.0)
       connection_pool (~> 2.2, >= 2.2.0)
       redis (~> 3.2, >= 3.2.1)
-    skylight (0.10.3)
-      activesupport (>= 3.0.0)
     slop (3.6.0)
     spring (1.7.1)
     sprockets (2.12.4)
@@ -369,9 +369,9 @@ DEPENDENCIES
   binding_of_caller
   bootstrap-sass
   capybara
+  carmen
   coffee-rails (~> 4.0.0)
   devise (= 3.4.1)
-  factory_girl_rails
   figaro
   font-awesome-rails
   geocoder
@@ -379,12 +379,15 @@ DEPENDENCIES
   github-markup (~> 1.2.1)
   google-analytics-rails (= 1.1.0)
   google-webfonts-rails
+  guard
+  guard-minitest
   jbuilder (~> 2.0)
   jekyll
   jquery-rails
   jquery-turbolinks
   leaflet-rails
   letter_opener
+  minitest-rails
   newrelic_rpm
   pg
   pry-byebug
@@ -393,11 +396,9 @@ DEPENDENCIES
   railroady
   rails (= 4.2.2)
   rails_12factor
-  rspec-rails
   sass-rails (~> 4.0.3)
   shareable
   sidekiq
-  skylight
   spring
   sprockets-rails (~> 2.0)
   stripe!
@@ -406,6 +407,9 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   webmock
   xray-rails
+
+RUBY VERSION
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.4
