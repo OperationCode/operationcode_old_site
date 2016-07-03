@@ -10,9 +10,9 @@ class CodeSchoolsTest < ActiveSupport::TestCase
     assert_raises { CodeSchooles.new('/a/non/existent/path') }
   end
 
-  test 'it returns va approved schools' do
+  test 'it returns schools that accept gi bill schools' do
     c = CodeSchools.new(Rails.root + 'test/support/code_schools/va_approved.yml')
-    assert_equal 1, c.va_approved.count
+    assert_equal 1, c.va_accepted.count
   end
 
   test 'it returns schools by state alphabetically' do

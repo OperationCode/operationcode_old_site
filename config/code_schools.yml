@@ -1,9 +1,10 @@
+# State must be the 2 character abbreviation
 - name: Dev Bootcamp SF
   url:  http://devbootcamp.com
   address1: blah 1
   address2: blah 2
   city: San Francisco
-  state: CA
+  state: California
   zip: 94107
   notes: $500 Scholarships available for Veterans
   va_accepted: true

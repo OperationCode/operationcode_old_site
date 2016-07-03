@@ -12,7 +12,11 @@
         <div class="panel-heading" role="tab" id="headingOne">
           <h4 class="panel-title">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_<%= state[0] %>" aria-expanded="true" aria-controls="collapseOne">
+            <% if state[0].length > 3 %>
+              <%= state[0] %>
+            <% else %>
               <%= @country.subregions.coded(state[0]) %>
+            <% end %>
             </a>
           </h4>
         </div>
