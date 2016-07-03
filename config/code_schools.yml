@@ -398,3 +398,12 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+
+- name: The Guild of Software Architects
+  address1: 6170 Research Rd, Suite 107
+  city: Frisco
+  state: TX
+  zip: 75033
+  va_accepted: false
+  full_time: true
+  hardware_included: false
