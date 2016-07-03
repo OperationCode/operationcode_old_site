@@ -1,0 +1,4 @@
+- name: Approved School
+  va_approved: true
+- name: Not Approved School
+  va_approved: false

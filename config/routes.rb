@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   resources :donations, only: [:index, :new, :create]
 
+  get '/code_schools', to: 'code_schools#index'
+
   get 'about' => 'pages#about'
   get 'deploy' => 'pages#deploy'
   get 'board' => 'pages#board'

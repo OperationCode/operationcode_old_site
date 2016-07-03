@@ -1,0 +1,31 @@
+<div class='container'>
+  <div class='row' style='margin-top: 70px;'>
+    <h3>VA Approved Schools</h3>
+    <% @va_accepted_code_schools.each do |school| %>
+      <%= render partial: 'code_school', locals: { school: school } %>
+    <% end %>
+
+    <h3>By State</h3>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <% @code_schools_by_state.each do |state| %>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_<%= state[0] %>" aria-expanded="true" aria-controls="collapseOne">
+              <%= @country.subregions.coded(state[0]) %>
+            </a>
+          </h4>
+        </div>
+        <div id="collapse_<%= state[0] %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            <% state[1].each do |school| %>
+              <%= render partial: 'code_school', locals: { school: school } %>
+              <hr />
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    </div>
+  </div>
+</div>

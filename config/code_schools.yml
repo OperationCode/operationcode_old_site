@@ -1,0 +1,32 @@
+- name: Dev Bootcamp SF
+  url:  http://devbootcamp.com
+  address1: blah 1
+  address2: blah 2
+  city: San Francisco
+  state: CA
+  zip: 94107
+  notes: $500 Scholarships available for Veterans
+  va_accepted: true
+  full_time: true
+  hardware_included: false
+
+- name: school 2
+  address1: blah 1
+  city: San Francisco
+  state: CA
+  zip: 94107
+  notes: $500 Scholarships available for Veterans
+  va_accepted: true
+  full_time: false
+  hardware_included: false
+
+- name: school 3
+  url:  http://devbootcamp.com
+  address1: blah 1
+  city: San Francisco
+  state: fl
+  zip: 94107
+  notes: $500 Scholarships available for Veterans
+  va_accepted: false
+  full_time: false
+  hardware_included: true
