@@ -32,7 +32,7 @@
       <%= content_tag(:div, msg, class: "alert alert-info") %>
     <% end %>
 
-    <% yield %>
+    <%= yield %>
 
     <%# render 'layouts/footer' %>
 
@@ -40,7 +40,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <script>
       $(document).ready(function(){
-        $(".dropdown-button").dropdown();
+        $(".dropdown-button").dropdown({beloworigin: true});
+        $(".slider").slider({height: 528, indicators: false});
       });
     </script>
   </body>

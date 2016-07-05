@@ -16,3 +16,14 @@
 nav ul li a {
   color: #777;
 }
+
+// Fix vertical alignment in main page slider
+.slider .slides li .caption {
+  color: #fff;
+  left: 15%;
+  opacity: 0;
+  position: absolute;
+  top: 40% !important;
+  width: 65%;
+  text-shadow: 1px 1px 7px #000000;
+}

@@ -9,6 +9,7 @@
   <li role="separator" class="divider"></li>
   <li><%= link_to 'TAP Briefing', "http://operationcode.github.io/tap-deck" %></li>
 </ul>
+
 <ul id="programs-and-services" class="dropdown-content">
   <li><%= link_to 'Software Mentorship', mentorship_path %></li>
   <li><%= link_to 'Scholarships', scholarships_path %></li>
@@ -24,14 +25,17 @@
       <%= link_to image_tag('operationcode_logo.svg'), root_path, class: 'brand-logo'%>
 
       <ul class="right hide-on-med-and-down">
-        <li class='grey-text'><a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="programs-and-services">Programs And Services<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li class='grey-text'><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="programs-and-services">Programs And Services<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><%= link_to 'Blog', blog_path %></li>
-        <li><%= link_to 'Github', 'http://github.com' %></li>
         <li><%= link_to 'Donate', donate_path %></li>
-        <li><%= link_to 'Join', new_veteran_registration_path %></li>
+        <% if veteran_signed_in? %>
+          <li><%= link_to 'Profile', profile_path %></li>
+          <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
+        <% else %>
+          <li><%= link_to 'Join', new_veteran_registration_path %></li>
+        <% end %>
       </ul>
-
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#">Navbar Link</a></li>
@@ -40,43 +44,3 @@
     </div>
   </nav>
 </div>
-<!-- Fixed navbar -->
-<!--<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs & Services <span class="caret"></span></a>
-        </li>
-
-        <% if veteran_signed_in? %>
-          <li class="active"><%= link_to 'Profile', profile_path %></li>
-          <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
-        <% else %>
-          <li class="active"><%= link_to 'Join', new_veteran_registration_path %></li>
-        <% end %>
-
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://medium.com/operation-code">Blog</a></li>
-        <li><a href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md">GitHub</a></li>
-        <li class="active"><a href="/donate">Donate <span class="sr-only">(current)</span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>-->

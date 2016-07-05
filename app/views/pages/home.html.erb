@@ -4,7 +4,57 @@ through scholarships and mentorship while putting a dent in the nation's
 technical talent shortage. -->
 
 <!-- Landing section showing slides of what OC is about -->
-<div id="wrap">
+
+<div class="section no-pad-top" id="index-banner">
+  <div class="slider">
+    <ul class="slides">
+      <li class="valign-wrapper">
+        <%= image_tag 'gi-bill.jpg' %>
+        <div class="caption center-align valign">
+          <h3>
+            Welcome back. You served your country.<br />
+            Now let's get you coding and to your next mission.
+          </h3>
+        </div>
+      </li>
+      <li class="valign-wrapper">
+        <%= image_tag 'mentorship.jpg' %>
+        <div class="caption center-align valign">
+          <h3>
+            Those who've served shouldn't learn to code alone. Our software mentorship program in a 
+            peer-to-peer, safe learning environment gets you coding today.
+          </h3>
+        </div>
+      </li>
+      <li class="valign-wrapper">
+        <%= image_tag 'scholarship.jpg' %>
+        <div class="caption center-align valign">
+          <h3>
+            Expanding our country's technical talent shortage with our nation's finest who can code. Service to country continues.
+          </h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+  <br><br>
+  <h1 class="header center orange-text">The fastest way for military, veterans and their families to get coding.</h1>
+  <div class="row center">
+    <h5 class="header col s12 light">
+      Veteran-founded and led, our military veterans community of coders and volunteer software developers can help you get unstuck,
+      learn a new programming language and contributing to open source software in no time.
+    </h5>
+  </div>
+  <div class="row center">
+    <%= link_to 'Join now and get coding', new_veteran_registration_path, class: 'btn-larg waves-effect waves-light orange' %>
+  </div>
+  <br><br>
+
+</div>
+
+<!--<div id="wrap">
   <div id="video">
     <div id="slides">
       <li>
@@ -14,21 +64,16 @@ technical talent shortage. -->
             Now let's get you coding and to your next mission.
           </h1>
         </div>
-        <img src="/assets/gi-bill.jpg">
       </li>
       <li>
-        <img src="/assets/mentorship.jpg">
         <div id="overlay">
           <h1 class="small-screen-h2">
-            Those who've served shouldn't learn to code alone. Our software mentorship program in a peer-to-peer, safe learning environment gets you coding today.
           </h1>
         </div>
       </li>
       <li>
-        <img src="/assets/scholarship.jpg">
         <div id="overlay">
           <h1 class="small-screen-h2">
-            Expanding our country's technical talent shortage with our nation's finest who can code. Service to country continues.
           </h1>
         </div>
       </li>
@@ -270,4 +315,4 @@ technical talent shortage. -->
       fade: {speed: 500}
     }
   });
-</script>
+</script>-->
