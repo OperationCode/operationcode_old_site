@@ -7,7 +7,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Alex Kaufman](https://github.com/alexkaufman06)
 * [Chris Hough](https://github.com/chrishough)
 * [Chris Kibble](https://github.com/ckib16)
-* [Conrad Holloman](https://github.com/hollomancer)
+* [Conrad Hollomon](https://github.com/hollomancer)
 * [David Molina](https://github.com/davidmolina)
 * [Duane Moody](https://github.com/dmmoody)
 * [Eric McKenna](https://github.com/emckenna)

@@ -1,8 +1,8 @@
 ---
-title:  Meet CodeConf LA Attendee, Conrad Holloman
+title:  Meet CodeConf LA Attendee, Conrad Hollomon
 date:   2016-06-27
 tags:   News
-author: Conrad Holloman
+author: Conrad Hollomon
 layout: post
 ---
 
