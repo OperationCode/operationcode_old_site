@@ -29,3 +29,23 @@ nav ul li a {
   width: 65%;
   text-shadow: 1px 1px 7px #000000;
 }
+
+// Hacks to use fa icons with materialize
+i.fa.medium {
+  font-size: 3.5rem;
+  line-height: 135%;
+}
+
+.fa {
+  -moz-osx-font-smoothing: grayscale;
+  direction: ltr;
+  display: inline-block;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+}
