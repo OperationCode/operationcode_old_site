@@ -49,3 +49,8 @@ i.fa.medium {
   white-space: nowrap;
   word-wrap: normal;
 }
+
+
+$opcode-green: #26a69a;
+.opcode-green { background-color: $opcode-green };
+.opcode-green-text { color: $opcode-green };
