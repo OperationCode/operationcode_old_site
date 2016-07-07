@@ -17,7 +17,6 @@ Rails.application.routes.draw do
   get 'contact' => 'pages#contact'
   get 'calendar' => 'pages#calendar'
   get 'sponsors' => 'pages#sponsors'
-  get 'codeschools' => 'pages#codeschools'
   get 'employers' => 'pages#employers'
   get 'events' => 'pages#events'
   get 'faq' => 'pages#faq'
