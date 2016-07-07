@@ -1,57 +1,46 @@
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <%= link_to image_tag('operationcode_logo.svg'),root_path, class: 'navbar-brand'%>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/history">History</a></li>
-            <li><a href="/about">About Operation Code</a></li>
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/press">Press</a></li>
-            <li><a href="/board">Staff & Board</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="/sponsors">Sponsors</a></li>
-            <li><a href="http://operationcode.github.io/tap-deck">TAP Briefing</a></li>
-          </ul>
-        </li>
+<ul id="about" class="dropdown-content">
+  <li><%= link_to 'History', history_path %></li>
+  <li><%= link_to 'About Operation Code', about_path %></li>
+  <li><%= link_to 'FAQ', faq_path %></li>
+  <li class="divider"></li>
+  <li><%= link_to 'Press', press_path %></li>
+  <li><%= link_to 'Staff & Board', board_path %></li>
+  <li><%= link_to 'Sponsors', sponsors_path %></li>
+  <li role="separator" class="divider"></li>
+  <li><%= link_to 'TAP Briefing', "http://operationcode.github.io/tap-deck" %></li>
+</ul>
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs & Services <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/mentorship">Software Mentorship</a></li>
-            <li><a href="/scholarships">Scholarships</a></li>
-            <li><a href="/employers">Employer Services</a></li>
-            <li><a href="/deploy">Deploy</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="/codeschools">Code Schools</a></li>
-          </ul>
-        </li>
+<ul id="programs-and-services" class="dropdown-content">
+  <li><%= link_to 'Software Mentorship', mentorship_path %></li>
+  <li><%= link_to 'Scholarships', scholarships_path %></li>
+  <li><%= link_to 'Empoyer Services', employers_path %></li>
+  <li><%= link_to 'Deploy', deploy_path %></li>
+  <li role="separator" class="divider"></li>
+  <li><%= link_to 'Code Schools', code_schools_path %></li>
+</ul>
 
+<div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <%= link_to image_tag('operationcode_logo.svg'), root_path, class: 'brand-logo'%>
+
+      <ul class="right hide-on-med-and-down">
+        <li class='grey-text'><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="programs-and-services">Programs And Services<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
+        <li><%= link_to 'Donate', donate_path %></li>
         <% if veteran_signed_in? %>
-          <li class="active"><%= link_to 'Profile', profile_path %></li>
+          <li><%= link_to 'Profile', profile_path %></li>
           <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
         <% else %>
-          <li class="active"><%= link_to 'Join', new_veteran_registration_path %></li>
+          <li><%= link_to 'Join', new_veteran_registration_path %></li>
         <% end %>
-
       </ul>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://medium.com/operation-code">Blog</a></li>
-        <li><a href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md">GitHub</a></li>
-        <li class="active"><a href="/donate">Donate <span class="sr-only">(current)</span></a></li>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
       </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>

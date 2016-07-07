@@ -1,7 +1,6 @@
 <div class='container'>
-  <div class='row' style='margin-top: 70px;'>
-
-    <h2>Code Schools</h2>
+  <div class='row'>
+    <h3>Code Schools</h3>
     <p>
       Code Schools, coding bootcamps, vocational schools for aspiring programmers are the
       modern day Ford training plants uniquely designed to teach you to start writing software
@@ -17,35 +16,30 @@
       New GI Bill. Don't see your code school? <%= link_to 'PRs welcome', 'https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md' %>.
     </p>
 
-    <h3>VA Approved Schools</h3>
+    <h4>VA Approved Schools</h4>
     <% @va_accepted_code_schools.each do |school| %>
       <%= render partial: 'code_school', locals: { school: school } %>
     <% end %>
 
-    <h3>By State</h3>
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <h4>By State</h4>
+    <ul class="collapsible" data-collapsible="accordion">
     <% @code_schools_by_state.each do |state| %>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingOne">
-          <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_<%= state[0] %>" aria-expanded="true" aria-controls="collapseOne">
-            <% if state[0].length > 3 %>
-              <%= state[0] %>
-            <% else %>
-              <%= @country.subregions.coded(state[0]) %>
-            <% end %>
-            </a>
-          </h4>
+      <li>
+        <div class="collapsible-header">
+        <% if state[0].length > 3 %>
+          <%= state[0] %>
+        <% else %>
+          <%= @country.subregions.coded(state[0]) %>
+        <% end %>
         </div>
-        <div id="collapse_<%= state[0] %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="panel-body">
-            <% state[1].each do |school| %>
+        <div class="collapsible-body">
+          <% state[1].each do |school| %>
+            <ul class='collection with-header'>
               <%= render partial: 'code_school', locals: { school: school } %>
-              <hr />
-            <% end %>
-          </div>
+            </ul>
+          <% end %>
         </div>
-      </div>
+      </li>
     <% end %>
     </div>
   </div>

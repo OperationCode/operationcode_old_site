@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :veterans, controllers: { registrations: 'veterans/registrations' }
+  devise_for :veterans, controllers: { registrations: 'veterans/registrations', sessions: 'veterans/sessions' }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
@@ -17,7 +17,6 @@ Rails.application.routes.draw do
   get 'contact' => 'pages#contact'
   get 'calendar' => 'pages#calendar'
   get 'sponsors' => 'pages#sponsors'
-  get 'codeschools' => 'pages#codeschools'
   get 'employers' => 'pages#employers'
   get 'events' => 'pages#events'
   get 'faq' => 'pages#faq'
@@ -36,7 +35,6 @@ Rails.application.routes.draw do
   get 'speakerrequest' => 'pages#speakerrequest'
   get 'successes' => 'pages#successes'
   get 'action' => 'veterans#new'
-  get 'blog' => 'pages#blog'
 
   get '/contact' => redirect('mailto:david@operationcode.org')
   get '/flatiron' => redirect('https://learn.co/learn-together')
@@ -45,7 +43,9 @@ Rails.application.routes.draw do
   get '/learn' => redirect('/online')
   get '/contribute' => redirect('https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md')
   get '/news' => redirect('/newgibill')
-  get '/join' => redirect('/action')
+
+  # /blog is still being served by jekyll
+  get '/blog' => redirect('https://medium.com/operation-code')
 
   root 'pages#home'
 end
