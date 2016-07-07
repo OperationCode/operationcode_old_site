@@ -1,0 +1,21 @@
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div class='row'>
+    <div class='input-field col m6 offset-m3'>
+      <%= f.email_field :email, autofocus: true, placeholder: 'email' %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class='input-field col m6 offset-m3'>
+      <%= f.password_field :password, autocomplete: "off", placeholder: 'password' %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col m6 offset-m3">
+      <%= f.submit "Login", class: 'btn btn-lg' %>
+    </div>
+  </div>
+<% end %>

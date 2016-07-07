@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :veterans, controllers: { registrations: 'veterans/registrations' }
+  devise_for :veterans, controllers: { registrations: 'veterans/registrations', sessions: 'veterans/sessions' }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
