@@ -544,3 +544,15 @@ div#profile-container figcaption {
 .value { width: 70%; }
 
 //=========================================== apprentice profiles END
+#cta {
+  background: #d4d4d4 url("code_background.jpg") repeat scroll 0 0;
+  color: #fff;
+  margin-bottom: 50px;
+  padding: 40px;
+}
+
+div#profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
