@@ -1,97 +1,90 @@
 <%= form_for @donation, :html => { :id => 'payment-form', class: "form-horizontal" } do |f| %>
-
-  <div class="form-group">
-    <div class="col-md-6">
-      <h3>Enter an Amount</h3>
-      <hr>
+  <div class='col m12'>
+    <div class='row'>
+      <div class="col m8">
+        <h5>Enter an Amount</h5>
+        <hr>
+      </div>
     </div>
-  </div>
-
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="amount">Donation Amount:</label></br>
-      <%= f.text_field :amount, id: "amount", :placeholder => "100.00, 50.00, 25.00. Please do not put a $ sign.", class: 'form-control', required: 'required' %>
+    <div class='row'>
+      <div class="col m8 input-field">
+        <label for="amount">Donation Amount:</label></br>
+        <%= f.text_field :amount, id: "amount", :placeholder => "100.00, 50.00, 25.00. Please do not put a $ sign.", class: 'form-control', required: 'required' %>
+     </div>
     </div>
-  </div>
-
-  <div class="form-group">
-    <div class="col-md-6">
-      <h3>Your Information</h3>
-      <hr>
+    <div class='row'>
+      <div class="col m8 input-field">
+        <h5>Your Information</h5>
+        <hr>
+      </div>
     </div>
-  </div>
 
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="name">First Name:</label>
-      <%= f.text_field :first_name, id: "first_name", :placeholder => "John", class: 'form-control' %>
+    <div class='row'>
+      <div class="col m8 input-field">
+        <label for="name">First Name:</label>
+        <%= f.text_field :first_name, id: "first_name", :placeholder => "John", class: 'form-control' %>
+      </div>
     </div>
-  </div>
 
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="name">Last Name:</label>
-      <%= f.text_field :last_name, id: "last_name", :placeholder => "Doe", class: 'form-control' %>
+
+    <div class='row'>
+      <div class="col m8 input-field">
+        <label for="name">Last Name:</label>
+        <%= f.text_field :last_name, id: "last_name", :placeholder => "Doe", class: 'form-control' %>
+      </div>
     </div>
-  </div>
 
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="email">Email:</label>
-      <%= f.text_field :email, id: "email", :placeholder => "you@example.com", class: 'form-control', required: 'required' %>
+    <div class='row'>
+      <div class="col m8 input-field">
+        <label for="email">Email:</label>
+        <%= f.text_field :email, id: "email", :placeholder => "you@example.com", class: 'form-control', required: 'required' %>
+      </div>
     </div>
-  </div>
 
-  <div class="form-group">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col m8">
         <h3>Payment Details</h3>
       </div>
-      <div class="col-md-4">
+      <div class="col m2">
         <img src="https://ssl.comodo.com/images/comodo_secure_113x59_white.png" alt="SSL Certificate" width="113" height="59" style="border: 0px;">
       </div>
     </div>
     <hr>
-  </div>
 
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="email">Card Number:</label>
-      <input id="number" class='form-control' type="text" required="required" size="20" data-stripe="number" placeholder="**** **** **** ****" pattern="[\d ]*">
+    <div class='row'>
+      <div class="col m6 input-field">
+        <label for="email">Card Number:</label>
+        <input id="number" class='form-control' type="text" required="required" size="20" data-stripe="number" placeholder="**** **** **** ****" pattern="[\d ]*">
+      </div>
+
+      <div class="col m6 input-field">
+        <label for="cvc">CVC:</label>
+        <input id="cvc" class='form-control' type="text" name="cvc" data-stripe="cvc" placeholder="***" required="required" pattern="\d*"/>
+      </div>
+
+      <div class="col m6 input-field">
+        <label for="exp-month">EXP&nbsp;(MM):</label>
+        <input id="exp-month" class='form-control' data-stripe="exp-month" placeholder="MM" required="required" size="2" pattern="\d*"/>
+      </div>
+
+      <div class="col m6 input-field">
+        <label for="exp=year">(YYYY):</label>
+        <input id="exp-year" class='form-control' data-stripe="exp-year" placeholder="YYYY" size="4" required="required" pattern="\d*"/>
+      </div>
     </div>
-  </div>
 
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="cvc">CVC:</label>
-      <input id="cvc" class='form-control' type="text" name="cvc" data-stripe="cvc" placeholder="***" required="required" pattern="\d*"/>
+    <div class='row'>
+      <div class="col m6 input-field">
+        <button type="submit">Donate with Stripe</button>
+      </div>
     </div>
-  </div>
 
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="exp-month">EXP&nbsp;(MM):</label>
-      <input id="exp-month" class='form-control' data-stripe="exp-month" placeholder="MM" required="required" size="2" pattern="\d*"/>
+    <div class='row'>
+      <p>Please refer to your email inbox for your tax receipt documenting our EIN, and amount donated. Thank you!</p>
     </div>
+    <% end %>
   </div>
-
-  <div class="form-group">
-    <div class="col-md-6">
-      <label for="exp=year">(YYYY):</label>
-      <input id="exp-year" class='form-control' data-stripe="exp-year" placeholder="YYYY" size="4" required="required" pattern="\d*"/>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <div class="col-md-6">
-      <button type="submit">Donate with Stripe</button>
-    </div>
-  </div>
-
-    <p>Please refer to your email inbox for your tax receipt documenting our EIN, and amount donated. Thank you!</p>
-
-<% end %>
-
+</div>
 
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 
@@ -99,26 +92,24 @@
   $(function(){
     Stripe.setPublishableKey('<%= Rails.configuration.stripe[:publishable_key] %>');
 
-  $('#payment-form').submit(function(event) {
-    var $form = $(this);
-    $form.find('button').prop('disabled', true);
+    $('#payment-form').submit(function(event) {
+      var $form = $(this);
+      $form.find('button').prop('disabled', true);
 
-    Stripe.card.createToken($form, stripeResponseHandler);
-    return false;
-  });
+      Stripe.card.createToken($form, stripeResponseHandler);
+      return false;
+    });
 
-  function stripeResponseHandler(status, response) {
-    var $form = $('#payment-form');
-    if (response.error) {
-      $form.find('.payment-errors').text(response.error.message);
-      $form.find('button').prop('disabled', false);
-    } else {
-      var token = response.id;
-      $form.append($('<input type="hidden" name="stripeToken">').val(token));
-      $form.get(0).submit();
+    function stripeResponseHandler(status, response) {
+      var $form = $('#payment-form');
+      if (response.error) {
+        $form.find('.payment-errors').text(response.error.message);
+        $form.find('button').prop('disabled', false);
+      } else {
+        var token = response.id;
+        $form.append($('<input type="hidden" name="stripeToken">').val(token));
+        $form.get(0).submit();
+      }
     }
-  }
-
   });
-
 </script>
