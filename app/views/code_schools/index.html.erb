@@ -17,9 +17,20 @@
     </p>
 
     <h4>VA Approved Schools</h4>
-    <% @va_accepted_code_schools.each do |school| %>
-      <%= render partial: 'code_school', locals: { school: school } %>
-    <% end %>
+    <ul class="collapsible" data-collapsible="accordion">
+      <% @va_accepted_code_schools.each do |school| %>
+        <li>
+          <div class="collapsible-header">
+            <%= link_to school['name'], school['url']  %>
+          </div>
+          <div class="collapsible-body">
+            <ul class='collection with-header'>
+              <%= render partial: 'code_school', locals: { school: school, show_header: false } %>
+            </ul>
+        <% end %>
+        </li>
+      </div>
+    </ul>
 
     <h4>By State</h4>
     <ul class="collapsible" data-collapsible="accordion">
