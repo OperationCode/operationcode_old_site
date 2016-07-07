@@ -40,7 +40,7 @@ module Veterans
     def send_notifications
       UserMailer.welcome(@veteran).deliver_now
       @veteran.send_slack_invitation
-      @veteran.send_mentor_request if veteran.wants_mentor
+      @veteran.send_mentor_request if @veteran.wants_mentor
       @veteran.add_to_mailchimp
     end
 
