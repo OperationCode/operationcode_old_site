@@ -400,6 +400,7 @@
   hardware_included: false
 
 - name: The Guild of Software Architects
+  url: https://guildsa.org/
   address1: 6170 Research Rd, Suite 107
   city: Frisco
   state: TX
