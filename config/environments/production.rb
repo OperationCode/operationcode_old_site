@@ -94,8 +94,10 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Separate Google Analytics tracker for each environment
-  GA.tracker = "UA-75642413-1"
+  GA.tracker = 'UA-75642413-1'
 
-  Rails.application.config.middleware.use ExceptionNotification::Rack,
-    slack: { :webhook_url => "https://hooks.slack.com/services/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" }
+  Rails.application.config.middleware.use(
+    ExceptionNotification::Rack,
+    slack: { webhook_url: 'https://hooks.slack.com/services/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' }
+  )
 end
