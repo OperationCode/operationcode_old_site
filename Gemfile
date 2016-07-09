@@ -58,6 +58,7 @@ group :test do
   gem 'capybara'
   gem 'webmock'
   gem 'minitest-rails'
+  gem "codeclimate-test-reporter"
 end
 
 group :development do
