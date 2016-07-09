@@ -10,7 +10,7 @@ require 'minitest/rails'
 # to the test group in the Gemfile and uncomment the following:
 # require 'minitest/rails/capybara'
 
-class ActiveSupport
+module ActiveSupport
   class TestCase
     # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
     fixtures :all
