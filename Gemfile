@@ -49,6 +49,8 @@ gem 'gibbon' #API wrapper for the Mailchimp API
 gem 'google-analytics-rails', '1.1.0'
 gem 'geocoder'
 gem 'carmen'
+gem 'exception_notification'
+gem 'slack-notifier'
 
 #####################
 # Development Tools #
