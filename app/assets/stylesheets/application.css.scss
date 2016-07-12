@@ -54,3 +54,12 @@ i.fa.medium {
 $opcode-green: #26a69a;
 .opcode-green { background-color: $opcode-green; }
 .opcode-green-text { color: $opcode-green; }
+
+.side-nav h6 {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 30px;
+}
