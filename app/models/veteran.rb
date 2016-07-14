@@ -21,9 +21,6 @@ class Veteran < ActiveRecord::Base
   validates :email, format: { with: EMAIL_REGEX,
                               message: 'Please provide a valid e-mail address' }
 
-  # Use STI, polymorphism here?
-  # belongs_to :mentor
-
   attr_accessor :request_mentor
 
   geocoded_by :zip
@@ -54,5 +51,9 @@ class Veteran < ActiveRecord::Base
     MailchimpInviterJob.perform_later(
       email: email, first_name: first_name, last_name: last_name
     )
+  end
+
+  def mentor?
+    false
   end
 end
