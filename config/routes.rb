@@ -3,12 +3,13 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
-  # Some useful aliases for our devise paths
   devise_scope :veteran do
     get :sign_up, to: 'veterans/registrations#new'
     get :join, to: 'veterans/registrations#new'
     get :login, to: 'veterans/sessions#new'
     get :sign_in, to: 'veterans/sessions#new'
+
+    get 'profile/edit', to: 'veterans/registrations#edit'
   end
 
   get :profile, to: 'veterans#profile'

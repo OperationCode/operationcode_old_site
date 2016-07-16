@@ -1,7 +1,6 @@
 class VeteransController < ApplicationController
-  before_action :set_veteran, only: [:show, :edit, :update, :destroy]
+  before_action :set_veteran, only: [:show, :update, :destroy]
   before_action :authenticate_veteran!, only: [:profile]
-  before_filter :send_to_home, except: [:map, :profile]
 
   def index
     @veterans = Veteran.all
@@ -35,10 +34,6 @@ class VeteransController < ApplicationController
   end
 
   private
-
-  def send_to_home
-    redirect_to action_path
-  end
 
   # Use callbacks to share common setup or constraints between actions.
   def set_veteran
