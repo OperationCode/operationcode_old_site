@@ -1,64 +1,70 @@
-<div class="container">
-  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-    <%= devise_error_messages! %>
+<div class="row">
+  <div class="col s12 m6 offset-m3">
+    <div class="card-panel">
+      <span class="card-title"><h4>Sign Up</h4></span>
 
-    <div class='row'>
-      <div class='input-field col m6'>
-        <%= f.email_field :email, autofocus: true, placeholder: 'email' %>
-      </div>
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
+
+        <div class='row'>
+          <div class='input-field col m12'>
+            <%= f.email_field :email, autofocus: true, placeholder: 'email' %>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class='input-field col m12'>
+            <% if @validatable %>
+            <em>(<%= @minimum_password_length %> characters minimum)</em>
+            <% end %><br />
+            <%= f.password_field :password, autocomplete: "off", placeholder: 'password' %>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class='input-field col m12'>
+            <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: 'password confirmation' %>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="input-field col m12">
+             <%= f.text_field :first_name, placeholder: "first name", class: 'form-control' %>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col m12">
+            <%= f.text_field :last_name, placeholder: "last name", class: 'form-control' %>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col m12">
+            <%= f.select :service_branch, service_branches, {include_blank: true, prompt: 'branch of service'}, {class: 'form-control'} %>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col m12">
+            <%= f.text_field :zip, placeholder: "zip code", class: 'form-control' %>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col m12">
+            <%= f.check_box :wants_mentor, class: 'form-control' %> 
+            <label for='veteran_wants_mentor'>Have a mentor contact me</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m12">
+            <%= f.submit "I want to learn to code!", class: "btn btn-default" %>
+          </div>
+        </div>
+      <% end %>
     </div>
-
-    <div class="row">
-      <div class='input-field col m6'>
-        <% if @validatable %>
-        <em>(<%= @minimum_password_length %> characters minimum)</em>
-        <% end %><br />
-        <%= f.password_field :password, autocomplete: "off", placeholder: 'password' %>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class='input-field col m6'>
-        <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: 'password confirmation' %>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="input-field col m6">
-         <%= f.text_field :first_name, placeholder: "first name", class: 'form-control' %>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="input-field col m6">
-        <%= f.text_field :last_name, placeholder: "last name", class: 'form-control' %>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="input-field col m6">
-        <%= f.select :service_branch, service_branches, {include_blank: true, prompt: 'branch of service'}, {class: 'form-control'} %>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="input-field col m6">
-        <%= f.text_field :zip, placeholder: "zip code", class: 'form-control' %>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="input-field col m6">
-        <%= f.check_box :wants_mentor, class: 'form-control' %> 
-        <label for='veteran_wants_mentor'>Have a mentor contact me</label>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-10">
-        <%= f.submit "*I certify that I'm serving/served in the U.S. Armed Forces and want to learn to code.", class: "btn btn-default" %>
-      </div>
-    </div>
-  <% end %>
+  </div>
 </div>
