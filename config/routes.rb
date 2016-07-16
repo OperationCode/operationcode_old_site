@@ -35,6 +35,7 @@ Rails.application.routes.draw do
   get 'speakerrequest' => 'pages#speakerrequest'
   get 'successes' => 'pages#successes'
   get 'action' => 'veterans#new'
+  get 'fellowships' => 'pages#fellowships'
 
   get '/contact' => redirect('mailto:david@operationcode.org')
   get '/flatiron' => redirect('https://learn.co/learn-together')
