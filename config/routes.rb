@@ -12,6 +12,9 @@ Rails.application.routes.draw do
     get 'profile/edit', to: 'veterans/registrations#edit'
   end
 
+  # LetsEncrypt
+  get '.well-known/acme-challenge/ahEX0kdjuYA69CnjN5H0ox22Hd5z1k6K9b57rWFFTXo', to: 'pages#ssl'
+
   get '/veterans/map', to: 'veterans#map'
   resources :veterans, only: [:new, :create]
   post '/veterans/claim/:veteran', to: 'veterans#claim', as: :veterans_claim

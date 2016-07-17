@@ -68,4 +68,8 @@ class PagesController < ApplicationController
 
   def fellowships
   end
+
+  def ssl
+    render text: 'ahEX0kdjuYA69CnjN5H0ox22Hd5z1k6K9b57rWFFTXo.ze7lZDGoaPSePWirXvw5Epq_ub9bpodLN2Hplxc1ue8'
+  end
 end
