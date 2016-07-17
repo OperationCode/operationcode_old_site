@@ -37,3 +37,5 @@ STAR_operationcode_org.key
 STAR_operationcode_org.pem
 operationcode
 operationcode.pub
+
+/vendor/bundle

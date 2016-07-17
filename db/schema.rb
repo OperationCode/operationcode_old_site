@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160630035521) do
+ActiveRecord::Schema.define(version: 20160716140708) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -78,6 +78,8 @@ ActiveRecord::Schema.define(version: 20160630035521) do
     t.float    "latitude"
     t.float    "longitude"
     t.boolean  "wants_mentor"
+    t.string   "type"
+    t.integer  "mentor_id"
   end
 
   add_index "veterans", ["email"], name: "index_veterans_on_email", unique: true, using: :btree

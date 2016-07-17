@@ -1,9 +1,5 @@
 module Veterans
   class RegistrationsController < Devise::RegistrationsController
-    def new
-      super
-    end
-
     def edit
       @veteran = current_veteran
       super

@@ -3,11 +3,24 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
-  get :profile, to: 'veterans#profile'
+  devise_scope :veteran do
+    get :sign_up, to: 'veterans/registrations#new'
+    get :join, to: 'veterans/registrations#new'
+    get :login, to: 'veterans/sessions#new'
+    get :sign_in, to: 'veterans/sessions#new'
+
+    get 'profile/edit', to: 'veterans/registrations#edit'
+  end
+
   get '/veterans/map', to: 'veterans#map'
   resources :veterans, only: [:new, :create]
+  post '/veterans/claim/:veteran', to: 'veterans#claim', as: :veterans_claim
+  post '/veterans/unclaim/:veteran', to: 'veterans#unclaim', as: :veterans_unclaim
 
   resources :donations, only: [:index, :new, :create]
+
+  get '/profile', to: 'profile#home'
+  get '/profile/mentees', to: 'profile#mentees'
 
   get '/code_schools', to: 'code_schools#index'
 
