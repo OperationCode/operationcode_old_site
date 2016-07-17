@@ -3,6 +3,7 @@ class ProfileController < ApplicationController
   before_action :authenticate_veteran!, :set_vetearn
 
   def home
+    @mentor = @current_veteran.mentor
   end
 
   def mentees

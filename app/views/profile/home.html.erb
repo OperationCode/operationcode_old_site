@@ -7,24 +7,26 @@
     <div class="col m5" role="main">
 
       <%= card(title: 'Account Details', icon: { name: :settings, path: profile_edit_path } ) do %>
-        <%=  render partial: 'veterans/profile/details' %>
+        <%=  render partial: 'profile/home/details' %>
       <% end %>
     </div>
 
     <div class="col m5" role="main">
       <%= card(title: :Feed) do %> 
-        <%=  render partial: 'veterans/profile/announcements' %>
+        <%=  render partial: 'profile/home/announcements' %>
       <% end %>
     </div>
   </div>
 
+  <% unless current_veteran.mentor? %>
   <div class="row">
     <div class="col m5" role="main">
       <%= card(title: 'Mentor Details') do %>
-        <%=  render partial: 'veterans/profile/mentor' %>
+        <%=  render partial: 'profile/home/mentor' %>
       <% end %>
     </div>
   </div>
+  <% end %>
 
 </div>
 

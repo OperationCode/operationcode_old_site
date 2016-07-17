@@ -1,5 +1,12 @@
 <p>
-<% if @mentor.nil? %>
+<% if @mentor %>
+  <dl>
+    <dt>Name</dt>
+    <dd><%= @mentor.name %> </dd>
+    <dt>Email</dt>
+    <dd> <%= mail_to @mentor.email %> </dd>
+  </dl>
+<% else %>
   You have not requested a mentor
 <% end %>
 </p>
