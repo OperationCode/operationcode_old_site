@@ -30,6 +30,10 @@ class Veteran < ActiveRecord::Base
     Veteran.where.not(zip: nil).pluck('DISTINCT latitude, longitude')
   end
 
+  def self.unclaimed_mentees
+    Veteran.where(type: nil, mentor_id: nil, wants_mentor: true)
+  end
+
   def name
     if first_name.present? || last_name.present?
       "#{first_name} #{last_name}".strip

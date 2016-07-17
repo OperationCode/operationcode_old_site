@@ -25,7 +25,7 @@ no_mentees:
 mentored<%= n %>:
   email: <%= "mentored#{n}@example.com" %>
   first_name: <%= "Mentored #{n}" %>
-  mentor: mentor_<%= n % 2 %>
+  mentor: mentor<%= n % 2 %>
   <<: *DEFAULTS
 <% end %>
 

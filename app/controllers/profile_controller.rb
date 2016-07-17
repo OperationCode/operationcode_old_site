@@ -6,6 +6,8 @@ class ProfileController < ApplicationController
 
   def mentees
     redirect_to :profile unless @veteran.mentor?
+    @your_mentees = @current_veteran.mentees
+    @unclaimed_mentees = Veteran.unclaimed_mentees
   end
 
   private
