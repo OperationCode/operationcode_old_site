@@ -4,40 +4,12 @@
   </div>
 
   <div class="row">
-    <div class="col m5" role="main">
+    <div class="col m8" role="main">
 
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title">Your Mentees
-            <span class='pull-right'>
-              <%= link_to content_tag(:i, 'settings', class: 'material-icons'), profile_edit_path %>
-            </span>
-          </span>
-          <%=  render partial: 'veterans/profile/details' %>
-        </div>
-      </div>
-    </div>
-
-    <div class="col m5" role="main">
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title">Feed</span>
-            <%=  render partial: 'veterans/profile/announcements' %>
-        </div>
-      </div>
+      <%= card(title: 'Your Mentees') do %>
+        <%=  render partial: 'profile/mentees/yours' %>
+      <% end %>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col m5" role="main">
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title">Mentor Details</span>
-          <%=  render partial: 'veterans/profile/mentor' %>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </div>
 

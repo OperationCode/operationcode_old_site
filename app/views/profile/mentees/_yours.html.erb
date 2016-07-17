@@ -1,0 +1,5 @@
+<div>
+  <% @current_veteran.mentees.each do |veteran| %>
+    <%= veteran.name %> <<%= link_to veteran.email %>> <br />
+  <% end %>
+</div>

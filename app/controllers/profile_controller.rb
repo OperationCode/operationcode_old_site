@@ -5,7 +5,7 @@ class ProfileController < ApplicationController
   end
 
   def mentees
-    redirect_to :profile_path unless @veteran.mentor?
+    redirect_to :profile unless @veteran.mentor?
   end
 
   private
