@@ -2,12 +2,12 @@ require 'test_helper'
 
 class VeteranTest < ActiveSupport::TestCase
   test 'can have a mentor' do
-    mentor = veterans(:mentor_0)
+    mentor = veterans(:mentor0)
     assert_difference('mentor.mentees.count') { veterans(:unmentored).update_attributes(mentor: mentor) }
   end
 
   test 'is not a mentor' do
-    refute veterans(:mentored_0).mentor?
+    refute veterans(:mentored0).mentor?
     refute veterans(:unmentored).mentor?
   end
 
