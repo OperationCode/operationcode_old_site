@@ -11,22 +11,21 @@
 
               <div class='row'>
                 <div class='input-field col m12'>
-                  <%= f.password_field :password, autofocus: true, autocomplete: "off" %>
+                  <%= f.password_field :password, autofocus: true, autocomplete: "off", placeholder: 'password' %>
                 </div>
               </div>
 
               <div class="row">
                 <div class='input-field col m12'>
-                  <%= f.password_field :password_confirmation, autocomplete: "off" %>
+                  <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: 'password confirmation' %>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col m12">
-                  <%= f.submit "Change my password" %>
+                  <%= f.submit "Change my password", class: 'btn btn-large' %>
                 </div>
               </div>
-              <%= link_to 'Reset my password', new_password_path('veteran') %>
             <% end %>
           </div>
         </div>
