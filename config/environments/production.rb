@@ -28,7 +28,7 @@ Rails.application.configure do
     authentication:       :plain,
     enable_starttls_auto: true
   }
-  config.action_mailer.default_url_options = { host: 'www.operationcode.org' }
+  config.action_mailer.default_url_options = { host: 'operationcode.org' }
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
