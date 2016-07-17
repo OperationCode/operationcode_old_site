@@ -45,6 +45,12 @@
         $(".slider").slider({height: 528, indicators: false});
         $(".button-collapse").sideNav();
         $('select').material_select();
+        // Hack until https://github.com/Dogfalo/materialize/pull/3379 is merged and on the CDN
+        $('ul.tabs a').on('click', function(e){
+          if($(this).attr("target") ) {
+            window.location = $(this).attr("href");
+          }
+        });
       });
     </script>
   </body>

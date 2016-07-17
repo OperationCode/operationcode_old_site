@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <%= render partial: 'profile/tabs' %>
+  </div>
+
+  <div class="row">
+    <div class="col m5" role="main">
+
+      <%= card(title: 'Account Details', icon: { name: :settings, path: profile_edit_path } ) do %>
+        <%=  render partial: 'veterans/profile/details' %>
+      <% end %>
+    </div>
+
+    <div class="col m5" role="main">
+      <%= card(title: :Feed) do %> 
+        <%=  render partial: 'veterans/profile/announcements' %>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col m5" role="main">
+      <%= card(title: 'Mentor Details') do %>
+        <%=  render partial: 'veterans/profile/mentor' %>
+      <% end %>
+    </div>
+  </div>
+
+</div>
+

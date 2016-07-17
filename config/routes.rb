@@ -12,11 +12,13 @@ Rails.application.routes.draw do
     get 'profile/edit', to: 'veterans/registrations#edit'
   end
 
-  get :profile, to: 'veterans#profile'
   get '/veterans/map', to: 'veterans#map'
   resources :veterans, only: [:new, :create]
 
   resources :donations, only: [:index, :new, :create]
+
+  get '/profile', to: 'profile#home'
+  get '/profile/mentees', to: 'profile#mentees'
 
   get '/code_schools', to: 'code_schools#index'
 

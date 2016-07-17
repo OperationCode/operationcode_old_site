@@ -1,10 +1,14 @@
 <div class="container">
   <div class="row">
+    <%= render partial: 'profile/tabs' %>
+  </div>
+
+  <div class="row">
     <div class="col m5" role="main">
 
       <div class="card">
         <div class="card-content">
-          <span class="card-title">Account Details
+          <span class="card-title">Your Mentees
             <span class='pull-right'>
               <%= link_to content_tag(:i, 'settings', class: 'material-icons'), profile_edit_path %>
             </span>
