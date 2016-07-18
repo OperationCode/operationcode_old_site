@@ -22,8 +22,11 @@ Rails.application.routes.draw do
 
   resources :donations, only: [:index, :new, :create]
 
+  # Profile
   get '/profile', to: 'profile#home'
   get '/profile/mentees', to: 'profile#mentees'
+  get '/profile/mentees/:mentee', to: 'profile/mentees#show', as: :profile_mentee
+  # End Profile
 
   get '/code_schools', to: 'code_schools#index'
 

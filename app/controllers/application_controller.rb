@@ -18,4 +18,9 @@ class ApplicationController < ActionController::Base
       u.permit(:first_name, :last_name, :email, :password, :password_confirmation, :zip, :service_branch)
     end
   end
+
+  before_filter :set_current_veteran
+  def set_current_veteran
+    @current_vetearn = current_veteran
+  end
 end
