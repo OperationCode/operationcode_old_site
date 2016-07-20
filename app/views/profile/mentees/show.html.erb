@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col m4 offset-m2" role="main">
+    <%= card(title: 'Mentee Details') do %>
+      <dl>
+        <di>Name</di>
+        <dd><%= @mentee.name %></dd>
+        <di>Email</di>
+        <dd><%= mail_to @mentee.email %></dd>
+        <di>Has Been Welcomed</di>
+        <dd><%# @mentee.welcomed? %></dd>
+      </dl>
+    <% end %>
+  </div>
+
+  <div class="col m4" role="main">
+    <%= card(title: 'Contact') do %>
+      <div>
+      <% if @current_veteran.profile_complete? %>
+        Contact Mentee
+      <% else %>
+        Your profile must be complete before you can contact your mentee
+      <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -4,7 +4,6 @@ module Profile
     before_action :authenticate_veteran!, :set_mentee
 
     def show
-      render text: @mentee.name
     end
 
     private
