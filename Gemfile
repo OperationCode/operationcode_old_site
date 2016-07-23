@@ -41,8 +41,6 @@ gem 'activeadmin', github: 'activeadmin'
 ########
 
 gem 'shareable'
-gem 'font-awesome-rails'
-gem 'font-awesome-sass'
 gem 'github-markup', '~> 1.2.1'
 gem 'figaro' #app configuration using ENV variables and a single YAML file
 gem 'jekyll' #blogging gem

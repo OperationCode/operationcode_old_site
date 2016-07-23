@@ -136,9 +136,8 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.10)
     figaro (1.1.1)
-      thor (~> 0.14)
-    font-awesome-rails (4.6.2.0)
       railties (>= 3.2, < 5.1)
+      thor (~> 0.14)
     formatador (0.2.5)
     formtastic (3.1.4)
       actionpack (>= 3.2.13)
@@ -390,7 +389,6 @@ DEPENDENCIES
   devise (= 3.4.1)
   exception_notification
   figaro
-  font-awesome-rails
   geocoder
   gibbon
   github-markup (~> 1.2.1)
@@ -431,4 +429,4 @@ RUBY VERSION
    ruby 2.3.0p0
 
 BUNDLED WITH
-   1.12.4
+   1.12.5
