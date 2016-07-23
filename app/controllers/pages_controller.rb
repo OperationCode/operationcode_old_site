@@ -70,6 +70,6 @@ class PagesController < ApplicationController
   end
 
   def ssl
-    render text: '6bcq80vDdfIasE1qY_HCrZh4yCgoO3WR3t8TWI2ZYE8.ze7lZDGoaPSePWirXvw5Epq_ub9bpodLN2Hplxc1ue8'
+    render text: 'uOF-OUyFyRhmkD-d-96AgRex9JX0Zpu0MFRXZfmt1fE.ze7lZDGoaPSePWirXvw5Epq_ub9bpodLN2Hplxc1ue8'
   end
 end
