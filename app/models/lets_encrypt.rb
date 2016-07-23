@@ -5,8 +5,8 @@ class LetsEncrypt < ActiveRecord::Base
 
   validates :key, presence: true
 
-  def self.key
-    entry = last
+  def self.key_for(token)
+    entry = LetsEncrypt.where('key LIKE ?', "%#{token}%").last
     entry.nil? ? '' : entry.key
   end
 end
