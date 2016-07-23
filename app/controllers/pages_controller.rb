@@ -70,6 +70,6 @@ class PagesController < ApplicationController
   end
 
   def ssl
-    render text: 'uOF-OUyFyRhmkD-d-96AgRex9JX0Zpu0MFRXZfmt1fE.ze7lZDGoaPSePWirXvw5Epq_ub9bpodLN2Hplxc1ue8'
+    render text: LetsEncrypt.key
   end
 end
