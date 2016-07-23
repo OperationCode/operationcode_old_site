@@ -70,6 +70,6 @@ class PagesController < ApplicationController
   end
 
   def ssl
-    render text: LetsEncrypt.key
+    render text: LetsEncrypt.key_for(params[:token])
   end
 end
