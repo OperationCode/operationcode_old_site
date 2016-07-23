@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   end
 
   # LetsEncrypt
-  get '.well-known/acme-challenge/ahEX0kdjuYA69CnjN5H0ox22Hd5z1k6K9b57rWFFTXo', to: 'pages#ssl'
+  get '.well-known/acme-challenge/6bcq80vDdfIasE1qY_HCrZh4yCgoO3WR3t8TWI2ZYE8', to: 'pages#ssl'
 
   get '/veterans/map', to: 'veterans#map'
   resources :veterans, only: [:new, :create]
