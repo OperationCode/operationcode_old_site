@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160716140708) do
+ActiveRecord::Schema.define(version: 20160723223901) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -58,6 +58,10 @@ ActiveRecord::Schema.define(version: 20160716140708) do
     t.string   "last_name"
   end
 
+  create_table "lets_encrypt", force: :cascade do |t|
+    t.string "key"
+  end
+
   create_table "veterans", force: :cascade do |t|
     t.string   "email"
     t.string   "first_name"
@@ -80,6 +84,7 @@ ActiveRecord::Schema.define(version: 20160716140708) do
     t.boolean  "wants_mentor"
     t.string   "type"
     t.integer  "mentor_id"
+    t.text     "bio"
   end
 
   add_index "veterans", ["email"], name: "index_veterans_on_email", unique: true, using: :btree
