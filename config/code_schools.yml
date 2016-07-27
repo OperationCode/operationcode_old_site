@@ -408,3 +408,13 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+
+- name: Operation Spark
+  url: https://operationspark.org
+  address1: 748 Camp Street, 2nd floor
+  city: New Orleans
+  state: LA
+  zip: 70130
+  va_accepted: false
+  full_time: true
+  hardware_included: false
