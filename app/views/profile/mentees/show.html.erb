@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col m4 offset-m2" role="main">
+  <div class="col m4 offset-m4" role="main">
     <%= card(title: 'Mentee Details') do %>
       <div>
       <% if @mentee.welcomed? %>
@@ -19,13 +19,6 @@
         <di>Email</di>
         <dd><%= mail_to @mentee.email %></dd>
       </dl>
-    <% end %>
-  </div>
-
-  <div class="col m4" role="main">
-    <%= card(title: 'Contact') do %>
-      <div>
-      </div>
     <% end %>
   </div>
 </div>
