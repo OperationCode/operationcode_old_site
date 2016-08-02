@@ -60,4 +60,9 @@ class Veteran < ActiveRecord::Base
   def mentor?
     false
   end
+
+  def welcome_from!(mentor)
+    MenteeMailer.welcome(mentor: mentor, mentee: self).deliver_later
+    update_attributes(welcomed: true)
+  end
 end

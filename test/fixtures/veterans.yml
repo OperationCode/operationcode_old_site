@@ -34,5 +34,6 @@ mentor<%= n %>:
   email: <%= "mentor#{n}@example.com" %>
   first_name: "mentor <%= n %>"
   type: "Mentor"
+  bio: <%= "This is a bio for mentor #{n}" %>
   <<: *DEFAULTS
 <% end %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160723223901) do
+ActiveRecord::Schema.define(version: 20160802182934) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -70,11 +70,11 @@ ActiveRecord::Schema.define(version: 20160723223901) do
     t.string   "zip"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "encrypted_password",     default: "", null: false
+    t.string   "encrypted_password",     default: "",    null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
+    t.integer  "sign_in_count",          default: 0,     null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
@@ -85,6 +85,7 @@ ActiveRecord::Schema.define(version: 20160723223901) do
     t.string   "type"
     t.integer  "mentor_id"
     t.text     "bio"
+    t.boolean  "welcomed",               default: false
   end
 
   add_index "veterans", ["email"], name: "index_veterans_on_email", unique: true, using: :btree

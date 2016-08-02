@@ -5,4 +5,8 @@ class Mentor < Veteran
   def mentor?
     true
   end
+
+  def profile_complete?
+    email? && first_name? && last_name? && bio?
+  end
 end
