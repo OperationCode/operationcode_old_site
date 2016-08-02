@@ -21,6 +21,6 @@ class ApplicationController < ActionController::Base
 
   before_filter :set_current_veteran
   def set_current_veteran
-    @current_vetearn = current_veteran
+    @current_veteran = current_veteran
   end
 end

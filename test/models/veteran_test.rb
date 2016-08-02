@@ -36,4 +36,14 @@ class VeteranTest < ActiveSupport::TestCase
     )
     veteran.add_to_mailchimp
   end
+
+  test 'can be welcomed' do
+    mentee = veterans(:mentored0)
+    mentor = veterans(:mentor0)
+    MenteeMailer.expects(:welcome).with(mentor: mentor, mentee: mentee).returns(ActionMailer::Base.mail)
+
+    refute mentee.welcomed?
+    mentee.welcome_from! mentor
+    assert mentee.welcomed?
+  end
 end
