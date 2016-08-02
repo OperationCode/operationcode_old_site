@@ -2,6 +2,7 @@ language: ruby
 cache: bundler
 services:
 - postgresql
+- redis-server
 before_script:
 - psql -c 'create database operationcode_test;' -U postgres
 - RAILS_ENV=test bundle exec rake db:migrate
