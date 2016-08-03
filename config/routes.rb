@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Rails.application.routes.draw do
   devise_for :veterans, controllers: { registrations: 'veterans/registrations', sessions: 'veterans/sessions' }
   devise_for :admin_users, ActiveAdmin::Devise.config
@@ -27,8 +28,12 @@ Rails.application.routes.draw do
   get '/profile/mentees', to: 'profile#mentees'
   get '/profile/mentees/:mentee', to: 'profile/mentees#show', as: :profile_mentee
   post '/profile/mentees/:mentee/welcome', to: 'profile/mentees#welcome', as: :welcome_mentee
+  get '/profile/edit/bio', to: 'profile#edit_bio'
+  post '/profile/edit/bio', to: 'profile#update_bio'
+  patch '/profile/edit/bio', to: 'profile#update_bio'
   # End Profile
 
+  # Static pages
   get '/code_schools', to: 'code_schools#index'
 
   get 'about' => 'pages#about'
