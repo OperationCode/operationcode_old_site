@@ -12,21 +12,17 @@
     </div>
 
     <div class="col m5" role="main">
-      <%= card(title: :Feed) do %> 
-        <%=  render partial: 'profile/home/announcements' %>
+      <%= card(title: 'Bio', icon: { name: :settings, path: profile_edit_bio_path } ) do %>
+        <%=  render partial: 'profile/home/bio' %>
       <% end %>
     </div>
-  </div>
 
-  <% unless current_veteran.mentor? %>
-  <div class="row">
+    <% unless current_veteran.mentor? %>
     <div class="col m5" role="main">
       <%= card(title: 'Mentor Details') do %>
         <%=  render partial: 'profile/home/mentor' %>
       <% end %>
     </div>
+    <% end %>
   </div>
-  <% end %>
-
 </div>
-
