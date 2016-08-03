@@ -13,6 +13,7 @@ veteran:
 unmentored:
   email: "unmentored@example.com"
   first_name: "Unmentored"
+  wants_mentor: true
   <<: *DEFAULTS
 
 no_mentees:
@@ -26,6 +27,7 @@ mentored<%= n %>:
   email: <%= "mentored#{n}@example.com" %>
   first_name: <%= "Mentored #{n}" %>
   mentor: mentor<%= n % 2 %>
+  wants_mentor: true
   <<: *DEFAULTS
 <% end %>
 
