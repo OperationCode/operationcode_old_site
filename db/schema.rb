@@ -84,7 +84,6 @@ ActiveRecord::Schema.define(version: 20160723223901) do
     t.boolean  "wants_mentor"
     t.string   "type"
     t.integer  "mentor_id"
-    t.text     "bio"
   end
 
   add_index "veterans", ["email"], name: "index_veterans_on_email", unique: true, using: :btree
