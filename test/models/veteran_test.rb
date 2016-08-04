@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'test_helper'
 
 class VeteranTest < ActiveSupport::TestCase
@@ -38,12 +39,14 @@ class VeteranTest < ActiveSupport::TestCase
   end
 
   test 'can be welcomed' do
-    mentee = veterans(:mentored0)
+    mentee = veterans(:unmentored)
     mentor = veterans(:mentor0)
     MenteeMailer.expects(:welcome).with(mentor: mentor, mentee: mentee).returns(ActionMailer::Base.mail)
 
     refute mentee.welcomed?
+    refute mentee.mentor
     mentee.welcome_from! mentor
     assert mentee.welcomed?
+    assert_equal mentor, mentee.mentor
   end
 end
