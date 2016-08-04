@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # == Schema Information
 #
 # Table name: veterans
@@ -63,6 +64,6 @@ class Veteran < ActiveRecord::Base
 
   def welcome_from!(mentor)
     MenteeMailer.welcome(mentor: mentor, mentee: self).deliver_later
-    update_attributes(welcomed: true)
+    update_attributes(welcomed: true, mentor: mentor)
   end
 end
