@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'test_helper'
 
 class MenteeMailerTest < ActionMailer::TestCase
@@ -14,6 +15,7 @@ class MenteeMailerTest < ActionMailer::TestCase
     # Test the body of the sent email contains what we expect it to
     assert_equal [mentor.email], email.from
     assert_equal [mentee.email], email.to
+    assert_equal ['mentorship@operationcode.org'], email.bcc
     refute mentor.bio.nil?
     assert_includes email.body.to_s, mentor.bio
   end

@@ -6,6 +6,11 @@ class MenteeMailer < ActionMailer::Base
     @mentee = mentee
     @mentor = mentor
 
-    mail to: @mentee.email, from: @mentor.email, subject: 'Operation Code Mentorship Program'
+    mail(
+      to: @mentee.email,
+      bcc: 'mentorship@operationcode.org',
+      from: @mentor.email,
+      subject: 'Operation Code Mentorship Program'
+    )
   end
 end
