@@ -5,7 +5,7 @@ ruby '2.3.0'
 # Server and DB #
 #################
 
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.5.1'
 gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
 gem 'sidekiq'
@@ -33,8 +33,8 @@ gem 'leaflet-rails'
 ########################
 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
-gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
-gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
+gem 'activeadmin', '~> 1.0.0.pre4'
 
 ########
 # Misc #
