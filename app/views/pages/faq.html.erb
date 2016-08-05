@@ -1,54 +1,23 @@
 <div class="container bs-docs-container">
   <div class="row">
-    <div class="col-md-12" role="main">
-        <h1 id="download" class="page-header">Frequently Asked Questions</h1>
-        <p class="lead">Below is a list of common questions about Operation Code. If you're a veteran interested in software development, use the <a href="https://operation-code.slack.com/messages/general/">#general tab</a> in Slack for support. If you're a software developer interested in contributing/becoming a software mentor, <a href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md">read our docs</a>.</p>
+    <div class="col m12" role="main">
+      <h3 id="download" class="page-header">Frequently Asked Questions</h3>
+      <p class="lead">Below is a list of common questions about Operation Code. If you're a veteran interested in software development, use the <a href="https://operation-code.slack.com/messages/general/">#general tab</a> in Slack for support and then join additional channels based on programming language interest. If you're a software developer interested in contributing/becoming a software mentor, <a href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md">read our docs</a>.</p>
 
-        <h2 class="list-group-item-heading">General FAQ</h2>
-        <h3>When was Operation Code founded?</h3>
-          <h4>Operation Code was founded on <a href="https://github.com/OperationCode/operationcode/tree/master/bin">August 21, 2014</a>.</h4>
+      <div class='row'>
+        <% @faqs.each do |section, items| %>
+          <h4><%= section.titleize %> FAQ</h4>
 
-        <h3>How was Operation Code founded?</h3>
-          <h4>Operation Code was founded in Portland, Oregon by ex-Army Captain David Molina who took action and built operationcode.org to petition Congress to expand the New GI Bill to include code schools. <a href="/history">Learn our full history</a>.</h4>
-
-        <h3>Is Operation Code a 501(c)(3) organization?</h3>
-          <h4>Yes. Operation Code was granted tax-exempt status by the Internal Revenue Services functioning as a charity under 501(c)(3) of the Internal Revenue Code, <a href="https://twitter.com/operation_code/status/728018497343660032">effective 4 May 2016</a>, with retroactive status to 15 June 2015. Donations to the organization are deductible as charitable contributions.</h4>
-
-        <h3>Where is Operation Code based? Do you have a location near me?</h3>
-          <h4>Operation Code, much like software, is <a href="https://github.com/OperationCode/operationcode/graphs/contributors">built from anywhere</a> with an internet connection and is not based in one location. While we're headquartered in Portland, the entire organization is decentralized, including the board of directors and the core team, allowing us to more effectively serve transitioning military and veterans wherever they may be located. We have a number of veterans located in Seattle, Portland, SF and Washington, D.C. to name a few. Use Slack and join the closest town to you.</h4>
-
-        <h3>Who does Operation Code serve?</h3>
-          <h4>Operation Code serves our nation's finest who've worn the uniform and their families, and who are interested in coding and software development. We offer Programs & Services <a href="/join">online</a> and make all announcements in the <a href="https://operation-code.slack.com/messages/general/">#general tab</a> in Slack.</h4>
-
-        <h3>What do I need to start learning software development and how much is this going to cost?</h3>
-          <h4>First off, you will need access to a solid computer, a good browser (ex. Chrome), and a strong internet connection. It costs nothing to start learning to code and receive software mentorship through Operation Code, you just need a positive attitude, persistence and grit, and a thirst for new knowledge. We have over a dozen channels, from Ruby to JavaScript, iOS to Android, and from Free Code Camp to edX study groups.</h4>
-
-        <h3>According to the U.S. Department of Veterans Affairs website, there are only two code schools in the country that accept the New GI Bill. Which do you recommend?</h3>
-          <h4>Choosing where to leverage your New GI Bill to start learning to code on day-one shouldn't be taken lightly especially because you've sacrificed so much for it. We maintain a list of <a href="/codeschools">code schools</a> you can research more and which military veterans in our community have attended. But more importantly, <a href="https://operation-code.slack.com/messages/general/">ask any of us in the community</a> and you'll get a diverse set of answers.</h4>
-
-        <h3>Why doesn't Operation Code offer services to non-military/veterans?</h3>
-          <h4>As President Lincoln once said, “With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan...”</h4>
-
-          <h4>At Operation Code, we believes it is our moral obligation to ensure the men and women who are serving/served in our U.S. military should not be left behind in the new skills and knowledge economy. These numbers speak for themselves:
-            <ul>
-              <li>high veterans unemployment/underemployment,</li>
-              <li>high veterans suicide rate,</li>
-              <li>high veterans homeless rate,</li>
-            </ul>
-          We aim to turn these numbers around.
-          </h4>
-
-        <h3>What are the hours of operation for Operation Code?</h3>
-          <h4>Operation Code is different in that we don't have regular business office hours. The team can usually be found in our <a href="operation-code.slack.com">Slack channel</a>, or <a href="https://github.com/OperationCode/operationcode">GitHub</a> fixing bugs and implementing new features.</h4>
-
-        <h3>How can I help if I can't afford to donate to Operation Code?</h3>
-          <h4>In addition to requiring financial support, we also need volunteers and interns. The larger our community, the more we can spread the word about our work. Please sign up for our SITREPs and share it with your friends. Also, remember that every donation, no matter how modest, brings us closer to our goals.</h4>
-
-        <h3>I would like to receive Operation Code updates and news. How can I receive these communications?</h3>
-          <h4>Anyone can sign up to join our email list through our <a href="http://operationcode.us10.list-manage2.com/subscribe?u=0ab8e2b2d6c6608926c4f17d6&id=809aaab2df">online subscription form</a>. The Operation Code SITREPs are sent periodically throughout the year. We primarily use <a href="https://twitter.com/operation_code">Twitter</a> and <a href="http://facebook.com/operationcode.org">Facebook</a> to put out updates and news since it's faster to put out info and respond. Given our chosen craft, we don't do regular mail.</h4>
-
-        <h3>My question isn't listed. How do I contact Operation Code?</h3>
-          <h4>If you have a question that isn't listed here on our FAQ or our <a href="/blog">blog</a>, write to <a href="mailto:david@operationcode.org">david@operationcode.org</a> and we'll get back to you as soon as we can.</h4>
+          <ul class="collapsible" data-collapsible="accordion">
+          <% items.each do |item| %>
+            <li>
+              <div class="collapsible-header"><h5><%= item['question'] %></h5></div>
+              <div class="collapsible-body"><p class='light'><%= item['answer'].html_safe %></p></div>
+            </li>
+          <% end %>
+          </ul>
+        <% end %>
       </div>
     </div>
   </div>
+</div>

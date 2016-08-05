@@ -6,11 +6,11 @@ author: David Molina
 layout: post
 ---
 
-At Operation Code, we go beyond just saying "support our veterans, troops, and their families," we execute on it by providing the operating environment to become software developers. One company that is always shipping and enables Operation Code to fulfill our mission of getting more military veterans and their families coding is GitHub.
+At Operation Code, we go beyond just saying, "support our veterans, troops, and their families," we execute on it by providing the operating environment to become software developers. One company that is always shipping and enables Operation Code to fulfill our mission of getting more military veterans and their families coding is GitHub.
 
 As you might remember last month, GitHub provided the Operation Code community scholarship tickets for [GitMerge](http://git-merge.com/) in New York and again have graciously extended the offer in supporting our military veterans transition to software development with next month's CodeConf in sunny Los Angeles. From their [blog](https://github.com/blog/2121-codeconf-la-tickets-are-now-on-sale):
 
-"CodeConf LA will converge June 27-29, 2016 in sunny Los Angeles for three days of unforgettable discussions. This year’s event will focus on systems engineering projects, practices, and programs in the open source community. We'll explore topics ranging from systems programming practices to operating applications at scale over three days and 30+ sessions, lightning talks, and workshops.""
+"CodeConf LA will converge June 27-29, 2016 in sunny Los Angeles for three days of unforgettable discussions. This year’s event will focus on systems engineering projects, practices, and programs in the open source community. We'll explore topics ranging from systems programming practices to operating applications at scale over three days and 30+ sessions, lightning talks, and workshops."
 
 As our Scholarship Chair, [@nellshamrell](https://twitter.com/nellshamrell) put it, "One of the best ways to learn, network, and find job opportunities in the IT industry is through attending conferences."
 

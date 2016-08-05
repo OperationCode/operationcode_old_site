@@ -1,0 +1,13 @@
+# This should NOT be in alphabetical order
+- name: NY School 1
+  state: NY
+- name: OR School 1
+  state: OR
+- name: OR School 2
+  state: OR
+- name: OR School 3
+  state: OR
+- name: CA School 1
+  state: CA
+- name: CA School 2
+  state: CA

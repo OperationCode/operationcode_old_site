@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col s12">
+    <ul class="tabs" target="self">
+      <%= menu_item item_name: :Home, item_path: profile_path %>
+      <% if @current_veteran.mentor? %>
+        <%= menu_item item_name: :Mentees, item_path: profile_mentees_path %>
+      <% end %>
+    </ul>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "contact@operationcode.org"
+  default from: "david@operationcode.org"
 
   def welcome(veteran)
     @veteran = veteran

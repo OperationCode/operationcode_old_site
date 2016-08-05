@@ -1,0 +1,20 @@
+---
+title:  Slack
+date:   2016-05-20
+tags:   News
+author: David Molina
+layout: post
+---
+
+Operation Code 10k Slack Message Limit is History
+
+Our Software Mentor Protégé Program leverages real-time messaging application, [Slack](https://slack.com), to welcome transitioning military, guard & reserve soldiers, veterans and their families share code and get help hacking on their websites or web applications, quickly communicate between volunteers and the board, all in a decentralized, asynchronous platform.
+
+Earlier last year iOS/Android developer [Fernando Paredes](https://github.com/nanoxd) setup Slack and seamlessly integrated it into our Ruby on Rails application so that each time a new veteran joined, he/she would get an immediate invite and join us. But as you can imagine we quickly capped the 10k message limit prohibiting anyone to see past a few page scrolls. Last summer I sent over a request to Slack, but due to tax-exemption status couldn't get it lifted. Fortunately, all that changed earlier this month with the IRS approving our tax-exemption.
+
+Slack added fully searchable archive w/ unlimited messages, unlimited external integrations, simple usage statistics, custom message retention policies, guest access, and premium support to Operation Code's Slack channel. As a result new channels are being created to better serve our military veterans community and their pursuit for becoming programmers. The latest channel: eloquent-javascript.  
+New military veterans who just joined Operation Code will now enjoy a more seamless experience and so will our [contributors](https://github.com/OperationCode/operationcode/graphs/contributors) in adding new Slack external functionalities. Special thanks to the incredible team at Slack for always being helpful and for an incredible and ever useful tool that allows all of us who've served or are serving from all corners of the globe to learn to code and help the transition to become programmers less painful.  
+
+Cheers and keep coding,
+
+*David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.*

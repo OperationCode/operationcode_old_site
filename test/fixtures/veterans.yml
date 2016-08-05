@@ -1,0 +1,41 @@
+DEFAULTS: &DEFAULTS
+  encrypted_password: <%= Veteran.new.send(:password_digest, 'password') %>
+  zip: "11772"
+  last_name: "Veteran"
+  service_branch: "Marine Corps"
+
+veteran:
+  email: "veteran@example.com"
+  first_name: 'John'
+  last_name: 'Smith'
+  <<: *DEFAULTS
+
+unmentored:
+  email: "unmentored@example.com"
+  first_name: "Unmentored"
+  wants_mentor: true
+  <<: *DEFAULTS
+
+no_mentees:
+  email: "no_mentees@example.com"
+  first_name: "No Mentees"
+  type: "Mentor"
+  <<: *DEFAULTS
+
+<% 4.times do |n| %>
+mentored<%= n %>:
+  email: <%= "mentored#{n}@example.com" %>
+  first_name: <%= "Mentored #{n}" %>
+  mentor: mentor<%= n % 2 %>
+  wants_mentor: true
+  <<: *DEFAULTS
+<% end %>
+
+<% 2.times do |n| %>
+mentor<%= n %>:
+  email: <%= "mentor#{n}@example.com" %>
+  first_name: "mentor <%= n %>"
+  type: "Mentor"
+  bio: <%= "This is a bio for mentor #{n}" %>
+  <<: *DEFAULTS
+<% end %>

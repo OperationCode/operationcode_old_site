@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col m8 offset-m2" role="main">
+    <%= card(title: 'Your Mentees') do %>
+      <table>
+        <%=  render partial: 'profile/mentees/your_mentee', collection: @your_mentees %>
+      </table>
+    <% end %>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col m8 offset-m2" role="main">
+    <%= card(title: 'Unclaimed Mentees') do %>
+      <div>
+        <table>
+          <%=  render partial: 'profile/mentees/unclaimed_mentee', collection: @unclaimed_mentees %>
+        </table>
+      </div>
+    <% end %>
+  </div>
+</div>

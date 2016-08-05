@@ -1,0 +1,55 @@
+<% show_header = true if local_assigns[:show_header].nil? %>
+<% if show_header == true %>
+  <li class='collection-header'>
+    <h5>
+    <% if school['url'] %>
+      <td class='value'><%= link_to school['name'], school['url'] %></td>
+    <% else %>
+      <td class='value'><%= school['name'] %></td>
+    <% end %>
+    </h5>
+  </li>
+<% end %>
+<li class='collection-item'>
+<table class=''>
+  <tbody>
+    <tr>
+      <td class='key'>GI Bill Accepted</td>
+      <td class='value'>
+        <%= school['va_accepted'] ? 'Yes' : 'No' %>
+      </td>
+    </tr>
+
+    <tr>
+      <td class='key'>Commitment</td>
+      <td class='value'>
+        <%= school['full_time'] ? 'Full Time' : 'Part Time' %>
+      </td>
+    </tr>
+
+    <tr>
+      <td class='key'>Hardware Included</td>
+      <td class='value'>
+        <%= school['hardware_included'] ? 'Yes' : 'No' %>
+      </td>
+    </tr>
+
+    <tr>
+      <td class='key'>Address</td>
+      <td class='value'>
+        <%= school['address1'] %>
+        <% if school['address2'] %>
+          <br /><%= school['address2'] %>
+        <% end %>
+        <br /><%= school['city'] %> <%= school['state'] %> <%= school['zip'] %>
+      </td>
+    </tr>
+    <% if school['notes'] %>
+      <tr>
+        <td class='key'>Notes</td>
+        <td class='value'><%= school['notes'].html_safe %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</li>

@@ -1,0 +1,59 @@
+<div class='container'>
+  <div class='row'>
+    <h3>Code Schools</h3>
+    <p>
+      Code Schools, coding bootcamps, vocational schools for aspiring programmers are the
+      modern day Ford training plants uniquely designed to teach you to start writing software
+      on day-one for today's jobs. They are hands-on accelerated learning programs that are both
+      practical and immediately applicable for software developer entry jobs. Each code school listed
+      below range between 3 to 9 months in length, vary in tuition costs (free to $17k), and in
+      programming language.  Often dsirable from the employer standpoint, they are founded by software
+      developers who saw a need in the marketplace for more programmers.
+    </p>
+
+    <p>
+      Currently, three code schools at this time are licensed and accredited by the VA to accept the 
+      New GI Bill. Don't see your code school? <%= link_to 'PRs welcome', 'https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md' %>.
+    </p>
+
+    <h4>VA Approved Schools</h4>
+    <ul class="collapsible" data-collapsible="accordion">
+      <% @va_accepted_code_schools.each do |school| %>
+        <li>
+          <div class="collapsible-header">
+            <%= link_to school['name'], school['url']  %>
+          </div>
+          <div class="collapsible-body">
+            <ul class='collection with-header'>
+              <%= render partial: 'code_school', locals: { school: school, show_header: false } %>
+            </ul>
+        <% end %>
+        </li>
+      </div>
+    </ul>
+
+    <strong>Want your school to be VA approved? <a href="mailto:contact@operationcode.org">Drop us a line and we can help.</a></strong>
+
+    <h4>By State</h4>
+    <ul class="collapsible" data-collapsible="accordion">
+    <% @code_schools_by_state.each do |state| %>
+      <li>
+        <div class="collapsible-header">
+        <% if state[0].length > 3 %>
+          <%= state[0] %>
+        <% else %>
+          <%= @country.subregions.coded(state[0]) %>
+        <% end %>
+        </div>
+        <div class="collapsible-body">
+          <% state[1].each do |school| %>
+            <ul class='collection with-header'>
+              <%= render partial: 'code_school', locals: { school: school } %>
+            </ul>
+          <% end %>
+        </div>
+      </li>
+    <% end %>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,6 @@
 # [Operation Code](http://operationcode.org)
 [![Build Status](https://travis-ci.org/OperationCode/operationcode.svg?branch=master)](https://travis-ci.org/OperationCode/operationcode)
+[![Code Climate](https://codeclimate.com/github/OperationCode/operationcode/badges/gpa.svg)](https://codeclimate.com/github/OperationCode/operationcode)
 
 Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](http://operationcode.org/contributors).
 

@@ -1,0 +1,19 @@
+---
+title:  TechSoup
+date:   2016-05-20
+tags:   News
+author: David Molina
+layout: post
+---
+
+Operation Code Joins the TechSoup Community
+
+Learning to code is hard. This is further exacerbated by antiquated hardware and software. As a coding nonprofit serving the nation's finest and their families, we're always looking for new ways to partner and work with passionate businesses and organizations that care and help us meet our mission. Fortunately, there is TechSoup.
+
+TechSoup is a nonprofit with a clear focus: to make it as easy as possible for other nonprofits and libraries to obtain and use the technologies they need to achieve their missions. TechSoup provides access to over 400 technology products donated by more than 45 companies, including donor partners like Microsoft, Adobe, Cisco, Intuit, and Symantec. Read about their [success stories](http://www.techsoup.org/community/success-stories).
+
+We are so very thrilled to join such as an amazing service and community of like-minded nonprofits who are building a more incredible and inclusive place to live and work. Special thanks to Sam over at [Slack](https://slack.com) who pointed us towards this wonderful organization, and the wonderful support team at TechSoup for getting us squared away.
+
+Cheers and keep coding,
+
+*David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.*
