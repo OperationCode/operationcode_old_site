@@ -1,0 +1,7 @@
+<tr>
+  <%= form_tag(veterans_unclaim_path(your_mentee)) do %>
+    <td><%= link_to your_mentee.name, profile_mentee_path(your_mentee) %></td>
+    <td><<%= mail_to your_mentee.email %>></td>
+    <td><button class='btn btn-floating'><i class='material-icons'>remove</i></button></td>
+  <% end %>
+</tr>

@@ -1,0 +1,12 @@
+DEFAULTS: &DEFAULTS
+  encrypted_password: <%= Veteran.new.send(:password_digest, 'password') %>
+  zip: "11772"
+
+mentor:
+  email: "mentor@example.com"
+  first_name: "mentor"
+  last_name: "Veteran"
+  service_branch: "Army"
+  type: "Mentor"
+  <<: *DEFAULTS
+

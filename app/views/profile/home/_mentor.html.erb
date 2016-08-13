@@ -1,0 +1,16 @@
+<p>
+<% if @mentor %>
+  <dl>
+    <dt>Name</dt>
+    <dd><%= @mentor.name %> </dd>
+    <dt>Email</dt>
+    <dd> <%= mail_to @mentor.email %> </dd>
+  </dl>
+<% else %>
+  <% if @current_veteran.wants_mentor %>
+  A mentor has not yet been assigned to you.
+  <% else %>
+  You have not requested a mentor
+  <% end %>
+<% end %>
+</p>

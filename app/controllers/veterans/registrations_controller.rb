@@ -1,9 +1,5 @@
 module Veterans
   class RegistrationsController < Devise::RegistrationsController
-    def new
-      super
-    end
-
     def edit
       @veteran = current_veteran
       super
@@ -11,10 +7,11 @@ module Veterans
 
     def create
       @veteran = Veteran.new(veteran_params)
+      Rails.logger.info "Veteran: #{@veteran}"
       if @veteran.save
         send_notifications
         sign_in @veteran
-        redirect_to :profile, notice: 'Thanks for signing up! Please check your email to log in.'
+        redirect_to :profile, notice: 'Thanks for signing up!'
       else
         render :new
       end
@@ -39,7 +36,7 @@ module Veterans
     def send_notifications
       UserMailer.welcome(@veteran).deliver_now
       @veteran.send_slack_invitation
-      @veteran.send_mentor_request if veteran_params[:wants_mentor]
+      @veteran.send_mentor_request if @veteran.wants_mentor
       @veteran.add_to_mailchimp
     end
 

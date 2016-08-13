@@ -1,0 +1,16 @@
+<dl>
+  <dt>Email</dt>
+  <dd><%= @current_veteran.email %></dd>
+</dl>
+<dl>
+  <dt>Name</dt>
+  <dd><%= @current_veteran.name %></dd>
+</dl>
+<dl>
+  <dt>Joined</dt>
+  <dd><%= @current_veteran.created_at %></dd>
+</dl>
+<dl>
+  <dt>Vets near me</dt>
+  <dd><%= @current_veteran.nearbys.to_a.count %></dd>
+</dl>

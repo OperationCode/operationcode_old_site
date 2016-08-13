@@ -1,14 +1,39 @@
+# frozen_string_literal: true
 Rails.application.routes.draw do
-  devise_for :veterans, controllers: { registrations: 'veterans/registrations' }
+  devise_for :veterans, controllers: { registrations: 'veterans/registrations', sessions: 'veterans/sessions' }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
-  get :profile, to: 'veterans#profile'
+  devise_scope :veteran do
+    get :sign_up, to: 'veterans/registrations#new'
+    get :join, to: 'veterans/registrations#new'
+    get :login, to: 'veterans/sessions#new'
+    get :sign_in, to: 'veterans/sessions#new'
+
+    get 'profile/edit', to: 'veterans/registrations#edit'
+  end
+
+  # LetsEncrypt
+  get '.well-known/acme-challenge/:token', to: 'pages#ssl'
+
   get '/veterans/map', to: 'veterans#map'
   resources :veterans, only: [:new, :create]
+  post '/veterans/claim/:veteran', to: 'veterans#claim', as: :veterans_claim
+  post '/veterans/unclaim/:veteran', to: 'veterans#unclaim', as: :veterans_unclaim
 
   resources :donations, only: [:index, :new, :create]
 
+  # Profile
+  get '/profile', to: 'profile#home'
+  get '/profile/mentees', to: 'profile#mentees'
+  get '/profile/mentees/:mentee', to: 'profile/mentees#show', as: :profile_mentee
+  post '/profile/mentees/:mentee/welcome', to: 'profile/mentees#welcome', as: :welcome_mentee
+  get '/profile/edit/bio', to: 'profile#edit_bio'
+  post '/profile/edit/bio', to: 'profile#update_bio'
+  patch '/profile/edit/bio', to: 'profile#update_bio'
+  # End Profile
+
+  # Static pages
   get '/code_schools', to: 'code_schools#index'
 
   get 'about' => 'pages#about'
@@ -17,7 +42,6 @@ Rails.application.routes.draw do
   get 'contact' => 'pages#contact'
   get 'calendar' => 'pages#calendar'
   get 'sponsors' => 'pages#sponsors'
-  get 'codeschools' => 'pages#codeschools'
   get 'employers' => 'pages#employers'
   get 'events' => 'pages#events'
   get 'faq' => 'pages#faq'
@@ -36,7 +60,7 @@ Rails.application.routes.draw do
   get 'speakerrequest' => 'pages#speakerrequest'
   get 'successes' => 'pages#successes'
   get 'action' => 'veterans#new'
-  get 'blog' => 'pages#blog'
+  get 'fellowships' => 'pages#fellowships'
 
   get '/contact' => redirect('mailto:david@operationcode.org')
   get '/flatiron' => redirect('https://learn.co/learn-together')
@@ -45,7 +69,9 @@ Rails.application.routes.draw do
   get '/learn' => redirect('/online')
   get '/contribute' => redirect('https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md')
   get '/news' => redirect('/newgibill')
-  get '/join' => redirect('/action')
+
+  # /blog is still being served by jekyll
+  get '/blog' => redirect('https://medium.com/operation-code')
 
   root 'pages#home'
 end

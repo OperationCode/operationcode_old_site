@@ -65,7 +65,7 @@
   city: Culver City
   state: CA
   zip: 90230
-  va_accepted: false
+  va_accepted: true
   full_time: true
   hardware_included: false
   notes: Through its partnership with Antioch, a national non-profit university, Sabio is able to accept GI benefits as described <a href="http://www.antioch.edu/student-services/antioch-university-financial-information/veterans-benefits/" target="_blank" > here</a>. These programs are available at both of Sabio's campuses located in Culver City and Newport Beach, CA.
@@ -98,7 +98,7 @@
   city: Boulder
   state: CO
   zip: 80303
-  va_accepted: false
+  va_accepted: true
   full_time: true
   hardware_included: false
   notes: RefactorU is proud and honored to announce that its Web Development Bootcamp has been approved by the <a href="http://www.benefits.va.gov/gibill/">Colorado State Approving Agency for Veterans Education & Training</a>. Students eligible for the The Post-9/11 GI Bill, Montgomery GI Bill (Active Duty/Selected Reserve), Reserve Educational Assistance Program, Veterans Educational Assistance Program, and Survivors’ and Dependents’ Educational Assistance Program may be eligible to apply those benefits to RefactorU’s Web Application Development Bootcamp.
@@ -264,7 +264,7 @@
 - name: The Iron Yard at Raleigh-Durham
   url: http://theironyard.com/locations/raleigh-durham/
   address1: 334 Blackwell Street
-  address2: Suite B017</br>
+  address2: Suite B017
   city: Durham
   state: NC
   zip: 27701
@@ -400,10 +400,21 @@
   hardware_included: false
 
 - name: The Guild of Software Architects
+  url: https://guildsa.org/
   address1: 6170 Research Rd, Suite 107
   city: Frisco
   state: TX
   zip: 75033
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Operation Spark
+  url: https://operationspark.org
+  address1: 748 Camp Street, 2nd floor
+  city: New Orleans
+  state: LA
+  zip: 70130
   va_accepted: false
   full_time: true
   hardware_included: false

@@ -3,6 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
+  return if $('.veterans-map').length == 0
+
   veteranMap = L.map('veterans-map').setView([37.0902, -95.7129], 4)
   osmUrl = '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   osmAttrib = 'Map data © <a href="http://openstreetmap.org">'

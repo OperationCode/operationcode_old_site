@@ -28,7 +28,7 @@ Rails.application.configure do
     authentication:       :plain,
     enable_starttls_auto: true
   }
-  config.action_mailer.default_url_options = { host: 'www.operationcode.org' }
+  config.action_mailer.default_url_options = { host: 'operationcode.org' }
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
@@ -94,5 +94,10 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Separate Google Analytics tracker for each environment
-  GA.tracker = "UA-75642413-1"
+  GA.tracker = 'UA-75642413-1'
+
+  Rails.application.config.middleware.use(
+    ExceptionNotification::Rack,
+    slack: { webhook_url: 'https://hooks.slack.com/services/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' }
+  )
 end

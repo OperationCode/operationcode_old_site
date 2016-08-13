@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <%= render partial: 'profile/tabs' %>
+  </div>
+
+  <div class="row">
+    <div class="col offset-m3 m6 s12" role="main">
+      <%= card(title: 'Edit Bio') do %>
+        <div class="input-field">
+          <%= form_for @current_veteran, url: { action: :update_bio }  do |f| %>
+            <%= f.text_area :bio, class: 'materialize-textarea' %>
+            <%= f.submit('Update Bio', class: 'btn') %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+</div>
+

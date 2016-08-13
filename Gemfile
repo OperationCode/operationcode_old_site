@@ -5,7 +5,7 @@ ruby '2.3.0'
 # Server and DB #
 #################
 
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.5.2'
 gem 'sprockets-rails', '~> 2.0'
 gem 'pg'
 gem 'sidekiq'
@@ -33,15 +33,14 @@ gem 'leaflet-rails'
 ########################
 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
-gem 'devise', '3.4.1' #JDavis: devise is the Rails standard for authenticating users.
-gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
+gem 'activeadmin', '~> 1.0.0.pre4'
 
 ########
 # Misc #
 ########
 
 gem 'shareable'
-gem 'font-awesome-rails'
 gem 'github-markup', '~> 1.2.1'
 gem 'figaro' #app configuration using ENV variables and a single YAML file
 gem 'jekyll' #blogging gem
@@ -49,6 +48,8 @@ gem 'gibbon' #API wrapper for the Mailchimp API
 gem 'google-analytics-rails', '1.1.0'
 gem 'geocoder'
 gem 'carmen'
+gem 'exception_notification'
+gem 'slack-notifier'
 
 #####################
 # Development Tools #
@@ -58,6 +59,8 @@ group :test do
   gem 'capybara'
   gem 'webmock'
   gem 'minitest-rails'
+  gem 'codeclimate-test-reporter'
+  gem 'mocha'
 end
 
 group :development do
