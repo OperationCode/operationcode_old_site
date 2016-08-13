@@ -21,7 +21,7 @@ Questions? Get in touch: [david@operationcode.org](mailto:david@operationcode.or
 
 ## About
 
-Veteran-founded and led, Operation Code is on a mission to get more military veterans coding:
+Veteran-founded and led, Operation Code is on a mission to get more military veterans coding!
 * [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
 * [Source code](http://github.com/operationcode/operationcode) is available.
 * [Issue tracker](https://github.com/operationcode/operationcode/issues?q=is%3Aopen) lists outstanding issues.
@@ -29,6 +29,8 @@ Veteran-founded and led, Operation Code is on a mission to get more military vet
 ## Contributing
 
 Please read through our [contributing guidelines](https://github.com/operationcode/operationcode/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Also, ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well..
 
 Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/#html).
 
