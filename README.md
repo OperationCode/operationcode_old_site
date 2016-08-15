@@ -10,14 +10,14 @@ Learn more at: [https://www.operationcode.org](http://operationcode.org).
 
 Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate).
 
-Questions? Get in touch: [david@operationcode.org](mailto:david@operationcode.org).
+Questions? Get in touch: [staff@operationcode.org](mailto:staff@operationcode.org).
 
 ## Table of contents
 
 - [About](#about)
 - [Contributing](#contributing)
 - [Community](#community)
-- [Copyright and license](#copyright-and-license)
+- [Copyright and License](#copyright-and-license)
 
 ## About
 
@@ -30,7 +30,7 @@ Veteran-founded and led, Operation Code is on a mission to get more military vet
 
 Please read through our [contributing guidelines](https://github.com/operationcode/operationcode/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Also, ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well..
+Also, ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well.
 
 Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/#html).
 
