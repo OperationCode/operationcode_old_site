@@ -60,6 +60,7 @@ Rails.application.routes.draw do
   get 'scholarships' => 'pages#scholarships'
   get 'square' => redirect('https://cash.me/$operationcode')
   get 'speakerrequest' => 'pages#speakerrequest'
+  get 'staff' => 'pages#staff'
   get 'successes' => 'pages#successes'
   get 'action' => 'veterans#new'
   get 'fellowships' => 'pages#fellowships'
