@@ -37,6 +37,7 @@ Rails.application.routes.draw do
   get '/code_schools', to: 'code_schools#index'
 
   get 'about' => 'pages#about'
+  get 'amazon' => redirect('https://smile.amazon.com/ch/47-4247572')
   get 'deploy' => 'pages#deploy'
   get 'board' => 'pages#board'
   get 'contact' => 'pages#contact'

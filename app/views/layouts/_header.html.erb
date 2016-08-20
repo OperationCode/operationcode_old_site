@@ -29,6 +29,10 @@
   <li><%= link_to 'Online', donate_path %></li>
 </ul>
 
+<ul id="shop" class="dropdown-content">
+  <li><%= link_to 'AmazonSmile', amazon_path %></li>
+</ul>
+
 <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
@@ -40,6 +44,7 @@
         <li class='grey-text'><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="programs-and-services">Programs And Services<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="donate">Donate<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="shop">Shop<i class="material-icons right">arrow_drop_down</i></a></li>
 
 
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
@@ -73,11 +78,15 @@
 
         <li><h6>Donate</h6></li>
         <li><%= link_to 'Square Cash', square_path %></li>
-        <li><%= link_to 'Dwolla', root_path %></li>
+        <!-- <li><%= link_to 'Dwolla', root_path %></li>
         <li><%= link_to 'Venmo', root_path %></li>
-        <li><%= link_to 'PayPal', root_path %></li>
+        <li><%= link_to 'PayPal', root_path %></li> -->
         <li role="separator" class="divider"></li>
         <li><%= link_to 'Online', donate_path %></li>
+        <li role="separator" class="divider"></li>
+
+        <li><h6>Shop</h6></li>
+        <li><%= link_to 'AmazonSmile', amazon_path %></li>
         <li role="separator" class="divider"></li>
 
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
