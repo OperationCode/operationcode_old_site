@@ -70,6 +70,8 @@ ActiveRecord::Schema.define(version: 20160802182934) do
     t.string   "zip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.float    "latitude"
+    t.float    "longitude"
     t.string   "encrypted_password",     default: "",    null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
@@ -79,8 +81,6 @@ ActiveRecord::Schema.define(version: 20160802182934) do
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
     t.inet     "last_sign_in_ip"
-    t.float    "latitude"
-    t.float    "longitude"
     t.boolean  "wants_mentor"
     t.string   "type"
     t.integer  "mentor_id"

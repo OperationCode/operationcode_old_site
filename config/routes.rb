@@ -57,6 +57,7 @@ Rails.application.routes.draw do
   get 'press' => 'pages#press'
   get 'privacy' => 'pages#privacy'
   get 'scholarships' => 'pages#scholarships'
+  get 'square' => redirect('https://cash.me/$operationcode')
   get 'speakerrequest' => 'pages#speakerrequest'
   get 'successes' => 'pages#successes'
   get 'action' => 'veterans#new'
