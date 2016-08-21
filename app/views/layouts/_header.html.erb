@@ -1,20 +1,21 @@
 <ul id="about" class="dropdown-content">
   <li><%= link_to 'History', history_path %></li>
   <li><%= link_to 'About Operation Code', about_path %></li>
-  <li><%= link_to 'FAQ', faq_path %></li>
-  <li class="divider"></li>
-  <li><%= link_to 'Press', press_path %></li>
-  <li><%= link_to 'Staff & Board', board_path %></li>
+  <li><%= link_to 'Frequently Asked Questions', faq_path %></li>
+  <li><%= link_to 'Press & News', press_path %></li>
   <li><%= link_to 'Sponsors', sponsors_path %></li>
+  <li class="divider"></li>
+  <li><%= link_to 'Staff', staff_path %></li>
+  <li><%= link_to 'Board of Directors', board_path %></li>
   <li role="separator" class="divider"></li>
   <li><%= link_to 'TAP Briefing', "http://operationcode.github.io/tap-deck" %></li>
 </ul>
 
 <ul id="programs-and-services" class="dropdown-content">
-  <li><%= link_to 'Fellowship Program', fellowships_path %></li>
   <li><%= link_to 'Software Mentorship', mentorship_path %></li>
   <li><%= link_to 'Scholarships', scholarships_path %></li>
   <li><%= link_to 'Employer Services', employers_path %></li>
+  <li><%= link_to 'Fellowship Program', fellowships_path %></li>
   <li><%= link_to 'Deploy', deploy_path %></li>
   <li role="separator" class="divider"></li>
   <li><%= link_to 'Code Schools', code_schools_path %></li>
@@ -22,9 +23,9 @@
 
 <ul id="donate" class="dropdown-content">
   <li><%= link_to 'Square Cash', square_path %></li>
-  <li><%= link_to 'Dwolla', root_path %></li>
+  <!-- <li><%= link_to 'Dwolla', root_path %></li>
   <li><%= link_to 'Venmo', root_path %></li>
-  <li><%= link_to 'PayPal', root_path %></li>
+  <li><%= link_to 'PayPal', root_path %></li> -->
   <li role="separator" class="divider"></li>
   <li><%= link_to 'Online', donate_path %></li>
 </ul>
@@ -60,18 +61,21 @@
         <li><h6>About</h6></li>
         <li><%= link_to 'History', history_path %></li>
         <li><%= link_to 'About Operation Code', about_path %></li>
-        <li><%= link_to 'FAQ', faq_path %></li>
-        <li><%= link_to 'Press', press_path %></li>
-        <li><%= link_to 'Staff & Board', board_path %></li>
+        <li><%= link_to 'Frequently Asked Questions', faq_path %></li>
+        <li><%= link_to 'Press & News', press_path %></li>
         <li><%= link_to 'Sponsors', sponsors_path %></li>
+        <li class="divider"></li>
+        <li><%= link_to 'Staff', staff_path %></li>
+        <li><%= link_to 'Board of Directors', board_path %></li>
+        <li role="separator" class="divider"></li>
         <li><%= link_to 'TAP Briefing', "http://operationcode.github.io/tap-deck" %></li>
         <li role="separator" class="divider"></li>
 
         <li><h6>Programs And Services</h6></li>
-        <li><%= link_to 'Fellowships', fellowships_path %></li>
         <li><%= link_to 'Software Mentorship', mentorship_path %></li>
         <li><%= link_to 'Scholarships', scholarships_path %></li>
         <li><%= link_to 'Employer Services', employers_path %></li>
+        <li><%= link_to 'Fellowship Program', fellowships_path %></li>
         <li><%= link_to 'Deploy', deploy_path %></li>
         <li><%= link_to 'Code Schools', code_schools_path %></li>
         <li role="separator" class="divider"></li>
