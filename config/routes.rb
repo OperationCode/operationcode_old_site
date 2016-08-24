@@ -39,6 +39,7 @@ Rails.application.routes.draw do
   get 'about' => 'pages#about'
   get 'amazon' => redirect('https://smile.amazon.com/ch/47-4247572')
   get 'deploy' => 'pages#deploy'
+  get 'dwolla' => redirect('https://www.dwolla.com')
   get 'board' => 'pages#board'
   get 'contact' => 'pages#contact'
   get 'calendar' => 'pages#calendar'
