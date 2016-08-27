@@ -47,11 +47,6 @@ class Veteran < ActiveRecord::Base
     SlackInviterJob.perform_later(email)
   end
 
-  def send_mentor_request
-    message = "A new user (#{first_name} #{last_name} <#{email}>) has requested a mentor."
-    SlackNotifierJob.perform_later(message, channel: 'mentors')
-  end
-
   def add_to_mailchimp
     MailchimpInviterJob.perform_later(
       email: email, first_name: first_name, last_name: last_name

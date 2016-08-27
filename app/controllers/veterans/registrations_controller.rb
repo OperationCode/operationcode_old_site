@@ -28,7 +28,6 @@ module Veterans
       # This will send them a link to set their password and our welcome email
       @veteran.send_reset_password_instructions
       @veteran.send_slack_invitation
-      @veteran.send_mentor_request if @veteran.wants_mentor
       @veteran.add_to_mailchimp
     end
 
