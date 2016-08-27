@@ -20,17 +20,7 @@ module Veterans
     private
 
     def veteran_params
-      params.require(:veteran).permit(
-        :first_name,
-        :last_name,
-        :email,
-        :zip,
-        :service_branch,
-        :request_mentor,
-        :password,
-        :password_confirmation,
-        :wants_mentor
-      )
+      params.require(:veteran).permit(:email, :zip)
     end
 
     def send_notifications
