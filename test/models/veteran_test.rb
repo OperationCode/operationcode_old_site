@@ -21,13 +21,6 @@ class VeteranTest < ActiveSupport::TestCase
     assert_equal 'name_test_email@example.com', Veteran.new(name_test_params.except(:first_name, :last_name)).name
   end
 
-  test 'sends a mentor request' do
-    veteran = Veteran.first
-    slack_message = "A new user (#{veteran.first_name} #{veteran.last_name} <#{veteran.email}>) has requested a mentor."
-    SlackNotifierJob.expects(:perform_later).with(slack_message, channel: 'mentors')
-    veteran.send_mentor_request
-  end
-
   test 'can add a user to mail chimp' do
     veteran = Veteran.first
     MailchimpInviterJob.expects(:perform_later).with(

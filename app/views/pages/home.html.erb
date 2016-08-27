@@ -1,10 +1,4 @@
-<!--     Veteran-founded and led, Operation Code is focused on increasing the
-number of U.S. Military/ Veterans to careers in software development and coding
-through scholarships and mentorship while putting a dent in the nation's
-technical talent shortage. -->
-
 <!-- Landing section showing slides of what OC is about -->
-
 <div class="section no-pad-top" id="index-banner">
   <div class="slider">
     <ul class="slides">
@@ -39,7 +33,6 @@ technical talent shortage. -->
 </div>
 
 <div class="container">
-
   <br><br>
   <h4 class="header center">The fastest way for military, veterans and their families to get coding.</h4>
   <div class="row center">
@@ -48,29 +41,28 @@ technical talent shortage. -->
       learn a new programming language and contributing to open source software in no time.
     </h5>
   </div>
-  <div class="row center">
-    <%= link_to 'Join now and get coding &raquo;'.html_safe, new_veteran_registration_path, class: 'btn-large waves-effect waves-light opcode-green' %>
-  </div>
-  <br><br>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12" role="main">
-        <p class="lead">
-          In the United States over 200,000 computing jobs open annually and 30,000 are filled by Computer Science graduates;
-          however, that number is expected to rise to 1.2 million by 2020. Meanwhile, we have 250,000 U.S. military personnel
-          that exit the service annually, including some because of sequestration.  Currently, there are almost
-          <a href="http://www.bls.gov/news.release/pdf/vet.pdf">500,000 unemployed veterans</a> with over 70,000 of us between
-          the ages of 25 and 34, which is the typical age of separation, as of 2015 according to the Bureau of Labor Statistics.
-          </br>
-          When you join our ranks you'll be joining our growing military veterans coding community. In <a href="http://operation-code.slack.com/">Slack</a>,
-          you'll network, share resources, find job opportunities, get help with your code, and become eligible for conference scholarships and coding
-          scholarships. Together we are Operation Code.
-        </p>
-      </div>
+  <div class="row center">
+    <%= render partial: 'veterans/registrations/form' %>
+  </div>
+
+  <div class="row">
+    <div class="col m12 center">
+      <p class="light">
+        In the United States over 200,000 computing jobs open annually and 30,000 are filled by Computer Science graduates;
+        however, that number is expected to rise to 1.2 million by 2020. Meanwhile, we have 250,000 U.S. military personnel
+        that exit the service annually, including some because of sequestration.  Currently, there are almost
+        <a href="http://www.bls.gov/news.release/pdf/vet.pdf">500,000 unemployed veterans</a> with over 70,000 of us between
+        the ages of 25 and 34, which is the typical age of separation, as of 2015 according to the Bureau of Labor Statistics.
+      </p>
+
+      <p class="light">
+        When you join our ranks you'll be joining our growing military veterans coding community. In <a href="http://operation-code.slack.com/">Slack</a>,
+        you'll network, share resources, find job opportunities, get help with your code, and become eligible for conference scholarships and coding
+        scholarships. Together we are Operation Code.
+      </p>
     </div>
   </div>
-  <br><br>
 
   <div class="row">
     <div class="col s12 m3">
@@ -247,8 +239,9 @@ technical talent shortage. -->
       <p>The event for people building the future of software. Three days filled with the creativity and curiosity of the largest software community in the world. <a href="http://githubuniverse.com/blog/2016/08/22/why-attend-github-universe.html">Why attend?</a></p>
       <p><a class="btn btn-default-default" href="https://operation-code.slack.com/messages/@nellshamrell/" role="button" target="_blank">Apply for Scholarship &raquo;</a></p>
     </div><!-- /.col m4 -->
+  </div>
 
-<hr />
+  <hr />
 
   <div class="row">
     <h4 class="header center">Latest News</h4>
