@@ -7,7 +7,7 @@ module Veterans
 
     def create
       @veteran = Veteran.new(veteran_params)
-      Rails.logger.info "Veteran: #{@veteran}"
+      @veteran.password = Devise.friendly_token.first(16)
       if @veteran.save
         send_notifications
         sign_in @veteran
@@ -34,7 +34,9 @@ module Veterans
     end
 
     def send_notifications
-      UserMailer.welcome(@veteran).deliver_now
+      # We're going to 'reset' a users password when they sign up.
+      # This will send them a link to set their password and our welcome email
+      @veteran.send_reset_password_instructions
       @veteran.send_slack_invitation
       @veteran.send_mentor_request if @veteran.wants_mentor
       @veteran.add_to_mailchimp
