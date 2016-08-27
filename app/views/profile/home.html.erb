@@ -16,13 +16,5 @@
         <%=  render partial: 'profile/home/bio' %>
       <% end %>
     </div>
-
-    <% unless current_veteran.mentor? %>
-    <div class="col m5" role="main">
-      <%= card(title: 'Mentor Details') do %>
-        <%=  render partial: 'profile/home/mentor' %>
-      <% end %>
-    </div>
-    <% end %>
   </div>
 </div>
