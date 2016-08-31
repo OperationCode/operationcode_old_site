@@ -384,7 +384,7 @@
   city: Seattle
   state: WA
   zip: 98109
-  va_accepted: false
+  va_accepted: true
   full_time: true
   hardware_included: false
 
