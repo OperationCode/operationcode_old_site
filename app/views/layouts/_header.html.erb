@@ -21,18 +21,16 @@
   <li><%= link_to 'Code Schools', code_schools_path %></li>
 </ul>
 
-<ul id="donate" class="dropdown-content">
+<ul id="Donate" class="dropdown-content">
   <li><%= link_to 'Square Cash', square_path %></li>
+  <li role="separator" class="divider"></li>
   <li><%= link_to 'Dwolla', dwolla_path %></li>
-  <!-- <li><%= link_to 'Venmo', root_path %></li>
-  <li><%= link_to 'PayPal', root_path %></li> --> -->
   <li role="separator" class="divider"></li>
   <li><%= link_to 'Online', donate_path %></li>
+  <li role="separator" class="divider"></li>
+   <li><%= link_to 'AmazonSmile', amazon_path %></li>
 </ul>
 
-<ul id="shop" class="dropdown-content">
-  <li><%= link_to 'AmazonSmile', amazon_path %></li>
-</ul>
 
 <div class="navbar-fixed">
   <nav class="white" role="navigation">
@@ -44,8 +42,8 @@
       <ul class="right hide-on-med-and-down">
         <li class='grey-text'><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="programs-and-services">Programs And Services<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="donate">Donate<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="shop">Shop<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate<i class="material-icons right">arrow_drop_down</i></a></li>
+        
 
 
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
@@ -80,18 +78,16 @@
         <li><%= link_to 'Code Schools', code_schools_path %></li>
         <li role="separator" class="divider"></li>
 
-        <li><h6>Donate</h6></li>
-        <li><%= link_to 'Square Cash', square_path %></li>
+       <li><h6>Donate</h6></li>
+        <li><%= link_to 'SquareCash', square_path %></li>
+        <li role="separator" class="divider"></li>
         <li><%= link_to 'Dwolla', dwolla_path %></li>
-        <!-- <li><%= link_to 'Venmo', root_path %></li>
-        <li><%= link_to 'PayPal', root_path %></li> -->
         <li role="separator" class="divider"></li>
         <li><%= link_to 'Online', donate_path %></li>
         <li role="separator" class="divider"></li>
-
-        <li><h6>Shop</h6></li>
-        <li><%= link_to 'AmazonSmile', amazon_path %></li>
+        <li><%= link_to 'Amazon', amazon_path %></li>
         <li role="separator" class="divider"></li>
+
 
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
 
