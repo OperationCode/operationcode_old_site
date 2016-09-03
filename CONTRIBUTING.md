@@ -96,10 +96,10 @@ Now you are able to install Operation Code! These next commands will pull down t
 * [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
  * When cloning your DB into Cloud9 select Ruby as the template and create your workspace name and description. 
  * Go down to the Bash Terminal and type in the following commands:
-      gem install rails
-      bundle install
-      rails server -b $IP -p $PORT
-      createdb operationcode_development
+      * gem install rails
+      * bundle install
+      * rails server -b $IP -p $PORT
+      * createdb operationcode_development
 * Your site should now open for preview at http://workpacename-username.c9users.io (ie: http://operationcode-ashtemp.c9users.io)
 
 ## Working On Your Issue
