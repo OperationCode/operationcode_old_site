@@ -26,6 +26,6 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Rick Rein](https://github.com/rickr)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
-* [Ashley Templet](https://githug.com/AshTemp)
+* [Ashley Templet](https://github.com/AshTemp)
 
 When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
