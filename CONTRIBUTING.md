@@ -100,6 +100,7 @@ Now you are able to install Operation Code! These next commands will pull down t
       * bundle install
       * rails server -b $IP -p $PORT
       * createdb operationcode_development
+   * Sometimes you may have to restart the postgress server with sudo service postgresql restart.
 * Your site should now open for preview at http://workpacename-username.c9users.io (ie: http://operationcode-ashtemp.c9users.io)
 
 ## Working On Your Issue
