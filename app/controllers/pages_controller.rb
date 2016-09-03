@@ -66,9 +66,6 @@ class PagesController < ApplicationController
   def staff
   end
 
-  def successes
-  end
-
   def success_stories
   end
 
