@@ -69,6 +69,9 @@ class PagesController < ApplicationController
   def successes
   end
 
+  def success_stories
+  end
+
   def fellowships
   end
 
