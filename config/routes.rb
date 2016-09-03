@@ -62,7 +62,6 @@ Rails.application.routes.draw do
   get 'square' => redirect('https://cash.me/$operationcode')
   get 'speakerrequest' => 'pages#speakerrequest'
   get 'staff' => 'pages#staff'
-  get 'successes' => 'pages#successes'
   get 'success_stories' => 'pages#success_stories'
   get 'action' => 'veterans#new'
   get 'fellowships' => 'pages#fellowships'
