@@ -1,3 +1,3 @@
 Split::Dashboard.use Rack::Auth::Basic do |username, password|
-  username == 'test' && password == 'test'
+  username == ENV['SPLIT_USERNAME'] && password == ENV['SPLIT_PASSWORD']
 end
