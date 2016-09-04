@@ -44,8 +44,7 @@
         <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="programs-and-services">What We Do<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate<i class="material-icons right">arrow_drop_down</i></a></li>
 
-
-
+        <li><%= link_to 'Success Stories', success_stories_path %></li>
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
         <% if veteran_signed_in? %>
           <li><%= link_to 'Profile', profile_path %></li>
@@ -90,6 +89,7 @@
         <li role="separator" class="divider"></li>
 
 
+        <li><%= link_to 'Success Stories', success_stories_path %></li>
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
 
         <% if veteran_signed_in? %>
