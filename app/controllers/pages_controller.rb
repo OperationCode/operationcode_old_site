@@ -51,6 +51,9 @@ class PagesController < ApplicationController
   def online
   end
 
+  def pipeline
+  end
+
   def press
   end
 
