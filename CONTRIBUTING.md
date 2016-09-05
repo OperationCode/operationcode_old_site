@@ -94,7 +94,7 @@ Now you are able to install Operation Code! These next commands will pull down t
 
 ### Rails on Cloud9
 * [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
- * When cloning your DB into Cloud9 select Ruby as the template and create your workspace name and description. 
+ * When cloning your fork into Cloud9, select Ruby as the template and create your workspace name and description. 
  * Go down to the Bash Terminal and type in the following commands:
       * gem install rails
       * bundle install
