@@ -13,9 +13,6 @@ Rails.application.routes.draw do
     get 'profile/edit', to: 'veterans/registrations#edit'
   end
 
-  # Split
-  mount Split::Dashboard, at: 'split'
-
   # LetsEncrypt
   get '.well-known/acme-challenge/:token', to: 'pages#ssl'
 
