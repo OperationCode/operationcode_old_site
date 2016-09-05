@@ -51,6 +51,9 @@ class PagesController < ApplicationController
   def online
   end
 
+  def pipeline
+  end
+
   def press
   end
 
@@ -66,7 +69,7 @@ class PagesController < ApplicationController
   def staff
   end
 
-  def successes
+  def success_stories
   end
 
   def fellowships
