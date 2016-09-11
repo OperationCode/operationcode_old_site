@@ -416,7 +416,7 @@
   zip: 02109
   va_accepted: false
   full_time: true
-  hardware_included false
+  hardware_included: false
   
 - name: Startup Institute at NYC
   url: https://www.startupinstitute.com/new-york/
