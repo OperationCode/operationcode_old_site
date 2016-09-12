@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Veterans
+module Veterans
   class RegistrationsControllerTest < ActionController::TestCase
     include Devise::Test::ControllerHelpers
 
