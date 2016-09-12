@@ -1,0 +1,34 @@
+.success-stories-item {
+
+  &:nth-of-type(even) {
+    img {
+      margin-left: 20px;
+    }
+
+    .success-stories-accounts {
+      margin-left: 50px;
+    }
+  }
+
+  &:nth-of-type(odd) {
+    img {
+      margin-right: 20px;
+    }
+
+    .success-stories-accounts {
+      margin-right: 50px;
+    }
+  }
+
+}
+
+.success-stories-photo {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.success-stories-name {
+  margin-right: 20px;
+}
+
