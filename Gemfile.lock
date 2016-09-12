@@ -307,6 +307,8 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     redis (3.3.1)
+    redis-namespace (1.5.2)
+      redis (~> 3.0, >= 3.0.4)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
     rest-client (2.0.0)
@@ -330,6 +332,7 @@ GEM
       connection_pool (~> 2.2, >= 2.2.0)
       redis (~> 3.2, >= 3.2.1)
       sinatra (>= 1.4.7)
+    simple-random (1.0.3)
     simplecov (0.12.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -341,6 +344,11 @@ GEM
       tilt (>= 1.3, < 3)
     slack-notifier (1.5.1)
     slop (3.6.0)
+    split (2.1.0)
+      redis (>= 2.1)
+      redis-namespace (>= 1.1.0)
+      simple-random (>= 0.9.3)
+      sinatra (>= 1.2.6)
     spring (1.7.2)
     sprockets (2.12.4)
       hike (~> 1.2)
@@ -425,6 +433,7 @@ DEPENDENCIES
   shareable
   sidekiq
   slack-notifier
+  split
   spring
   sprockets-rails (~> 2.0)
   stripe!
@@ -433,6 +442,9 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   webmock
   xray-rails
+
+RUBY VERSION
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.5
