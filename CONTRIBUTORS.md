@@ -27,5 +27,6 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
 * [Ashley Templet](https://github.com/AshTemp)
+* [Jared Koumentis](https://github.com/ShepBook)
 
 When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
