@@ -217,7 +217,7 @@
   full_time: true
   hardware_included: false
 
-- name: Fullstack Academy
+- name: Fullstack Academy at New York
   url: http://fullstackacademy.com
   address1: 5 Hanover Square
   address2: Floor 25
@@ -228,6 +228,17 @@
   full_time: true
   hardware_included: false
 
+- name: Fullstack Academy at Chicago
+  url: http://fullstackacademy.com
+  address1: 222 W Merchandise Mart Plaza
+  address2: #1212
+  city: Chicago
+  state: IL
+  zip: 60654
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
 - name: The Flatiron School
   url: http://flatironschool.com/
   address1: 11 Broadway
