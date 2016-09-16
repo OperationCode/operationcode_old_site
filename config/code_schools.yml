@@ -26,6 +26,17 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  
+  - name: Fullstack Academy
+  url:  http://www.fullstackacademy.com/
+  address1: 5 Hanover Square, Floor 25, New York, NY 
+  address2: 222 W Merchandise Mart Plaza #1212, Chicago, IL 
+  city: New York, Chicago
+  state: NY, IL
+  zip:  10004, 60654
+  va_accepted: false
+  full_time: true
+  hardware_included: false
 
 - name: gSchool SoMa
   url:  http://www.galvanize.it/school/#main
