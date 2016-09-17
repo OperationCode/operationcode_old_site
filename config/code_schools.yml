@@ -59,7 +59,7 @@
   full_time: true
   hardware_included: false
 
-- name: Sabio
+- name: Sabio (Southern California)
   url: http://sabio.la/
   address1: 400 Corporate Pointe
   city: Culver City
@@ -91,7 +91,7 @@
   full_time: true
   hardware_included: false
 
-- name: RefactorU
+- name: RefactorU (Boulder, Colorado)
   url: http://refactoru.com
   address1: 5717 Arapahoe Avenue
   address2: Suite #216
@@ -217,7 +217,7 @@
   full_time: true
   hardware_included: false
 
-- name: Fullstack Academy
+- name: Fullstack Academy at New York
   url: http://fullstackacademy.com
   address1: 5 Hanover Square
   address2: Floor 25
@@ -228,6 +228,17 @@
   full_time: true
   hardware_included: false
 
+- name: Fullstack Academy at Chicago
+  url: http://fullstackacademy.com
+  address1: 222 W Merchandise Mart Plaza
+  address2: #1212
+  city: Chicago
+  state: IL
+  zip: 60654
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
 - name: The Flatiron School
   url: http://flatironschool.com/
   address1: 11 Broadway
@@ -304,17 +315,6 @@
   full_time: true
   hardware_included: false
 
-- name: Portland Code School
-  url: http://www.portlandcodeschool.com
-  address1: 1771 NW Pettygrove St
-  address2: Suite #140
-  city: Portaland
-  state: OR
-  zip: 97209
-  va_accepted: false
-  full_time: true
-  hardware_included: false
-
 - name: The Iron Yard at Charleston
   url: http://theironyard.com/locations/greenville
   address1: 510 Mill Street
@@ -378,13 +378,13 @@
   hardware_included: false
   notes: <strong>Women-only and tuition-free</strong>. One-year program.
 
-- name: Code Fellows Seattle
+- name: Code Fellows (Seattle, Washington)
   url: https://www.codefellows.org
   address1: 511 Boren Ave N.
   city: Seattle
   state: WA
   zip: 98109
-  va_accepted: false
+  va_accepted: true
   full_time: true
   hardware_included: false
 
@@ -418,3 +418,26 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  
+- name: Startup Institute at Boston
+  url: https://www.startupinstitute.com/boston/
+  address1: 50 Milk Street, 14th Floor
+  city: Boston 
+  state: MA 
+  zip: 02109
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: Startup Institute at NYC
+  url: https://www.startupinstitute.com/new-york/
+  address1: 25 Broadway, 10th Floor
+  city: New York City
+  state: NY
+  zip: 10004
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+    
+  

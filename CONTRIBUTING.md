@@ -92,6 +92,17 @@ Now you are able to install Operation Code! These next commands will pull down t
    * Add the PATH to your `.bashrc` or `.bash_profile`
    * Then type `bundle` or `bundle install` again to finish installing any remaining gems
 
+### Rails on Cloud9
+* [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
+ * When cloning your fork into Cloud9, select Ruby as the template and create your workspace name and description. 
+ * Go down to the Bash Terminal and type in the following commands:
+      * gem install rails
+      * bundle install
+      * rails server -b $IP -p $PORT
+      * createdb operationcode_development
+   * Sometimes you may have to restart the postgress server with sudo service postgresql restart.
+* Your site should now open for preview at http://workpacename-username.c9users.io (ie: http://operationcode-ashtemp.c9users.io)
+
 ## Working On Your Issue
 When working on github the common practice is to make a copy of the repo you want to change (known as `forking` the repo), make your changes and then request to merge those changes back into the project (known as a `pull request`). Forking a repo is done through github's web UI. It can be found in the top right corner of the [Operation Code](https://github.com/OperationCode/operationcode) github page. Once forked proceed below.
 

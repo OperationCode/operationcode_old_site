@@ -19,6 +19,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Josh Springer](https://github.com/jdspringr07)
 * [Kevin Falting](https://github.com/KevinRoss-)
 * [Krystyna Ewing](https://github.com/Wimsy113)
+* [Karla Gilsalazar](https://github.com/karla001)
 * [Michael Alexander](https://github.com/cenderin)
 * [Ming Zhang](https://github.com/Scripore)
 * [Nell Shamrell-Harrington](https://github.com/nellshamrell)
@@ -26,5 +27,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Rick Rein](https://github.com/rickr)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
+* [Ashley Templet](https://github.com/AshTemp)
+* [Jared Koumentis](https://github.com/ShepBook)
 
 When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
