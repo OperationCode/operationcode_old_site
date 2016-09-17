@@ -19,6 +19,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Josh Springer](https://github.com/jdspringr07)
 * [Kevin Falting](https://github.com/KevinRoss-)
 * [Krystyna Ewing](https://github.com/Wimsy113)
+* [Karla Gilsalazar](https://github.com/karla001)
 * [Michael Alexander](https://github.com/cenderin)
 * [Ming Zhang](https://github.com/Scripore)
 * [Nell Shamrell-Harrington](https://github.com/nellshamrell)
