@@ -53,7 +53,7 @@ Ruby is an Object Oriented programming language Operation Code is written in. Wh
 * Install the version of ruby from the step above. eg `rvm install 2.2.3`
 
 ### git
-Git is a distributed version control system. This is how our code is stored and managed. 
+Git is a distributed version control system. This is how our code is stored and managed. Git can be frustrating. If you want to know more about git, a great resource is [Think Like a Git](http://think-like-a-git.net/) and if you find your self in a real git pickle, see ["Oh, shit, git!"](http://ohshitgit.com/).
 
 * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
