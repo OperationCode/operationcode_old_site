@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col m4 offset-m4" role="main">
+    <%= card(title: 'Mentee Details') do %>
+      <div>
+      <% if @mentee.welcomed? %>
+        Has Been Welcomed
+      <% else %>
+        <strong>Has not been welcomed</strong>
+          <% if @current_veteran.profile_complete? %>
+            - <%= link_to 'welcome mentee', welcome_mentee_path, method: :post %>
+          <% else %>
+            <div> Your profile must be complete before you can contact your mentee </div>
+          <% end %>
+      <% end %>
+      </div>
+      <dl>
+        <di>Name</di>
+        <dd><%= @mentee.name %></dd>
+        <di>Email</di>
+        <dd><%= mail_to @mentee.email %></dd>
+      </dl>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<tr>
+  <%= form_tag(veterans_claim_path(unclaimed_mentee)) do %>
+    <td><%= link_to unclaimed_mentee.name, profile_mentee_path(unclaimed_mentee) %></td>
+    <td><<%= mail_to unclaimed_mentee.email %>></td>
+    <td><button class='btn btn-floating'><i class='material-icons'>add</i></button></td>
+  <% end %>
+</tr>

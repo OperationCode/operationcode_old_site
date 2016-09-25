@@ -1,5 +1,6 @@
 # [Operation Code](http://operationcode.org)
 [![Build Status](https://travis-ci.org/OperationCode/operationcode.svg?branch=master)](https://travis-ci.org/OperationCode/operationcode)
+[![Code Climate](https://codeclimate.com/github/OperationCode/operationcode/badges/gpa.svg)](https://codeclimate.com/github/OperationCode/operationcode)
 
 Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](http://operationcode.org/contributors).
 
@@ -9,18 +10,18 @@ Learn more at: [https://www.operationcode.org](http://operationcode.org).
 
 Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate).
 
-Questions? Get in touch: [david@operationcode.org](mailto:david@operationcode.org).
+Questions? Get in touch: [staff@operationcode.org](mailto:staff@operationcode.org).
 
 ## Table of contents
 
 - [About](#about)
 - [Contributing](#contributing)
 - [Community](#community)
-- [Copyright and license](#copyright-and-license)
+- [Copyright and License](#copyright-and-license)
 
 ## About
 
-Veteran-founded and led, Operation Code is on a mission to get more military veterans coding:
+Veteran-founded and led, Operation Code is on a mission to get more military veterans coding!
 * [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
 * [Source code](http://github.com/operationcode/operationcode) is available.
 * [Issue tracker](https://github.com/operationcode/operationcode/issues?q=is%3Aopen) lists outstanding issues.
@@ -28,6 +29,8 @@ Veteran-founded and led, Operation Code is on a mission to get more military vet
 ## Contributing
 
 Please read through our [contributing guidelines](https://github.com/operationcode/operationcode/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Also, ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well.
 
 Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/#html).
 

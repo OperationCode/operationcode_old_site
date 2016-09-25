@@ -1,29 +1,111 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <%= link_to image_tag('operationcode_logo.svg'),root_path, class: 'navbar-brand'%>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+<ul id="about" class="dropdown-content">
+  <li><%= link_to 'History', history_path %></li>
+  <li><%= link_to 'About Operation Code', about_path %></li>
+  <li><%= link_to 'Frequently Asked Questions', faq_path %></li>
+  <li><%= link_to 'Press Coverage', press_path %></li>
+  <li><%= link_to 'GI Bill Updates', newgibill_path %></li>
+  <li><%= link_to 'Sponsors', sponsors_path %></li>
+  <li class="divider"></li>
+  <li><%= link_to 'Staff', staff_path %></li>
+  <li><%= link_to 'Board of Directors', board_path %></li>
+  <li role="separator" class="divider"></li>
+  <li><%= link_to 'TAP Briefing', "http://operationcode.github.io/tap-deck" %></li>
+</ul>
 
-      <li><%= link_to 'Join', action_path %></li>
+<ul id="programs-and-services" class="dropdown-content">
+  <li><%= link_to 'Code Schools', code_schools_path %></li>
+  <li><%= link_to 'Scholarship Program', scholarships_path %></li>
+  <li><%= link_to 'Software Mentorship', mentorship_path %></li>
+  <li><%= link_to 'Employer Services', employers_path %></li>
+  <li><%= link_to 'Web Application Development', deploy_path %></li>
+</ul>
 
-      <li><%= link_to 'Blog', blog_path %></li>
+<ul id="Donate" class="dropdown-content">
+  <li><%= link_to 'Square Cash', square_path %></li>
+  <li role="separator" class="divider"></li>
+  <li><%= link_to 'Dwolla', dwolla_path %></li>
+  <li role="separator" class="divider"></li>
+  <li><%= link_to 'Online', donate_path %></li>
+  <li role="separator" class="divider"></li>
+   <li><%= link_to 'AmazonSmile', amazon_path %></li>
+</ul>
 
-      <li><%= link_to 'Code Schools', codeschools_path %></li>
 
-      <li><%= link_to 'Calendar', calendar_path %></li>
+<div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <%= link_to image_tag('operationcode_logo.svg'), root_path, class: 'brand-logo'%>
+      <a class="button-collapse top-nav full hide-on-large-only" data-activates="nav-mobile" href="#"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="black-text material-icons">menu</i></a>
 
-      <li><%= link_to 'Contact', contact_path %></li>
+      <ul class="right hide-on-med-and-down">
+        <li class='grey-text'><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="programs-and-services">What We Do<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate<i class="material-icons right">arrow_drop_down</i></a></li>
 
-      <li><%= link_to 'Donate', donate_path %></li>
+        <li><%= link_to 'Success Stories', success_stories_path %></li>
+        <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
+        <% if veteran_signed_in? %>
+          <li><%= link_to 'Profile', profile_path %></li>
+          <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
+        <% else %>
+          <li>
+            <% ab_test(:signup_button_size, 'btn btn-large', '') do |button_size| %>
+            <%= link_to 'Join', new_veteran_registration_path, class: button_size %>
+            <% end %>
+          </li>
+          <% end %>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav black-text">
+        <li><h6>About</h6></li>
+        <li><%= link_to 'History', history_path %></li>
+        <li><%= link_to 'About Operation Code', about_path %></li>
+        <li><%= link_to 'Frequently Asked Questions', faq_path %></li>
+        <li><%= link_to 'Press Coverage', press_path %></li>
+        <li><%= link_to 'GI Bill Updates', newgibill_path %></li>
+        <li><%= link_to 'Sponsors', sponsors_path %></li>
+        <li class="divider"></li>
+        <li><%= link_to 'Staff', staff_path %></li>
+        <li><%= link_to 'Board of Directors', board_path %></li>
+        <li role="separator" class="divider"></li>
+        <li><%= link_to 'TAP Briefing', "http://operationcode.github.io/tap-deck" %></li>
+        <li role="separator" class="divider"></li>
+
+        <li><h6>What We Do</h6></li>
+        <li><%= link_to 'Software Mentorship', mentorship_path %></li>
+        <li><%= link_to 'Scholarships', scholarships_path %></li>
+        <li><%= link_to 'Employer Services', employers_path %></li>
+        <li><%= link_to 'Fellowship Program', fellowships_path %></li>
+        <li><%= link_to 'Deploy', deploy_path %></li>
+        <li><%= link_to 'Code Schools', code_schools_path %></li>
+        <li role="separator" class="divider"></li>
+
+       <li><h6>Donate</h6></li>
+        <li><%= link_to 'SquareCash', square_path %></li>
+        <li role="separator" class="divider"></li>
+        <li><%= link_to 'Dwolla', dwolla_path %></li>
+        <li role="separator" class="divider"></li>
+        <li><%= link_to 'Online', donate_path %></li>
+        <li role="separator" class="divider"></li>
+        <li><%= link_to 'Amazon', amazon_path %></li>
+        <li role="separator" class="divider"></li>
+
+
+        <li><%= link_to 'Success Stories', success_stories_path %></li>
+        <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
+
+        <% if veteran_signed_in? %>
+          <li><%= link_to 'Profile', profile_path %></li>
+          <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
+        <% else %>
+          <li>
+            <% ab_test(:signup_button_size, 'btn btn-large', '') do |button_size| %>
+            <%= link_to 'Join', new_veteran_registration_path, class: button_size %>
+            <% end %>
+          </li>
+        <% end %>
       </ul>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>

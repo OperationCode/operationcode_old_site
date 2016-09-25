@@ -1,0 +1,443 @@
+# Operation Code Code School Listing
+# Each entry should contain the following:
+#- name: <School Name>
+#  url: <School URL> [optional]
+#  address1: <Address Line1>
+#  address1: <Address Line2> [optional]
+#  city: <School City>
+#  state: <School State !!! Must be the 2 letter state code !!!>
+#  zip: <School Zip>
+#  va_accepted: <GI Bill Accepted>
+#  full_time:  Is your school full time? [true|false]
+#  hardware_included: Does tuition include hardware? [true|false]
+#  notes: <Addtional Comments> [optional]
+#
+# Nota Bene:
+#   Each entry must start on a new line with "- name:"
+#   HTML can be included in the notes key
+
+- name: Dev Bootcamp SF
+  url:  http://devbootcamp.com
+  address1: 633 Folsom Street (at Hawthorne)
+  address2: 6th Floor
+  city: San Francisco
+  state: CA
+  zip: 94107
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: gSchool SoMa
+  url:  http://www.galvanize.it/school/#main
+  address1: Galvanize San Francisco - SoMa
+  address2: 543 Howard St
+  city: San Francisco
+  state: CA
+  zip: 94015
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Hack Reactor
+  url: http://www.hackreactor.com
+  address1: 944 Market St
+  address2: 8th Floor
+  city: San Francisco
+  state: CA
+  zip: 94102
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: MakerSquare
+  url: http://www.makersquare.com
+  address1: 611 Mission St, 2nd Floor
+  city: San Francisco
+  state: CA
+  zip: 94105
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Sabio (Southern California)
+  url: http://sabio.la/
+  address1: 400 Corporate Pointe
+  city: Culver City
+  state: CA
+  zip: 90230
+  va_accepted: true
+  full_time: true
+  hardware_included: false
+  notes: Through its partnership with Antioch, a national non-profit university, Sabio is able to accept GI benefits as described <a href="http://www.antioch.edu/student-services/antioch-university-financial-information/veterans-benefits/" target="_blank" > here</a>. These programs are available at both of Sabio's campuses located in Culver City and Newport Beach, CA.
+
+- name: Tradecraft
+  url: http://tradecrafted.com/
+  address1: 400 Corporate Pointe
+  city: San Fransisco
+  state: CA
+  zip: 94105
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: gSchool Boulder
+  url: http://www.galvanize.it/school/#main
+  address1: 1035 Pearl Street
+  address2: Suite 206
+  city: Boulder
+  state: CO
+  zip: 80304
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: RefactorU (Boulder, Colorado)
+  url: http://refactoru.com
+  address1: 5717 Arapahoe Avenue
+  address2: Suite #216
+  city: Boulder
+  state: CO
+  zip: 80303
+  va_accepted: true
+  full_time: true
+  hardware_included: false
+  notes: RefactorU is proud and honored to announce that its Web Development Bootcamp has been approved by the <a href="http://www.benefits.va.gov/gibill/">Colorado State Approving Agency for Veterans Education & Training</a>. Students eligible for the The Post-9/11 GI Bill, Montgomery GI Bill (Active Duty/Selected Reserve), Reserve Educational Assistance Program, Veterans Educational Assistance Program, and Survivors’ and Dependents’ Educational Assistance Program may be eligible to apply those benefits to RefactorU’s Web Application Development Bootcamp.
+
+- name: Turing School of Software & Design
+  url: http://turing.io/
+  address1: 1510 Blake Street
+  address2: Suite #216
+  city: Denver
+  state: CO
+  zip: 80202
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Orlando
+  url: https://www.theironyard.com/locations/orlando.html
+  address1: 101 S. Garland Ave
+  address2: Suite 102
+  city: Orlando
+  state: FL
+  zip: 32801
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Tampa-St. Petersburg
+  url: http://theironyard.com/locations/tampa-st-petersburg
+  address1: 260 1st Ave S #300
+  city: Tampa Bay
+  state: FL
+  zip: 33701
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Atlanta
+  url: http://theironyard.com/locations/atlanta/
+  address1: 3423 Piedmont Road, NE
+  city: Atlanta
+  state: GA
+  zip: 30305
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: General Assembly at Atlanta
+  url: https://generalassemb.ly/education?where=atlanta
+  address1: 675 Ponce de Leon Ave NE
+  city: Atlanta
+  state: GA
+  zip: 30308
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: General Assembly at Atlanta
+  url: https://generalassemb.ly/education?where=atlanta
+  address1: 675 Ponce de Leon Ave NE
+  city: Atlanta
+  state: GA
+  zip: 30308
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Code Platoon
+  url: http://www.codeplatoon.org
+  address1: Downtown
+  city: Chicago
+  state: IL
+  zip: 60654
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Dev Bootcamp at Chicago
+  url: http://devbootcamp.com
+  address1: 351 West Hubbard St. (at Orleans)
+  address2: Suite 701
+  city: Chicago
+  state: IL
+  zip: 60605
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Starter League
+  url: http://www.starterleague.com/
+  address1: 30 N Racine Ave.
+  city: Chicago
+  state: IL
+  zip: 60607
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Deep Dive Fullstack
+  url: http://stemuluscenter.org/deep-dive-fullstack
+  address1: 20 1st Plaza Center NW
+  city: Albuquerque, NM
+  state: NM
+  zip: 87102
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Dev Bootcamp at New York City
+  url: http://devbootcamp.com/
+  address1: 48 Wall St.
+  address2: 15th Floor
+  city: New York
+  state: NY
+  zip: 10005
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Fullstack Academy at New York
+  url: http://fullstackacademy.com
+  address1: 5 Hanover Square
+  address2: Floor 25
+  city: New York
+  state: NY
+  zip: 10004
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Fullstack Academy at Chicago
+  url: http://fullstackacademy.com
+  address1: 222 W Merchandise Mart Plaza
+  address2: #1212
+  city: Chicago
+  state: IL
+  zip: 60654
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: The Flatiron School
+  url: http://flatironschool.com/
+  address1: 11 Broadway
+  address2: Suite 260
+  city: New York
+  state: NY
+  zip: 10004
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Thinkful (Online, HQ in NYC)
+  url: http://www.thinkful.com
+  address1: 304 Hudson St
+  address2: 5th floor
+  city: New York
+  state: NY
+  zip: 10013
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Tradecraft
+  url: http://tradecrafted.com
+  address1: 304 Hudson St
+  address2: 5th floor
+  city: New York
+  state: NY
+  zip: 10004
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Raleigh-Durham
+  url: http://theironyard.com/locations/raleigh-durham/
+  address1: 334 Blackwell Street
+  address2: Suite B017
+  city: Durham
+  state: NC
+  zip: 27701
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Code Fellows Portland
+  url: https://www.codefellows.org/blog/code-fellows-is-coming-to-portland-this-fall
+  address1: 920 SW Third Ave., 2nd Floor
+  city: Portaland
+  state: OR
+  zip: 97204
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Epicodus
+  url: http://www.epicodus.com/
+  address1: 208 SW 5th Ave
+  city: Portaland
+  state: OR
+  zip: 97214
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  notes: (Also see, <a href="http://www.learnhowtoprogram.com/lessons/learn-how-to-program">Learn how to program</a>.)
+
+- name: PDX Code Guild
+  url: http://pdxcodeguild.com
+  address1: 2626 SW Corbett Ave
+  address2: Suite 100
+  city: Portaland
+  state: OR
+  zip: 97201
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Charleston
+  url: http://theironyard.com/locations/greenville
+  address1: 510 Mill Street
+  city: Mount Pleasant
+  state: SC
+  zip: 29464
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Greenville
+  url: http://theironyard.com/locations/greenville
+  address1: 411 University Ridge
+  address2: Suite 220
+  city: Greenville
+  state: SC
+  zip: 29601
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Austin
+  url: http://theironyard.com/locations/austin
+  address1: 411 University Ridge
+  address2: Suite 220
+  city: Greenville
+  state: SC
+  zip: 29601
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Iron Yard at Houston
+  url: http://theironyard.com/locations/houston
+  address1: 1121 Delano St.
+  city: Houstin
+  state: TX
+  zip: 77003
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: MakerSquare
+  url: http://www.makersquare.com/
+  address1: 716 Congress Ave., #100
+  city: Austin
+  state: TX
+  zip: 78701
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Ada Developers Academy
+  url: http://adadevelopersacademy.org
+  address1: Downtown Seattle
+  city: Seattle
+  state: WA
+  zip: 98109
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  notes: <strong>Women-only and tuition-free</strong>. One-year program.
+
+- name: Code Fellows (Seattle, Washington)
+  url: https://www.codefellows.org
+  address1: 511 Boren Ave N.
+  city: Seattle
+  state: WA
+  zip: 98109
+  va_accepted: true
+  full_time: true
+  hardware_included: false
+
+- name: General Assembly at Seattle
+  url: https://generalassemb.ly/education?where=seattle
+  address1: WeWork Seattle
+  address2: 500 Yale Avenue N.
+  city: Seattle
+  state: WA
+  zip: 98109
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: The Guild of Software Architects
+  url: https://guildsa.org/
+  address1: 6170 Research Rd, Suite 107
+  city: Frisco
+  state: TX
+  zip: 75033
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Operation Spark
+  url: https://operationspark.org
+  address1: 748 Camp Street, 2nd floor
+  city: New Orleans
+  state: LA
+  zip: 70130
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: Startup Institute at Boston
+  url: https://www.startupinstitute.com/boston/
+  address1: 50 Milk Street, 14th Floor
+  city: Boston 
+  state: MA 
+  zip: 02109
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: Startup Institute at NYC
+  url: https://www.startupinstitute.com/new-york/
+  address1: 25 Broadway, 10th Floor
+  city: New York City
+  state: NY
+  zip: 10004
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+    
+  

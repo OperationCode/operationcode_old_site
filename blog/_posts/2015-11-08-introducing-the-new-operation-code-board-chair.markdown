@@ -161,3 +161,5 @@ About [Mark Kerr](https://www.linkedin.com/in/miamimark):
 At the height of the Iraq & Afghanistan war, Mark Kerr joined the Army Judge Advocate General's Corps (JAG) serving as Defense Counsel in Korea, Iraq, Kosovo & Afghanistan. Previously, he was Associate at Hogan & Hartson where he led legal work related to regulatory compliance, mergers & acquisitions, and construction contracts involving oil/gas, wind/hydroelectric energy, and manufacturing. A graduate of Yale Law School, Mr. Kerr currently serves as Development Advisor to U.S. Southern Command Combatant Commander, General John H. Kelly.
 
 Welcome aboard Mark!
+
+*David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.*

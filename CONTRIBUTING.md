@@ -43,7 +43,7 @@ Milestones are used as containers for new issues pertaining to a project, time f
 These items are hand picked as being great candidates for your first issue to work on.
 
 ## Setting Up Your Environment
-In order to work on the Operation Code site you'll need to install a few things.
+In order to work on the Operation Code site you'll need to install a few things. Beginner's Note: If you dont have Ruby and Rails installed in your system, dont worry about it. They will get installed during the bundle command, after you clone the repo, along with all the other dependencies.  
 
 ### Ruby
 Ruby is an Object Oriented programming language Operation Code is written in. While you can install ruby directly to your machine it's highly recommended to use a version manager.
@@ -53,7 +53,7 @@ Ruby is an Object Oriented programming language Operation Code is written in. Wh
 * Install the version of ruby from the step above. eg `rvm install 2.2.3`
 
 ### git
-Git is a distributed version control system. This is how our code is stored and managed. 
+Git is a distributed version control system. This is how our code is stored and managed. Git can be frustrating. If you want to know more about git, a great resource is [Think Like a Git](http://think-like-a-git.net/) and if you find your self in a real git pickle, see ["Oh, shit, git!"](http://ohshitgit.com/).
 
 * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
@@ -79,10 +79,29 @@ Bundler manages libraries (gems) and their dependencies.
 ### Operation Code
 Now you are able to install Operation Code! These next commands will pull down the source code and install all of the dependencies needed.
 
-* `git clone https://github.com/<your-username>/operationcode.git operationcode-upstream`
+* `git clone https://github.com/OperationCode/operationcode.git operationcode-upstream`
 * `cd operationcode`
 * `bundle`
 * `rake db:setup`
+
+   Beginner's Note: When installing bundle you may encounter a problem with the pg gem. In order to resolve this problem, go through the following steps.
+   * Type on your command line the following: `find /Applications -name pg_config` This should return the path of the pg_config
+   * Example return: `/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
+   * Next, set this as your path like this: `PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin/`
+   * Now install pg with the following command: `gem install pg`
+   * Add the PATH to your `.bashrc` or `.bash_profile`
+   * Then type `bundle` or `bundle install` again to finish installing any remaining gems
+
+### Rails on Cloud9
+* [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
+ * When cloning your fork into Cloud9, select Ruby as the template and create your workspace name and description. 
+ * Go down to the Bash Terminal and type in the following commands:
+      * gem install rails
+      * bundle install
+      * rails server -b $IP -p $PORT
+      * createdb operationcode_development
+   * Sometimes you may have to restart the postgress server with sudo service postgresql restart.
+* Your site should now open for preview at http://workpacename-username.c9users.io (ie: http://operationcode-ashtemp.c9users.io)
 
 ## Working On Your Issue
 When working on github the common practice is to make a copy of the repo you want to change (known as `forking` the repo), make your changes and then request to merge those changes back into the project (known as a `pull request`). Forking a repo is done through github's web UI. It can be found in the top right corner of the [Operation Code](https://github.com/OperationCode/operationcode) github page. Once forked proceed below.

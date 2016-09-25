@@ -24,6 +24,9 @@
 # Ignore sass cache
 .sass-cache
 
+# Ignore bower components
+/bower_components
+
 # Ignore SSL keys
 bundle.pem
 server.crt
@@ -34,3 +37,5 @@ STAR_operationcode_org.key
 STAR_operationcode_org.pem
 operationcode
 operationcode.pub
+
+/vendor/bundle

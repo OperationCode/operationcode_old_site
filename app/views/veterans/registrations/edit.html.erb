@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="row">
+    <div class="col m12" role="main">
+      <div class="row">
+        <div class="col s12 m8 offset-m2">
+          <div class="card-panel">
+            <span class="card-title"><h4>Account Settings</h4></span>
+
+            <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+              <%= devise_error_messages! %>
+
+              <div class="row">
+                <div class='input-field col m12'>
+                  <% if @validatable %>
+                  <em>(<%= @minimum_password_length %> characters minimum)</em>
+                  <% end %><br />
+                  <%= f.password_field :password, autocomplete: "off", placeholder: 'password' %>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class='input-field col m12'>
+                  <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: 'password confirmation' %>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col m12">
+                   <%= f.text_field :first_name, placeholder: "first name", class: 'form-control' %>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col m12">
+                  <%= f.text_field :last_name, placeholder: "last name", class: 'form-control' %>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col m12">
+                  <%= f.select :service_branch, service_branches, {include_blank: true, prompt: 'branch of service'} %>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col m12">
+                  <%= f.text_field :zip, placeholder: "zip code", class: 'form-control' %>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col m12">
+                  <%= f.submit "Update Account", class: "btn btn-default" %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

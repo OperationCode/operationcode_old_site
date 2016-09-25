@@ -1,18 +1,25 @@
 <p>
-Dear <%= @veteran.first_name %>, <br />
-<p>Hooah! Welcome. An honor to have you join our ranks. Here's the next steps:</p>
+  Welcome to Operation Code! You've just joined a community of <%= Veteran.count.round(-2) %>+ veterans in the same shoes.<br />
+  You can set your password <%= link_to "here", edit_veteran_registration_url(@veteran) %>.
+</p>
 
-<p>Check your email for an invite to our Operation Code Slack channel (<a href="https://operation-code.slack.com">https://operation-code.slack.com</a>)</p>
-<p>Once in Slack, navigate yourself to the #general tab, select a user name (mine is @david) and introduce yourself there, ex. name, branch of service and MOS, region you live now and the programming language you are interested in. If you are already in an online or campus code school, a code school graduate or in the tech industry mention that too. </p>
-<p>Go ahead and subscribe to as many channels as you wish, ex. #ruby,  #javascript, #ios, #jobs. To contribute to our code base, follow our <a href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md">docs</a>. Welcome all contributions.</p>
 
-<p>Finally, as a member of the Operation Code ranks, get exclusive acccess to The Flatiron School <a href="http://go.flatironschool.com/operation-code-overview">Learn-Verified program</a>, and scholarships to learn either web development, or iOS development. All distance ed. All in an effort to get more of us coding and help fill the nation's technical talent urgent shortage with those of us who've served, as well as <a href="https://operationcode.org/blog/2016/03/02/conference-scholarships.html">scholarships</a> to attend software conferences.</p>
+<p>
+  Check your email for an invite to our Operation Code Slack channel (<a href="https://operation-code.slack.com">https://operation-code.slack.com</a>).<br />
+  Slack is where we communicate online and across the globe with each other to ask questions, collaborate, and share information. Once in Slack (you'll probably want to download the app), introduce yourself in the #general channel. An example could be: <br />
+  Hi all. My name is David. I'm from Washington and I'm interested in webdev!
+</p>
 
-<p>Welcome aboard, and ping me on Twitter or Slack if you run into any issues or have suggestions on how we can improve and get more military, veterans and military families coding,</p>
-<p>David Molina</p>
-<p><a href="http://twitter.com/davidcmolina">@davidcmolina</a>) &</p>
-<p>The Operation Code Team</p>
+<p>
+  The Operation Code website uses Ruby On Rails. If you want to dive in and help you can get started by reading our <a href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md">docs</a>, or asking around in the #operation-code-dot-org slack channel.
+</p>
 
-<p>P.S. If you'd like an <a href="https://twitter.com/operation_code/status/607978609785962497">Operation Code sticker</a>, DM with a good mailing address and I'll put one in the mail for you.</p>
+<p>Again, welcome aboard, and don't forget to follow and share Operation Code on <a href="https://twitter.com/operation_code">Twitter</a> and <a href="https://facebook.com/operationcode.org">Facebook</a>.</p>
 
-<p>P.S.S. If you do not receive an invite from Slack within 2 hours please <a href="mailto:david@operationcode.org">email me</a>, or ping me on Twitter because something has failed. And, that's a nonstarter. Hugs.</p>
+<p>
+  Cheers, and keep coding,<br />
+  <p>David Molina<br />
+  <a href="http://twitter.com/davidcmolina">@davidcmolina</a>
+</p>
+
+<p>P.S If you do not receive an invite from Slack within 2 hours please <a href="mailto:staff@operationcode.org">email our staff</a>, or ping me on Twitter</p>

@@ -1,22 +1,35 @@
-<h2>Change your password</h2>
+<div class="container" style='padding-top: 40px;'>
+  <div class="row">
+    <div class="col m12 center" role="main">
+      <div class="row">
+        <div class="col s12 m6 offset-m3">
+          <div class="card-panel">
+            <span class="card-title"><h4>Change Your Password</h4></span>
+            <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
+              <%= devise_error_messages! %>
+              <%= f.hidden_field :reset_password_token %>
 
-<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
-  <%= devise_error_messages! %>
-  <%= f.hidden_field :reset_password_token %>
+              <div class='row'>
+                <div class='input-field col m12'>
+                  <%= f.password_field :password, autofocus: true, autocomplete: "off", placeholder: 'password' %>
+                </div>
+              </div>
 
-  <div class="field">
-    <%= f.label :password, "New password" %><br />
-    <%= f.password_field :password, autofocus: true, autocomplete: "off" %>
+              <div class="row">
+                <div class='input-field col m12'>
+                  <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: 'password confirmation' %>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col m12">
+                  <%= f.submit "Change my password", class: 'btn btn-large' %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="field">
-    <%= f.label :password_confirmation, "Confirm new password" %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit "Change my password" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+</div>
