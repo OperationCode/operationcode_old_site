@@ -1,6 +1,6 @@
 # Contributing to Operation Code
 
-So you want to learn how to program? Contributing to Operation Code is a great place to get started! This document will help you get from zero to deploying code in no time! 
+So you want to learn how to program? Contributing to Operation Code is a great place to get started! This document will help you get from zero to deploying code in no time!
 
 ## Table Of Contents
 1. [Quickstart](#quickstart)
@@ -18,9 +18,9 @@ So you want to learn how to program? Contributing to Operation Code is a great p
 3. [Submit your pull request](#submitting-your-changes)
 
 ## Finding An Issue
-Before you get started working you'll need to find something to work on. Operation Code uses Github's built in issue tracker and a listing of all our issues can be found [here](https://github.com/OperationCode/operationcode/issues). 
+Before you get started working you'll need to find something to work on. Operation Code uses Github's built in issue tracker and a listing of all our issues can be found [here](https://github.com/OperationCode/operationcode/issues).
 
-Familiarize yourself with the issue types below and then browse for an issue that you want to work on. Don't be afraid to ask for clarification or help. 
+Familiarize yourself with the issue types below and then browse for an issue that you want to work on. Don't be afraid to ask for clarification or help.
 
 Once you've found an issue leave a comment stating you plan on working on the issue. It will be assigned to you and away you go!
 
@@ -80,7 +80,7 @@ Bundler manages libraries (gems) and their dependencies.
 Now you are able to install Operation Code! These next commands will pull down the source code and install all of the dependencies needed.
 
 * `git clone https://github.com/OperationCode/operationcode.git operationcode-upstream`
-* `cd operationcode`
+* `cd operationcode-upstream`
 * `bundle`
 * `rake db:setup`
 
@@ -94,7 +94,7 @@ Now you are able to install Operation Code! These next commands will pull down t
 
 ### Rails on Cloud9
 * [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
- * When cloning your fork into Cloud9, select Ruby as the template and create your workspace name and description. 
+ * When cloning your fork into Cloud9, select Ruby as the template and create your workspace name and description.
  * Go down to the Bash Terminal and type in the following commands:
       * gem install rails
       * bundle install
@@ -118,7 +118,7 @@ When working on github the common practice is to make a copy of the repo you wan
    ```
 
 Once cloned you can now create a [feature branch](http://nvie.com/posts/a-successful-git-branching-model/). It's a good idea to name your branch after the issue it's attached to.
-   
+
    ```bash
    git checkout -b <feature-branch-name>
    ```
@@ -141,7 +141,7 @@ If your code is accepted it will be merged into the master branch and if all the
 
 Each pull request is also inspected by the following bots:
 
-[Hound](https://houndci.com) checks for style validation errors during pull requests. If it finds any errors, it will post a follow-up comment on the issue and point out the errors. Think of Hound as your Drill Sergeant. If this happens with a pull request you're submitting, please fix the errors and resubmit. 
+[Hound](https://houndci.com) checks for style validation errors during pull requests. If it finds any errors, it will post a follow-up comment on the issue and point out the errors. Think of Hound as your Drill Sergeant. If this happens with a pull request you're submitting, please fix the errors and resubmit.
 
 [Travis](https://travis-ci.org/) runs our test suite on each check in and soon will even deploy each change that gets merged.
 
