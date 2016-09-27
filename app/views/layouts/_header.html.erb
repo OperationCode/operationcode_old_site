@@ -50,7 +50,7 @@
           <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
         <% else %>
           <li>
-            <% ab_test(:signup_button_size, 'btn btn-large', '') do |button_size| %>
+            <% ab_test(:signup_button_size, 'btn', '') do |button_size| %>
             <%= link_to 'Join', new_veteran_registration_path, class: button_size %>
             <% end %>
           </li>
