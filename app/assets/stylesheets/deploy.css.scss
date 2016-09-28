@@ -562,9 +562,9 @@ div#profile-container {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 992px){
-  .navbar-fixed .white .nav-wrapper.container{
-    width: 100% ;
+@media only screen and (max-width: 992px) {
+  .navbar-fixed .white .nav-wrapper.container {
+    width: 100%;
   }
   nav .brand-logo {
     right: 0;
@@ -572,7 +572,7 @@ div#profile-container {
     transform: translate(0,-50%);
     top: 59%;
   }
-  .navbar-fixed nav{
+  .navbar-fixed nav {
     position: relative;
   }
 }
