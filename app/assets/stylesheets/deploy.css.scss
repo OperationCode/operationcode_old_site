@@ -561,3 +561,18 @@ div#profile-container {
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 992px) {
+  .navbar-fixed .white .nav-wrapper.container {
+    width: 100%;
+  }
+  nav .brand-logo {
+    right: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translate(0,-50%);
+    top: 59%;
+  }
+  .navbar-fixed nav {
+    position: relative;
+  }
+}
