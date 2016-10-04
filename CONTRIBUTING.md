@@ -76,6 +76,13 @@ Bundler manages libraries (gems) and their dependencies.
 
 * `gem install bundler`
 
+### Node
+Node.js is a server-side JavaScript environment. Install it using the specific instructions for your system.
+
+* [Linux Install Instructions](https://nodejs.org/en/download/package-manager/)
+* [Mac Install Instructions](https://nodejs.org/en/download/package-manager/#osx)
+* [Windows Install Instructions](https://nodejs.org/en/download/package-manager/#windows)
+
 ### Operation Code
 Now you are able to install Operation Code! These next commands will pull down the source code and install all of the dependencies needed.
 
