@@ -1,4 +1,4 @@
-Please use the following templates to create new issues. 
+Please use one of the following templates to create new issues:
 
 For a new feature:
 As a [VISITOR, ADMIN, ETC],
