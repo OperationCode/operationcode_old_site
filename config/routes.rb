@@ -54,6 +54,7 @@ Rails.application.routes.draw do
   get 'founder' => 'pages#founder'
   get 'hackathons' => 'pages#hackathons'
   get 'history' => 'pages#history'
+  get 'internships' => 'pages#internships'
   get 'jsguide' => 'pages#jsguide'
   get 'online' => 'pages#online'
   get 'media' => 'pages#media'
