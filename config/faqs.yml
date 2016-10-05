@@ -29,12 +29,13 @@ general:
     answer:   >
               As President Lincoln once said, “With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle and for his widow and his orphan...”
               <p>At Operation Code, we believe it is our moral obligation to ensure the men and women who are serving/served in our U.S. military should not be left behind in the new skills and knowledge economy. These numbers speak for themselves:
-                <ul>
+                <ul class="faqbullet">
                   <li>high veterans unemployment/underemployment</li>
                   <li>high veterans suicide rate</li>
                   <li>high veterans homeless rate</li>
                 </ul>
-                We aim to turn these numbers around.
+                <br>
+              <span class= "pad-left">We aim to turn these numbers around.</span>
               </p>
   - question: What are the hours of operation for Operation Code?
     answer:   "Operation Code is different in that we don't have regular business office hours. The team can usually be found in our <a href='http://operation-code.slack.com'>Slack channel</a>, or <a href='https://github.com/OperationCode/operationcode'>GitHub</a> fixing bugs and implementing new features."
