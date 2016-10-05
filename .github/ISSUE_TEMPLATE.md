@@ -11,5 +11,4 @@ When I [CONTEXT OF BUG]
 It [DESCRIBE BUG]
 It should [EXPECTED OUTCOME]
 
-After you complete the template please include any additional information
-that may be helpful, eg browser version, screenshots etc.
+Additional Information (eg browser version, screenshots etc):
