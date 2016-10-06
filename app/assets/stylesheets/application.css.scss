@@ -75,3 +75,16 @@ $opcode-green: #26a69a;
   line-height: 64px;
   padding: 0 30px;
 }
+
+// fixes bullets for FAQs
+.faqbullet li {
+  list-style: initial;
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+// adds padding to newline
+.pad-left {
+  padding-left: 3%;
+}
+
