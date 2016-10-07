@@ -238,7 +238,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  
+
 - name: The Flatiron School
   url: http://flatironschool.com/
   address1: 11 Broadway
@@ -418,17 +418,17 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  
+
 - name: Startup Institute at Boston
   url: https://www.startupinstitute.com/boston/
   address1: 50 Milk Street, 14th Floor
-  city: Boston 
-  state: MA 
+  city: Boston
+  state: MA
   zip: 02109
   va_accepted: false
   full_time: true
   hardware_included: false
-  
+
 - name: Startup Institute at NYC
   url: https://www.startupinstitute.com/new-york/
   address1: 25 Broadway, 10th Floor
@@ -438,6 +438,13 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  
-    
-  
+
+- name: Codeup
+  url: http://codeup.com/
+  address1: "600 Navarro St., #350"
+  city: San Antonio
+  state: TX
+  zip: 78205
+  va_accepted: true
+  full_time: true
+  hardware_included: false
