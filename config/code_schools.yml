@@ -202,7 +202,7 @@
   city: Albuquerque, NM
   state: NM
   zip: 87102
-  va_accepted: false
+  va_accepted: true
   full_time: true
   hardware_included: false
 
