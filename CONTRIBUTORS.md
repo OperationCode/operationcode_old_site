@@ -29,5 +29,6 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Sylwia Bialczak](https://github.com/ArgonCode)
 * [Ashley Templet](https://github.com/AshTemp)
 * [Jared Koumentis](https://github.com/ShepBook)
+* [Jay Sprout](https://github.com/jotasprout)
 
 When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
