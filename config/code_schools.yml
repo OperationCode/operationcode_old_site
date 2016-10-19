@@ -110,7 +110,7 @@
   city: Denver
   state: CO
   zip: 80202
-  va_accepted: false
+  va_accepted: true
   full_time: true
   hardware_included: false
 
