@@ -16,7 +16,7 @@ class PagesController < ApplicationController
 
   def contact
   end
-  
+
   def internships
   end
 
@@ -81,4 +81,5 @@ class PagesController < ApplicationController
   def ssl
     render text: LetsEncrypt.key_for(params[:token])
   end
+
 end
