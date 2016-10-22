@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
   # LetsEncrypt
   get '.well-known/acme-challenge/:token', to: 'pages#ssl'
+  get '/.well-known/acme-challenge/:id' => 'pages#letsencrypt'
 
   get '/veterans/map', to: 'veterans#map'
   resources :veterans, only: [:new, :create]
