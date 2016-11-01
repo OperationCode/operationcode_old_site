@@ -11,6 +11,7 @@
 #  full_time:  Is your school full time? [true|false]
 #  hardware_included: Does tuition include hardware? [true|false]
 #  notes: <Addtional Comments> [optional]
+#  img: Image file name of logo
 #
 # Nota Bene:
 #   Each entry must start on a new line with "- name:"
@@ -69,6 +70,7 @@
   full_time: true
   hardware_included: false
   notes: Through its partnership with Antioch, a national non-profit university, Sabio is able to accept GI benefits as described <a href="http://www.antioch.edu/student-services/antioch-university-financial-information/veterans-benefits/" target="_blank" > here</a>. These programs are available at both of Sabio's campuses located in Culver City and Newport Beach, CA.
+  img: Sabio.png
 
 - name: Tradecraft
   url: http://tradecrafted.com/
@@ -102,7 +104,8 @@
   full_time: true
   hardware_included: false
   notes: RefactorU is proud and honored to announce that its Web Development Bootcamp has been approved by the <a href="http://www.benefits.va.gov/gibill/">Colorado State Approving Agency for Veterans Education & Training</a>. Students eligible for the The Post-9/11 GI Bill, Montgomery GI Bill (Active Duty/Selected Reserve), Reserve Educational Assistance Program, Veterans Educational Assistance Program, and Survivors’ and Dependents’ Educational Assistance Program may be eligible to apply those benefits to RefactorU’s Web Application Development Bootcamp.
-
+  img: refactoru.png
+  
 - name: Turing School of Software & Design
   url: http://turing.io/
   address1: 1510 Blake Street
@@ -113,6 +116,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: turing.png
 
 - name: The Iron Yard at Orlando
   url: https://www.theironyard.com/locations/orlando.html
@@ -205,6 +209,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: deep-dive-fullstack.png
 
 - name: Dev Bootcamp at New York City
   url: http://devbootcamp.com/
@@ -387,6 +392,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: codefellows.png
 
 - name: General Assembly at Seattle
   url: https://generalassemb.ly/education?where=seattle
@@ -448,6 +454,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: codeup.png
 
 - name: DeVry Bootcamp
   url: http://partner.devry.edu/bootcamp/

@@ -88,3 +88,15 @@ $opcode-green: #26a69a;
   padding-left: 3%;
 }
 
+// defines size and placement of code school logos
+.logos {
+  height: 25px; 
+  transform: translate(0, 25%);
+ }
+
+// aligns text for code school links 
+.logo-wrapper {
+  width: 150px;
+  float: left;
+}
+

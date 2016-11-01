@@ -13,6 +13,9 @@
       <% @va_accepted_code_schools.each do |school| %>
         <li>
           <div class="collapsible-header">
+            <div class="logo-wrapper">
+              <%= image_tag(school['img'], :class => "logos") %>
+            </div>
             <%= link_to school['name'], school['url']  %>
           </div>
           <div class="collapsible-body">
