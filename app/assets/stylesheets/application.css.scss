@@ -19,6 +19,11 @@ nav ul li a {
   color: #777;
 }
 
+// Fix opacity for better text readability
+.slider .slides li img {
+  opacity: 0.5;
+}
+
 // Fix vertical alignment in main page slider
 .slider .slides li .caption {
   color: #fff;
