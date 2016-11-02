@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 class MenteeMailer < ActionMailer::Base
-  default from: 'contact@operationcode.org'
+  default from: 'staff@operationcode.org'
 
   def welcome(mentee:, mentor:)
     @mentee = mentee
