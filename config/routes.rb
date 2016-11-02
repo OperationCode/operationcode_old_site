@@ -72,7 +72,7 @@ Rails.application.routes.draw do
   get 'success_stories' => 'pages#success_stories'
   get 'action' => 'veterans#new'
   get 'fellowships' => 'pages#fellowships'
-  get '/contact' => redirect('mailto:david@operationcode.org')
+  get '/contact' => redirect('mailto:staff@operationcode.org')
   get '/flatiron' => redirect('https://learn.co/learn-together')
   get '/launchparty' => redirect('http://www.eventbrite.com/e/operation-code-launch-party-tickets-16494832488')
   get '/donate' => redirect('/donations/new')
