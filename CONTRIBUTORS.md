@@ -30,5 +30,6 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Ashley Templet](https://github.com/AshTemp)
 * [Jared Koumentis](https://github.com/ShepBook)
 * [Jay Sprout](https://github.com/jotasprout)
+*[Taylor Tomita](https://github.com/TaylorTomita)
 
 When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
