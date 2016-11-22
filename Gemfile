@@ -1,84 +1,48 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
 
-#################
-# Server and DB #
-#################
 
-gem 'rails', '4.2.5.2'
-gem 'sprockets-rails', '~> 2.0'
-gem 'pg'
-gem 'sidekiq'
-gem 'thin'
-gem 'newrelic_rpm'
-
-#############
-# Front-end #
-#############
-
-gem 'sass-rails', '~> 4.0.3' # review node folders
-gem 'bootstrap-sass'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+# Use Puma as the app server
+gem 'puma', '~> 3.0'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+# Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 4.2'
+# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jquery-turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'aws-sdk', '~> 1.35.0'
-gem 'google-webfonts-rails' # adds Google WebFonts to Rails application
-gem 'leaflet-rails'
-gem 'split', require: 'split/dashboard' # adds A/B testing capability
+# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+gem 'turbolinks', '~> 5'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 2.5'
+# Use Redis adapter to run Action Cable in production
+# gem 'redis', '~> 3.0'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
 
-########################
-# Auth and Permissions #
-########################
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
 
-gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
-gem 'devise'
-gem 'activeadmin', '~> 1.0.0.pre4'
-
-########
-# Misc #
-########
-
-gem 'shareable'
-gem 'github-markup', '~> 1.2.1'
-gem 'figaro' # app configuration using ENV variables and a single YAML file
-gem 'jekyll' # blogging gem
-gem 'gibbon' # API wrapper for the Mailchimp API
-gem 'google-analytics-rails', '1.1.0'
-gem 'geocoder'
-gem 'carmen'
-gem 'exception_notification'
-gem 'slack-notifier'
-
-#####################
-# Development Tools #
-#####################
-
-group :test do
-  gem 'capybara'
-  gem 'webmock'
-  gem 'minitest-rails'
-  gem 'codeclimate-test-reporter'
-  gem 'mocha'
+group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platform: :mri
 end
 
 group :development do
-  gem 'guard'
-  gem 'guard-minitest'
-  gem 'quiet_assets'
-  gem 'pry-byebug'
-  gem 'pry-rails'
-  gem 'better_errors'
-  gem 'binding_of_caller'
-  gem 'railroady'
-  gem 'letter_opener'
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'web-console'
+  gem 'listen', '~> 3.0.5'
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'annotate' # JDavis: this adds the table fields to the model file.  To use, run 'annotate --position after'
-  gem 'xray-rails' # https://github.com/brentd/xray-rails
+  gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :production do
-  gem 'rails_12factor'
-end
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -1,0 +1,24 @@
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   pool: 5
+#
+# development:
+#   <<: *default
+#   database: operationcode_development
+#
+# test:
+#   <<: *default
+#   database: operationcode_test
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: operationcode_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: operationcode_test
+  pool: 5

@@ -1,58 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <meta name="description" content="Veteran-founded and led, Operation Code is a 501(c)(3) non-profit whose mission is to aid military, vets and their families learn coding and web technologies.">
-  <meta name="keywords" content="operation code, veterans, software development, learn to code, keep coding, veteran coders, senate veterans, house veterans, gi bill, new gi bill, operationcode.org, #operationcode, military vets, vets">
-  <meta name="author" content="Veteran Coders, for Veterans Coders">
-  <title>Operation Code | Open Source Veterans Non-Profit</title>
+<html>
+  <head>
+    <title>Operationcode</title>
+    <%= csrf_meta_tags %>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"></link>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-
-  <%= csrf_meta_tags %>
-
-  <%= analytics_init if GoogleAnalytics.valid_tracker? %>
-  <meta name="google-site-verification" content="nBR2ER8Hcfls6RrkC05coE9yvBWUd3Ugi-helYsZcSs" />
-
-  <%= google_webfonts_init({
-    google: ['Open Sans']
-  }) %>
-
-  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-  <script type="text/javascript"> Stripe.setPublishableKey('pk_live_bqebTTza5PGXJcAAaivllE03');</script>
-  <script src="https://use.fontawesome.com/3c0f7e9be1.js"></script>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+
   <body>
-    <%= render 'layouts/header' %>
-
-    <% flash.each do |name, msg| %>
-      <%= content_tag(:div, msg, class: "alert alert-info") %>
-    <% end %>
-
     <%= yield %>
-
-    <%= render 'layouts/footer' %>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $(".dropdown-button").dropdown({beloworigin: true});
-        $(".slider").slider({height: 528, indicators: false});
-        $(".button-collapse").sideNav();
-        $('select').material_select();
-        // Hack until https://github.com/Dogfalo/materialize/pull/3379 is merged and on the CDN
-        $('ul.tabs a').on('click', function(e){
-          if($(this).attr("target") ) {
-            window.location = $(this).attr("href");
-          }
-        });
-      });
-    </script>
   </body>
 </html>

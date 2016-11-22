@@ -12,30 +12,10 @@
 /db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
 
-# Ignore OSX system files.
-.DS_Store
-
-# Ignore application configuration
-/config/application.yml
-
-# Ignore sass cache
-.sass-cache
-
-# Ignore bower components
-/bower_components
-
-# Ignore SSL keys
-bundle.pem
-server.crt
-server.csr
-server.key
-server.pass.key
-STAR_operationcode_org.key
-STAR_operationcode_org.pem
-operationcode
-operationcode.pub
-
-/vendor/bundle
+# Ignore Byebug command history file.
+.byebug_history
