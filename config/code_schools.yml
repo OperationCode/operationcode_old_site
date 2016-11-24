@@ -40,7 +40,7 @@
   full_time: true
   hardware_included: false
   img: gschool-soma.png
-  
+
 - name: Hack Reactor
   url: http://www.hackreactor.com
   address1: 944 Market St
@@ -111,7 +111,7 @@
   hardware_included: false
   notes: RefactorU is proud and honored to announce that its Web Development Bootcamp has been approved by the <a href="http://www.benefits.va.gov/gibill/">Colorado State Approving Agency for Veterans Education & Training</a>. Students eligible for the The Post-9/11 GI Bill, Montgomery GI Bill (Active Duty/Selected Reserve), Reserve Educational Assistance Program, Veterans Educational Assistance Program, and Survivors’ and Dependents’ Educational Assistance Program may be eligible to apply those benefits to RefactorU’s Web Application Development Bootcamp.
   img: refactoru.png
-  
+
 - name: Turing School of Software & Design
   url: http://turing.io/
   address1: 1510 Blake Street
