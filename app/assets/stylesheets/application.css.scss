@@ -1,6 +1,7 @@
 //= require leaflet
 
 //@import "active_admin";
+@import "colors";
 @import "calendar";
 @import "map";
 @import "deploy";
@@ -16,28 +17,33 @@
 }
 
 nav ul li a {
-  color: #777;
+  color: $gray;
+}
+
+// Fix opacity for better text readability
+.slider .slides li img {
+  opacity: 0.5;
 }
 
 // Fix vertical alignment in main page slider
 .slider .slides li .caption {
-  color: #fff;
+  color: $white;
   left: 10%;
   opacity: 0;
   position: absolute;
   top: 40% !important;
   width: 80%;
-  text-shadow: 1px 1px 7px #000000;
+  text-shadow: 1px 1px 7px $black;
   @media only screen and (min-width: 992px){
     left: 15%;
     width: 65%;
   }
   h3{
     font-size: 2.2rem;
-    line-height:120%;
+    line-height: 120%;
     @media only screen and (min-width: 992px){
       font-size: 2.92rem;
-      line-height:110%;
+      line-height: 110%;
     }
   }
 }
@@ -62,8 +68,6 @@ i.fa.medium {
   word-wrap: normal;
 }
 
-
-$opcode-green: #26a69a;
 .opcode-green { background-color: $opcode-green; }
 .opcode-green-text { color: $opcode-green; }
 
@@ -88,6 +92,19 @@ $opcode-green: #26a69a;
   padding-left: 3%;
 }
 
+.alert {
+  background-color: $alert-red;
+  color: $white;
+  font-size: 10px;
+  left: 50%;
+  padding: 5px 20px;
+  position: fixed;
+  text-align: center;
+  top: 6vh;
+  transform: translateX(-50%);
+  z-index: 997;
+}
+
 // defines size and placement of code school logos
 .logos {
   height: 25px; 
@@ -99,4 +116,3 @@ $opcode-green: #26a69a;
   width: 150px;
   float: left;
 }
-

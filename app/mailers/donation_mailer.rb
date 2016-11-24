@@ -1,5 +1,5 @@
 class DonationMailer < ActionMailer::Base
-  default from: "david@operationcode.org"
+  default from: 'staff@operationcode.org'
 
   def thankyou(donator)
     @donator = donator

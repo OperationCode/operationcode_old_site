@@ -70,6 +70,7 @@ Redis is used to manage asynchronous jobs. This step is optional and only requir
 * [Install redis](http://redis.io/download)
 * Or on a mac via homebrew: `brew install redis`
 * Redis is not supported on Windows.
+* Start your redis server: `redis-server`
 
 ### Bundler
 Bundler manages libraries (gems) and their dependencies.
