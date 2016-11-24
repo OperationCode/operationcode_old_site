@@ -134,10 +134,10 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: The Iron Yard at Tampa-St. Petersburg
-  url: http://theironyard.com/locations/tampa-st-petersburg
+  url: https://www.theironyard.com/locations/tampa-bay.html
   address1: 260 1st Ave S #300
   city: Tampa Bay
   state: FL
@@ -145,7 +145,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: The Iron Yard at Atlanta
   url: http://theironyard.com/locations/atlanta/
@@ -156,7 +156,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: General Assembly at Atlanta
   url: https://generalassemb.ly/education?where=atlanta
@@ -307,7 +307,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: Code Fellows Portland
   url: https://www.codefellows.org/blog/code-fellows-is-coming-to-portland-this-fall
@@ -353,7 +353,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: The Iron Yard at Greenville
   url: http://theironyard.com/locations/greenville
@@ -365,7 +365,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: The Iron Yard at Austin
   url: http://theironyard.com/locations/austin
@@ -377,7 +377,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: The Iron Yard at Houston
   url: http://theironyard.com/locations/houston
@@ -388,7 +388,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: ironyard.png
+  img: ironyard.jpg
 
 - name: MakerSquare
   url: http://www.makersquare.com/
