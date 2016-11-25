@@ -174,32 +174,33 @@ So you want to learn how to program? Contributing to Operation Code is a great p
 
 ## Code Standards
 
-    ### HTML
+* ### HTML
 
-    [Adhere to the Code Guide.](http://codeguide.co/#html)
+  [Adhere to the Code Guide.](http://codeguide.co/#html)
 
-    * Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags).
-    * Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via `file://`.
-    * Use [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes in documentation examples to promote accessibility.
+  * Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags).
+  * Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via `file://`.
+  * Use [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes in documentation examples to promote accessibility.
 
-    ### CSS
+* ### CSS
 
-    [Adhere to the Code Guide.](http://codeguide.co/#css)
+  [Adhere to the Code Guide.](http://codeguide.co/#css)
 
-    * When feasible, default color palettes should comply with [WCAG color contrast guidelines](http://www.w3.org/TR/WCAG20/#visual-audio-contrast).
-    * Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines) for more details.
+  * When feasible, default color palettes should comply with [WCAG color contrast guidelines](http://www.w3.org/TR/WCAG20/#visual-audio-contrast).
+  * Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines) for more details.
 
-    ### JS
+* ### JS
 
-    * No semicolons (in client-side JS)
-    * 2 spaces (no tabs)
-    * strict mode
-    * "Attractive"
+  [Adhere to the Google JS Style Guide](https://google.github.io/styleguide/jsguide.html)
 
-    ### Ruby
+  * No semicolons (in client-side JS)
+  * 2 spaces (no tabs)
+  * strict mode
+  * "Attractive"
 
-    * [Follow the ruby style guide](https://github.com/bbatsov/ruby-style-guide)
+* ### Ruby
 
+  [Adhere to the Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
 
 ## License
 
