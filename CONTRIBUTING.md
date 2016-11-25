@@ -51,7 +51,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
   * [Install RVM](https://rvm.io/rvm/install)
   * Look [here](https://raw.githubusercontent.com/OperationCode/operationcode/master/.ruby-version) to find the version of Ruby we're using
-  * Install the version of Ruby from the step above. eg `rvm install 2.2.3`
+  * Install the version of Ruby from the step above. eg `rvm install 2.3.0`
 
   ### Git
   Git is a distributed version control system. This is how our code is stored and managed. Git can be frustrating, but it is an essential tool. If you want to learn more about Git, a great resource is [Think Like a Git](http://think-like-a-git.net/). If you find yourself in a real git pickle, see ["Oh, shit, git!"](http://ohshitgit.com/).
