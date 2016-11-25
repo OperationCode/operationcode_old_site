@@ -95,7 +95,7 @@ So you want to learn how to program? Contributing to Operation Code is a great p
     rake db:setup`
     thin start --ssl`
     ```
-        Beginner's Notes: 
+    Beginner's Notes: 
     * When installing bundle, you may encounter a problem with the pg gem. In order to resolve this problem, go through the following steps:
       * Type on your command line the following: `find /Applications -name pg_config` This should return the path of the pg_config
       * Example return: `/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
@@ -168,18 +168,19 @@ So you want to learn how to program? Contributing to Operation Code is a great p
 
   * Once your pull requests has been merged don't forget to add your name to the list of contributors in [CONTRIBUTORS.md](https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTORS.md).
 
-## Contributing blog posts
+## Contributing Blog Posts
 
 * Please see the [BLOG_POSTING_GUIDE](https://github.com/OperationCode/operationcode/blob/master/BLOG_POSTING_GUIDE.md). It will walk you thru the use of Jekyll and how to submit pull requests to publish your blog post.
 
 ## Code Standards
-  ### HTML
 
-  [Adhere to the Code Guide.](http://codeguide.co/#html)
+    ### HTML
 
-  * Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags).
-  * Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via `file://`.
-  * Use [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes in documentation examples to promote accessibility.
+    [Adhere to the Code Guide.](http://codeguide.co/#html)
+
+    * Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags).
+    * Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via `file://`.
+    * Use [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes in documentation examples to promote accessibility.
 
     ### CSS
 
