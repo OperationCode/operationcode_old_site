@@ -90,10 +90,10 @@ So you want to learn how to program? Contributing to Operation Code is a great p
   #### Local Development Environment
     ```bash
     git clone https://github.com/OperationCode/operationcode.git operationcode-upstream
-    cd operationcode-upstream`
-    bundle`
-    rake db:setup`
-    thin start --ssl`
+    cd operationcode-upstream
+    bundle
+    rake db:setup
+    thin start --ssl
     ```
     Beginner's Notes: 
     * When installing bundle, you may encounter a problem with the pg gem. In order to resolve this problem, go through the following steps:
