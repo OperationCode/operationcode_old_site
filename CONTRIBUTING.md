@@ -2,29 +2,29 @@
 
 So, you want to learn how to program? Contributing to Operation Code is a great place to get started. This document will help you march from zero to deploying code in no time!
 
-## Table Of Contents
+## Table of Contents
 1. [Quickstart](#quickstart)
-2. [Setting up your environment](#setting-up-your-environment)
-3. [Finding an issue](#finding-an-issue)
-4. [Working on your issue](#getting-the-code)
-5. [Submitting your changes](#submitting-your-changes)
+2. [Setting Up Your Environment](#setting-up-your-environment)
+3. [Finding an Issue](#finding-an-issue)
+4. [Working on Your Issue](#getting-the-code)
+5. [Submitting Your Changes](#submitting-your-changes)
 6. [Code Standards](#code-standards)
 7. [License](#license)
 
 ## Quickstart
 1. [Setting Up Your Environment](#setting-up-your-environment)
-2. [Find an issue to work on](#finding-an-issue)
-3. [Submit your pull request](#submitting-your-changes)
+2. [Find an Issue To Work On](#finding-an-issue)
+3. [Submit Your Pull Request](#submitting-your-changes)
 
 ## Setting Up Your Environment
 * In order to work on the **Operation Code** site, you will need to install a few things. 
   * Beginner's Note: If you don't have Ruby and Ruby on Rails installed in your system yet, don't worry about it. After you clone the GitHub repository, they will be installed during the `bundle` command along with all the dependencies.  
 
   ### Ruby
-  Ruby is an Object-Oriented programming language that **Operation Code** is written in. While you can install Ruby directly to your machine, it's highly recommended to use a version manager. We recommend RVM, but rbenv will also work.
+  Ruby is an Object-Oriented programming language that **Operation Code** is written in. While you can install Ruby directly to your machine, it is highly recommended to use a version manager. We recommend RVM, but rbenv will also work.
 
   * [Install RVM](https://rvm.io/rvm/install)
-  * Look [here](https://raw.githubusercontent.com/OperationCode/operationcode/master/.ruby-version) to find the version of Ruby we're using
+  * Look [here](https://raw.githubusercontent.com/OperationCode/operationcode/master/.ruby-version) to find the version of Ruby we are using
   * Install the version of Ruby from the step above. Example: `rvm install 2.3.0`
 
   ### Git
@@ -128,7 +128,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
 ## Working On Your Issue
 
-* From the forked and cloned repository on your environment, you can now create a [feature branch](http://nvie.com/posts/a-successful-git-branching-model/). It's a good idea to name your branch after the issue it's attached to.
+* From the forked and cloned repository on your environment, you can now create a [feature branch](http://nvie.com/posts/a-successful-git-branching-model/). It is a good idea to name your branch after the issue it is attached to.
 
    ```bash
    git checkout -b <feature-branch-name>
@@ -165,7 +165,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
   * Each pull request is inspected by the following bots:
 
-    * [Hound](https://houndci.com) - Checks for style validation errors during pull requests. If it finds any errors, it will post a follow-up comment on the issue with the errors. Think of Hound as your Drill Sergeant. If this happens with a pull request you're submitting, please fix the errors and resubmit.
+    * [Hound](https://houndci.com) - Checks for style validation errors during pull requests. If it finds any errors, it will post a follow-up comment on the issue with the errors. Think of Hound as your Drill Sergeant. If this happens with a pull request you are submitting, please fix the errors and resubmit.
 
     * [Travis](https://travis-ci.org/) - Runs the test suite on each check in, and deploys each change that gets merged.
 
