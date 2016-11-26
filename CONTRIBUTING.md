@@ -33,7 +33,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
   ### PostgreSQL
-  PostgreSQL is an open source Object-Relations database. This stores all of **Operation Code**'s data.
+  PostgreSQL is an open source Object-Relational database. This stores all of **Operation Code**'s data.
 
   * [Linux Install Instructions](https://wiki.postgresql.org/wiki/Detailed_installation_guides#General_Linux)
   * [Mac Install Instructions](http://postgresapp.com/)
