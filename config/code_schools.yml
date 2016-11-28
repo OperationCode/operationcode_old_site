@@ -480,7 +480,7 @@
   full_time: true
   hardware_included: true
   
-  - name: Tech Elevator (Columbus)
+- name: Tech Elevator (Columbus)
   url: http://www.techelevator.com/
   address1: 1275 Kinnear Rd
   address2: Suite 121
