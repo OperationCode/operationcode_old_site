@@ -39,7 +39,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: gschool-soma.png
+  img: gschool.png
 
 - name: Hack Reactor
   url: http://www.hackreactor.com
@@ -97,7 +97,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
-  img: gschool-boulder.png
+  img: gschool.png
 
 - name: RefactorU (Boulder, Colorado)
   url: http://refactoru.com
