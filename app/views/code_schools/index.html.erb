@@ -13,7 +13,7 @@
       <% @va_accepted_code_schools.each do |school| %>
         <li>
           <div class="collapsible-header">
-            <div class="logo-wrapper">
+            <div class="logos-wrapper">
               <%= image_tag(school['img'], :class => "logos") %>
             </div>
             <%= link_to school['name'], school['url']  %>
@@ -37,7 +37,7 @@
       <h4 class="header center">Code School Scholarships</h4>
       <p class="lead">Many respective code schools offer military/veterans discounts to make coding education more accessible to those who've worn the uniform and served our country. <b>Apply now and get coding</b>:</p>
 
-      <div class="logo-wrapper">
+      <div class="logos-wrapper">
         <img src="images/guildsa.png" class="logos">
       </div>
       <h5><a href="https://guildsa.org/veterans/" target="_blank">The Guild Of Software Architects (Texas)</a></h5>
@@ -46,7 +46,7 @@
 
       <hr>
 
-      <div class="logo-wrapper">
+      <div class="logos-wrapper">
         <img src="images/thinkful.png" class="logos">
       </div>
       <h5><a href="https://www.thinkful.com/pricing/#scholarships" target="_blank">Thinkful (online)</a></h5>
@@ -54,7 +54,7 @@
 
       <hr>
 
-      <div class="logo-wrapper">
+      <div class="logos-wrapper">
         <img src="images/Sabio.png" class="logos">
       </div>
       <h5><a href="http://www.antiochla.edu/academics/bachelors-degree/coding-options/" target="_blank">Sabio (Los Angeles)</a></h5>
@@ -62,7 +62,7 @@
 
       <hr>
 
-      <div class="logo-wrapper">
+      <div class="logos-wrapper">
         <img src="images/launchschool.png" class="logos">
       </div>
       <h5><a href="https://launchschool.com/blog/operation-code-scholarship/" target="_blank">Launch School (online)</a></h5>
@@ -70,7 +70,7 @@
 
       <hr>
 
-      <div class="logo-wrapper">
+      <div class="logos-wrapper">
         <img src="images/bloc.jpg" class="logos">
       </div>
       <h5><a href="http://try.bloc.io/operation-code-bootcamp-scholarship/" target="_blank">Bloc (online)</a></h5>
@@ -78,7 +78,7 @@
 
       <hr>
 
-      <div class="logo-wrapper">
+      <div class="logos-wrapper">
         <img src="images/flatiron-school.png" class="logos">
       </div>
       <h5><a href="http://go.flatironschool.com/operation-code-overview" target="_blank">The Flatiron School (New York City)</a></h5>
@@ -86,7 +86,7 @@
 
       <hr>
 
-      <div class="logo-wrapper">
+      <div class="logos-wrapper">
         <img src="images/startup-institute.png" class="logos">
       </div>
       <h5><a href="https://www.startupinstitute.com/" target="_blank">Startup Institute (Boston and NYC)</a></h5>
@@ -112,8 +112,8 @@
         <div class="collapsible-body">
           <% state[1].each do |school| %>
             <ul class='collection with-header'>
-              <div class="logo-wrapper">
-                <%= image_tag(school['img'], :class => "logos") %>
+              <div class="collapsible-logo-wrapper">
+                <%= image_tag(school['img'], :class => "collapsible-logos") %>
               </div>
               <%= render partial: 'code_school', locals: { school: school } %>
             </ul>

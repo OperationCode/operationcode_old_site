@@ -110,9 +110,21 @@ i.fa.medium {
   height: 25px;
   transform: translate(0, 25%);
  }
-
+ 
+.collapsible-logos {
+  height: 35px;
+  transform: translate(0, 25%);
+ }
+ 
 // aligns text for code school links
-.logo-wrapper {
+.logos-wrapper {
   float: left;
   width: 150px;
+}
+
+.collapsible-logo-wrapper {
+  float: left;
+  width: 200px;
+  margin-right: 50px;
+  padding: 10px;
 }

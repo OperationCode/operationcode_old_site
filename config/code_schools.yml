@@ -502,12 +502,24 @@
   hardware_included: true
   img: devry-bootcamp.png
 
-- name: App Academy (SF/NYC)
+- name: App Academy (SF)
   url: https://www.appacademy.io/
   address1: 160 Spear St
   city: San Francisco
   state: CA
   zip: 94105
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  notes: Deferred financing system (20% of your first year's salary)
+  img: appacademy.jpg
+
+- name: App Academy (NYC)
+  url: https://www.appacademy.io/
+  address1: 598 Broadway
+  city: New York City
+  state: NY
+  zip: 10012
   va_accepted: false
   full_time: true
   hardware_included: false
