@@ -11,7 +11,7 @@
 #  full_time:  Is your school full time? [true|false]
 #  hardware_included: Does tuition include hardware? [true|false]
 #  notes: <Addtional Comments> [optional]
-#  img: Image file name of logo
+#  img: Image file name of logo (must be located in public/images). Preferred formats: png, jpg. 
 #
 # Nota Bene:
 #   Each entry must start on a new line with "- name:"
