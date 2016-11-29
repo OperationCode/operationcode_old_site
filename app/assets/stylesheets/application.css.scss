@@ -112,8 +112,9 @@ i.fa.medium {
  }
 
 .collapsible-logos {
+  display: block;
+  margin: auto;
   height: 35px;
-  transform: translate(0, 25%);
  }
 
 // aligns text for code school links
@@ -124,7 +125,8 @@ i.fa.medium {
 
 .collapsible-logo-wrapper {
   float: left;
+  margin-top: 10px;
   margin-right: 50px;
-  padding: 10px;
-  width: 200px;
+  padding-top: 10px; 
+  width: 180px;
 }
