@@ -535,6 +535,7 @@
   va_accepted: false
   full_time: true
   hardware_included: true
+  img: tech-elevator.png
   
 - name: Tech Elevator (Columbus)
   url: http://www.techelevator.com/
@@ -546,3 +547,4 @@
   va_accepted: false
   full_time: true
   hardware_included: true
+  img: tech-elevator.png
