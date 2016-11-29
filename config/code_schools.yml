@@ -525,3 +525,24 @@
   hardware_included: false
   notes: Deferred financing system (20% of your first year's salary)
   img: appacademy.jpg
+
+- name: Tech Elevator (Cleveland)
+  url: http://www.techelevator.com/
+  address1: 7100 Euclid Ave
+  city: Cleveland
+  state: OH
+  zip: 44103
+  va_accepted: false
+  full_time: true
+  hardware_included: true
+  
+- name: Tech Elevator (Columbus)
+  url: http://www.techelevator.com/
+  address1: 1275 Kinnear Rd
+  address2: Suite 121
+  city: Columbus
+  state: OH
+  zip: 43212
+  va_accepted: false
+  full_time: true
+  hardware_included: true
