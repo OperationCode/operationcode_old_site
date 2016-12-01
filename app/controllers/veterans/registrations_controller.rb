@@ -10,9 +10,8 @@ module Veterans
       @veteran.password = Devise.friendly_token.first(16)
       if @veteran.save
         send_notifications
-        sign_in @veteran
         ab_finished(:signup_button_size)
-        redirect_to :profile, notice: 'Thanks for signing up!'
+        redirect_to '/', notice: 'Thanks for signing up!'
       else
         render :new
       end
