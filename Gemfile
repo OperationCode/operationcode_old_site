@@ -8,6 +8,7 @@ gem 'puma', '~> 3.0'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'rb-readline'
 gem 'sass-rails', '~> 5.0'
+gem 'sidekiq'
 gem 'sqlite3'
 gem 'turbolinks', '~> 5'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

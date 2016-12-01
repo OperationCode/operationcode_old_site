@@ -1,0 +1,34 @@
+version: '2'
+
+services:
+  redis:
+    image: 'redis:3.2-alpine'
+    command: redis-server
+    ports:
+      - '6379:6379'
+    volumes:
+      - 'redis:/var/lib/redis/data'
+
+  website:
+    depends_on:
+      - 'redis'
+    build: .
+    ports:
+      - '3000:3000'
+    volumes:
+      - '.:/operationcode'
+    env_file:
+      - '.env'
+
+  sidekiq:
+    depends_on:
+      - 'redis'
+    build: .
+    command: sidekiq -C config/sidekiq.yml
+    volumes:
+      - '.:/operationcode'
+    env_file:
+      - '.env'
+
+volumes:
+  redis:
