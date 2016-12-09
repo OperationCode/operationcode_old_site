@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/OperationCode/operationcode.png?label=ready&title=Ready)](https://waffle.io/OperationCode/operationcode)
 # [Operation Code](http://operationcode.org)
 [![Build Status](https://travis-ci.org/OperationCode/operationcode.svg?branch=master)](https://travis-ci.org/OperationCode/operationcode)
 [![Code Climate](https://codeclimate.com/github/OperationCode/operationcode/badges/gpa.svg)](https://codeclimate.com/github/OperationCode/operationcode)
