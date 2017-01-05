@@ -16,6 +16,17 @@
 #   Each entry must start on a new line with "- name:"
 #   HTML can be included in the notes key
 
+- name: Nashville Software School
+  url:  http://nashvillesoftwareschool.com/
+  address1: 500 Interstate Blvd S,
+  address2: Suite 300
+  city: Nashville
+  state: TN
+  zip: 37210
+  va_accepted: true
+  full_time: true
+  hardware_included: false
+
 - name: Dev Bootcamp SF
   url:  http://devbootcamp.com
   address1: 633 Folsom Street (at Hawthorne)
@@ -30,7 +41,7 @@
 - name: Galvanize San Francisco
   url:  https://new.galvanize.com/san-francisco/web-development
   address1: 44 Tehama Street
-  address2: 
+  address2:
   city: San Francisco
   state: CA
   zip: 94015
@@ -83,7 +94,7 @@
 - name: Galvanize Boulder
   url: https://new.galvanize.com/boulder/web-development
   address1: 1023 Walnut Street
-  address2: 
+  address2:
   city: Boulder
   state: CO
   zip: 80302
@@ -479,7 +490,7 @@
   va_accepted: false
   full_time: true
   hardware_included: true
-  
+
 - name: Tech Elevator (Columbus)
   url: http://www.techelevator.com/
   address1: 1275 Kinnear Rd
@@ -490,7 +501,7 @@
   va_accepted: false
   full_time: true
   hardware_included: true
-  
+
 - name: Galvanize Golden Triangle (Denver)
   url:  https://new.galvanize.com/denver/web-development
   address1: Galvanize Denver - Golden Triangle
