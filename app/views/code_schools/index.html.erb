@@ -112,9 +112,7 @@
         <div class="collapsible-body">
           <% state[1].each do |school| %>
             <ul class='collection with-header'>
-              <div class="collapsible-logo-wrapper">
-                <%= image_tag(school['img'], :class => "collapsible-logos responsive-img") %>
-              </div>
+              
               <%= render partial: 'code_school', locals: { school: school } %>
             </ul>
           <% end %>

@@ -512,7 +512,7 @@
   full_time: true
   hardware_included: false
   notes: Deferred financing system (20% of your first year's salary)
-  img: appacademy.jpg
+  img: appacademy.png
 
 - name: App Academy (NYC)
   url: https://www.appacademy.io/
@@ -524,7 +524,7 @@
   full_time: true
   hardware_included: false
   notes: Deferred financing system (20% of your first year's salary)
-  img: appacademy.jpg
+  img: appacademy.png
 
 - name: Tech Elevator (Cleveland)
   url: http://www.techelevator.com/
