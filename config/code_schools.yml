@@ -27,6 +27,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: nss.png
 
 - name: Dev Bootcamp SF
   url:  http://devbootcamp.com
@@ -570,3 +571,4 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: gschool.png
