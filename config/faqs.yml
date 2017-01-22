@@ -15,6 +15,8 @@ general:
     answer:   'Operation Code was founded in Portland, Oregon by ex-Army Captain David Molina, who took action and built operationcode.org to petition Congress to expand the New GI Bill to include code schools. <a href="/history">Learn our full history</a>.'
   - question: Is Operation Code a 501(c)(3) nonprofit organization?
     answer:   'Yes. Operation Code was granted tax-exempt status by the Internal Revenue Service, functioning as a charity under 501(c)(3) of the Internal Revenue Code, <a href="https://twitter.com/operation_code/status/728018497343660032">effective 4 May 2016</a>, with retroactive status to 15 June 2015. Donations to the organization are deductible as charitable contributions.'
+  - question: Where is Operation Code based? Do you have a location near me?
+    answer:   "Operation Code, much like software, is <a href='https://github.com/OperationCode/operationcode/graphs/contributors'>built from anywhere</a> with an internet connection, and is not based in one location. While we're headquartered in Portland, the entire organization is decentralized, including the board of directors and the core team, allowing us to more effectively serve the entire military community, whether they're veterans or military spouses, whether they're OCONUS or in-country. <a href='https://www.meetup.com/pro/operationcode/'>We have chapters all over the nation.</a> Use Slack and join the closest town to you!"
   - question: Who does Operation Code serve?
     answer:   "Operation Code serves our nation's finest who've worn the uniform and their families who are interested in coding and software development. Our programs are offered at no cost to the military community."
   - question: What do I need to start learning software development and how much is this going to cost?
@@ -29,8 +31,6 @@ general:
     answer:   "Anyone can sign up to join our email list through our <a href='http://operationcode.us10.list-manage2.com/subscribe?u=0ab8e2b2d6c6608926c4f17d6&id=809aaab2df'>online subscription form</a>. The Operation Code SITREPs are sent periodically throughout the year. We primarily use <a href='https://twitter.com/operation_code'>Twitter</a> and <a href='http://facebook.com/operationcode.org'>Facebook</a> to put out updates and news since it's faster to put out info and respond. Given our chosen craft, we don't do regular mail."
   - question: My question isn't listed. How do I contact Operation Code?
     answer:   "If you have a question that isn't listed here on our FAQ or our <a href='/blog'>blog</a>, write to <a href='mailto:staff@operationcode.org'>staff@operationcode.org</a> and we'll get back to you as soon as we can."
-  - question: Where is Operation Code based? Do you have a location near me?
-    answer:   "Operation Code, much like software, is <a href='https://github.com/OperationCode/operationcode/graphs/contributors'>built from anywhere</a> with an internet connection, and is not based in one location. While we're headquartered in Portland, the entire organization is decentralized, including the board of directors and the core team, allowing us to more effectively serve the entire military community, whether they're veterans or military spouses, whether they're OCONUS or in-country. <a href='https://www.meetup.com/pro/operationcode/'>We have chapters all over the nation.</a> Use Slack and join the closest town to you!"
 
 donation:
   - question: What is the fastest way to make a donation?
