@@ -20,19 +20,6 @@
   <li><%= link_to 'Web Application Development', deploy_path %></li>
 </ul>
 
-<ul id="Donate" class="dropdown-content">
-  <li><%= link_to 'Square Cash', square_path %></li>
-  <li role="separator" class="divider"></li>
-  <li><%= link_to 'Dwolla', dwolla_path %></li>
-  <li role="separator" class="divider"></li>
-  <li><%= link_to 'Online', donate_path %></li>
-  <li role="separator" class="divider"></li>
-  <li><%= link_to 'Swag', cottonbureau_path %></li>
-  <li role="separator" class="divider"></li>
-   <li><%= link_to 'AmazonSmile', amazon_path %></li>
-</ul>
-
-
 <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
@@ -43,17 +30,21 @@
       <ul class="right hide-on-med-and-down">
         <li class='grey-text'><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="programs-and-services">What We Do<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate<i class="material-icons right">arrow_drop_down</i></a></li>
 
         <li><%= link_to 'Success Stories', success_stories_path %></li>
         <li><%= link_to 'Blog', 'https://medium.com/operation-code', target: '_blank' %></li>
+        <li>
+          <a class="btn" href="https://donorbox.org/operationcode"
+            data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate</a>
+        </li>
+        
         <% if veteran_signed_in? %>
           <li><%= link_to 'Profile', profile_path %></li>
           <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
         <% else %>
           <li>
             <% ab_test(:signup_button_size, 'btn', '') do |button_size| %>
-            <%= link_to 'Join', new_veteran_registration_path, class: button_size %>
+            <%= link_to 'Join', new_veteran_registration_path, class: button_size, style: 'background-color: #B23900;' %>
             <% end %>
           </li>
           <% end %>
@@ -82,20 +73,15 @@
         <li><%= link_to 'Deploy', deploy_path %></li>
         <li><%= link_to 'Code Schools', code_schools_path %></li>
         <li role="separator" class="divider"></li>
-
-       <li><h6>Donate</h6></li>
-        <li><%= link_to 'SquareCash', square_path %></li>
-        <li role="separator" class="divider"></li>
-        <li><%= link_to 'Dwolla', dwolla_path %></li>
-        <li role="separator" class="divider"></li>
-        <li><%= link_to 'Online', donate_path %></li>
-        <li role="separator" class="divider"></li>
-        <li><%= link_to 'Amazon', amazon_path %></li>
-        <li role="separator" class="divider"></li>
-
-
+      
         <li><%= link_to 'Success Stories', success_stories_path %></li>
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
+        <li role="separator" class="divider"></li>
+        
+        <a class="btn" href="https://donorbox.org/operationcode"
+            data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate</a>
+            
+        <li role="separator" class="divider"></li>
 
         <% if veteran_signed_in? %>
           <li><%= link_to 'Profile', profile_path %></li>
@@ -103,7 +89,7 @@
         <% else %>
           <li>
             <% ab_test(:signup_button_size, 'btn btn-large', '') do |button_size| %>
-            <%= link_to 'Join', new_veteran_registration_path, class: button_size %>
+            <%= link_to 'Join', new_veteran_registration_path, class: button_size, style: 'background-color: #B23900;' %>
             <% end %>
           </li>
         <% end %>
