@@ -31,5 +31,6 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Jared Koumentis](https://github.com/ShepBook)
 * [Jay Sprout](https://github.com/jotasprout)
 * [Matt Wagner](https://github.com/mwagz)
+* [John McIntosh II](https://github.com/ver2point0)
 
 When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
