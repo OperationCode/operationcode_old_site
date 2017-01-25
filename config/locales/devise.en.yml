@@ -20,7 +20,7 @@ en:
       confirmation_instructions:
         subject: "Confirmation instructions"
       reset_password_instructions:
-        subject: "welcome to Operation Code"
+        subject: "Welcome to Operation Code"
       unlock_instructions:
         subject: "Unlock instructions"
     omniauth_callbacks:
