@@ -32,6 +32,12 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
   * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
+
+  ### GitHub
+  GitHub is a web-based repository where the Operation Code website's source code is hosted.  GitHub utilizes Git's version control system and allows other developers to contribute to the codebase.  If you're unfamiliar with GitHub, we recommend running through the free online training resources they offer.
+
+  * [GitHub Training](https://services.github.com/training/)   
+
   ### PostgreSQL
   PostgreSQL is an open source Object-Relational database. This stores all of **Operation Code**'s data.
 
