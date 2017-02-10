@@ -104,3 +104,33 @@ i.fa.medium {
   transform: translateX(-50%);
   z-index: 997;
 }
+
+// defines size and placement of code school logos
+.logos {
+  height: 50px;
+  //transform: translate(0, 25%);
+ }
+
+.collapsible-logos {
+  display: block;
+  margin: auto;
+  width: 75%;
+ }
+
+// aligns text for code school links
+.logos-wrapper {
+  float: left;
+  width: 150px;
+}
+
+.collapsible-logo-wrapper {
+  float: left;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 180px;
+}
+
+.codeschools {
+  margin-left: 20%;
+}

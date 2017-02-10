@@ -2,17 +2,27 @@
 <% if show_header == true %>
   <li class='collection-header'>
     <h5>
-    <% if school['url'] %>
-      <td class='value'><%= link_to school['name'], school['url'] %></td>
-    <% else %>
-      <td class='value'><%= school['name'] %></td>
-    <% end %>
+      <% if school['url'] %>
+        <td class='value'><%= link_to school['name'], school['url'] %></td>
+      <% else %>
+        <td class='value'><%= school['name'] %></td>
+      <% end %>
     </h5>
   </li>
+
 <% end %>
 <li class='collection-item'>
-<table class=''>
+<table class='codeschools'>
   <tbody>
+    <tr>
+      <td class='key'> 
+        <div class="collapsible-logo-wrapper">
+          <%= image_tag(school['img'], :class => "collapsible-logos responsive-img") %>
+        </div>
+      </td>
+      <td class='value'>
+      </td>
+    </tr>
     <tr>
       <td class='key'>GI Bill Accepted</td>
       <td class='value'>

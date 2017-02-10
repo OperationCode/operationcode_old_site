@@ -11,6 +11,7 @@
 #  full_time:  Is your school full time? [true|false]
 #  hardware_included: Does tuition include hardware? [true|false]
 #  notes: <Addtional Comments> [optional]
+#  img: Image file name of logo (must be located in public/images). Preferred formats: png, jpg. 
 #
 # Nota Bene:
 #   Each entry must start on a new line with "- name:"
@@ -26,6 +27,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: nss.png
 
 - name: Dev Bootcamp SF
   url:  http://devbootcamp.com
@@ -37,6 +39,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: dev-bootcamp.png
 
 - name: Galvanize San Francisco
   url:  https://new.galvanize.com/san-francisco/web-development
@@ -48,6 +51,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: gschool.png
 
 - name: Hack Reactor
   url: http://www.hackreactor.com
@@ -59,6 +63,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: hack-reactor.png
 
 - name: MakerSquare
   url: http://www.makersquare.com
@@ -69,6 +74,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: makersquare.png
 
 - name: Sabio (Southern California)
   url: http://sabio.la/
@@ -80,6 +86,7 @@
   full_time: true
   hardware_included: false
   notes: Through its partnership with Antioch, a national non-profit university, Sabio is able to accept GI benefits as described <a href="http://www.antioch.edu/student-services/antioch-university-financial-information/veterans-benefits/" target="_blank" > here</a>. These programs are available at both of Sabio's campuses located in Culver City and Newport Beach, CA.
+  img: Sabio.png
 
 - name: Tradecraft
   url: http://tradecrafted.com/
@@ -90,6 +97,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: tradecraft.png
 
 - name: Galvanize Boulder
   url: https://new.galvanize.com/boulder/web-development
@@ -101,6 +109,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: gschool.png
 
 - name: RefactorU (Boulder, Colorado)
   url: http://refactoru.com
@@ -113,6 +122,7 @@
   full_time: true
   hardware_included: false
   notes: RefactorU is proud and honored to announce that its Web Development Bootcamp has been approved by the <a href="http://www.benefits.va.gov/gibill/">Colorado State Approving Agency for Veterans Education & Training</a>. Students eligible for the The Post-9/11 GI Bill, Montgomery GI Bill (Active Duty/Selected Reserve), Reserve Educational Assistance Program, Veterans Educational Assistance Program, and Survivors’ and Dependents’ Educational Assistance Program may be eligible to apply those benefits to RefactorU’s Web Application Development Bootcamp.
+  img: refactoru.png
 
 - name: Turing School of Software & Design
   url: http://turing.io/
@@ -124,6 +134,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: turing.png
 
 - name: The Iron Yard at Orlando
   url: https://www.theironyard.com/locations/orlando.html
@@ -135,9 +146,10 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: The Iron Yard at Tampa-St. Petersburg
-  url: http://theironyard.com/locations/tampa-st-petersburg
+  url: https://www.theironyard.com/locations/tampa-bay.html
   address1: 260 1st Ave S #300
   city: Tampa Bay
   state: FL
@@ -145,6 +157,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: The Iron Yard at Atlanta
   url: http://theironyard.com/locations/atlanta/
@@ -155,6 +168,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: General Assembly at Atlanta
   url: https://generalassemb.ly/education?where=atlanta
@@ -165,6 +179,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: general-assembly.png
 
 - name: General Assembly at Atlanta
   url: https://generalassemb.ly/education?where=atlanta
@@ -175,6 +190,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: general-assembly.png
 
 - name: Code Platoon
   url: http://www.codeplatoon.org
@@ -185,6 +201,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: code-platoon.png
 
 - name: Dev Bootcamp at Chicago
   url: http://devbootcamp.com
@@ -196,6 +213,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: dev-bootcamp.png
 
 - name: The Starter League
   url: http://www.starterleague.com/
@@ -206,6 +224,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: starter-league.png
 
 - name: Deep Dive Fullstack
   url: http://stemuluscenter.org/deep-dive-fullstack
@@ -216,6 +235,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: deep-dive-fullstack.png
 
 - name: Dev Bootcamp at New York City
   url: http://devbootcamp.com/
@@ -227,6 +247,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: dev-bootcamp.png
 
 - name: Fullstack Academy at New York
   url: http://fullstackacademy.com
@@ -238,6 +259,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: fullstack-academy.png
 
 - name: Fullstack Academy at Chicago
   url: http://fullstackacademy.com
@@ -249,6 +271,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: fullstack-academy.png
 
 - name: The Flatiron School
   url: http://flatironschool.com/
@@ -260,6 +283,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: flatiron-school.png
 
 - name: Thinkful (Online, HQ in NYC)
   url: http://www.thinkful.com
@@ -271,6 +295,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: thinkful.png
 
 - name: Tradecraft
   url: http://tradecrafted.com
@@ -282,6 +307,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: tradecraft.png
 
 - name: The Iron Yard at Raleigh-Durham
   url: http://theironyard.com/locations/raleigh-durham/
@@ -293,6 +319,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: Code Fellows Portland
   url: https://www.codefellows.org/blog/code-fellows-is-coming-to-portland-this-fall
@@ -303,6 +330,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: codefellows.png
 
 - name: Epicodus
   url: http://www.epicodus.com/
@@ -314,6 +342,7 @@
   full_time: true
   hardware_included: false
   notes: (Also see, <a href="http://www.learnhowtoprogram.com/lessons/learn-how-to-program">Learn how to program</a>.)
+  img: epicodus.png
 
 - name: PDX Code Guild
   url: http://pdxcodeguild.com
@@ -325,6 +354,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: pdx-code-guild.png
 
 - name: The Iron Yard at Charleston
   url: http://theironyard.com/locations/greenville
@@ -335,6 +365,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: The Iron Yard at Greenville
   url: http://theironyard.com/locations/greenville
@@ -346,6 +377,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: The Iron Yard at Austin
   url: http://theironyard.com/locations/austin
@@ -357,6 +389,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: The Iron Yard at Houston
   url: http://theironyard.com/locations/houston
@@ -367,6 +400,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: ironyard.jpg
 
 - name: MakerSquare
   url: http://www.makersquare.com/
@@ -377,6 +411,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: makersquare.png
 
 - name: Ada Developers Academy
   url: http://adadevelopersacademy.org
@@ -388,6 +423,7 @@
   full_time: true
   hardware_included: false
   notes: <strong>Women-only and tuition-free</strong>. One-year program.
+  img: ada-developers.png
 
 - name: Code Fellows (Seattle, Washington)
   url: https://www.codefellows.org
@@ -398,6 +434,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: codefellows.png
 
 - name: General Assembly at Seattle
   url: https://generalassemb.ly/education?where=seattle
@@ -409,6 +446,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: general-assembly.png
 
 - name: The Guild of Software Architects
   url: https://guildsa.org/
@@ -419,6 +457,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: guildsa.png
 
 - name: Operation Spark
   url: https://operationspark.org
@@ -429,6 +468,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: operation-spark.png
 
 - name: Startup Institute at Boston
   url: https://www.startupinstitute.com/boston/
@@ -439,6 +479,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: startup-institute.png
 
 - name: Startup Institute at NYC
   url: https://www.startupinstitute.com/new-york/
@@ -449,6 +490,7 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  img: startup-institute.png
 
 - name: Codeup
   url: http://codeup.com/
@@ -459,6 +501,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: codeup.png
 
 - name: DeVry Bootcamp
   url: http://partner.devry.edu/bootcamp/
@@ -469,8 +512,9 @@
   va_accepted: false
   full_time: true
   hardware_included: true
+  img: devry-bootcamp.png
 
-- name: App Academy (SF/NYC)
+- name: App Academy (SF)
   url: https://www.appacademy.io/
   address1: 160 Spear St
   city: San Francisco
@@ -480,6 +524,19 @@
   full_time: true
   hardware_included: false
   notes: Deferred financing system (20% of your first year's salary)
+  img: appacademy.png
+
+- name: App Academy (NYC)
+  url: https://www.appacademy.io/
+  address1: 598 Broadway
+  city: New York City
+  state: NY
+  zip: 10012
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  notes: Deferred financing system (20% of your first year's salary)
+  img: appacademy.png
 
 - name: Tech Elevator (Cleveland)
   url: http://www.techelevator.com/
@@ -490,6 +547,7 @@
   va_accepted: false
   full_time: true
   hardware_included: true
+  img: tech-elevator.png
 
 - name: Tech Elevator (Columbus)
   url: http://www.techelevator.com/
@@ -501,6 +559,7 @@
   va_accepted: false
   full_time: true
   hardware_included: true
+  img: tech-elevator.png
 
 - name: Galvanize Golden Triangle (Denver)
   url:  https://new.galvanize.com/denver/web-development
@@ -512,3 +571,4 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  img: gschool.png
