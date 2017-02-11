@@ -65,7 +65,6 @@ Rails.application.routes.draw do
   get 'military_veterans_technical_talent_pipeline' => 'pages#military_veterans_technical_talent_pipeline'
   get 'press' => 'pages#press'
   get 'privacy' => 'pages#privacy'
-  get 'resources' => 'pages#resources'
   get 'scholarships' => 'pages#scholarships'
   get 'square' => redirect('https://cash.me/$operationcode')
   get 'speakerrequest' => 'pages#speakerrequest'
