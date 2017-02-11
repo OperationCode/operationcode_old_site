@@ -3,6 +3,7 @@ Contributors
 
 These outstanding coders have contributed to Operation Code's architecture, design and implementation:
 
+* [Aaron Suarez](https://github.com/aaron-suarez/)
 * [Alex Beeken](https://github.com/alexbeeken)
 * [Alex Kaufman](https://github.com/alexkaufman06)
 * [Chris Hough](https://github.com/chrishough)
