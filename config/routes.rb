@@ -45,6 +45,7 @@ Rails.application.routes.draw do
   get 'deploy' => 'pages#deploy'
   get 'dwolla' => redirect('https://www.dwolla.com')
   get 'board' => 'pages#board'
+  get 'books' => 'pages#books'
   get 'contact' => 'pages#contact'
   get 'cottonbureau' => redirect('https://cottonbureau.com/products/operation-code-medal')
   get 'calendar' => 'pages#calendar'

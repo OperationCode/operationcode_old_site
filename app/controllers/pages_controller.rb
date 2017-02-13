@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def board
   end
 
+  def books
+  end
+
   def codeschools
   end
 
