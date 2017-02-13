@@ -96,8 +96,9 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
     thin start --ssl
     ```
 
-  #### Beginner's Notes:
-  * When running the `bundle` command, you may encounter a problem with the `pg` gem. In order to resolve this problem, go through the following steps:
+  #### Known Issues:
+  When running the `bundle` command, you may encounter a problem with the `pg` gem. In order to resolve this problem, go through the following steps:
+  ##### Windows:
 
     * In your terminal, type the following: `find /Applications -name pg_config` This should return the path of the `pg_config` script.
       * Example return: `/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
@@ -106,9 +107,27 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
     * Add the `PATH` to your `.bashrc` or `.bash_profile`
     * Type `bundle` or `bundle install` again to finish installing any remaining gems.
 
-  * When setting up the database, you may encounter a problem with Postgres database creation. Setup proper user permission for the database and the tables to be created.  
+  ##### Linux:
 
-  #### Rails on Cloud9
+    * Install the following packages:
+    ```
+    sudo apt-get install libpq-dev python-dev
+    ```
+
+  #### Database Setup:
+  When setting up the database, you may encounter a problem with Postgres database creation. Setup proper user permissions for the database and the tables to be created.
+
+  _Official Documentation:_
+
+    * [Add Users and Roles](https://www.postgresql.org/docs/9.0/static/database-roles.html)
+    * [Role Attributes](https://www.postgresql.org/docs/9.0/static/role-attributes.html)
+    * [Privileges](https://www.postgresql.org/docs/9.0/static/privileges.html)
+    * [Role Membership](https://www.postgresql.org/docs/9.0/static/role-membership.html)
+
+  ##### Tutorial:
+    * __[How To Use Roles and Manage Grant Permissions in PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2)__
+
+  #### Rails on Cloud9:
   * Cloud9 is a web-based integrated development environment. If you do not much experience in setting up a work environment, we highly recommend Cloud9 to start.
   * [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
   * When cloning your fork into Cloud9, create your workspace name and description, then select Ruby as the template.
@@ -168,7 +187,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   ```bash
   git checkout master
   ```
-  
+
 ## Submitting Your Changes
 * When you have completed work on your feature branch, you are ready to submit a [pull request](https://help.github.com/articles/using-pull-requests/).
 
