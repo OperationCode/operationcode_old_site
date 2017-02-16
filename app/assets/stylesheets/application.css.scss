@@ -135,10 +135,10 @@ i.fa.medium {
 }
 
 #resourcecontent .pagecontent {
+  align-items: flex-start;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 #helpmenu {
