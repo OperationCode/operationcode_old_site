@@ -117,7 +117,6 @@ i.fa.medium {
 }
 
 #resourcearticle {
-  -webkit-flex: 1;
   flex: 1;
   max-width: 740px;
 }
@@ -137,13 +136,9 @@ i.fa.medium {
 
 #resourcecontent .pagecontent {
   display: flex;
-  display: -webkit-flex;
   flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
   justify-content: space-between;
-  -webkit-justify-content:space-between;
   align-items: flex-start;
-  -webkit-align-items: flex-start;
 }
 
 #helpmenu {
@@ -155,7 +150,7 @@ i.fa.medium {
 #helpmenu hr {
   margin: 0;
   padding: 0;
-  border-color: #ddd;
+  border-color: grey;
 }
 
 #helpmenu a {
