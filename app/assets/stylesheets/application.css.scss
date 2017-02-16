@@ -142,30 +142,30 @@ i.fa.medium {
 }
 
 #helpmenu {
-  border: 1px solid #ddd;
+  border: 1px solid #DDDDDD;
   margin-left: 20px;
   width: 200px;
 }
 
 #helpmenu hr {
+  border-color: #DDDDDD;
   margin: 0;
   padding: 0;
-  border-color: grey;
 }
 
 #helpmenu a {
-  padding: 7px 10px;
-  margin: 0;
   display: block;
   line-height: 140%;
+  margin: 0;
+  padding: 7px 10px;
 }
 
 #helpmenu a:hover {
-  background: #eee none repeat scroll 0 0;
+  background: #EEEEEE none repeat scroll 0 0;
 }
 
-@media screen and (max-width: 660px) {  
+@media screen and (max-width: 660px) { 
   #resourcecontent .pagecontent { display: block; }
   #resourcearticle { width: auto; }
-  #helpmenu    { width: auto; margin: 30px 0 0 0; }
+  #helpmenu { width: auto; margin: 30px 0 0; }
 }
