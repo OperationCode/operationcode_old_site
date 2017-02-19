@@ -17,7 +17,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 3. [Submit Your Pull Request](#submitting-your-changes)
 
 ## Setting Up Your Environment
-* In order to work on the **Operation Code** site, you will need to install a few things. 
+* In order to work on the **Operation Code** site, you will need to install a few things.
   * Beginner's Note: If you don't have Ruby and Ruby on Rails installed in your system yet, don't worry about it. After you clone the GitHub repository, they will be installed during the `bundle` command along with all the dependencies.  
 
   ### Ruby
@@ -32,12 +32,23 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
   * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
+
+  ### GitHub
+  GitHub is a web-based repository where the Operation Code website's source code is hosted.  GitHub utilizes Git's version control system and allows other developers to contribute to the codebase.  If you're unfamiliar with GitHub, we recommend running through the free online training resources they offer.
+
+  * [GitHub Training](https://services.github.com/training/)   
+
   ### PostgreSQL
   PostgreSQL is an open source Object-Relational database. This stores all of **Operation Code**'s data.
 
-  * [Linux Install Instructions](https://wiki.postgresql.org/wiki/Detailed_installation_guides#General_Linux)
-  * [Mac Install Instructions](http://postgresapp.com/)
-  * [Windows Install Instructions](https://wiki.postgresql.org/wiki/Detailed_installation_guides#Windows)
+  * [Official Linux Installer](https://www.postgresql.org/download/linux/)
+    * [General Guide for Linux Installations](https://wiki.postgresql.org/wiki/Detailed_installation_guides)
+
+  * [Official Mac OSX Installer](https://www.postgresql.org/download/macosx/)
+    * [Postgres.app for Mac](http://postgresapp.com/) *This is another installation option for Mac users.*
+
+  * [Official Windows Installer](https://www.postgresql.org/download/windows/)
+    * [Detailed Windows Installation Instructions](https://wiki.postgresql.org/wiki/Detailed_installation_guides#Windows)
 
   ### Redis
   Redis is used to manage asynchronous jobs. This step is optional, and it is only required if you are working on an area that uses `ActiveJob`.
@@ -55,6 +66,14 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   ### Node
   Node.js is a server-side Javascript environment.
 
+  **The easiest way to install node and npm is with [n-install](https://github.com/mklement0/n-install)**
+  There will be a confirmation prompt, then a subsequent installation of the latest stable Node.js version:
+  ```
+  curl -L https://git.io/n-install | bash
+  ```
+  *Make sure you go over the repository's README.md for usage details.*
+
+  #### Node Downloads
   * [Linux Install Instructions](https://nodejs.org/en/download/package-manager/)
   * [Mac Install Instructions](https://nodejs.org/en/download/package-manager/#osx)
   * [Windows Install Instructions](https://nodejs.org/en/download/package-manager/#windows)
@@ -76,20 +95,42 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
     rake db:setup
     thin start --ssl
     ```
-    Beginner's Notes: 
-    * When running the `bundle` command, you may encounter a problem with the `pg` gem. In order to resolve this problem, go through the following steps:
-      * In your terminal, type the following: `find /Applications -name pg_config` This should return the path of the pg_config.
-        * Example return: `/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
-      * Set the returned path as your path: `PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin/`
-      * Install the `pg` gem with the following command: `gem install pg`
-      * Add the `PATH` to your `.bashrc` or `.bash_profile`
-      * Type `bundle` or `bundle install` again to finish installing any remaining gems
-    * When setting up the database, you may encounter a problem with Postgres database creation. Setup proper user permission for the database and the tables to be created.  
 
-  #### Rails on Cloud9
-  * Cloud9 is a web-based integrated development environment. If you do not much experience in setting up a work environment, we highly recommend Cloud9 to start. 
+  #### Known Issues:
+  When running the `bundle` command, you may encounter a problem with the `pg` gem. In order to resolve this problem, go through the following steps:
+  ##### Windows:
+
+    * In your terminal, type the following: `find /Applications -name pg_config` This should return the path of the `pg_config` script.
+      * Example return: `/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
+    * Set the returned path as your path: `PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin/`
+    * Install the `pg` gem with the following command: `gem install pg`
+    * Add the `PATH` to your `.bashrc` or `.bash_profile`
+    * Type `bundle` or `bundle install` again to finish installing any remaining gems.
+
+  ##### Linux:
+
+    * Install the following packages:
+    ```
+    sudo apt-get install libpq-dev python-dev
+    ```
+
+  #### Database Setup:
+  When setting up the database, you may encounter a problem with Postgres database creation. Setup proper user permissions for the database and the tables to be created.
+
+  _Official Documentation:_
+
+    * [Add Users and Roles](https://www.postgresql.org/docs/9.0/static/database-roles.html)
+    * [Role Attributes](https://www.postgresql.org/docs/9.0/static/role-attributes.html)
+    * [Privileges](https://www.postgresql.org/docs/9.0/static/privileges.html)
+    * [Role Membership](https://www.postgresql.org/docs/9.0/static/role-membership.html)
+
+  ##### Tutorial:
+    * __[How To Use Roles and Manage Grant Permissions in PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2)__
+
+  #### Rails on Cloud9:
+  * Cloud9 is a web-based integrated development environment. If you do not much experience in setting up a work environment, we highly recommend Cloud9 to start.
   * [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
-  * When cloning your fork into Cloud9, create your workspace name and description, then select Ruby as the template. 
+  * When cloning your fork into Cloud9, create your workspace name and description, then select Ruby as the template.
   * In the terminal, type in the following commands:
 
   ```bash
@@ -98,6 +139,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   rails server -b $IP -p $PORT
   createdb operationcode_development
   ```
+
   * Sometimes, you may have to restart the postgress server with `sudo service postgresql restart`.
   * Your fork of **Operation Code** website should now be available for preview at http://workpacename-username.c9users.io (ie: http://operationcode-ashtemp.c9users.io)
 
@@ -139,12 +181,13 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   git branch
   ```
 
-* Once you have finished your work, head over to **Operation Code**'s main GitHub page, and make a pull request. More information about pull requests can be found in the next section. 
+* Once you have finished your work, head over to **Operation Code**'s main GitHub page, and make a pull request. More information about pull requests can be found in the next section.
 
-* To return to your main `master` branch, type the following in the terminal: 
+* To return to your main `master` branch, type the following in the terminal:
   ```bash
   git checkout master
-  ```  
+  ```
+
 ## Submitting Your Changes
 * When you have completed work on your feature branch, you are ready to submit a [pull request](https://help.github.com/articles/using-pull-requests/).
 

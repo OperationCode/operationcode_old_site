@@ -3,6 +3,7 @@ Contributors
 
 These outstanding coders have contributed to Operation Code's architecture, design and implementation:
 
+* [Aaron Suarez](https://github.com/aaron-suarez/)
 * [Alex Beeken](https://github.com/alexbeeken)
 * [Alex Kaufman](https://github.com/alexkaufman06)
 * [Chris Hough](https://github.com/chrishough)
@@ -33,5 +34,6 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Jay Sprout](https://github.com/jotasprout)
 * [Matt Wagner](https://github.com/mwagz)
 * [John McIntosh II](https://github.com/ver2point0)
+* [Seth Bergman](https://github.com/sethbergman)
 
 When you see them, say Hooah, Oorah, or just say hi and thank them for supporting Operation Code's mission to get more military and veterans coding.
