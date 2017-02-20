@@ -107,5 +107,5 @@ i.fa.medium {
 
 // darkens text for input placeholders
 ::-webkit-input-placeholder {
-    color: #565656 !important;
+  color: $placeholder-text;
 }
