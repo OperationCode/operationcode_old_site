@@ -41,8 +41,7 @@
           <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
         <% else %>
           <li>
-            <% ab_test(:signup_button_size, 'btn', '') do |button_size| %>
-            <%= link_to 'Join', new_veteran_registration_path, class: 'btn', style: 'background-color: #26A69A;' %>
+            <%= link_to 'Join', new_veteran_registration_path, class: 'btn' style: 'background-color: #B23900;' %>
             <% end %>
           </li>
           <% end %>
@@ -83,8 +82,7 @@
           <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
         <% else %>
           <li>
-            <% ab_test(:signup_button_size, 'btn btn-large', '') do |button_size| %>
-            <%= link_to 'Join', new_veteran_registration_path, class: 'btn', style: 'background-color: #26A69A;' %>
+            <%= link_to 'Join', new_veteran_registration_path, class: 'btn' style: 'background-color: #B23900;' %>
             <% end %>
           </li>
         <% end %>
