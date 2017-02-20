@@ -16,6 +16,17 @@
 #   Each entry must start on a new line with "- name:"
 #   HTML can be included in the notes key
 
+- name: Nashville Software School
+  url:  http://nashvillesoftwareschool.com/
+  address1: 500 Interstate Blvd S,
+  address2: Suite 300
+  city: Nashville
+  state: TN
+  zip: 37210
+  va_accepted: true
+  full_time: true
+  hardware_included: false
+
 - name: Dev Bootcamp SF
   url:  http://devbootcamp.com
   address1: 633 Folsom Street (at Hawthorne)
@@ -27,10 +38,10 @@
   full_time: true
   hardware_included: false
 
-- name: gSchool SoMa
-  url:  http://www.galvanize.it/school/#main
-  address1: Galvanize San Francisco - SoMa
-  address2: 543 Howard St
+- name: Galvanize San Francisco
+  url:  https://new.galvanize.com/san-francisco/web-development
+  address1: 44 Tehama Street
+  address2:
   city: San Francisco
   state: CA
   zip: 94015
@@ -80,13 +91,13 @@
   full_time: true
   hardware_included: false
 
-- name: gSchool Boulder
-  url: http://www.galvanize.it/school/#main
-  address1: 1035 Pearl Street
-  address2: Suite 206
+- name: Galvanize Boulder
+  url: https://new.galvanize.com/boulder/web-development
+  address1: 1023 Walnut Street
+  address2:
   city: Boulder
   state: CO
-  zip: 80304
+  zip: 80302
   va_accepted: false
   full_time: true
   hardware_included: false
@@ -458,3 +469,46 @@
   va_accepted: false
   full_time: true
   hardware_included: true
+
+- name: App Academy (SF/NYC)
+  url: https://www.appacademy.io/
+  address1: 160 Spear St
+  city: San Francisco
+  state: CA
+  zip: 94105
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  notes: Deferred financing system (20% of your first year's salary)
+
+- name: Tech Elevator (Cleveland)
+  url: http://www.techelevator.com/
+  address1: 7100 Euclid Ave
+  city: Cleveland
+  state: OH
+  zip: 44103
+  va_accepted: false
+  full_time: true
+  hardware_included: true
+
+- name: Tech Elevator (Columbus)
+  url: http://www.techelevator.com/
+  address1: 1275 Kinnear Rd
+  address2: Suite 121
+  city: Columbus
+  state: OH
+  zip: 43212
+  va_accepted: false
+  full_time: true
+  hardware_included: true
+
+- name: Galvanize Golden Triangle (Denver)
+  url:  https://new.galvanize.com/denver/web-development
+  address1: Galvanize Denver - Golden Triangle
+  address2: 1062 Delaware Street
+  city: Denver
+  state: CO
+  zip: 80204
+  va_accepted: true
+  full_time: true
+  hardware_included: false
