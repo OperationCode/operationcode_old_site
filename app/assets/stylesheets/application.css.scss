@@ -104,8 +104,3 @@ i.fa.medium {
   transform: translateX(-50%);
   z-index: 997;
 }
-
-// darkens text for input placeholders
-::-webkit-input-placeholder {
-  color: $placeholder-text;
-}
