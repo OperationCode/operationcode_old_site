@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/sethbergman/operationcode.png?label=ready&title=Ready)](https://waffle.io/sethbergman/operationcode)
+[![Stories in Ready](https://badge.waffle.io/OperationCode/operationcode.png?label=ready&title=Ready)](https://waffle.io/OperationCode/operationcode)
 # [Operation Code](http://operationcode.org)
 <a href="https://koding.com/"> <img src="https://koding-cdn.s3.amazonaws.com/badges/made-with-koding/v1/koding_badge_ReadmeDark.png" srcset="https://koding-cdn.s3.amazonaws.com/badges/made-with-koding/v1/koding_badge_ReadmeDark.png 1x, https://koding-cdn.s3.amazonaws.com/badges/made-with-koding/v1/koding_badge_ReadmeDark@2x.png 2x" alt="Made with Koding" /> </a>
 [![Build Status](https://travis-ci.org/OperationCode/operationcode.svg?branch=master)](https://travis-ci.org/OperationCode/operationcode)
