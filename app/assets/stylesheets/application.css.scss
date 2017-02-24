@@ -100,7 +100,7 @@ i.fa.medium {
   font-size: 10px;
   left: 50%;
   padding: 5px 20px;
-  margin-top: $navbar-height;
+  margin-top: $navbar-height; // push down below navbar
   position: fixed;
   text-align: center;
   top: 6vh;
