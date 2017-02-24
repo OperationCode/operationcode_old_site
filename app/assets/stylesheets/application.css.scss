@@ -95,13 +95,14 @@ i.fa.medium {
 }
 
 
-#alert-section {
-  z-index: 997;
+.alert-section {
+  left: 50%;
+  position: fixed;
   // make sure to display below where the navbar is display
   top: $navbar-height;
-  position: fixed;
-  left: 50%;
+  z-index: 997;
 }
+
 .alert {
   background-color: $alert-red;
   font-size: 10px;

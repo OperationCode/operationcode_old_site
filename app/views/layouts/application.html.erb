@@ -30,7 +30,7 @@
   <body>
     <%= render 'layouts/header' %>
 
-    <div class="section" id="alert-section">
+    <div class="alert-section">
       <% flash.each do |name, msg| %>
         <%= content_tag(:div, msg, class: "alert alert-info") %>
       <% end %>
