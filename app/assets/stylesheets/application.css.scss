@@ -7,9 +7,11 @@
 @import "deploy";
 @import "success_stories";
 
+$navbar-height: 64px;
+
 // Match logo to size of navbar
 .navbar-fixed .nav-wrapper .brand-logo img {
-  height: 64px;
+  height: $navbar-height;
 }
 
 .navbar-fixed .nav-wrapper.container {
@@ -98,6 +100,7 @@ i.fa.medium {
   font-size: 10px;
   left: 50%;
   padding: 5px 20px;
+  margin-top: $navbar-height;
   position: fixed;
   text-align: center;
   top: 6vh;
