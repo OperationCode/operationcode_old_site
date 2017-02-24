@@ -94,18 +94,21 @@ i.fa.medium {
   padding-left: 3%;
 }
 
+
+#alert-section {
+  z-index: 997;
+  // make sure to display below where the navbar is display
+  top: $navbar-height;
+  position: fixed;
+  left: 50%;
+}
 .alert {
   background-color: $alert-red;
-  color: $white;
   font-size: 10px;
-  left: 50%;
-  padding: 5px 20px;
-  margin-top: $navbar-height; // push down below navbar
-  position: fixed;
   text-align: center;
-  top: 6vh;
+  color: $white;
+  padding: 5px 20px;
   transform: translateX(-50%);
-  z-index: 997;
 }
 
 // darkens placeholder text
