@@ -18,9 +18,10 @@ Rails.application.routes.draw do
 
   # LetsEncrypt
   # get '.well-known/acme-challenge/:token', to: 'pages#ssl'
-  get '/.well-known/acme-challenge/:id' => 'pages#letsencrypt'
 
+  get '/veterans/thanks', to: 'veterans#thanks'
   get '/veterans/map', to: 'veterans#map'
+  get '/.well-known/acme-challenge/:id' => 'pages#letsencrypt'
   resources :veterans, only: [:new, :create]
   post '/veterans/claim/:veteran', to: 'veterans#claim', as: :veterans_claim
   post '/veterans/unclaim/:veteran', to: 'veterans#unclaim', as: :veterans_unclaim
