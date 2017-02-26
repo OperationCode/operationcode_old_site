@@ -30,14 +30,16 @@
   <body>
     <%= render 'layouts/header' %>
 
-    <% flash.each do |name, msg| %>
-      <%= content_tag(:div, msg, class: "alert alert-info") %>
-    <% end %>
+    <div class="alert-section">
+      <% flash.each do |name, msg| %>
+        <%= content_tag(:div, msg, class: "alert alert-info") %>
+      <% end %>
+    </div>
 
     <%= yield %>
 
     <%= render 'layouts/footer' %>
-    
+
     <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>

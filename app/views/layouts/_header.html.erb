@@ -35,13 +35,13 @@
           <a class="btn" href="https://donorbox.org/operationcode"
             data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate</a>
         </li>
-        
+
         <% if veteran_signed_in? %>
           <li><%= link_to 'Profile', profile_path %></li>
           <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
         <% else %>
           <li>
-            <% ab_test(:signup_button_size, 'btn', '') do |button_size| %>
+            <% ab_test(:signup_button_size, 'btn btn-large', 'btn') do |button_size| %>
             <%= link_to 'Join', new_veteran_registration_path, class: button_size, style: 'background-color: #B23900;' %>
             <% end %>
           </li>
@@ -68,14 +68,14 @@
         <li><%= link_to 'Employer Services', employers_path %></li>
         <li><%= link_to 'Web Development', deploy_path %></li>
         <li role="separator" class="divider"></li>
-      
+
         <li><%= link_to 'Success Stories', success_stories_path %></li>
         <li><%= link_to 'Blog', 'https://medium.com/operation-code' %></li>
         <li role="separator" class="divider"></li>
-        
+
         <a class="btn" href="https://donorbox.org/operationcode"
             data-constrainwidth="false" data-beloworigin="true" data-activates="Donate">Donate</a>
-            
+
         <li role="separator" class="divider"></li>
 
         <% if veteran_signed_in? %>
@@ -83,7 +83,7 @@
           <li><%= link_to 'Sign Out', destroy_veteran_session_path, method: :delete %></li>
         <% else %>
           <li>
-            <% ab_test(:signup_button_size, 'btn btn-large', '') do |button_size| %>
+            <% ab_test(:signup_button_size, 'btn btn-large', 'btn') do |button_size| %>
             <%= link_to 'Join', new_veteran_registration_path, class: button_size, style: 'background-color: #B23900;' %>
             <% end %>
           </li>

@@ -7,9 +7,11 @@
 @import "deploy";
 @import "success_stories";
 
+$navbar-height: 64px;
+
 // Match logo to size of navbar
 .navbar-fixed .nav-wrapper .brand-logo img {
-  height: 64px;
+  height: $navbar-height;
 }
 
 .navbar-fixed .nav-wrapper.container {
@@ -92,15 +94,25 @@ i.fa.medium {
   padding-left: 3%;
 }
 
+
+.alert-section {
+  left: 50%;
+  position: fixed;
+  // make sure to display below where the navbar is display
+  top: $navbar-height;
+  z-index: 997;
+}
+
 .alert {
   background-color: $alert-red;
-  color: $white;
   font-size: 10px;
-  left: 50%;
-  padding: 5px 20px;
-  position: fixed;
   text-align: center;
-  top: 6vh;
+  color: $white;
+  padding: 5px 20px;
   transform: translateX(-50%);
-  z-index: 997;
+}
+
+// darkens placeholder text
+::-webkit-input-placeholder {
+  color: $placeholder-text;
 }
