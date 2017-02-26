@@ -20,7 +20,7 @@ class Veteran < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-  validates_format_of :email, :with => Devise::email_regexp, :allow_blank => true
+  validates_format_of :email, with: Devise::email_regexp, allow_blank: true
 
   geocoded_by :zip
   after_validation :geocode, if: ->(v) { v.zip.present? && v.zip_changed? }
