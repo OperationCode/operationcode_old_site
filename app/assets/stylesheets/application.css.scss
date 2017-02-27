@@ -124,16 +124,12 @@ i.fa.medium {
   position: relative;
 }
 
-.pagecontent img {
-  max-width: 100%;
-}
-
 .resourcearticle {
   flex: 1;
   max-width: 740px;
 }
 
-.resourcearticle h1 {
+.resourcearticle > h1 {
   margin-top: 0;
 }
 
@@ -154,20 +150,20 @@ i.fa.medium {
   width: 200px;
 }
 
-.helpmenu hr {
+.helpmenu > hr {
   border-color: $gray;
   margin: 0;
   padding: 0;
 }
 
-.helpmenu a {
+.helpmenu > a {
   display: block;
   line-height: 140%;
   margin: 0;
   padding: 7px 10px;
 }
 
-.helpmenu a:hover {
+.helpmenu > a:hover {
   background: $light-gray none repeat scroll 0 0;
 }
 
