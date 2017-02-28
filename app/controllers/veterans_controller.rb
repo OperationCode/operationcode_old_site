@@ -26,6 +26,7 @@ class VeteransController < ApplicationController
   end
 
   def thanks
+    @slack_url = SlackUrl.get_url(get_operating_system)
   end
 
   private
