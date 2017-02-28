@@ -4,6 +4,22 @@ class ApplicationController < ActionController::Base
 
   protect_from_forgery with: :exception
 
+  helper_method :get_operating_system
+
+  def get_operating_system
+    if request.env['HTTP_USER_AGENT'].downcase.match(/mac/i)
+      "Mac"
+    elsif request.env['HTTP_USER_AGENT'].downcase.match(/windows/i)
+      "Windows"
+    elsif request.env['HTTP_USER_AGENT'].downcase.match(/linux/i)
+      "Linux"
+    elsif request.env['HTTP_USER_AGENT'].downcase.match(/unix/i)
+      "Unix"
+    else
+      "Unknown"
+    end
+  end
+
   def ssl_configured?
     !Rails.env.production?
     !Rails.env.test?
