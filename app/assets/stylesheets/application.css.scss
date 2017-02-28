@@ -118,6 +118,10 @@ i.fa.medium {
 }
 
 .pagecontent {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 980px;
   padding: 0 20px;
@@ -127,21 +131,19 @@ i.fa.medium {
 .resourcearticle {
   flex: 1;
   max-width: 740px;
+  margin-top: 0;
 }
 
-.resourcearticle > h1 {
+h1 {
   margin-top: 0;
 }
 
 .resourcecontent {
-  padding: 30px 0;
-}
-
-.resourcecontent .pagecontent {
   align-items: flex-start;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding: 30px 0;
 }
 
 .helpmenu {
@@ -150,20 +152,20 @@ i.fa.medium {
   width: 200px;
 }
 
-.helpmenu > hr {
+.helpmenu-break {
   border-color: $gray;
   margin: 0;
   padding: 0;
 }
 
-.helpmenu > a {
+.helpmenu-link {
   display: block;
   line-height: 140%;
   margin: 0;
   padding: 7px 10px;
 }
 
-.helpmenu > a:hover {
+.helpmenu-link:hover {
   background: $light-gray none repeat scroll 0 0;
 }
 
