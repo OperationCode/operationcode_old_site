@@ -8,15 +8,15 @@ class ApplicationController < ActionController::Base
 
   def get_operating_system
     if request.env['HTTP_USER_AGENT'].downcase.match(/mac/i)
-      "Mac"
+      'Mac'
     elsif request.env['HTTP_USER_AGENT'].downcase.match(/windows/i)
-      "Windows"
+      'Windows'
     elsif request.env['HTTP_USER_AGENT'].downcase.match(/linux/i)
-      "Linux"
+      'Linux'
     elsif request.env['HTTP_USER_AGENT'].downcase.match(/unix/i)
-      "Unix"
+      'Unix'
     else
-      "Unknown"
+      'Unknown'
     end
   end
 
