@@ -7,11 +7,11 @@ Operation Code is an open source community dedicated to getting military veteran
 
 Releasing the source code for this project is meant to empower military veterans and all developers everywhere to contribute their ideas, energy and time to help close the nation's technical talent shortage with American patriots trained in modern software development. What could be better than reducing veterans unemployment with our very own?
 
-Learn more at: [https://www.operationcode.org](http://operationcode.org).
+Learn more at: [https://www.operationcode.org](http://operationcode.org)
 
-Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate).
+Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate)
 
-Questions? Get in touch: [staff@operationcode.org](mailto:staff@operationcode.org).
+Questions? Get in touch: [staff@operationcode.org](mailto:staff@operationcode.org)
 
 ## Table of contents
 
