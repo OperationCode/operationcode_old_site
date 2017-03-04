@@ -176,7 +176,8 @@ GEM
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
-    jekyll (3.2.1)
+    jekyll (3.4.1)
+      addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -203,7 +204,7 @@ GEM
     kaminari (0.17.0)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    kramdown (1.11.1)
+    kramdown (1.13.2)
     launchy (2.4.3)
       addressable (~> 2.3)
     leaflet-rails (0.7.7)
@@ -414,7 +415,7 @@ DEPENDENCIES
   guard
   guard-minitest
   jbuilder (~> 2.0)
-  jekyll
+  jekyll (= 3.4.1)
   jquery-rails
   jquery-turbolinks
   leaflet-rails
@@ -443,5 +444,8 @@ DEPENDENCIES
   webmock
   xray-rails
 
+RUBY VERSION
+   ruby 2.3.0p0
+
 BUNDLED WITH
-   1.13.7
+   1.14.6
