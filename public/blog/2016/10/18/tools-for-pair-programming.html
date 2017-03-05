@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tools For Pair Programming</title>
+  <meta name="description" content="“Why does this method keep returning undefined- it’s not supposed to do that!” I said one day, frustrated.">
+
+  <link rel="stylesheet" href="/blog/assets/main.css">
+  <link rel="canonical" href="https://operationcode.org/blog/2016/10/18/tools-for-pair-programming.html">
+  <link rel="alternate" type="application/rss+xml" title="Operation Code Blog" href="/blog/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/blog/">Operation Code Blog</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        <!-- Put navbar links here that are not Jekyll pages. They will be responsive and get "sucked up" by the hamburger link when the screen is too small -->
+        <a class="page-link" href="https://operationcode.org">Back To Operation Code Homepage</a>
+        
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Tools For Pair Programming</h1>
+    <p class="post-meta"><time datetime="2016-10-18T00:00:00-07:00" itemprop="datePublished">Oct 18, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jon Deng</span></span></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <blockquote>
+  <p>“Why does this method keep returning undefined- it’s not supposed to do that!” I said one day, frustrated.</p>
+</blockquote>
+
+<blockquote>
+  <p>“What assumptions are you making that lead to this method returning a value other than undefined?” my pair asked.</p>
+</blockquote>
+
+<blockquote>
+  <p>“Umm…because the function that calls the method is supposed to pass it an array, which it should get from the API call, which, umm… if it doesn’t return any data…”</p>
+</blockquote>
+
+<p>Bugs are caused by difference between a programmer’s <em>expectation</em> of what the computer will do and the *reality *of what the computer actually does, based of course, on instructions from the programmer. The difference between expectation and reality is usually due to incorrect assumptions.</p>
+
+<p>A good pair programming partner can expose assumptions that you were not even aware of because they force you to reason out loud, laying all your previously assumptions out, either verbally or written out on the whiteboard.</p>
+
+<p><a href="https://www.wikiwand.com/en/Linus's_Law">With enough eyes all bugs are shallow</a>, mostly because if you have to defend your assumptions to another person, you’ll usually catch the incorrect ones.</p>
+
+<p>I’d like to share what I learned about *effective pair programming *my first six weeks at Hack Reactor, including how to make sure both you and your pair get value out of the practice and how to deliver a good product at the end of the day.</p>
+
+<p>Hack Reactor is a very high touch game. For the first six weeks, all your coding sprints are completed through pair programming, where two engineers work on the same code, sometimes even by looking at the same monitor.</p>
+
+<p>One engineer “drives”, which means they input all the code into the computer. The other engineer “navigates”, which means they don’t write any code. That frees them up to do other tasks like looking up documentation, or reviewing the coding being written for possible errors.</p>
+
+<p>Pair programming is useful not only because it makes it easier to find bugs, but also because it creates a system of continuous feedback, one of the main tenets of <a href="https://www.wikiwand.com/en/Extreme_programming">Extreme Programming</a>. Because another engineer is always reviewing, the engineer in the driver’s seat has to write their code in logical ways. If they do something convoluted, they’ll be sure to get questions from their pair. Additionally, the engineer navigating has to justify their design decisions in real time such as, for example, to introduce some technical debt into the project in order to ship faster.</p>
+
+<p><a href="https://medium.com/@JonDeng/veteran-imposter-syndrome-5cfc1465b014#.p8mqlxukf">Because humans are social creatures who work best when accountable to others</a>, pair programming, even though it is time expensive (it takes two engineers instead of one), can produce a higher quality end product. Additionally, and more importantly, both engineers walk away from the experience knowing a little bit more. Perhaps one of the engineers was a database ninja, but weak on the front-end, and she walked away with more comfort in JavaScript front-end frameworks. And maybe the other engineer was inefficiently doing a lot of manual tasks that his pair showed him how to automate away using cron jobs and a task runner like Gulp.</p>
+
+<p>In this <a href="https://www.wikiwand.com/en/Extreme_programming">Software Engineering Daily podcast</a>, Fred George, the creator of Developer Anarchy, states that pair programming is useful because it allows all everyone on the team to learn from each other and become full stack engineers, instead of getting silo’d into specialties. Full stack engineers are more useful to the organization, not only because they can work in any part of the technology stack, but also while doing so they can pair with others, minting more full stack engineers.</p>
+
+<p>As a self-taught programmer, pair programming was initially a challenge for me because it forced me to clear the rubbish out of my thoughts, and express both my plans and assumptions in clear, understandable ways. But as I did it more, I think I got better at it, and I’d like to help you speed up your journey with some useful lessons that I picked up.</p>
+
+<p>And if you’re also a self-taught programmer, let me try to convince you that pair programming is the best way to improve your skills, whether you’re working with somebody more senior or junior to you. If you’re stuck far from a city with other developers, you can even pair program online, through programs like <a href="https://www.quora.com/Is-pair-programming-a-part-of-the-program-requirements-for-Free-Code-Camp">FreeCodeCamp</a> and applications like <a href="https://codeshare.io/">codeshare.io</a>.</p>
+
+<p><strong>The lessons are:</strong></p>
+
+<ol>
+  <li><strong>No feigned surprise</strong></li>
+  <li><strong>Yes, and</strong></li>
+  <li><strong>Know when to step away from the computer.</strong></li>
+</ol>
+
+<h3 id="no-feigned-surprise">No feigned surprise</h3>
+
+<p>I got this rule from the user manual of the <a href="https://www.recurse.com/manual">Recurse Center,</a> a programming retreat in New York City. I think it’s easier to demonstrate this rule than to explain it, with a hypothetical conversation between two developers:</p>
+
+<blockquote>
+  <p>Abel: So, I have this funny problem with transferring state from our Redux store to our React components…</p>
+</blockquote>
+
+<blockquote>
+  <p>Beryl: Oh, no problem. You just use the react-redux library and make a Provider component that connects the state between the store and components.</p>
+</blockquote>
+
+<blockquote>
+  <p>Abel: Umm, what’s a Provider?</p>
+</blockquote>
+
+<blockquote>
+  <p>Beryl: What do you mean, what’s a Provider? Haven’t you been a developer for like 5 years?!</p>
+</blockquote>
+
+<p>Obviously, not a useful response.</p>
+
+<p>Does it feel good to admit that you don’t know something, which is an act of courage and honesty, and then for them to reply: <em>what are you, some kind of dummy?</em></p>
+
+<p>The truth is there is a large universe of things to know as a developer (<a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.dzcodaf12">one that’s growing exponentially in languages like JavaScript</a>) and you can’t possibly know everything. Even senior developers, because things are changing so fast, might not know something a junior is an expert in.</p>
+
+<p>Feigning surprise in our hypothetical example created a missed opportunity for Abel to learn more about React and Redux, and for Beryl to achieve mastery of the subject by teaching Abel.</p>
+
+<h3 id="yes-and">Yes, and</h3>
+
+<p>I recently spent a Saturday night watching an <a href="https://www.ucbtheatre.com/">Upright Citizens Brigade</a> show, and what fascinated me was that even though no explicit instructions were exchanged, both improv comics seamlessly kept the pacing of the show on point. In improv comedy, the goal is for both comics, neither of whom have a script, to explore the situation they find themselves in, adding details to the scene and slowly building up to more and more absurd circumstances (<em>Who brought fake blood to the wedding dress store and why was a banana peel conveniently left in the aisle?</em>) until the hilarious finale. But, it’s not funny if the situation is ridiculous right away;<a href="http://www.newyorker.com/magazine/2016/09/05/upright-citizens-brigades-comedy-empire"> you want to take the slow train to crazy town.</a></p>
+
+<p>Same goes for building software on a short deadline. You want to fit as many features in as possible. But you can’t build a killer app in one step. You have to create the user story, whiteboard the idea, wireframe it, build an MVP. You want the slooooow train to crazy town.</p>
+
+<p>When working on a project with a partner it will almost always be the case that there will be reasonable disagreements. Instead of immediately advocating for your side, it can be useful to accept your partner’s position as true, and to riff off of that. This “acceptive brainstorming” often leads to better ideas than if each side had already made up their mind.</p>
+
+<p>This is the essence of the <a href="https://www.wikiwand.com/en/Yes,_and...">Yes, and rule</a>, which means you never directly disagree with your partner at first, but instead continue the brainstorming while accepting their assertion on the face. I find I often learn more by exploring and often times accepting my partner’s plan rather than blindly advocating for my own.</p>
+
+<p>For example:</p>
+
+<blockquote>
+  <p>Abel: I think we should use a graph database here.</p>
+</blockquote>
+
+<blockquote>
+  <p>Beryl: (trying not to roll her eyes, because her initial thought is that this is the stupidest idea ever) Hmmm. Interesting, why do you think so?</p>
+</blockquote>
+
+<blockquote>
+  <p>Abel: Well, with a relational database we could store all the users pretty well, but it would be expensive to map all the relationships between them- a graph database would be better.</p>
+</blockquote>
+
+<blockquote>
+  <p>Beryl: Wait, we’re storing relationships between users?</p>
+</blockquote>
+
+<blockquote>
+  <p>Abel: Well, if we did, we could do a lot of really cool machine learning stuff to optimize the experience.</p>
+</blockquote>
+
+<blockquote>
+  <p>Beryl: (excited about the idea now) Oh, like we could optimize everyone’s landing page to show updates from people in their network! That would be sick.</p>
+</blockquote>
+
+<h3 id="know-when-to-step-away"><strong>Know when to step away</strong></h3>
+
+<p>I learned in the Army that being angry and tired is not a good reason to not get the job done. But I also learned that it’s illogical to keep pounding your head on something in a counterproductive way.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Now is better than never.
+Although never is often better than *right* now. 
+</code></pre>
+</div>
+
+<p>Yes, you have a deadline. Yes, programming is not always fun. Sometimes you’re tired, and have a headache and a mental block. You may be tempted to lash out at your partner, because its convenient.</p>
+
+<p>But you can take a 5 minute break, go walk outside, call a friend to vent, run laps around the building. Working together doesn’t mean that you’re tied together, and sometimes you need a timeout. If you’re ever tempted to say something snarky, or find you don’t have the energy to uphold the two rules above (No feigned surprise and Yes, and) you need to take a break.</p>
+
+<p>It will help you think.</p>
+
+<p>And you will also avoid saying something you can’t take back.</p>
+
+<p>If you can’t be a good person, step away from the computer for awhile. There’s a whole world outside, and it’s good to keep that in perspective.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>That’s it.</p>
+
+<ol>
+  <li>No feigned surprise</li>
+  <li>Yes, and,</li>
+  <li>Take breaks as you need them.</li>
+</ol>
+
+<p>Oh, and try to learn as much as you can from your partner, and teach them as much as you know. The rest you can pick up as you go along 😜.</p>
+
+<p><em>If you’re interested in learning JavaScript web development along with me, follow me on *<a href="https://twitter.com/jondeng">Twitter</a></em> and <em><a href="https://medium.com/@JonDeng">Medium</a></em>!*</p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Operation Code Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Operation Code Blog
+            
+            </li>
+            
+            <li><a href="mailto:david@operationcode.org">david@operationcode.org</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/OperationCode"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">OperationCode</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/operation_code"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">operation_code</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Operation Code is on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

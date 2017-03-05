@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.1">Jekyll</generator><link href="https://operationcode.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://operationcode.org/blog/" rel="alternate" type="text/html" /><updated>2017-03-04T16:18:20-05:00</updated><id>https://operationcode.org/blog/</id><title type="html">Operation Code Blog</title><subtitle>Operation Code is on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.
-</subtitle><entry><title type="html">Meet the random job expert who transitioned into a manager role in Silicon Valley</title><link href="https://operationcode.org/blog/2017/03/01/meet-the-random-job-expert-who-transitioned-into-a-manager-role-in-silicon-valley.html" rel="alternate" type="text/html" title="Meet the random job expert who transitioned into a manager role in Silicon Valley" /><published>2017-03-01T00:00:00-05:00</published><updated>2017-03-01T00:00:00-05:00</updated><id>https://operationcode.org/blog/2017/03/01/meet-the-random-job-expert-who-transitioned-into-a-manager-role-in-silicon-valley</id><content type="html" xml:base="https://operationcode.org/blog/2017/03/01/meet-the-random-job-expert-who-transitioned-into-a-manager-role-in-silicon-valley.html">&lt;p&gt;A search engine introduced Andrea to Operation Code. The former Army personnel manager had long contemplated a career change.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.1">Jekyll</generator><link href="https://operationcode.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://operationcode.org/blog/" rel="alternate" type="text/html" /><updated>2017-03-04T17:17:37-08:00</updated><id>https://operationcode.org/blog/</id><title type="html">Operation Code Blog</title><subtitle>Operation Code is on a mission to trailblaze a new career path opportunity for military veterans in software development and coding.
+</subtitle><entry><title type="html">Meet the random job expert who transitioned into a manager role in Silicon Valley</title><link href="https://operationcode.org/blog/2017/03/01/meet-the-random-job-expert-who-transitioned-into-a-manager-role-in-silicon-valley.html" rel="alternate" type="text/html" title="Meet the random job expert who transitioned into a manager role in Silicon Valley" /><published>2017-03-01T00:00:00-08:00</published><updated>2017-03-01T00:00:00-08:00</updated><id>https://operationcode.org/blog/2017/03/01/meet-the-random-job-expert-who-transitioned-into-a-manager-role-in-silicon-valley</id><content type="html" xml:base="https://operationcode.org/blog/2017/03/01/meet-the-random-job-expert-who-transitioned-into-a-manager-role-in-silicon-valley.html">&lt;p&gt;A search engine introduced Andrea to Operation Code. The former Army personnel manager had long contemplated a career change.&lt;/p&gt;
 
 &lt;p&gt;Meet Andrea, a self-described random job expert. After her service as a U.S. Army Human Resource Specialist she held many jobs and admits, “I never really found that one thing that really drove me.” One day a serendipitous online search resulted in more than she expected.&lt;/p&gt;
 
@@ -12,7 +12,144 @@ Andrea acknowledged to herself and to others that a new skill would be difficult
 
 &lt;p&gt;Andrea was now engaging in online communities focused on everything from open source to coding. With a combination of her do-it-yourself learning and mentor support her confidence increased. Furthermore, she believed her military background and entrepreneurial spirit made her special. But was she ready to apply for a job in tech?&lt;/p&gt;
 
-&lt;p&gt;Then one day Andrea opened her inbox. She received a job announcement which had been forwarded to her by David Molina, Operation Code’s Founder &amp;amp; CEO. The employer was Github. Yes, Github; the multi-million dollar software company operating out of Silicon Valley. She was initially apprehensive about applying, mainly for family reasons. But after careful consideration and conversations with her supportive partner, she applied. After a four month process she received the job offer last November. “January 10th was my first day on the job” shares Andrea who credits Operation Code and the resources they shared with making the difference.&lt;/p&gt;</content><author><name>Edward Gutierrez</name></author><category term="Article" /><summary type="html">A search engine introduced Andrea to Operation Code. The former Army personnel manager had long contemplated a career change.</summary></entry><entry><title type="html">What One Dark Night with the Army Taught Me About Shipping Software</title><link href="https://operationcode.org/blog/2016/09/30/what-one-dark-night-with-the-army-taught-me-about-shipping-software.html" rel="alternate" type="text/html" title="What One Dark Night with the Army Taught Me About Shipping Software" /><published>2016-09-30T00:00:00-04:00</published><updated>2016-09-30T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/09/30/what-one-dark-night-with-the-army-taught-me-about-shipping-software</id><content type="html" xml:base="https://operationcode.org/blog/2016/09/30/what-one-dark-night-with-the-army-taught-me-about-shipping-software.html">&lt;p&gt;Not many people know I spent time in the Army many moons ago. I guess I don’t look much like G.I. Joe, so I can appreciate their surprise when this is uncovered. Nevertheless, it’s true; I joined the military six years ago.&lt;/p&gt;
+&lt;p&gt;Then one day Andrea opened her inbox. She received a job announcement which had been forwarded to her by David Molina, Operation Code’s Founder &amp;amp; CEO. The employer was Github. Yes, Github; the multi-million dollar software company operating out of Silicon Valley. She was initially apprehensive about applying, mainly for family reasons. But after careful consideration and conversations with her supportive partner, she applied. After a four month process she received the job offer last November. “January 10th was my first day on the job” shares Andrea who credits Operation Code and the resources they shared with making the difference.&lt;/p&gt;</content><author><name>Edward Gutierrez</name></author><category term="Article" /><summary type="html">A search engine introduced Andrea to Operation Code. The former Army personnel manager had long contemplated a career change.</summary></entry><entry><title type="html">Tools For Pair Programming</title><link href="https://operationcode.org/blog/2016/10/18/tools-for-pair-programming.html" rel="alternate" type="text/html" title="Tools For Pair Programming" /><published>2016-10-18T00:00:00-07:00</published><updated>2016-10-18T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/10/18/tools-for-pair-programming</id><content type="html" xml:base="https://operationcode.org/blog/2016/10/18/tools-for-pair-programming.html">&lt;blockquote&gt;
+  &lt;p&gt;“Why does this method keep returning undefined- it’s not supposed to do that!” I said one day, frustrated.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“What assumptions are you making that lead to this method returning a value other than undefined?” my pair asked.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Umm…because the function that calls the method is supposed to pass it an array, which it should get from the API call, which, umm… if it doesn’t return any data…”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bugs are caused by difference between a programmer’s &lt;em&gt;expectation&lt;/em&gt; of what the computer will do and the *reality *of what the computer actually does, based of course, on instructions from the programmer. The difference between expectation and reality is usually due to incorrect assumptions.&lt;/p&gt;
+
+&lt;p&gt;A good pair programming partner can expose assumptions that you were not even aware of because they force you to reason out loud, laying all your previously assumptions out, either verbally or written out on the whiteboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wikiwand.com/en/Linus's_Law&quot;&gt;With enough eyes all bugs are shallow&lt;/a&gt;, mostly because if you have to defend your assumptions to another person, you’ll usually catch the incorrect ones.&lt;/p&gt;
+
+&lt;p&gt;I’d like to share what I learned about *effective pair programming *my first six weeks at Hack Reactor, including how to make sure both you and your pair get value out of the practice and how to deliver a good product at the end of the day.&lt;/p&gt;
+
+&lt;p&gt;Hack Reactor is a very high touch game. For the first six weeks, all your coding sprints are completed through pair programming, where two engineers work on the same code, sometimes even by looking at the same monitor.&lt;/p&gt;
+
+&lt;p&gt;One engineer “drives”, which means they input all the code into the computer. The other engineer “navigates”, which means they don’t write any code. That frees them up to do other tasks like looking up documentation, or reviewing the coding being written for possible errors.&lt;/p&gt;
+
+&lt;p&gt;Pair programming is useful not only because it makes it easier to find bugs, but also because it creates a system of continuous feedback, one of the main tenets of &lt;a href=&quot;https://www.wikiwand.com/en/Extreme_programming&quot;&gt;Extreme Programming&lt;/a&gt;. Because another engineer is always reviewing, the engineer in the driver’s seat has to write their code in logical ways. If they do something convoluted, they’ll be sure to get questions from their pair. Additionally, the engineer navigating has to justify their design decisions in real time such as, for example, to introduce some technical debt into the project in order to ship faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@JonDeng/veteran-imposter-syndrome-5cfc1465b014#.p8mqlxukf&quot;&gt;Because humans are social creatures who work best when accountable to others&lt;/a&gt;, pair programming, even though it is time expensive (it takes two engineers instead of one), can produce a higher quality end product. Additionally, and more importantly, both engineers walk away from the experience knowing a little bit more. Perhaps one of the engineers was a database ninja, but weak on the front-end, and she walked away with more comfort in JavaScript front-end frameworks. And maybe the other engineer was inefficiently doing a lot of manual tasks that his pair showed him how to automate away using cron jobs and a task runner like Gulp.&lt;/p&gt;
+
+&lt;p&gt;In this &lt;a href=&quot;https://www.wikiwand.com/en/Extreme_programming&quot;&gt;Software Engineering Daily podcast&lt;/a&gt;, Fred George, the creator of Developer Anarchy, states that pair programming is useful because it allows all everyone on the team to learn from each other and become full stack engineers, instead of getting silo’d into specialties. Full stack engineers are more useful to the organization, not only because they can work in any part of the technology stack, but also while doing so they can pair with others, minting more full stack engineers.&lt;/p&gt;
+
+&lt;p&gt;As a self-taught programmer, pair programming was initially a challenge for me because it forced me to clear the rubbish out of my thoughts, and express both my plans and assumptions in clear, understandable ways. But as I did it more, I think I got better at it, and I’d like to help you speed up your journey with some useful lessons that I picked up.&lt;/p&gt;
+
+&lt;p&gt;And if you’re also a self-taught programmer, let me try to convince you that pair programming is the best way to improve your skills, whether you’re working with somebody more senior or junior to you. If you’re stuck far from a city with other developers, you can even pair program online, through programs like &lt;a href=&quot;https://www.quora.com/Is-pair-programming-a-part-of-the-program-requirements-for-Free-Code-Camp&quot;&gt;FreeCodeCamp&lt;/a&gt; and applications like &lt;a href=&quot;https://codeshare.io/&quot;&gt;codeshare.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The lessons are:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;No feigned surprise&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Yes, and&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Know when to step away from the computer.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;no-feigned-surprise&quot;&gt;No feigned surprise&lt;/h3&gt;
+
+&lt;p&gt;I got this rule from the user manual of the &lt;a href=&quot;https://www.recurse.com/manual&quot;&gt;Recurse Center,&lt;/a&gt; a programming retreat in New York City. I think it’s easier to demonstrate this rule than to explain it, with a hypothetical conversation between two developers:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Abel: So, I have this funny problem with transferring state from our Redux store to our React components…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beryl: Oh, no problem. You just use the react-redux library and make a Provider component that connects the state between the store and components.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Abel: Umm, what’s a Provider?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beryl: What do you mean, what’s a Provider? Haven’t you been a developer for like 5 years?!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Obviously, not a useful response.&lt;/p&gt;
+
+&lt;p&gt;Does it feel good to admit that you don’t know something, which is an act of courage and honesty, and then for them to reply: &lt;em&gt;what are you, some kind of dummy?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The truth is there is a large universe of things to know as a developer (&lt;a href=&quot;https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.dzcodaf12&quot;&gt;one that’s growing exponentially in languages like JavaScript&lt;/a&gt;) and you can’t possibly know everything. Even senior developers, because things are changing so fast, might not know something a junior is an expert in.&lt;/p&gt;
+
+&lt;p&gt;Feigning surprise in our hypothetical example created a missed opportunity for Abel to learn more about React and Redux, and for Beryl to achieve mastery of the subject by teaching Abel.&lt;/p&gt;
+
+&lt;h3 id=&quot;yes-and&quot;&gt;Yes, and&lt;/h3&gt;
+
+&lt;p&gt;I recently spent a Saturday night watching an &lt;a href=&quot;https://www.ucbtheatre.com/&quot;&gt;Upright Citizens Brigade&lt;/a&gt; show, and what fascinated me was that even though no explicit instructions were exchanged, both improv comics seamlessly kept the pacing of the show on point. In improv comedy, the goal is for both comics, neither of whom have a script, to explore the situation they find themselves in, adding details to the scene and slowly building up to more and more absurd circumstances (&lt;em&gt;Who brought fake blood to the wedding dress store and why was a banana peel conveniently left in the aisle?&lt;/em&gt;) until the hilarious finale. But, it’s not funny if the situation is ridiculous right away;&lt;a href=&quot;http://www.newyorker.com/magazine/2016/09/05/upright-citizens-brigades-comedy-empire&quot;&gt; you want to take the slow train to crazy town.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Same goes for building software on a short deadline. You want to fit as many features in as possible. But you can’t build a killer app in one step. You have to create the user story, whiteboard the idea, wireframe it, build an MVP. You want the slooooow train to crazy town.&lt;/p&gt;
+
+&lt;p&gt;When working on a project with a partner it will almost always be the case that there will be reasonable disagreements. Instead of immediately advocating for your side, it can be useful to accept your partner’s position as true, and to riff off of that. This “acceptive brainstorming” often leads to better ideas than if each side had already made up their mind.&lt;/p&gt;
+
+&lt;p&gt;This is the essence of the &lt;a href=&quot;https://www.wikiwand.com/en/Yes,_and...&quot;&gt;Yes, and rule&lt;/a&gt;, which means you never directly disagree with your partner at first, but instead continue the brainstorming while accepting their assertion on the face. I find I often learn more by exploring and often times accepting my partner’s plan rather than blindly advocating for my own.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Abel: I think we should use a graph database here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beryl: (trying not to roll her eyes, because her initial thought is that this is the stupidest idea ever) Hmmm. Interesting, why do you think so?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Abel: Well, with a relational database we could store all the users pretty well, but it would be expensive to map all the relationships between them- a graph database would be better.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beryl: Wait, we’re storing relationships between users?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Abel: Well, if we did, we could do a lot of really cool machine learning stuff to optimize the experience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beryl: (excited about the idea now) Oh, like we could optimize everyone’s landing page to show updates from people in their network! That would be sick.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;know-when-to-step-away&quot;&gt;&lt;strong&gt;Know when to step away&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;I learned in the Army that being angry and tired is not a good reason to not get the job done. But I also learned that it’s illogical to keep pounding your head on something in a counterproductive way.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Now is better than never.
+Although never is often better than *right* now. 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yes, you have a deadline. Yes, programming is not always fun. Sometimes you’re tired, and have a headache and a mental block. You may be tempted to lash out at your partner, because its convenient.&lt;/p&gt;
+
+&lt;p&gt;But you can take a 5 minute break, go walk outside, call a friend to vent, run laps around the building. Working together doesn’t mean that you’re tied together, and sometimes you need a timeout. If you’re ever tempted to say something snarky, or find you don’t have the energy to uphold the two rules above (No feigned surprise and Yes, and) you need to take a break.&lt;/p&gt;
+
+&lt;p&gt;It will help you think.&lt;/p&gt;
+
+&lt;p&gt;And you will also avoid saying something you can’t take back.&lt;/p&gt;
+
+&lt;p&gt;If you can’t be a good person, step away from the computer for awhile. There’s a whole world outside, and it’s good to keep that in perspective.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;That’s it.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No feigned surprise&lt;/li&gt;
+  &lt;li&gt;Yes, and,&lt;/li&gt;
+  &lt;li&gt;Take breaks as you need them.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Oh, and try to learn as much as you can from your partner, and teach them as much as you know. The rest you can pick up as you go along 😜.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’re interested in learning JavaScript web development along with me, follow me on *&lt;a href=&quot;https://twitter.com/jondeng&quot;&gt;Twitter&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href=&quot;https://medium.com/@JonDeng&quot;&gt;Medium&lt;/a&gt;&lt;/em&gt;!*&lt;/p&gt;</content><author><name>Jon Deng</name></author><category term="Article" /><summary type="html">“Why does this method keep returning undefined- it’s not supposed to do that!” I said one day, frustrated.</summary></entry><entry><title type="html">What One Dark Night with the Army Taught Me About Shipping Software</title><link href="https://operationcode.org/blog/2016/09/30/what-one-dark-night-with-the-army-taught-me-about-shipping-software.html" rel="alternate" type="text/html" title="What One Dark Night with the Army Taught Me About Shipping Software" /><published>2016-09-30T00:00:00-07:00</published><updated>2016-09-30T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/09/30/what-one-dark-night-with-the-army-taught-me-about-shipping-software</id><content type="html" xml:base="https://operationcode.org/blog/2016/09/30/what-one-dark-night-with-the-army-taught-me-about-shipping-software.html">&lt;p&gt;Not many people know I spent time in the Army many moons ago. I guess I don’t look much like G.I. Joe, so I can appreciate their surprise when this is uncovered. Nevertheless, it’s true; I joined the military six years ago.&lt;/p&gt;
 
 &lt;p&gt;Naturally, I learned a lot— more things than I had anticipated. But what’s been most surprising is how the half-life for these lessons has extended beyond the barracks and STX (situational training exercises). I probably shouldn’t be surprised, but they’ve been useful in my day-to-day work.&lt;/p&gt;
 
@@ -118,7 +255,7 @@ Andrea acknowledged to herself and to others that a new skill would be difficult
 
 &lt;p&gt;This is just my position. Our team is still wrestling with this. We haven’t arrived to a decision. Overall, I’m thankful I work with people who care enough to have a stance, and I’m confident everything will work out. If someone like me can find a one-meter-tall stake in the ground. In a jungle. At night. In the rain. With just a compass, map, and a few basic strategies. Then I’m sure we can figure things out.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Let’s get more people involved in tech. Support veterans learning to code by checking out &lt;a href=&quot;https://www.operationcode.org&quot;&gt;Operation Code&lt;/a&gt;, and help “increase the number of women of color in the digital space” by supporting &lt;a href=&quot;http://www.blackgirlscode.com&quot;&gt;Black Girls Code&lt;/a&gt;. Follow me on &lt;a href=&quot;https://twitter.com/BaxterMante&quot;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>Baxter Mante</name></author><category term="Article" /><summary type="html">Not many people know I spent time in the Army many moons ago. I guess I don’t look much like G.I. Joe, so I can appreciate their surprise when this is uncovered. Nevertheless, it’s true; I joined the military six years ago.</summary></entry><entry><title type="html">Developer Goals 2016</title><link href="https://operationcode.org/blog/2016/09/29/developer-goals-2016.html" rel="alternate" type="text/html" title="Developer Goals 2016" /><published>2016-09-29T00:00:00-04:00</published><updated>2016-09-29T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/09/29/developer-goals-2016</id><content type="html" xml:base="https://operationcode.org/blog/2016/09/29/developer-goals-2016.html">&lt;p&gt;Starting Hack Reactor, I wrote down a few back-of-the-envelop goals that I wanted to accomplish by the end of the year. Since starting, I’ve talked to a lot of developers, read a lot of blogs, and let my mind wander during my morning runs. Despite attending a boot camp (which has been an invaluable learning experience!), I still want to maintain the ethic of a self-taught programmer, who makes it a personal responsibility to teach him/herself the skills to become successful.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Let’s get more people involved in tech. Support veterans learning to code by checking out &lt;a href=&quot;https://www.operationcode.org&quot;&gt;Operation Code&lt;/a&gt;, and help “increase the number of women of color in the digital space” by supporting &lt;a href=&quot;http://www.blackgirlscode.com&quot;&gt;Black Girls Code&lt;/a&gt;. Follow me on &lt;a href=&quot;https://twitter.com/BaxterMante&quot;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>Baxter Mante</name></author><category term="Article" /><summary type="html">Not many people know I spent time in the Army many moons ago. I guess I don’t look much like G.I. Joe, so I can appreciate their surprise when this is uncovered. Nevertheless, it’s true; I joined the military six years ago.</summary></entry><entry><title type="html">Developer Goals 2016</title><link href="https://operationcode.org/blog/2016/09/29/developer-goals-2016.html" rel="alternate" type="text/html" title="Developer Goals 2016" /><published>2016-09-29T00:00:00-07:00</published><updated>2016-09-29T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/09/29/developer-goals-2016</id><content type="html" xml:base="https://operationcode.org/blog/2016/09/29/developer-goals-2016.html">&lt;p&gt;Starting Hack Reactor, I wrote down a few back-of-the-envelop goals that I wanted to accomplish by the end of the year. Since starting, I’ve talked to a lot of developers, read a lot of blogs, and let my mind wander during my morning runs. Despite attending a boot camp (which has been an invaluable learning experience!), I still want to maintain the ethic of a self-taught programmer, who makes it a personal responsibility to teach him/herself the skills to become successful.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;My main intention remains unchanged. I want to become a software engineer who:&lt;/strong&gt;&lt;/p&gt;
 
@@ -145,7 +282,7 @@ Andrea acknowledged to herself and to others that a new skill would be difficult
 
 &lt;p&gt;If you’re also becoming a self-taught developer, I’d love to see what your short term goals are- just drop a link in the comments section! I think planning in 3-month intervals allows you to stay flexible and keep yourself accountable over the short term.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you’re interested in learning JavaScript web development along with me, follow me on &lt;a href=&quot;https://twitter.com/jondeng&quot;&gt;Twitter&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@JonDeng&quot;&gt;Medium&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</content><author><name>Jon Deng</name></author><category term="Article" /><summary type="html">Starting Hack Reactor, I wrote down a few back-of-the-envelop goals that I wanted to accomplish by the end of the year. Since starting, I’ve talked to a lot of developers, read a lot of blogs, and let my mind wander during my morning runs. Despite attending a boot camp (which has been an invaluable learning experience!), I still want to maintain the ethic of a self-taught programmer, who makes it a personal responsibility to teach him/herself the skills to become successful.</summary></entry><entry><title type="html">Meet CodeConf LA Attendee, Conrad Hollomon</title><link href="https://operationcode.org/blog/2016/06/27/meet-codeconf-la-conrad-hollomon.html" rel="alternate" type="text/html" title="Meet CodeConf LA Attendee, Conrad Hollomon" /><published>2016-06-27T00:00:00-04:00</published><updated>2016-06-27T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/06/27/meet-codeconf-la-conrad-hollomon</id><content type="html" xml:base="https://operationcode.org/blog/2016/06/27/meet-codeconf-la-conrad-hollomon.html">&lt;p&gt;My name is Conrad Hollomon, born and raised in Virginia Beach VA. I’m a US Army officer, currently on reserve status, one tour in Afghanistan from 2010-2011. In the military, I led IT and tactical communications teams, and worked hard to develop my fellow Soldiers and help them reach their full potential.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you’re interested in learning JavaScript web development along with me, follow me on &lt;a href=&quot;https://twitter.com/jondeng&quot;&gt;Twitter&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@JonDeng&quot;&gt;Medium&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</content><author><name>Jon Deng</name></author><category term="Article" /><summary type="html">Starting Hack Reactor, I wrote down a few back-of-the-envelop goals that I wanted to accomplish by the end of the year. Since starting, I’ve talked to a lot of developers, read a lot of blogs, and let my mind wander during my morning runs. Despite attending a boot camp (which has been an invaluable learning experience!), I still want to maintain the ethic of a self-taught programmer, who makes it a personal responsibility to teach him/herself the skills to become successful.</summary></entry><entry><title type="html">Meet CodeConf LA Attendee, Conrad Hollomon</title><link href="https://operationcode.org/blog/2016/06/27/meet-codeconf-la-conrad-hollomon.html" rel="alternate" type="text/html" title="Meet CodeConf LA Attendee, Conrad Hollomon" /><published>2016-06-27T00:00:00-07:00</published><updated>2016-06-27T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/06/27/meet-codeconf-la-conrad-hollomon</id><content type="html" xml:base="https://operationcode.org/blog/2016/06/27/meet-codeconf-la-conrad-hollomon.html">&lt;p&gt;My name is Conrad Hollomon, born and raised in Virginia Beach VA. I’m a US Army officer, currently on reserve status, one tour in Afghanistan from 2010-2011. In the military, I led IT and tactical communications teams, and worked hard to develop my fellow Soldiers and help them reach their full potential.&lt;/p&gt;
 
 &lt;p&gt;I’m currently working for a venture-backed energy tech startup called SparkMeter, developing a smart metering system that’s being widely adopted by utilities serving customers in rural parts of Asia, sub-Saharan Africa, and Latin America and the Caribbean. It’s a great product that will help expand access to electricity for developing countries and emerging markets.&lt;/p&gt;
 
@@ -155,7 +292,7 @@ Andrea acknowledged to herself and to others that a new skill would be difficult
   &lt;p&gt;&lt;em&gt;Github is a cornerstone of the open source community, and having the opportunity to be a direct part of that community via this scholarship is a great honor. The way we build and design software has such a tremendous impact on the end product that users see, and use, and love - finding ways to learn from each other, finding ways to build cool things better and faster, is a true joy.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;em&gt;Conrad Hollomon is a test engineer for SparkMeter, an Army Officer and an operations volunteer for Operation Code. He resides in Boston, Massachusetts and is &lt;a href=&quot;https://twitter.com/hollomancer&quot;&gt;@hollomancer&lt;/a&gt; on Twitter.&lt;/em&gt;&lt;/p&gt;</content><author><name>Conrad Hollomon</name></author><category term="News" /><summary type="html">My name is Conrad Hollomon, born and raised in Virginia Beach VA. I’m a US Army officer, currently on reserve status, one tour in Afghanistan from 2010-2011. In the military, I led IT and tactical communications teams, and worked hard to develop my fellow Soldiers and help them reach their full potential.</summary></entry><entry><title type="html">Google for Nonprofits</title><link href="https://operationcode.org/blog/2016/06/17/google-for-nonprofits.html" rel="alternate" type="text/html" title="Google for Nonprofits" /><published>2016-06-17T00:00:00-04:00</published><updated>2016-06-17T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/06/17/google-for-nonprofits</id><content type="html" xml:base="https://operationcode.org/blog/2016/06/17/google-for-nonprofits.html">&lt;p&gt;Google is known for search. When we get stuck coding we Google every command line or inspect element error which leads to a blog, StackOverFlow, YouTube video, an article or a podcast that helps us get closer to the solution.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Conrad Hollomon is a test engineer for SparkMeter, an Army Officer and an operations volunteer for Operation Code. He resides in Boston, Massachusetts and is &lt;a href=&quot;https://twitter.com/hollomancer&quot;&gt;@hollomancer&lt;/a&gt; on Twitter.&lt;/em&gt;&lt;/p&gt;</content><author><name>Conrad Hollomon</name></author><category term="News" /><summary type="html">My name is Conrad Hollomon, born and raised in Virginia Beach VA. I’m a US Army officer, currently on reserve status, one tour in Afghanistan from 2010-2011. In the military, I led IT and tactical communications teams, and worked hard to develop my fellow Soldiers and help them reach their full potential.</summary></entry><entry><title type="html">Google for Nonprofits</title><link href="https://operationcode.org/blog/2016/06/17/google-for-nonprofits.html" rel="alternate" type="text/html" title="Google for Nonprofits" /><published>2016-06-17T00:00:00-07:00</published><updated>2016-06-17T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/06/17/google-for-nonprofits</id><content type="html" xml:base="https://operationcode.org/blog/2016/06/17/google-for-nonprofits.html">&lt;p&gt;Google is known for search. When we get stuck coding we Google every command line or inspect element error which leads to a blog, StackOverFlow, YouTube video, an article or a podcast that helps us get closer to the solution.&lt;/p&gt;
 
 &lt;p&gt;Google is &lt;em&gt;also&lt;/em&gt; known for helping nonprofits get more done through the &lt;a href=&quot;https://www.google.com/nonprofits/&quot;&gt;Google for Nonprofits&lt;/a&gt; program.&lt;/p&gt;
 
@@ -171,7 +308,7 @@ Andrea acknowledged to herself and to others that a new skill would be difficult
 
 &lt;p&gt;Thank you so much, Google, for helping us in changing the world for those who’ve served our country.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director of Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;</content><author><name>David Molina</name></author><category term="News" /><summary type="html">Google is known for search. When we get stuck coding we Google every command line or inspect element error which leads to a blog, StackOverFlow, YouTube video, an article or a podcast that helps us get closer to the solution.</summary></entry><entry><title type="html">Node Summit</title><link href="https://operationcode.org/blog/2016/06/08/node-summit-sf.html" rel="alternate" type="text/html" title="Node Summit" /><published>2016-06-08T00:00:00-04:00</published><updated>2016-06-08T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/06/08/node-summit-sf</id><content type="html" xml:base="https://operationcode.org/blog/2016/06/08/node-summit-sf.html">&lt;p&gt;Along with teaching coding skills, Operation Code is also dedicated to setting up networks for our military veterans.  One of the best ways to grow a network is to attend a technical conference.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director of Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;</content><author><name>David Molina</name></author><category term="News" /><summary type="html">Google is known for search. When we get stuck coding we Google every command line or inspect element error which leads to a blog, StackOverFlow, YouTube video, an article or a podcast that helps us get closer to the solution.</summary></entry><entry><title type="html">Node Summit</title><link href="https://operationcode.org/blog/2016/06/08/node-summit-sf.html" rel="alternate" type="text/html" title="Node Summit" /><published>2016-06-08T00:00:00-07:00</published><updated>2016-06-08T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/06/08/node-summit-sf</id><content type="html" xml:base="https://operationcode.org/blog/2016/06/08/node-summit-sf.html">&lt;p&gt;Along with teaching coding skills, Operation Code is also dedicated to setting up networks for our military veterans.  One of the best ways to grow a network is to attend a technical conference.&lt;/p&gt;
 
 &lt;p&gt;We are delighted that &lt;a href=&quot;http://nodesummit.com/&quot;&gt;Node Summit&lt;/a&gt; - which will be held on July 26-28 in San Francisco, CA - has granted us four scholarship tickets for use by our veterans.&lt;/p&gt;
 
@@ -183,7 +320,7 @@ Andrea acknowledged to herself and to others that a new skill would be difficult
 
 &lt;p&gt;Thank you so much, Node Summit, for providing the means for our veterans to learn and grow.  We will see you there!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Nell Shamrell-Harrington is a volunteer and scholarship committee chair of Operation Code. She is the proud daughter of two Air Force officers. She resides in Seattle, WA.&lt;/em&gt;&lt;/p&gt;</content><author><name>Nell Shamrell-Harrington</name></author><category term="News" /><summary type="html">Along with teaching coding skills, Operation Code is also dedicated to setting up networks for our military veterans. One of the best ways to grow a network is to attend a technical conference.</summary></entry><entry><title type="html">TechSoup</title><link href="https://operationcode.org/blog/2016/05/20/techsoup.html" rel="alternate" type="text/html" title="TechSoup" /><published>2016-05-20T00:00:00-04:00</published><updated>2016-05-20T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/05/20/techsoup</id><content type="html" xml:base="https://operationcode.org/blog/2016/05/20/techsoup.html">&lt;p&gt;Operation Code Joins the TechSoup Community&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Nell Shamrell-Harrington is a volunteer and scholarship committee chair of Operation Code. She is the proud daughter of two Air Force officers. She resides in Seattle, WA.&lt;/em&gt;&lt;/p&gt;</content><author><name>Nell Shamrell-Harrington</name></author><category term="News" /><summary type="html">Along with teaching coding skills, Operation Code is also dedicated to setting up networks for our military veterans. One of the best ways to grow a network is to attend a technical conference.</summary></entry><entry><title type="html">TechSoup</title><link href="https://operationcode.org/blog/2016/05/20/techsoup.html" rel="alternate" type="text/html" title="TechSoup" /><published>2016-05-20T00:00:00-07:00</published><updated>2016-05-20T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/05/20/techsoup</id><content type="html" xml:base="https://operationcode.org/blog/2016/05/20/techsoup.html">&lt;p&gt;Operation Code Joins the TechSoup Community&lt;/p&gt;
 
 &lt;p&gt;Learning to code is hard. This is further exacerbated by antiquated hardware and software. As a coding nonprofit serving the nation’s finest and their families, we’re always looking for new ways to partner and work with passionate businesses and organizations that care and help us meet our mission. Fortunately, there is TechSoup.&lt;/p&gt;
 
@@ -193,7 +330,7 @@ Andrea acknowledged to herself and to others that a new skill would be difficult
 
 &lt;p&gt;Cheers and keep coding,&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;</content><author><name>David Molina</name></author><category term="News" /><summary type="html">Operation Code Joins the TechSoup Community</summary></entry><entry><title type="html">Slack</title><link href="https://operationcode.org/blog/2016/05/20/slack.html" rel="alternate" type="text/html" title="Slack" /><published>2016-05-20T00:00:00-04:00</published><updated>2016-05-20T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/05/20/slack</id><content type="html" xml:base="https://operationcode.org/blog/2016/05/20/slack.html">&lt;p&gt;Operation Code 10k Slack Message Limit is History&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;</content><author><name>David Molina</name></author><category term="News" /><summary type="html">Operation Code Joins the TechSoup Community</summary></entry><entry><title type="html">Slack</title><link href="https://operationcode.org/blog/2016/05/20/slack.html" rel="alternate" type="text/html" title="Slack" /><published>2016-05-20T00:00:00-07:00</published><updated>2016-05-20T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/05/20/slack</id><content type="html" xml:base="https://operationcode.org/blog/2016/05/20/slack.html">&lt;p&gt;Operation Code 10k Slack Message Limit is History&lt;/p&gt;
 
 &lt;p&gt;Our Software Mentor Protégé Program leverages real-time messaging application, &lt;a href=&quot;https://slack.com&quot;&gt;Slack&lt;/a&gt;, to welcome transitioning military, guard &amp;amp; reserve soldiers, veterans and their families share code and get help hacking on their websites or web applications, quickly communicate between volunteers and the board, all in a decentralized, asynchronous platform.&lt;/p&gt;
 
@@ -204,7 +341,7 @@ New military veterans who just joined Operation Code will now enjoy a more seaml
 
 &lt;p&gt;Cheers and keep coding,&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;</content><author><name>David Molina</name></author><category term="News" /><summary type="html">Operation Code 10k Slack Message Limit is History</summary></entry><entry><title type="html">Benefits Creep, Part I</title><link href="https://operationcode.org/blog/2016/05/14/benefits-creep-part-1.html" rel="alternate" type="text/html" title="Benefits Creep, Part I" /><published>2016-05-14T00:00:00-04:00</published><updated>2016-05-14T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/05/14/benefits-creep-part-1</id><content type="html" xml:base="https://operationcode.org/blog/2016/05/14/benefits-creep-part-1.html">&lt;p&gt;Benefits-Creep Part I: Why Non-Profit Perks Go Up When They Shouldn’t&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;David Molina is Founder and Executive Director at Operation Code, and an ex-Army Captain. He resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;</content><author><name>David Molina</name></author><category term="News" /><summary type="html">Operation Code 10k Slack Message Limit is History</summary></entry><entry><title type="html">Benefits Creep, Part I</title><link href="https://operationcode.org/blog/2016/05/14/benefits-creep-part-1.html" rel="alternate" type="text/html" title="Benefits Creep, Part I" /><published>2016-05-14T00:00:00-07:00</published><updated>2016-05-14T00:00:00-07:00</updated><id>https://operationcode.org/blog/2016/05/14/benefits-creep-part-1</id><content type="html" xml:base="https://operationcode.org/blog/2016/05/14/benefits-creep-part-1.html">&lt;p&gt;Benefits-Creep Part I: Why Non-Profit Perks Go Up When They Shouldn’t&lt;/p&gt;
 
 &lt;p&gt;Much of the country was shocked this month to hear about the mismanagement of a large veterans’ non-profit organization.  Sadly, this was not shocking news to the veteran community, which had a long growing suspicion that this organization was spending too much money on lavish benefits for its leaders and staff.   Like many organizations, it had lost its way – getting caught up in its own success and giving the appearance that its leaders were more interested in serving themselves and not veterans.  In contrast to mission-creep, where an organization gets farther and farther from its core mission, this is “Benefits-Creep” in which an organization over-expands the perks it offers to leadership and staff.&lt;/p&gt;
 
@@ -226,59 +363,4 @@ New military veterans who just joined Operation Code will now enjoy a more seaml
 
 &lt;p&gt;These are three reasons non-profits succumb to benefits-creep.  Please share your experiences with how you have seen benefits-creep impact non-profits.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Mark Kerr is Chairman of the Operation Code Board of Directors, Development Advisor to U.S. Southern Command, and an Iraq &amp;amp; Afghanistan war Army veteran. He resides in Miami Beach, Florida.&lt;/em&gt;&lt;/p&gt;</content><author><name>Mark Kerr</name></author><category term="News" /><summary type="html">Benefits-Creep Part I: Why Non-Profit Perks Go Up When They Shouldn’t</summary></entry><entry><title type="html">Beating the odds</title><link href="https://operationcode.org/blog/2016/05/14/beating-the-odds.html" rel="alternate" type="text/html" title="Beating the odds" /><published>2016-05-14T00:00:00-04:00</published><updated>2016-05-14T00:00:00-04:00</updated><id>https://operationcode.org/blog/2016/05/14/beating-the-odds</id><content type="html" xml:base="https://operationcode.org/blog/2016/05/14/beating-the-odds.html">&lt;p&gt;Beating the odds&lt;/p&gt;
-
-&lt;p&gt;Congrats! You just completed your boot camp! You spent the last 12/16 weeks of your life busting your behind and you came out victorious. You can make cool applications, you can configure a webserver, and you even understand how miserable/important it is to write unit tests.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, the boot camp you just completed isn’t operated by Uncle Sam. There is no guaranteed position waiting for you after family day. You still need to convince someone other than your Mom that you and your skills are worth taking a chance on.&lt;/p&gt;
-
-&lt;p&gt;Yes, it is true. The tech field is growing. The need for developers appears to be growing each year. Learning to code is becoming very popular and it has never been easier/cheaper to get started. The vast amount of online resources available is mind-blowing. Boot camps are becoming more popular, and alternatives like FreeCodeCamp (sidenote - FCC has a pretty awesome curriculum and a great community) are keeping the dream alive. Oh and don’t forget about the constant stream of new Computer Science grads hitting the streets. What does this mean for people like you and me? It means that there are more people competing for those entry-level positions.&lt;/p&gt;
-
-&lt;p&gt;The good news is that you are Awesome. You were an amazing Soldier/Marine/Airman/Sailor and you will become an amazing developer. It just takes some time and a little elbow grease… You’ve dealt with deployments, long training exercises, endless 24 hour shifts, and soul-robbing safety briefings. You can land that first job.&lt;/p&gt;
-
-&lt;p&gt;Let’s take a look some tips that I found helpful during my recent search. The suggestions are in no particular order.&lt;/p&gt;
-
-&lt;p&gt;Disclosure - These suggestions may or may not apply to you and your situation/location. Please read them all but cherry-pick only what you feel is best for you and your bottom line. I am certainly no expert and currently in month two of my first developer gig. The market for developer gigs is highly dependent on location. A fresh boot camp grad located in Boise will likely have a different set of challenges than a grad located in the Bay Area. My experience took place in a mid-sized city on the West Coast with a relatively large number of boot camp grads.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Portfolio page &amp;gt; GitHub page
-Having an organized GitHub account with a solid commit history is absolutely essential. You must show employers that those cool acronyms you put on your resume are actually backed up by real work. However, looking at code on GitHub is boring. Often times your resume will be screened by HR and may get weeded out before it ever gets in the hands of a real human developer. A well designed portfolio site can help increase your chances. Your portfolio site should be clean and easy to navigate. Avoid free domains and get a real “.com” domain. “FirstnameLastname.com” or something similar looks way better than, “firstnamelastname.myfreewebhostingdomain.net”
-Display all of your projects that you are proud of. Don’t just include a screen capture. Configure your applications so that the user can run them from your site. Include some brief comments for each application that highlight the technologies/ skills you used to create the application. “Card game built with JQuery, uses AJAX calls to pull user data from back-end, etc…” Include a link to the GitHub repo that houses the code for the particular application. Plaster your new URL on all of your resumes/job postings/LinkedIn. Check your site regularly to make sure everything is functioning properly!
-You can register a domain name for a year for $10ish dollars and use a service like AWS for free hosting.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Network!
-Trying to find a job sucks. Go hang out and commiserate with others in your same situation. Even small cities have all sorts of weekly/monthly tech meetups. These meetups serve multiple purposes, Meet up with others in your same situation. Trade notes on who is hiring, interview tips, and contact information for hiring managers. You may be a Ruby cat and your buddy may be a C# nerd. Look out for one another and send job postings his/her way when you see something that fits their talents. Learn! Meetups are great for getting out of “code bubbles.” In a boot camp setting, all of the students will tend to do things in a similar fashion based on what the instructor does or doesn’t do. Bust out of these routines and check out how others from different backgrounds tackle the same problems. Meet people that are actually doing what you want to do. Pretty self-explanatory… Ask them questions until you are blue in the face.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Craigslist?
-When I first began my job search, I had numerous people tell me to avoid finding jobs on Craigslist. They told me that it was full of scams and flaky people. They were partially right. Craigslist does seem to attract all sorts of crap but it can also be a gold mine! Make sure you are still hitting up the big boards (indeed, glassdoor, dice, etc…) but also check out Craigslist daily. The scam postings are pretty easy to recognize and you can protect yourself by doing a little research on the company before you send in your information.
-The Craigslist job section seems to attract smaller companies with less bureaucratic human resource departments. Therefore, if you get your application in ASAP (First 24-48 hours after it was posted) there is a very good chance that your resume will be viewed by a real live person instead of a resume-eating algorithm. (Sidenote- You should be responding to all job postings shortly after they are posted. I never had luck with postings that were more than a couple weeks old)
-Craigslist postings also tend to require just a resume and cover letter. Anyone that has had to slay the Taleo dragon will understand how important this is.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Go big or go home!
-You now have an awesome portfolio site, your resume is legit, and you tailor cover letters to the job posting. Start pumping out those applications. Get your numbers up! The more applications you put out there, the greater chance you have of getting a call back. Unless you already have a job you need to treat your job hunt like it’s a full-time position. Apply to all positions you feel qualified for. Be advised that many postings are written by non-technical people and are simply a wish list for the “perfect” candidate. Be honest on your resume and in your interactions with the company but don’t be afraid to apply for a position that requires “3-5 years experience” when you have 1-2 years experience.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Branch out
-Maybe your boot camp focused on Ruby/JS/HTML. Perhaps it was Python/Django/JS. Or maybe PHP/JS/HTML? You are probably looking for the junior “web developer” position but don’t forget about the wide world of IT, QA, and mid level technical support positions! Check out indeed for QA and “technical support engineer” positions. Many of these positions will have you working with code on a daily basis and offer great opportunities for growth. Spending a year or two doing QA can be an awesome way to get your foot into the developer side of the house.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Intern
-If you can afford to spend a couple more months without an income, look into internships. I have a met a number of people that rocked out during an internship and were offered a position with the company. Even if the company decides to not offer you a position, you will still be able to list this real world experience on your resume. If the company you are interested in doesn’t have an internship program, ask them if they would like a free intern for 6-8 weeks. Follow up job denial e-mails with a “thanks for considering me, perhaps you wouldn’t mind having me as an intern?” letter. Some internships will be reserved for students currently enrolled in a computer science/software engineering program but there is no harm in asking.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Do not stop programming
-Yes, boot camp is over. Yes, you are stressed out because of the job hunt. No, you can not stop coding. I don’t know about you, but after a few days away from the keyboard I start feeling a little foggy. Stay sharp and create more projects for the portfolio site.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Do the standard stuff
-Don’t forget about all the easy stuff that the Military taught you. Right place, right time, right uniform.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Good Luck!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Charles Webster is a junior PHP developer and an open source fan. He is an Army veteran and currently resides in Portland, Oregon.&lt;/em&gt;&lt;/p&gt;</content><author><name>Charles Webster</name></author><category term="News" /><summary type="html">Beating the odds</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Mark Kerr is Chairman of the Operation Code Board of Directors, Development Advisor to U.S. Southern Command, and an Iraq &amp;amp; Afghanistan war Army veteran. He resides in Miami Beach, Florida.&lt;/em&gt;&lt;/p&gt;</content><author><name>Mark Kerr</name></author><category term="News" /><summary type="html">Benefits-Creep Part I: Why Non-Profit Perks Go Up When They Shouldn’t</summary></entry></feed>
