@@ -349,11 +349,11 @@
 
 - name: The Iron Yard at Austin
   url: http://theironyard.com/locations/austin
-  address1: 411 University Ridge
-  address2: Suite 220
-  city: Greenville
-  state: SC
-  zip: 29601
+  address1: 3601 South Congress Avenue
+  address2: Suite c304
+  city: Austin
+  state: TX
+  zip: 78704
   va_accepted: false
   full_time: true
   hardware_included: false

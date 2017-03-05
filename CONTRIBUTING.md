@@ -51,7 +51,9 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
     * [Detailed Windows Installation Instructions](https://wiki.postgresql.org/wiki/Detailed_installation_guides#Windows)
 
   ### Redis
-  Redis is used to manage asynchronous jobs. This step is optional, and it is only required if you are working on an area that uses `ActiveJob`.
+  Redis is used to manage asynchronous jobs. You will need to run your Redis server in order for normal operation of the main app server.
+
+  If you're working on an area that uses `ActiveJob` you'll need to work with Redis more directly.
 
   * [Install Redis](http://redis.io/download)
   * If you are using a Mac, you can install it through Homebrew: `brew install redis`
