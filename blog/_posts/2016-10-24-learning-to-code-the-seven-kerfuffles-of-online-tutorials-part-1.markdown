@@ -1,5 +1,5 @@
 ---
-title: Learning to Code - The Seven Kerfuffles Of Online Tutorials
+title: Learning to Code - The Seven Kerfuffles Of Online Tutorials - Part 1
 date:   2016-10-24
 tags: Article
 author: Krystyna Ewing
@@ -13,6 +13,7 @@ I have an issue, and please just bare with me here, here we go : I don’t like 
 
 ### Kerfuffle The First: They’re Created By Tech Experts, Not Teaching Experts
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/600/1*OMdd_MluGcBfPKPfX5WPDg.jpeg" alt="random code syntax"/>
     <figcaption>I don't even know that this is.</figcaption>
@@ -30,6 +31,7 @@ If you’re met with a similar issue in the future or you need to build a site l
 ### Kerfuffle The Third: Error? You’re On Your Own Kid
 Picture this, you’re going through a Rails Tutorial, and you hit this error:
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/800/1*qu6eFEwDVsVzJsAgRs6KUQ.png" alt="rails routing error message"/>
     <figcaption>How old is this?</figcaption>
@@ -77,12 +79,12 @@ The repl? Relies on cookies. If you understand how a browser works you know what
 
 ### Kerfuffle the Sixth: Computer Setup And Environments
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/600/1*Cz81AmKO_Xq_Xzhf3trTPQ.jpeg" alt="xzibit meme"/>
     <figcaption>Insert Old School Meme To Prove Point Here</figcaption>
 </figure>
 <br>
-
 
 The repl is out of the running when it comes to this. A repl is pretty much the environment. However, what is this your first time coding ever and you don’t have anything set up on your computer? For instance, Javascript requires Node to run the code, and the tests, when you put it on a web page it’s not going to run, it’s going to require a separate file or a link to run on a live page. Javascript will run locally on your computer beacause you have the files there to accomplish it. There are dependancies and packages that break if you’re software is out of date or if you’re using a different version that also has different dependcies. Folks just starting out don’t know what to look for if they need to update Node if they get an error. And Node is a tricky beast to figure out (9 times out of 10 for me though, something in node breaks because I haven’t updated it in a while). Updating is a chore too, you run the risk of breaking things like your data base if it’s created in a different or older version and you just install the new version instead of upgrading the old one (yes there is a difference), and then boom your database doesn’t work anymore (speaking from experience). More times than not you’re again left flapping in the breeze if you get an error that you’re more than likely not going to understand or know what to do to fix it because you’re just starting out, and alot of tutorials, even the ones that walk you through setting up your environment, aren’t very clear about what to do when you encounter common errors.
 
@@ -95,20 +97,20 @@ If you’re anything like me, you’re open to learning whatever it is you can a
 ### What To Take From This:
 In a world where our president is trying to make it easier for folks to snatch up tech jobs cause tech is growing so much it needs more than the handful of folks that have kept it going since the 80’s to handle it, it’s easy to get stuck in the “I need to learn to code, but I’m just not picking it up” loop. Especially when you see that other folks are picking it up at a faster pace than you are. Nine times out of 10, whatever materials you’re using to learn aren’t curated for the kind of learning that you prefer, whether you prefer to be taught or hands on or a little of both. They’re great ways to to get a sort of foundation in it, but not so much to learn how to code. Do you know how you learn how to code? BY CODING!!!
 
-### Learning Resources That don’t Suck:
-[Codecademy](https://medium.com/@codecademy)
-[Code School](https://medium.com/@codeschool)
-[Free Code Camp](https://medium.com/@FreeCodeCamp)
-[Launch School](https://medium.com/@launchschool)
-[Krystyna Ewing](https://medium.com/@Krystyna789)-Ping me! I’ll help if I can! If not, I can get you to someone who can help!
-[Operation Code](https://medium.com/@operation_code)-For Veterans/Military and their families
+### Learning Resources That Don’t Suck:
+* [Codecademy](https://medium.com/@codecademy)
+* [Code School](https://medium.com/@codeschool)
+* [Free Code Camp](https://medium.com/@FreeCodeCamp)
+* [Launch School](https://medium.com/@launchschool)
+* [Krystyna Ewing](https://medium.com/@Krystyna789) - Ping me! I’ll help if I can! If not, I can get you to someone who can help!
+* [Operation Code](https://medium.com/@operation_code) - For Veterans/Military and their families
 
 ### Beginners Books:
 These are books that you can read cover to cover and get what you need from them:
-[How To Count: Coding For Mere Mortals](https://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE
-[HTML/CSS Design And Build Websites-https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_1?s=books&ie=UTF8&qid=1477311367&sr=1-1&keywords=html+css)
-[JavaScript and JQuery: Interactive Front-End Web Development](https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_sc_1?s=books&ie=UTF8&qid=1477311424&sr=1-1-spell&keywords=JavasScript+and+JQuery)
-[Practical Object Oriented Design In Ruby](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?s=books&ie=UTF8&qid=1477311235&sr=1-1&keywords=practical+object-oriented+design+in+ruby)
+* [How To Count: Coding For Mere Mortals](https://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE)
+* [HTML/CSS Design And Build Websites](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_1?s=books&ie=UTF8&qid=1477311367&sr=1-1&keywords=html+css)
+* [JavaScript and JQuery: Interactive Front-End Web Development](https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_sc_1?s=books&ie=UTF8&qid=1477311424&sr=1-1-spell&keywords=JavasScript+and+JQuery)
+* [Practical Object Oriented Design In Ruby](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?s=books&ie=UTF8&qid=1477311235&sr=1-1&keywords=practical+object-oriented+design+in+ruby)
 
 
 _Originally posted on [Medium](https://medium.com/operation-code/learning-to-code-the-seven-kerfuffles-of-online-tutorials-eed6ba21f8eb#.yhf53gfrr) by **Krystyna Ewing** - Developer, Comic Artist, Veteran, Member of @operation_code, Dev at @DeployOpCod3 Member of @pprenticeship, co-founder @redeploi_

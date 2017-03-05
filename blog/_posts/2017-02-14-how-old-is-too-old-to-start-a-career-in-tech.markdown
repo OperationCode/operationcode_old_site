@@ -5,8 +5,12 @@ tags: Article
 author: Andrea Liliana Griffiths
 layout: post
 ---
-![screenshot](https://cdn-images-1.medium.com/max/800/1*Iq4NtncJPNTpoxT1DB7jvQ.png)
-<span class="figcaption_hack">I definitely do not look like this…</span>
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*Iq4NtncJPNTpoxT1DB7jvQ.png" alt="Apple employees"/>
+    <figcaption>I definitely do not look like this…</figcaption>
+</figure>
+<br>
 
 I’d never really considered the Tech Industry to be for me as a Latina, veteran, mother of two. I was 35 years old and changing careers, quitting my job and having no income was not really an option, my husband was in the middle of a sales internship with very limited pay so for me to really do this there had to be a different kind of opportunity.
 
@@ -20,5 +24,7 @@ Lucky for me I had my husbands full support (in more ways that one, as I literal
 
 I feel privileged to be in the presence of so many brilliant people and absolutely excited for the future. GitHub is like no other company, open source can truly and honestly change the world. [Make the world a better place](https://github.com/showcases/social-impact). I get to be a part of this purpose. I am looking forward to this experience, to learning the ropes of community management and contributing as I grow. This will be life changing for me and my family, and I am proud to be a GitHubber.
 
-*All views and opinions are my own. I’d like to personally thank *[Carol Smith](https://medium.com/@fossygirl)*, *[Lee
-Dohm](https://medium.com/@lee_dohm)*, *[Bianca Escalante](https://medium.com/@BiancaCreating)*, Dustin Knievel and Brandon Keepers. Thank you for working hard to create this opportunity. You are moving the needle.*
+_All views and opinions are my own. I’d like to personally thank [Carol Smith](https://medium.com/@fossygirl), [Lee
+Dohm](https://medium.com/@lee_dohm), [Bianca Escalante](https://medium.com/@BiancaCreating), Dustin Knievel and Brandon Keepers. Thank you for working hard to create this opportunity. You are moving the needle._
+
+_Originally posted on [Medium](https://medium.com/operation-code/how-old-is-too-old-to-start-a-career-in-tech-bfe4373c0fa4#.rphed8wz9) by **Andrea Liliana Griffiths**, Colombian, Veteran, Latina in technology. Changing careers and blogging about it. Currently the first Apprentice @GitHub._

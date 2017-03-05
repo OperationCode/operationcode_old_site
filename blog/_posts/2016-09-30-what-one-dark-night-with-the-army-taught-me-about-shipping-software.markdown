@@ -7,6 +7,7 @@ layout: post
 ---
 Not many people know I spent time in the Army many moons ago. I guess I don’t look much like G.I. Joe, so I can appreciate their surprise when this is uncovered. Nevertheless, it’s true; I joined the military six years ago.
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/800/1*6zbiHhNIda39PTNIsjeAyQ.png" alt="GI Joe"/>
     <figcaption>Yeah, that ain't me.</figcaption>
@@ -39,6 +40,7 @@ Flash back to 2010. There I am. Twenty-two, clean shaven, wide-eyed. The very pi
 
 There are dozens of young soldiers just like me spread out, lying prone on the gravel that borders the edge of a jungle that looms just in front of us. Our dirty, “digital” uniforms and patrol caps blend in with the grey color of the gravel, and we look like a peculiar pattern of many-colored faces dotting the ground. It’s dusk, and soon each face is accompanied by a sudden eerie red glow — the filtered light coming from each of our flashlights. There’s something alien about it all. We’re all silently scribbling and making notations on small maps laid out in front of us. No one speaks. Shortly after, one of us abruptly gets up and heads steadfast into the dark forest. It swallows him whole. The only thing you can see is that red orb bouncing up-and-down and then disappearing into the black. Soon after, another soldier sprints into the forest. She’s gone. Then another. One-by-one we‘re all eventually consumed by the jungle. We’re all after something.
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/800/1*MZAUF6s4Kc7tcULLYprehA.jpeg" alt="Night land nav"/>
     <figcaption>Source: https://warriorforge.files.wordpress.com/2012/06/nightlav.jpg</figcaption>
@@ -55,6 +57,7 @@ Obviously, the Army doesn’t point young soldiers toward the jungle and tell th
 
 It’s fairly basic in theory, and somewhat more complicated in practice. You have a map that’s divided into equal-sized squares. The squares are organized into a grid, and the grids all have corresponding coordinates. This is the [Military Grid Reference System](https://en.wikipedia.org/wiki/Military_grid_reference_system) (MGRS). You’re provided a sheet of paper with several eight-digit grid locations for your stakes. The eight-digit location is accurate to within ten meters (around thirty feet). You start by sitting down and using your protractor and pencil to plot your points on the map and get a lay of the land. You usually take note of identifiable terrain features — like spurs, draws, hilltops, cliffs, saddles. You can triangulate your position on the map by using these landmarks later on. You’re taught how to measure distance by walking a hundred meters and counting the number of times your left foot strikes the ground. (My pace count is sixty-three left steps to every hundred meters.) The lensatic compass allows you to determine direction. You formulate a basic plan, and then head off.
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/800/1*wYUMgoAbBlQUWOb0ipw75g.jpeg" alt="Compass"/>
     <figcaption>The tools of the trade</figcaption>
@@ -73,6 +76,7 @@ No kidding, my flashlight broke. I could hear the pieces rattling inside the hou
 
 A few hours later, you could hear me crashing through the forest like a drunken bear. I was sprinting wildly toward my last point. I was in a foot race against time. The amazing thing was I didn’t have any discomfort. I wasn’t over-heated anymore. I didn’t notice the insect bites. The rain didn’t bother me. I later discovered I had formed a blister on the bottom of my left foot that spanned its entire length. It had swelled up and deflated like a forgotten birthday balloon. I hadn’t noticed. I hadn’t noticed because I was absolutely focused on the task at hand. I was like Gollum in pursuit of the One Ring.
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/800/1*SstySOHOtdJXgOPBAw7ZcA.jpeg" alt="Gollum"/>
 </figure>
@@ -100,6 +104,7 @@ I’d remember the name. May it R.I.P. (This foe.) I grabbed the clacker, punche
 
 A while later I returned to where it had all started. The eerie red glow had been replaced with an inky purple in the absence of the many flashlights. I turned my card in, changed out of my wet uniform, and unpacked my sleep system. Exhausted, I crawled into the camouflaged bivy sack and quickly drifted off to sleep. The clouds had cleared by now. (Of course, that was my luck.) I remember the upright trees had cut the silhouette of an elephant into the night sky — its trunk spotted with a famous constellation.
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/800/1*f0AS6w5WNN2B6EYkymg8lw.jpeg" alt="Night sky"/>
     <figcaption>source: http://www.onelifeonewhistler.com/wp-content/uploads/2014/09/SC-Trees-Night-SKy-SGD1.jpg</figcaption>

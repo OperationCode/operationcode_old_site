@@ -7,6 +7,7 @@ layout: post
 ---
 _Jameel Matin spent 5 years in the US Armed Forces as an Infantryman in the Marine Corps. The Southern California native and Diamond Bar High School graduate recently shared the story of his personal career exploration and what he’s discovered by way of the journey._
 
+<br>
 <figure class="image-container">
     <img src="https://cdn-images-1.medium.com/max/600/1*vzKO2OS3dg8CwN9n6Dc3VA.jpeg" alt="hackathon"/>
     <figcaption>Jameel (Center) after a 3rd place finish at a hack-a-thon competition in Culver City, CA.</figcaption>

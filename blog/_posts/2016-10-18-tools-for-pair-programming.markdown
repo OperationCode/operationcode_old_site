@@ -83,7 +83,7 @@ For example:
 
 > Beryl: (excited about the idea now) Oh, like we could optimize everyone’s landing page to show updates from people in their network! That would be sick.
 
-### **Know when to step away**
+### Know when to step away
 
 I learned in the Army that being angry and tired is not a good reason to not get the job done. But I also learned that it’s illogical to keep pounding your head on something in a counterproductive way.
 
@@ -110,4 +110,6 @@ That’s it.
 
 Oh, and try to learn as much as you can from your partner, and teach them as much as you know. The rest you can pick up as you go along 😜.
 
-*If you’re interested in learning JavaScript web development along with me, follow me on *[Twitter](https://twitter.com/jondeng)* and *[Medium](https://medium.com/@JonDeng)*!*
+_If you’re interested in learning JavaScript web development along with me, follow me on [Twitter](https://twitter.com/jondeng) and [Medium](https://medium.com/@JonDeng)!_
+
+_Originally posted on [Medium](https://medium.com/operation-code/tools-for-pair-programming-dd7a734d7b96#.2x8r91nep) by **Jon Deng**, Web Worker. Currently [@Snap](http://twitter.com/Snap). Formerly [@USArmy](http://twitter.com/USArmy) and [@HarvardLaw](http://twitter.com/HarvardLaw)._
