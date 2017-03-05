@@ -9,7 +9,8 @@ before_script:
 - RAILS_ENV=test bundle exec rake db:test:prepare
 - RAILS_ENV=test bundle exec rake db:fixtures:load
 after_success: 
-- cd ./blog && bundle install && bundle exec jekyll build --destination ../public/blog
+- cd blog && bundle install --gemfile=./Gemfile --binstubs
+- cd bin && jekyll build --destination ../public/blog
 deploy:
   provider: heroku
   api_key:
