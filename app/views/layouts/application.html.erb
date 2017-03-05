@@ -7,6 +7,7 @@
   <meta name="description" content="Veteran-founded and led, Operation Code is a 501(c)(3) non-profit whose mission is to aid military, vets and their families learn coding and web technologies.">
   <meta name="keywords" content="operation code, veterans, software development, learn to code, keep coding, veteran coders, senate veterans, house veterans, gi bill, new gi bill, operationcode.org, #operationcode, military vets, vets">
   <meta name="author" content="Veteran Coders, for Veterans Coders">
+  <meta property="og:image" content="https://static1.squarespace.com/static/586d87de725e2585df6e8448/t/5870110d6b8f5b61fdd8ee05/1483739408996/?format=500w" />
   <title>Operation Code | Open Source Veterans Non-Profit</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"></link>
@@ -24,6 +25,30 @@
 
   <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
   <script type="text/javascript"> Stripe.setPublishableKey('pk_live_bqebTTza5PGXJcAAaivllE03');</script>
+    <!-- Start of Async Drift Code -->
+  <script>
+  !function() {
+    var t;
+    if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+    t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n;
+        return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e, n, o, i;
+      e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+      n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+    });
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('85m6w5amcr58');
+  </script>
+  <!-- End of Async Drift Code -->
   <script src="https://use.fontawesome.com/3c0f7e9be1.js"></script>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   </head>
