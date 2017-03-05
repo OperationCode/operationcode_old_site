@@ -162,16 +162,19 @@ The big one is the “requirements” list. I’ve been developing for a long ti
 
 Here’s the very first job listing that I found in my Inbox this morning. I just picked the first one, I didn’t even pre-read it for this article. And like most job listings, this one is a perfect example.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*ZKHBM9LpAwtbYpNLIVSkxA.png)
-
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*ZKHBM9LpAwtbYpNLIVSkxA.png" alt="screenshot"/>
+</figure>
 ^ Took that from a screenshot, thus the image. Front-end developer but back-end coder? Oxymoron alert.
 
 The problem isn’t even the conflicting languages they ask for, it’s how long the list can be, or how much experience they want and are willing to pay. Remember, you’re a developer doing a valuable job, your time is worth more than most developers think.
 
 Going back to this same listing, here are the requirements (I hope you can read the screenshot).
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*_GWvbr7QMGvNVmXWKD_pAQ.png)
-
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*_GWvbr7QMGvNVmXWKD_pAQ.png" alt="screenshot"/>
+</figure>
+<br>
 Let’s break this down. A PHP developer needs to know JS, jQuery and WordPress Plugins? Plugins, sure, but JavaScript and PHP don’t communicate, unless they meant to say “Ajax”. You must do responsive design; design as a PHP dev? So they want full-stack, not front-end like they said? Oh look at this, they want 4+ years of experience. Sorry, but you don’t need 4 years of experience to rock WordPress — perhaps more like 2 or 3 solid WordPress based projects. Wait, why is ASP.NET in here? This was in the “requirements” list as “an asset” (optional) for a PHP developer but for the front-end role? This isn’t making any sense at all.
 
 So let me get this straight, they want a WordPress developer (PHP) who writes ASP.NET, doesn’t use WordPresses responsive design but uses Bootstrap instead, with 4+ years of experience, who can optimize code, who does all the front-end and back-end work, who’s considered a front-end developer?

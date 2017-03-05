@@ -7,8 +7,9 @@ layout: post
 ---
 Starting Hack Reactor, I wrote down a few back-of-the-envelop goals that I wanted to accomplish by the end of the year. Since starting, I’ve talked to a lot of developers, read a lot of blogs, and let my mind wander during my morning runs. Despite attending a boot camp (which has been an invaluable learning experience!), I still want to maintain the ethic of a self-taught programmer, who makes it a personal responsibility to teach him/herself the skills to become successful.
 
-![image of swimming](https://cdn-images-1.medium.com/max/800/1*1p7dfw_YO5WkNgEIU3Nipg.jpeg)
-
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*1p7dfw_YO5WkNgEIU3Nipg.jpeg" alt="swimming"/>
+</figure>
 <br>
 
 **My main intention remains unchanged. I want to become a software engineer who:**
