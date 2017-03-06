@@ -1,11 +1,14 @@
 <div class="container">
   <div class="row">
-    <div class="col m12" role="main">
+    <div class="col m12 s12" role="main">
         <h3 id="download">Software Mentorship Program</h3>
         <h5>Program Overview</h5>
         <p>Operation Code's Software Mentorship Program connects transitioning military, citizen-soldiers, veterans and their families with professional software developers for life-long learning and understanding. Paired online in our peer-to-peer learning environment, you can select any programming language/stack of your choice.</p>
-
-        <p>The program is designed to support your pursuit of becoming a software developer. Additionally, we have a thriving <a href="https://operation-code.slack.com/messages/free-code-camp/">#free-code-camp</a> study group, and location-based communities, from <a href="https://operation-code.slack.com/messages/seattle/">#seattle</a> to <a href="https://operation-code.slack.com/messages/washingtondc/">#washingtondc</a> to meet others locally in your area and organize <a href="https://www.meetup.com/pro/operationcode/">Operation Code meetups.</a>.</p>
+        <div       class="row  center">
+        <p>The program is designed to support your pursuit of becoming a software developer. Additionally, we have a thriving <a href="https://operation-code.slack.com/messages/free-code-camp/">#free-code-camp</a> study group, and location-based communities, from <a href="https://operation-code.slack.com/messages/seattle/">#seattle</a> to <a href="https://operation-code.slack.com/messages/washingtondc/">#washingtondc</a> to meet others locally in your area and organize <a href="https://www.meetup.com/pro/operationcode/">Operation Code meetups</a>.</p>
+        <%= link_to 'Join now &raquo;'.html_safe, new_veteran_registration_path, class: 'btn btn-large' %>
+      </div>
+        <hr>
 
         <div class="video-container">
           <iframe src="https://player.vimeo.com/video/125189103" width="700" height="481" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -19,9 +22,8 @@
           <blockquote class="twitter-tweet" data-lang="en">
             <p lang="en" dir="ltr">A veteran asked why her <a href="https://twitter.com/hashtag/javascript?src=hash" target="_blank">#javascript</a> wasn&#39;t working right. One of our software mentors, &quot;... So instead do this&quot; <a href="https://twitter.com/hashtag/js?src=hash" target="_blank">#js</a> <a href="https://t.co/xBqSgZ7VY3" target="_blank">pic.twitter.com/xBqSgZ7VY3</a></p>&mdash; Operation Code (@operation_code) <a href="https://twitter.com/operation_code/status/716648948635533312" target="_blank">April 3, 2016</a></blockquote>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  
-          <%= link_to 'Join now &raquo;'.html_safe, new_veteran_registration_path, class: 'btn btn-large' %>
           <hr>
+
         <h5>Importance of Mentorship</h5>
 
         <div class="video-container">

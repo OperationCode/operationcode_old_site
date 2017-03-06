@@ -1,20 +1,16 @@
 .success-stories-item {
 
-  &:nth-of-type(even) {
-    img {
-      margin-left: 20px;
-    }
+  img {
+    margin: 0 20px;
+  }
 
+  &:nth-of-type(even) {
     .success-stories-accounts {
       margin-left: 50px;
     }
   }
 
   &:nth-of-type(odd) {
-    img {
-      margin-right: 20px;
-    }
-
     .success-stories-accounts {
       margin-right: 50px;
     }

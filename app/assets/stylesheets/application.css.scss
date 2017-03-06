@@ -10,8 +10,48 @@
 $navbar-height: 64px;
 
 // Match logo to size of navbar
-.navbar-fixed .nav-wrapper .brand-logo img {
+.navbar-fixed .nav-wrapper .brand-logo {
   height: $navbar-height;
+  text-align: center;
+  @media only screen and (max-width: 600px) {
+    height: 56px;
+  }
+  @media only screen and (max-width: 320px) {
+    height: 40px;
+    margin-top: 10px;
+  }
+  img {
+    height: 100%;
+  }
+}
+.nav-wrapper {
+  .button-collapse {
+    padding-left: 15px;
+    span {
+      position: absolute;
+      top: -11px;
+      font-size: .8rem;
+      font-weight: 400;
+      left: 18px;
+      color: #626365;
+      @media only screen and (min-width: 500px) {
+        top: -14px;
+      }
+    }
+    i {
+      color: #626365;
+      line-height: 1.8;
+
+
+    }
+  }
+}
+.collapsible-header {
+  padding: 1rem;
+  .collapsible-header--question {
+    margin: 0;
+    font-size: 1.4rem;
+  }
 }
 
 .navbar-fixed .nav-wrapper.container {
@@ -30,15 +70,18 @@ nav ul li a {
 // Fix vertical alignment in main page slider
 .slider .slides li .caption {
   color: $white;
-  left: 10%;
   opacity: 0;
   position: absolute;
-  top: 40% !important;
-  width: 80%;
+  top: 30% !important;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 90%;
   text-shadow: 1px 1px 7px $black;
   @media only screen and (min-width: 992px){
-    left: 15%;
     width: 65%;
+    top: 40%;
   }
   h3{
     font-size: 2.2rem;
@@ -77,9 +120,10 @@ i.fa.medium {
   display: block;
   font-size: 1rem;
   font-weight: bold;
-  height: 64px;
-  line-height: 64px;
-  padding: 0 30px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 4;
 }
 
 // fixes bullets for FAQs

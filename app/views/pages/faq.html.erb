@@ -11,7 +11,7 @@
           <ul class="collapsible" data-collapsible="accordion">
           <% items.each do |item| %>
             <li>
-              <div class="collapsible-header"><h5><%= item['question'] %></h5></div>
+              <div class="collapsible-header"><p class="collapsible-header--question"><%= item['question'] %></p></div>
               <div class="collapsible-body"><p class='light'><%= item['answer'].html_safe %></p></div>
             </li>
           <% end %>
