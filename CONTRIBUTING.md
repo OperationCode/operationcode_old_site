@@ -90,11 +90,15 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   * Make sure to replace `[YOUR-GITHUB-NAME]` with your GitHub name.  (example: https://github.com/iserbit/operationcode.git)
 
   #### Local Development Environment
+    _Fork the repo first._
     ```bash
     git clone https://github.com/[YOUR-GITHUB-NAME]/operationcode.git operationcode-upstream
     cd operationcode-upstream
-    bundle
+    git remote add upstream https://github.com/OperationCode/operationcode.git
+    gem install bundler
+    bundle install
     rake db:setup
+    rake db:migrate
     thin start --ssl
     ```
 
@@ -115,6 +119,21 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
     ```
     sudo apt-get install libpq-dev python-dev
     ```
+
+    * You may encounter permissions issues when running `bundle install`.
+    __Don't run `sudo`, but try `rvmsudo` instead.__
+    ```
+    rvmsudo bundle install
+    rake db:setup
+    rake db:migrate
+    thin start --ssl
+    ```
+    This will start the rack adapter at [https://0.0.0.0:3000](https://0.0.0.0:3000)
+
+    You will get a browser warning about an insecure connection. If you're using chrome, click on advanced and proceed.
+    You should now see the website running on [localhost](https://0.0.0.0:3000).
+    __If you have additional issues getting the site running on localhost, consult the [#dev-env](https://operation-code.slack.com/messages/dev-env) channel in Slack before attempting the below instructions.__
+
 
   #### Database Setup:
   When setting up the database, you may encounter a problem with Postgres database creation. Setup proper user permissions for the database and the tables to be created.
