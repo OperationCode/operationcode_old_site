@@ -1,12 +1,11 @@
 class SlackUrl
   def self.get_url(os)
-    options = Hash.new('slack unsupported os')
     download_options = {
-      'Mac' => 'https://slack.com/ssb/download-osx',
-      'Windows' => 'https://slack.com/ssb/download-win',
-      'Linux' => 'https://downloads.slack-edge.com/linux_releases/slack-desktop-2.4.2-amd64.deb'
+      :mac     => 'https://slack.com/ssb/download-osx',
+      :windows => 'https://slack.com/ssb/download-win',
+      :ubuntu  => 'https://downloads.slack-edge.com/linux_releases/slack-desktop-2.4.2-amd64.deb',
+      :fedora  => 'https://downloads.slack-edge.com/linux_releases/slack-2.5.1-0.1.fc21.x86_64.rpm'
     }
-    options.merge!(download_options)
-    options[os]
+    download_options[os]
   end
 end
