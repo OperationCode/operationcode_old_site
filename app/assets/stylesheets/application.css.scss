@@ -163,14 +163,16 @@ i.fa.medium {
 
 // makes vimeo videos responsive
 .video-responsive {
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 85%;
+    width: 85%;
+    position: absolute;
 }
