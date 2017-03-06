@@ -1,104 +1,104 @@
 <div class='container'>
   <div class='row'>
-    <h3 class="header center">Code Schools</h3>
-    <h4 class="header center">Code Schools prepare aspiring programmers for new careers in software development.</h4>
+    <div class="col m12 s12">
+      <h3 class="header center">Code Schools</h3>
+      <h4 class="header center">Code Schools prepare aspiring programmers for new careers in software development.</h4>
 
-    <p>Code schools are accelerated learning programs that will prepare you for a career in software development. Each school listed below ranges in length, vary in tuition costs, and in programming 
-       languages. Desirable from an employer's standpoint, code schools are founded by software developers who saw a need for more programmers and aspired to teach the next generation.</p>
+      <p>Code schools are accelerated learning programs that will prepare you for a career in software development. Each school listed below ranges in length, vary in tuition costs, and in programming
+         languages. Desirable from an employer's standpoint, code schools are founded by software developers who saw a need for more programmers and aspired to teach the next generation.</p>
 
-    <p>We encourage you to check out the schools below, do your research, and ask fellow software developers in <a href="https://operation-code.slack.com/">Slack</a>.</p>
+      <p>We encourage you to check out the schools below, do your research, and ask fellow software developers in <a href="https://operation-code.slack.com/">Slack</a>.</p>
 
-    <h4 class="header center">VA Approved Schools</h4>
-    <ul class="collapsible" data-collapsible="accordion">
-      <% @va_accepted_code_schools.each do |school| %>
+      <h4 class="header center">VA Approved Schools</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+        <% @va_accepted_code_schools.each do |school| %>
+          <li>
+            <div class="collapsible-header">
+              <%= link_to school['name'], school['url']  %>
+            </div>
+            <div class="collapsible-body">
+              <ul class='collection with-header'>
+                <%= render partial: 'code_school', locals: { school: school, show_header: false } %>
+              </ul>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+
+      <hr>
+
+      <h5 class="header center">Require Code School Technical Assistance for state and VA approval? <br><a href="mailto:schools@operationcode.org">Request technical assistance today.</a></h5>
+
+      <hr>
+
+
+        <h4 class="header center">Code School Scholarships</h4>
+        <p class="lead">Many respective code schools offer military/veterans discounts to make coding education more accessible to those who've worn the uniform and served our country. <b>Apply now and get coding</b>:</p>
+
+        <h5><a href="https://guildsa.org/veterans/" target="_blank">The Guild Of Software Architects (Texas)</a></h5>
+        <p>The Guild of Software Architects offers 50% off tuition ($3000 scholarships) for veterans AND their spouses for their 12 week immersive code bootcamps. <a href="https://guildsa.org/veterans/" target="_blank">Learn more...</a></p>
+
+        <hr>
+
+        <h5><a href="https://www.thinkful.com/pricing/#scholarships" target="_blank">Thinkful (online)</a></h5>
+          <p>Thinkful partnered with Operation Code to offer scholarships for the Web Development Career Path program. Recipients receive $400 off each month they're enrolled for the scholarship to apply. <a href="https://www.thinkful.com/pricing/#scholarships" target="_blank">Learn more...</a></p>
+
+        <hr>
+
+        <h5><a href="http://www.antiochla.edu/academics/bachelors-degree/coding-options/" target="_blank">Sabio (Los Angeles)</a></h5>
+          <p>Sabio enables Operation Code veterans to get a full-time career in coding in six months all while earning credits towards an undergraduate degree. New GI Bill is an option for non-BA degree holders. <a href="http://sabio.la/college" target="_blank">Learn more...</a></p>
+
+        <hr>
+
+        <h5><a href="https://launchschool.com/blog/operation-code-scholarship/" target="_blank">Launch School (online)</a></h5>
+          <p>Launch School is offering Operation Code veterans two full scholarships to one male veteran, and another scholarship to a female veteran. <a href="https://launchschool.com/blog/operation-code-scholarship/" target="_blank">Learn more...</a></p>
+
+        <hr>
+
+        <h5><a href="http://try.bloc.io/operation-code-bootcamp-scholarship/" target="_blank">Bloc (online)</a></h5>
+          <p>Bloc's Web Developer Track offers all veterans $1,000 tuition credit with the remainder of the tuition through financing. <a href="http://try.bloc.io/operation-code-bootcamp-scholarship/" target="_blank">Learn more...</a></p>
+
+        <hr>
+
+        <h5><a href="http://go.flatironschool.com/operation-code-overview" target="_blank">The Flatiron School (New York City)</a></h5>
+          <p>New York City-based, Flatiron School provides up to $25,000 in scholarships for Operation Code veterans to participate in the Learn-Verified program which includes, $500 off the first month's tuition for the first 50 eligible applicants. Not sure about committing full-time? Sign up for  <a href="https://learn.co/join/operation-code" target="_blank">Learn.co</a>, an online platform to get introduced to web development and Ruby on Rails. If you get stuck, join the <a href="https://operation-code.slack.com/messages/general/#learn-dot-co" target="_blank"> #learn-dot-co</a> channel in our Slack. <a href="http://go.flatironschool.com/operation-code-overview" target="_blank">Learn more...</a></p>
+
+        <hr>
+
+        <h5><a href="https://www.startupinstitute.com/" target="_blank">Startup Institute (Boston and NYC)</a></h5>
+          <p>Startup Institute offers all veterans an <a href="https://www.startupinstitute.com/admissions/scholarships/" target="_blank">automatic $1,000 off</a> the cost of their full-time program. Train to work in the innovation economy in the areas of web development, web design, digital marketing, or sales and account management. Additional scholarships are also available for: Women in Tech, People of Color in Tech, Seasoned Professional in Tech (age 40+), and Excellence in STEM. <a href="https://www.startupinstitute.com/admissions/scholarships/" target="_blank">Learn more...</a></p>
+
+        <hr>
+
+        <a class="btn btn-large btn-action" href="mailto:staff@operationcode.org" role="button">Partner with us &raquo;</a>
+
+      <hr>
+
+      <h4 class="header center">Code Schools by State</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+        <% @code_schools_by_state.each do |state| %>
         <li>
           <div class="collapsible-header">
-            <%= link_to school['name'], school['url']  %>
+          <% if state[0].length > 3 %>
+            <%= state[0] %>
+          <% else %>
+            <%= @country.subregions.coded(state[0]) %>
+          <% end %>
           </div>
           <div class="collapsible-body">
-            <ul class='collection with-header'>
-              <%= render partial: 'code_school', locals: { school: school, show_header: false } %>
-            </ul>
-        <% end %>
+            <% state[1].each do |school| %>
+              <ul class='collection with-header'>
+                <%= render partial: 'code_school', locals: { school: school } %>
+              </ul>
+            <% end %>
+          </div>
         </li>
+      <% end %>
       </div>
-    </ul>
-
-    <hr>
-
-    <h5 class="header center">Require Code School Technical Assistance for state and VA approval? <br><a href="mailto:schools@operationcode.org">Request technical assistance today.</a></h4>
-
-    <hr>
-
-
-      <h4 class="header center">Code School Scholarships</h4>
-      <p class="lead">Many respective code schools offer military/veterans discounts to make coding education more accessible to those who've worn the uniform and served our country. <b>Apply now and get coding</b>:</p>
-
-      <h5><a href="https://guildsa.org/veterans/" target="_blank">The Guild Of Software Architects (Texas)</a></h5>
-      <p>The Guild of Software Architects offers 50% off tuition ($3000 scholarships) for veterans AND their spouses for their 12 week immersive code bootcamps. <a href="https://guildsa.org/veterans/" target="_blank">Learn more...</a></p>
-
-      <hr>
-
-      <h5><a href="https://www.thinkful.com/pricing/#scholarships" target="_blank">Thinkful (online)</a></h5>
-        <p>Thinkful partnered with Operation Code to offer scholarships for the Web Development Career Path program. Recipients receive $400 off each month they're enrolled for the scholarship to apply. <a href="https://www.thinkful.com/pricing/#scholarships" target="_blank">Learn more...</a></p>
-
-      <hr>
-
-      <h5><a href="http://www.antiochla.edu/academics/bachelors-degree/coding-options/" target="_blank">Sabio (Los Angeles)</a></h5>
-        <p>Sabio enables Operation Code veterans to get a full-time career in coding in six months all while earning credits towards an undergraduate degree. New GI Bill is an option for non-BA degree holders. <a href="http://sabio.la/college" target="_blank">Learn more...</a></p>
-
-      <hr>
-
-      <h5><a href="https://launchschool.com/blog/operation-code-scholarship/" target="_blank">Launch School (online)</a></h5>
-        <p>Launch School is offering Operation Code veterans two full scholarships to one male veteran, and another scholarship to a female veteran. <a href="https://launchschool.com/blog/operation-code-scholarship/" target="_blank">Learn more...</a></p>
-
-      <hr>
-
-      <h5><a href="http://try.bloc.io/operation-code-bootcamp-scholarship/" target="_blank">Bloc (online)</a></h5>
-        <p>Bloc's Web Developer Track offers all veterans $1,000 tuition credit with the remainder of the tuition through financing. <a href="http://try.bloc.io/operation-code-bootcamp-scholarship/" target="_blank">Learn more...</a></p></p>
-
-      <hr>
-
-      <h5><a href="http://go.flatironschool.com/operation-code-overview" target="_blank">The Flatiron School (New York City)</a></h5>
-        <p>New York City-based, Flatiron School provides up to $25,000 in scholarships for Operation Code veterans to participate in the Learn-Verified program which includes, $500 off the first month's tuition for the first 50 eligible applicants. Not sure about committing full-time? Sign up for  <a href="https://learn.co/join/operation-code" target="_blank">Learn.co</a>, an online platform to get introduced to web development and Ruby on Rails. If you get stuck, join the <a href="https://operation-code.slack.com/messages/general/#learn-dot-co" target="_blank"> #learn-dot-co</a> channel in our Slack. <a href="http://go.flatironschool.com/operation-code-overview" target="_blank">Learn more...</a></p>
-        
-      <hr>
-      
-      <h5><a href="https://www.startupinstitute.com/" target="_blank">Startup Institute (Boston and NYC)</a></h5>
-        <p>Startup Institute offers all veterans an <a href="https://www.startupinstitute.com/admissions/scholarships/" target="_blank">automatic $1,000 off</a> the cost of their full-time program. Train to work in the innovation economy in the areas of web development, web design, digital marketing, or sales and account management. Additional scholarships are also available for: Women in Tech, People of Color in Tech, Seasoned Professional in Tech (age 40+), and Excellence in STEM. <a href="https://www.startupinstitute.com/admissions/scholarships/" target="_blank">Learn more...</a></p>
-      
-      <hr>
-
-      <a class="btn btn-large btn-action" href="mailto:staff@operationcode.org" role="button">Partner with us &raquo;</a>
-
-    <hr>
-
-    <h4 class="header center">Code Schools by State</h4>
-    <ul class="collapsible" data-collapsible="accordion">
-    <% @code_schools_by_state.each do |state| %>
-      <li>
-        <div class="collapsible-header">
-        <% if state[0].length > 3 %>
-          <%= state[0] %>
-        <% else %>
-          <%= @country.subregions.coded(state[0]) %>
-        <% end %>
-        </div>
-        <div class="collapsible-body">
-          <% state[1].each do |school| %>
-            <ul class='collection with-header'>
-              <%= render partial: 'code_school', locals: { school: school } %>
-            </ul>
-          <% end %>
-        </div>
-      </li>
-    <% end %>
     </div>
+    <a class="btn btn-large btn-action" href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md" role="button">Add your code school &raquo;</a>
+
   </div>
 </div>
 
-<div class='container'>
-  <div class='row'>
-    <a class="btn btn-large btn-action" href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md" role="button">Add your code school &raquo;</a>
-  </div>
-</div>
+

@@ -63,6 +63,9 @@ class PagesController < ApplicationController
   def privacy
   end
 
+  def resources
+  end
+
   def scholarships
   end
 

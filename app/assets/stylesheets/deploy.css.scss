@@ -494,50 +494,54 @@ a.btn.btn-default:hover {
 //=========================================== apprentice profiles
 
 
-div#profile-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-div#profile-container figure {
-  margin-bottom: 4rem;
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-div#profile-container figure div {
-  margin: 0 auto;
-  border-radius: 50%;
-  overflow: hidden;
-  background-blend-mode: luminosity;
-  border: 5px solid #000;
-  width: 24rem; height: 24rem;
-  transition: .4s linear;
-}
-div#profile-container figure div:hover {
-  border: 8px solid #000;
-  background-color: transparent;
-}
-div#profile-container figcaption {
-  margin-top: 1rem;
+.person-wrapper {
   text-align: center;
+  @media only screen and (max-width: 992px) {
+    margin-bottom: 20px;
+  }
+  .person1, .person2, .person3 {
+    background-blend-mode: luminosity;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid $black;
+    height: 20rem;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: 0.4s linear;
+    width: 20rem;
+
+    &:hover {
+      background-color: transparent;
+      border: 8px solid $black;
+    }
+
+  }
+  .person1 {
+    background: url('https://s3-us-west-2.amazonaws.com/operationcode/mingz.jpeg') no-repeat center
+      hsl(200, 50%, 50%);
+  }
+
+  .person2 {
+    background: url('https://s3-us-west-2.amazonaws.com/operationcode/ewingk.jpg') no-repeat center
+      hsl(200, 50%, 50%);
+  }
+
+  .person3 {
+    background: url('https://s3-us-west-2.amazonaws.com/operationcode/jhampton.jpeg') no-repeat center
+      hsl(200, 50%, 50%);
+  }
+
+  p {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
 }
 
-.person1 {
-  background: url(https://s3-us-west-2.amazonaws.com/operationcode/mingz.jpeg) no-repeat center
-    hsl(200,50%,50%);
-  background-size: cover;
-}
-.person2 {
-  background: url(https://s3-us-west-2.amazonaws.com/operationcode/ewingk.jpg) no-repeat center
-    hsl(200,50%,50%);
-  background-size: cover;
-}
-.person3 {
-  background: url(https://s3-us-west-2.amazonaws.com/operationcode/jhampton.jpeg) no-repeat center
-    hsl(200,50%,50%);
-  background-size: cover;
-}
+
+
+
+
 
 .veterans-map { height: 480px; }
 
@@ -566,12 +570,7 @@ div#profile-container {
   .navbar-fixed .white .nav-wrapper.container {
     width: 100%;
   }
-  nav .brand-logo {
-    right: 0;
-    -webkit-transform: translateX(-50%);
-    transform: translate(0,-50%);
-    top: 59%;
-  }
+
   .navbar-fixed nav {
     position: relative;
   }
