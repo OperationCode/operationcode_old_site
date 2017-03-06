@@ -11,7 +11,7 @@ module Veterans
       if @veteran.save
         send_notifications
         ab_finished(:signup_button_size)
-        redirect_to '/veterans/thanks', notice: 'Thanks for signing up!'
+        redirect_to '/veterans/thanks'
       else
         render :new
       end
