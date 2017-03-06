@@ -7,17 +7,19 @@ class ApplicationController < ActionController::Base
   helper_method :get_operating_system
 
   def get_operating_system
-    if request.env['HTTP_USER_AGENT'].downcase.match(/mac/i)
-      'Mac'
-    elsif request.env['HTTP_USER_AGENT'].downcase.match(/windows/i)
-      'Windows'
-    elsif request.env['HTTP_USER_AGENT'].downcase.match(/linux/i)
-      'Linux'
-    elsif request.env['HTTP_USER_AGENT'].downcase.match(/unix/i)
-      'Unix'
-    else
-      'Unknown'
+    if user_agent_check('mac')
+      :mac
+    elsif user_agent_check('windows')
+      :windows
+    elsif user_agent_check('ubuntu')
+      :ubuntu
+    elsif user_agent_check('fedora')
+      :fedora
     end
+  end
+
+  def user_agent_check(os)
+    request.env['HTTP_USER_AGENT'].downcase.match(/#{os}/i)
   end
 
   def ssl_configured?
