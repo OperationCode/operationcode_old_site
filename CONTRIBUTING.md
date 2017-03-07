@@ -132,7 +132,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
     You will get a browser warning about an insecure connection. If you're using chrome, click on advanced and proceed.
     You should now see the website running on [localhost](https://0.0.0.0:3000).
-    __If you have additional issues getting the site running on localhost, consult the [#dev-env](https://operation-code.slack.com/messages/dev-env) channel in Slack before attempting the below instructions.__
+    __If you have additional issues getting the site running on localhost, consult the [#operationcode-dot-org](https://operation-code.slack.com/messages/operationcode-dot-org) channel in Slack before attempting the below instructions.__
 
 
   #### Database Setup:
