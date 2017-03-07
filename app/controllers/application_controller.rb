@@ -4,9 +4,9 @@ class ApplicationController < ActionController::Base
 
   protect_from_forgery with: :exception
 
-  helper_method :get_operating_system
+  helper_method :user_operating_system
 
-  def get_operating_system
+  def user_operating_system
     if user_agent_check('mac')
       :mac
     elsif user_agent_check('windows')
