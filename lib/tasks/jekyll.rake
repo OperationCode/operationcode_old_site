@@ -1,2 +1,0 @@
-namespace :jekyll do
-end
