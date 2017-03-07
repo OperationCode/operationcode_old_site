@@ -8,6 +8,10 @@ before_script:
 - RAILS_ENV=test bundle exec rake db:migrate
 - RAILS_ENV=test bundle exec rake db:test:prepare
 - RAILS_ENV=test bundle exec rake db:fixtures:load
+after_success: 
+- cd blog && bundle install --gemfile=./Gemfile --binstubs
+- cd bin && jekyll build --config ../_config.yml --destination ../../public/blog
+- cd ../..
 deploy:
   provider: heroku
   api_key:
@@ -17,6 +21,7 @@ deploy:
     repo: OperationCode/operationcode
   run:
     "rake db:migrate"
+  skip_cleanup: true
 notifications:
   slack:
     secure: iT5O6nPXUfThuPLhLXY1q6iNPrJfXxwv78ZynDiZZ2HjUqk98F7LTLY4dAXabbPL2w4hY9YcE8gTXch5n+eyjIaCSNHiR6VMJuxdhiw7uolAy5F71rEMyhNmZbe7X+lqNTp5GpoBUU2oCrT3Hh30lE8Z3c1XrQ+hvm0vh7Y1hXs=
