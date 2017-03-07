@@ -11,6 +11,7 @@ before_script:
 after_success: 
 - cd blog && bundle install --gemfile=./Gemfile --binstubs
 - cd bin && jekyll build --config ../_config.yml --destination ../../public/blog
+- cd ../..
 deploy:
   provider: heroku
   api_key:
