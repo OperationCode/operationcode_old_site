@@ -48,4 +48,4 @@ In the spirit of making the small step from user to contributor, David, the foun
 
 Hit me up on twitter or medium [@jondeng](https://twitter.com/jondeng).
 
-*Veteran-founded, and led, *[Operation Code](https://operationcode.org/)* is on a mission to get active military, citizen-soldiers, veterans and their families coding and building software to change the world. ***And the GitHub repo is [here](https://github.com/OperationCode/operationcode)**.**
+Veteran-founded, and led, [Operation Code](https://operationcode.org/)* is on a mission to get active military, citizen-soldiers, veterans and their families coding and building software to change the world.  The GitHub repo is [here](https://github.com/OperationCode/operationcode).

@@ -5,7 +5,7 @@ tags:   News
 author: Susy Raybon
 layout: post
 ---
-Veterans have been suffering from high unemployment rates for years, but the strategies designed to employee these veterans haven’t changed. The [most current numbers](http://www.usnews.com/news/articles/2014/11/10/private-sector-tackles-veteran-unemployment)** **were released to media sources in late 2014. Force reduction has hit all branches of the military. The [Army alone has plans to reduce its numbers by 200,000 Soldiers,](http://www.armytimes.com/story/military/careers/army/2014/12/26/2015-drawdown-year-ahead/20860491/) which, no doubt, will lead to increased unemployment for veterans.
+Veterans have been suffering from high unemployment rates for years, but the strategies designed to employee these veterans haven’t changed. The [most current numbers](http://www.usnews.com/news/articles/2014/11/10/private-sector-tackles-veteran-unemployment) were released to media sources in late 2014. Force reduction has hit all branches of the military. The [Army alone has plans to reduce its numbers by 200,000 Soldiers,](http://www.armytimes.com/story/military/careers/army/2014/12/26/2015-drawdown-year-ahead/20860491/) which, no doubt, will lead to increased unemployment for veterans.
 
 There are hundreds of thousands of tech jobs in the United States that are currently going unfilled; at the same time, hundreds of thousands of veterans are looking for new careers. The good news for veterans is landing one of these high paying jobs doesn’t require a computer science degree.
 
