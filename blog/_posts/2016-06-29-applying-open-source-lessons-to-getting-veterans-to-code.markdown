@@ -38,7 +38,7 @@ Many veterans organizations focused on improving employability among veterans lo
 Operation Code, on the other hand, looks more like Rust with an active and decentralized community contribution model. From day one, veterans joining Operation Code are encourage to join the Slack Channel, fork the repository, hack the website, create tutorials — in short to build bridges for themselves and everyone after them. At CodeConf, I spent a lot of time thinking about how to lessen the barrier between the user (veteran learning to code) and contributor and I came to the conclusion that the only sustainable and scalable way to get lots of veterans on the path to becoming software developers is to allow them to contribute to their own experience in an open source community contributor model.
 
 ![screenshot](https://cdn-images-1.medium.com/max/800/1*XdvacNs8DmsExTHTLYZyTQ.png)
-Team building and collaborative work on the Operation Code Slack Channel
+*Team building and collaborative work on the Operation Code Slack Channel*
 
 An organization can help provide the framework for veterans to learn to code, but it cannot do the learning for them. One of the best ways to develop veteran skills is to encourage them to build things that help others.
 
@@ -48,4 +48,4 @@ In the spirit of making the small step from user to contributor, David, the foun
 
 Hit me up on twitter or medium [@jondeng](https://twitter.com/jondeng).
 
-Veteran-founded, and led, [Operation Code](https://operationcode.org/)* is on a mission to get active military, citizen-soldiers, veterans and their families coding and building software to change the world.  The GitHub repo is [here](https://github.com/OperationCode/operationcode).
+Veteran-founded, and led, [Operation Code](https://operationcode.org/) is on a mission to get active military, citizen-soldiers, veterans and their families coding and building software to change the world.  The GitHub repo is [here](https://github.com/OperationCode/operationcode).

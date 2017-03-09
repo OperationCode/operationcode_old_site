@@ -16,7 +16,7 @@ TL; DR: While still in the Army, I went from never having programmed to getting 
 ![screenshot](https://cdn-images-1.medium.com/max/600/1*gaJhHIPPuZeqd6zqiui14A.jpeg)
 *Coding leads to fun AND profit*
 
-9 months ago, I completed my first [codeacademy](https://www.codecademy.com/) course on making a webpage with HTML. I was deployed with the U.S. Army in Baghdad, and while on a run around our [FOB](https://www.dropbox.com/s/yavhl4j7ekhw8kl/IMG_0627.jpg?dl=0), I met a forward deployed Palantir engineer who convinced me that *it would be a fun thing to do. *Now that I’m back home, I applied for a spot at [Hack Reactor](http://www.hackreactor.com/remote/), a full-stack Javascript bootcamp and recently found out that I’m going to be part of Remote Beta Cohort 19 🎉🎉! Although I still have a lot of leveling up to do, I want to look back on the lessons of I’ve learned so far, both technical and non-technical, and provide some value to other veterans who are in the early stages of making the jump to a career in technology. It just takes grit, enthusiasm, [community](https://operationcode.org/), and [xkcd](https://xkcd.com/1110/). In this post I will review the non-technical lessons that I learned; in a future post, I will cover the specific ways I prepared for Hack Reactor.
+9 months ago, I completed my first [codeacademy](https://www.codecademy.com/) course on making a webpage with HTML. I was deployed with the U.S. Army in Baghdad, and while on a run around our [FOB](https://www.dropbox.com/s/yavhl4j7ekhw8kl/IMG_0627.jpg?dl=0), I met a forward deployed Palantir engineer who convinced me that it would be a fun thing to do. Now that I’m back home, I applied for a spot at [Hack Reactor](http://www.hackreactor.com/remote/), a full-stack Javascript bootcamp and recently found out that I’m going to be part of Remote Beta Cohort 19 🎉🎉! Although I still have a lot of leveling up to do, I want to look back on the lessons of I’ve learned so far, both technical and non-technical, and provide some value to other veterans who are in the early stages of making the jump to a career in technology. It just takes grit, enthusiasm, [community](https://operationcode.org/), and [xkcd](https://xkcd.com/1110/). In this post I will review the non-technical lessons that I learned; in a future post, I will cover the specific ways I prepared for Hack Reactor.
 
 ### The Lessons:
 
@@ -28,7 +28,7 @@ I read this [Quora answer](https://www.quora.com/As-an-A-student-at-Stanford-Cal
 
 Learning to code, like all challenging but enjoyable things (going to the gym, asking somebody out) is hard to start doing because its easier to be lazy. Make it harder for yourself to be lazy than to be productive. To minimize the “startup inertia” of beginning a task, you need to minimize the number of steps that you need to take to start working.
 
-For me, this meant sticking to a predictable routine *everyday *when in Iraq and after coming home. I would finish my 12 hour shift, workout, eat dinner from a box while browsing articles/ Face-timing my girlfriend, and then start coding. Even if I was tired, the fact that I was sitting in front of my computer made it easier to do *something*. I’ve found that learning is a series of small wins, and even 30 minutes of plunking away at a random bug will maintain the momentum you need to keep going.
+For me, this meant sticking to a predictable routine everyday when in Iraq and after coming home. I would finish my 12 hour shift, workout, eat dinner from a box while browsing articles/ Face-timing my girlfriend, and then start coding. Even if I was tired, the fact that I was sitting in front of my computer made it easier to do something. I’ve found that learning is a series of small wins, and even 30 minutes of plunking away at a random bug will maintain the momentum you need to keep going.
 
 Although there are many complicated productivity systems, I’ve found that the simple [pomodoro](http://pomodorotechnique.com/) method is most effective for lazy non-planners. I decide what I want to work on everyday and try to hit between 2 and 6 pomodoros (25 minute work sessions) on a workday and 10 and 20 pomodoros on the weekend. Of course, this depends on how I’m feeling, but the important thing is to **default to coding.**
 
@@ -51,7 +51,7 @@ When starting out, my guilty habit was copying and pasting code. The reason that
 
 **How could I expect to be an effective engineer if I wrote code that I didn’t understand and didn’t want to touch for fear of breaking?**
 
-More importantly, this lazy thinking prevented me from exploring ways to abstract my code within loops, functions, and objects to not repeat myself. *Continuing to live with the inefficiency monster will prevent you from exploring new ways of doing things.*
+More importantly, this lazy thinking prevented me from exploring ways to abstract my code within loops, functions, and objects to not repeat myself. Continuing to live with the inefficiency monster will prevent you from exploring new ways of doing things.
 
 How do you know when you’re being sabotaged by the inefficiency monster? You will find yourself doing something tedious that involves zero thinking such as:
 
@@ -59,7 +59,7 @@ How do you know when you’re being sabotaged by the inefficiency monster? You w
 * Adding and deleting console.log statements to your code to debug
 * Trying to match opening brackets to closing brackets
 * Looking around in Finder for a specific file or directory
-* Trying to select the right DOM elements with jQuery (😜)
+* Trying to select the right DOM elements with jQuery 😜
 
 Instead of prolonging your suffering, make the investment in learning a better way to do it. If you are doing something tedious and painful, chances are **some previous programmer probably found a way to abstract the pain away and posted it on the internet.**
 
