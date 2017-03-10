@@ -1,5 +1,5 @@
 class VeteransController < ApplicationController
-  before_action :authenticate_veteran!, except: [:map]
+  before_action :authenticate_veteran!, except: [:map, :thanks]
 
   def map
     @lat_longs = Veteran.lat_longs
@@ -23,6 +23,10 @@ class VeteransController < ApplicationController
 
     veteran.update_attributes(mentor: nil)
     redirect_to(:back)
+  end
+
+  def thanks
+    @slack_url = SlackUrl.get_url(user_operating_system)
   end
 
   private
