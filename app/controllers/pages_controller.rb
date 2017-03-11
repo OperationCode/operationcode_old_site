@@ -81,12 +81,7 @@ class PagesController < ApplicationController
   def fellowships
   end
 
-  def ssl
-    render text: LetsEncrypt.key_for(params[:token])
-  end
-
   def letsencrypt
     render text: "#{params[:id]}.CFK2YLBSo8izSWsb4AOQrUGLY6DztAoJCg5a-NpYWEw"
   end
-
 end

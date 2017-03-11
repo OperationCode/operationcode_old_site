@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 class ApplicationController < ActionController::Base
-  force_ssl if: :ssl_configured?
-
   protect_from_forgery with: :exception
 
   helper_method :user_operating_system
@@ -20,11 +18,6 @@ class ApplicationController < ActionController::Base
 
   def user_agent_check(os)
     request.env['HTTP_USER_AGENT'].downcase.match(/#{os}/i)
-  end
-
-  def ssl_configured?
-    !Rails.env.production?
-    !Rails.env.test?
   end
 
   def after_sign_in_path_for(_resource)

@@ -29,6 +29,7 @@
 
 # Ignore Jekyll output
 /public/blog
+blog/bin
 
 # Ignore SSL keys
 bundle.pem
