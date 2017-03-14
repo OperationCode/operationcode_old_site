@@ -1,7 +1,7 @@
 ---
 title:  CodeConf LA
 date:   2016-05-10
-tags:   News
+tags:   Conferences
 author: David Molina
 layout: post
 ---

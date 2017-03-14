@@ -1,6 +1,6 @@
 ---
 title:  Now you can shop at AmazonSmile and support Operation Code
-date:   2016-08-08
+date:   2016-09-16
 tags:   News
 author: David Molina
 layout: post

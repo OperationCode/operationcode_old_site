@@ -1,7 +1,7 @@
 ---
 title:  Applying Open Source Lessons to Getting Veterans to Code
 date:   2016-06-29
-tags:   News
+tags:   Open Source
 author: Jon Deng
 layout: post
 ---

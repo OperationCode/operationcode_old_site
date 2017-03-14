@@ -1,7 +1,7 @@
 ---
 title:  Beating the odds
 date:   2016-05-14
-tags:   News
+tags:   Web Development
 author: Charles Webster
 layout: post
 ---

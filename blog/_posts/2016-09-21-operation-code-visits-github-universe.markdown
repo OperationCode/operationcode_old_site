@@ -1,7 +1,7 @@
 ---
 title:  Operation Code Visits Github Universe
 date:   2016-09-21
-tags: Article
+tags: Conferences, Open Source
 author: Charles Sipe
 layout: post
 ---

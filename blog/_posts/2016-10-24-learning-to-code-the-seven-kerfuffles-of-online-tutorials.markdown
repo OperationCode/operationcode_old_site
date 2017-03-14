@@ -1,7 +1,7 @@
 ---
 title: 'Learning to Code: The Seven Kerfuffles Of Online Tutorials'
 date:   2016-10-24
-tags: Article
+tags: Web Development
 author: Krystyna Ewing
 layout: post
 ---

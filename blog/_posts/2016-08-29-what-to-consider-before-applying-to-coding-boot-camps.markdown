@@ -1,7 +1,7 @@
 ---
 title:  What to consider before applying to coding boot camps
 date:   2016-08-29
-tags:   News
+tags:   Web Development
 author: Code Platoon
 layout: post
 ---

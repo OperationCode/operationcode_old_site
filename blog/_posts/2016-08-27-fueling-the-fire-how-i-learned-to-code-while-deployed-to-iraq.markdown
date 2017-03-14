@@ -1,7 +1,7 @@
 ---
 title:  Fueling the 🚀 -  How I learned to code while deployed to Iraq
 date:   2016-08-27
-tags:   News
+tags:   Web Development, Member Stories
 author: Jon Deng
 layout: post
 ---
