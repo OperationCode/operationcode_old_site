@@ -9,11 +9,19 @@ On behalf of all of us at Operation Code, we want to thank you for your support 
 
 Two-years after launching Operation Code, a simple website built with Ruby on Rails (and a LaunchRock to collect data), we’ve grown from 0 members to **a global community** comprised of active duty military, guard & reserve troops, veterans and military spouses all on a mission to learn to code and build software to change the world.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*IISg4VBrkRUiWqsho7WvdQ.png)
-Full history at: [https://operationcode.org/history](https://operationcode.org/history)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*IISg4VBrkRUiWqsho7WvdQ.png" alt="Operation Code history photo"/>
+    <figcaption>Full history at: https://operationcode.org/history</figcaption>
+</figure>
+<br>
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*mN1hwp3duu68xTRKdWjpzA.png)
-Full history at: [https://operationcode.org/history](https://operationcode.org/history)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*mN1hwp3duu68xTRKdWjpzA.png" alt="Operation Code original Tweet"/>
+    <figcaption>Full history at: https://operationcode.org/history</figcaption>
+</figure>
+<br>
 
 ### Membership
 
@@ -21,11 +29,19 @@ Today, our Slack community numbers **642 members** of which 52 are mentors, 29 [
 
 Our youngest member is a recent 18 year old Air Force enlistee with the majority in our community Continental United States (CONUS), with 1/4 located Overseas Continental United States (OCONUS) throughout the Middle East.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*9KAdELTaRhZhVXhrFjrJRg.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*9KAdELTaRhZhVXhrFjrJRg.png" alt="Operation Code member locations"/>
+</figure>
+<br>
 
 Recently, we had our first veteran join from Canada, JP Phaneuf, who is actively learning to code using the popular open source exercise platform, [Exercism](http://exercism.io/), in our very own [internal study group](https://github.com/OperationCode/exercism-io-mentoring) led by our Scholarship Chair, Nell Shamrell-Harrington.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*P0oRZDhlBnvH9lBOcuurEA.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*P0oRZDhlBnvH9lBOcuurEA.png" alt="JP Phaneuf Tweet"/>
+</figure>
+<br>
 
 ### Shipping
 
@@ -35,11 +51,19 @@ Since August 17, 2014, we’ve continually shipped changes to [operationcode.org
 
 Recently, Jeremy Hall came onboard as our newest Technical Product Manager to overhaul the UI/UX of our flagship site and expedite onboarding of new veterans interested in learning to code.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*pGkUkZLxA_jxDl6MkYd2mQ.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*pGkUkZLxA_jxDl6MkYd2mQ.png" alt="Operation Code commit history"/>
+</figure>
+<br>
 
 Major contributions take place Sunday evening, in the early morning or late evening’s during the week, and Saturday leading from the front.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*2L2V25Gzlb2GERhwvZ6N9g.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*2L2V25Gzlb2GERhwvZ6N9g.png" alt="Contribution frequency"/>
+</figure>
+<br>
 
 ### Finances
 
@@ -99,7 +123,11 @@ Most recently, Texas-based, The Guild of Software Architects, a mobile app devel
 
 Since mid-2015, Nell Shamrell, has led as Scholarship Chair helping usher new veterans to software conferences, Linux Academy and most recently she’s leading the effort to get more veterans coding using Exercism. This year we welcomed Doug Brown as Scholarship Outreach as well. We had our first [online t-shirt sale](https://cottonbureau.com/products/operation-code-medal) where we raised $135 for the scholarship fund. We moved those funds to a Scholarship Account and issued Nell a debit card to expedite travel/lodging, conference registration to Operation Code members. We expect this number to rise in 2017.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*NNn55xFfuYMq1DOyUnk5fQ.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*NNn55xFfuYMq1DOyUnk5fQ.png" alt="Operation Code t-shirt"/>
+</figure>
+<br>
 
 Additionally, we enrolled in Benevity with a $7.5m goal, and are now on [AmazonSmile](https://smile.amazon.com/?ie=UTF8&ein=47-4247572&ref_=smi_ext_ch_47-4247572_cl&ref_=smi_ext_ch_47-4247572_dl) (ongoing).
 
@@ -123,23 +151,39 @@ In the fall of 2015 we tinkered around on a new experiment called, [Deploy](http
 
 Operation Code isn’t getting smaller — we’re growing month-after-month. Since April 2015 when we got onto Slack to today, reading and writing activity, software mentorship and career mentorship continues to demonstrate the need for an organization like Operation Code.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*PLk7YFD6-RW_SwL_VzykNg.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*PLk7YFD6-RW_SwL_VzykNg.png" alt="Growth chart"/>
+</figure>
+<br>
 
 We expect these numbers to continue to spike in the weeks and months ahead.
 
 ### Voices From the Front Lines
 
-![screenshot](https://cdn-images-1.medium.com/max/600/1*pjehAaB-9szcNgkcYiPz7Q.jpeg)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/600/1*pjehAaB-9szcNgkcYiPz7Q.jpeg" alt="John Hampton photo"/>
+</figure>
+<br>
 
 >"It’s been refreshing to see that other veterans share the same path as me — transitioning from military service to professional software development. By taking part in Operation Code’s community, I’ve had the chance to pair-program with others, be introduced to new tech stacks that I was previously unfamiliar with, prepare for a software bootcamp, and find an internship through an opening posted in the **[#jobs](https://operation-code.slack.com/messages/jobs/)** channel. Operation Code fosters a community where members support each other, offer & accept advice, and serve as an ongoing reminder that we’re all still part of one team."
 — John Hampton, US Army veteran*
 
-![screenshot](https://cdn-images-1.medium.com/max/600/1*T62Yuo0bsS1LyxkUXSWHQg.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/600/1*T62Yuo0bsS1LyxkUXSWHQg.png" alt="Victor Molina photo"/>
+</figure>
+<br>
 
 >"Prior to Operation Code, I was working day-in and day-out pouring concrete and general heavy labor construction when I learned about Operation Code. Due to their *[mentorship](https://operationcode.org/mentorship)* I skipped on finishing community college, borrowed a MacBook Pro from Operation Code, attended a Seattle code school, doubled my income, and improved my standard of living. Thanks to Operation Code I’m doing what I love."
 — Victor Molina, US Marine Corps veteran
 
-![screenshot](https://cdn-images-1.medium.com/max/600/1*HoRM-09WOvqGeRVjeU4cYQ.png)
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/600/1*HoRM-09WOvqGeRVjeU4cYQ.png" alt="Jameel Matin photo"/>
+</figure>
+<br>
 
 >"I enlisted in the Marine Corps Infantry to serve and win our country’s wars. After my service, I searched for a new career. I knew I wanted to be part of the tip of the spear in an industry and I realized the tech industry is leading from the front. I Googled around and found Operation Code, a non-profit which helps veterans like me break into the tech industry. A couple weeks later they found a way to get me into GitHub’s *[CodeConf LA](http://codeconf.com/)*. There, I found *[Sabio](http://sabio.la/)*, a local code school which accepts the New GI Bill. Today, I am in the middle of a *[hackathon](http://vetshack.us/)* sponsored by Sabio in an effort to build a website to help folks in the military be successful by the time they get out. Operation Code not only paved a route for me, they also showed me what I can build with my imagination. Imagine what it can do for other veterans."
 — Jameel Matin, US Marine Corps veteran*

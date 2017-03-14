@@ -1,5 +1,5 @@
 ---
-title:  Fueling the 🚀: How I learned to code while deployed to Iraq
+title:  Fueling the 🚀 -  How I learned to code while deployed to Iraq
 date:   2016-08-27
 tags:   News
 author: Jon Deng
@@ -8,13 +8,16 @@ layout: post
 TL; DR: While still in the Army, I went from never having programmed to getting into Hack Reactor. Here is what I learned along the way:
 
 1.  [Make productivity your default](https://medium.com/operation-code/fueling-the-how-i-learned-to-code-while-deployed-to-iraq-ef71d597fcaf#e605)
-1.  [Don’t continue to do things inefficiently](https://medium.com/operation-code/fueling-the-how-i-learned-to-code-while-deployed-to-iraq-ef71d597fcaf#e0ca)
-1.  [Adopt a growth mindset when it sucks](https://medium.com/operation-code/fueling-the-how-i-learned-to-code-while-deployed-to-iraq-ef71d597fcaf#5ae0)
+2.  [Don’t continue to do things inefficiently](https://medium.com/operation-code/fueling-the-how-i-learned-to-code-while-deployed-to-iraq-ef71d597fcaf#e0ca)
+3.  [Adopt a growth mindset when it sucks](https://medium.com/operation-code/fueling-the-how-i-learned-to-code-while-deployed-to-iraq-ef71d597fcaf#5ae0)
 
-####My Story:
+#### My Story:
 
-![screenshot](https://cdn-images-1.medium.com/max/600/1*gaJhHIPPuZeqd6zqiui14A.jpeg)
-*Coding leads to fun AND profit*
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/600/1*gaJhHIPPuZeqd6zqiui14A.jpeg" alt="Jon Deng in Iraq"/>
+    <figcaption>Coding leads to fun AND profit</figcaption>
+</figure>
+<br>
 
 9 months ago, I completed my first [codeacademy](https://www.codecademy.com/) course on making a webpage with HTML. I was deployed with the U.S. Army in Baghdad, and while on a run around our [FOB](https://www.dropbox.com/s/yavhl4j7ekhw8kl/IMG_0627.jpg?dl=0), I met a forward deployed Palantir engineer who convinced me that it would be a fun thing to do. Now that I’m back home, I applied for a spot at [Hack Reactor](http://www.hackreactor.com/remote/), a full-stack Javascript bootcamp and recently found out that I’m going to be part of Remote Beta Cohort 19 🎉🎉! Although I still have a lot of leveling up to do, I want to look back on the lessons of I’ve learned so far, both technical and non-technical, and provide some value to other veterans who are in the early stages of making the jump to a career in technology. It just takes grit, enthusiasm, [community](https://operationcode.org/), and [xkcd](https://xkcd.com/1110/). In this post I will review the non-technical lessons that I learned; in a future post, I will cover the specific ways I prepared for Hack Reactor.
 
@@ -111,8 +114,7 @@ If you’re a veteran / military / military family and interested in becoming a 
 
 Additionally I’d suggest getting involved with [Operation Code](https://operationcode.org/), a veteran-founded and led nonprofit that is the fasted way for military, veterans, and family to get coding. Additionally, I’ve listed some additionally resources that I found helpful below.
 
-![screenshot](https://cdn-images-1.medium.com/max/800/1*yh8_wbu47ZhuR8HpuR3t2Q.png)
-Follow me on Twitter!
+Follow me on [Twitter](https://twitter.com/jondeng)!
 
 ### Resources:
 
@@ -120,3 +122,5 @@ Follow me on Twitter!
 * [Climbing the Wrong Hill](http://arturmeyster.com/climbing-the-wrong-hill/): This was one of the blog posts that inspired me to commit to learning to code. Artur, a Hack Reactor alum, was a really big help as I prepared for the Hack Reactor technical interview, even going so far as to meet me in a coffee shop in SF to do a mock interview and hack around with the underscorejs library. Thanks Artur!
 * [FreeCodeCamp](https://www.freecodecamp.com/): If I didn’t need to find a job immediately, this is how I would learn to develop software. A place to become a software engineer *for free.* Either way a good way to learn the fundamentals and join a community.
 * [This is just a flat out inspiring story](http://www.hackreactor.com/blog/from-homeless-to-hack-reactor-to-linkedin-students-inspiring-journey-shows-that-impossible-is-just-a-word)
+
+_Originally posted on [Medium](https://medium.com/operation-code/fueling-the-how-i-learned-to-code-while-deployed-to-iraq-ef71d597fcaf#.lkgtoqmvs) by **Jon Deng**, Web Worker. Currently [@Snap](http://twitter.com/Snap). Formerly [@USArmy](http://twitter.com/USArmy) and [@HarvardLaw](http://twitter.com/HarvardLaw)._

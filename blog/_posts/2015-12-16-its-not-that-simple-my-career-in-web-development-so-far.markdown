@@ -1,5 +1,5 @@
 ---
-title:  It’s Not That Simple: My Career In Web Development So Far
+title:  It’s Not That Simple - My Career In Web Development So Far
 date:   2017-01-05
 tags: Article
 author: Krystyna Ewing

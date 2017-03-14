@@ -1,5 +1,5 @@
 ---
-title: Learning to Code - The Seven Kerfuffles Of Online Tutorials - Part 1
+title: 'Learning to Code: The Seven Kerfuffles Of Online Tutorials'
 date:   2016-10-24
 tags: Article
 author: Krystyna Ewing

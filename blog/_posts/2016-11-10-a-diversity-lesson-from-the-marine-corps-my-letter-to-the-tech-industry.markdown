@@ -1,5 +1,5 @@
 ---
-title:  A Diversity Lesson From the Marine Corps - My Open Letter to the Tech Industry
+title:  'A Diversity Lesson From the Marine Corps: My Open Letter to the Tech Industry'
 date:   2016-11-10
 tags: Article
 author: Jay Miller

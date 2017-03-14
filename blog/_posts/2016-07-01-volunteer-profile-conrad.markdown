@@ -1,5 +1,5 @@
 ---
-title:  Volunteer Profile: Conrad
+title:  'Volunteer Profile: Conrad'
 date:   2016-07-01
 tags:   News
 author: Conrad Hollomon
