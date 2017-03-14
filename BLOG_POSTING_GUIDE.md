@@ -17,7 +17,7 @@ While the operation of Jekyll is fairly easy, please keep in mind that this "emb
 ##Workflow
 ###Start up (Local Dev)
 1. Navigate to the `/blog` directory
-2. Start Jekyll preview server `jekyll --serve`  
+2. Start Jekyll preview server `jekyll serve`  
 2. Go to `https://localhost:4000/blog` to view the current state of the blog
 
 ###Writing Posts
@@ -32,7 +32,7 @@ This part is a little non-intuitive if you come from a CMS like Wordpress. But i
 
 In your local/development environment, you can do a "dry run" publish to preview how your post will look when it eventually is published:
 1. move the file to  `/blog/_posts`
-2. run `jekyll --serve` from the CLI, if it isn't already running
+2. run `jekyll serve` from the CLI, if it isn't already running
 3. check the blog page on `https://localhost:4000/blog` 
 
 You can now preview what the generated site will look like in your browser locally, as a static HTML page temporarily served in the preview server at `/public/blog/`. If you have added any `categories` to your front matter YAML, it will be sub-filed under the appropriate folders for each category. For example, a post with the category of "news" would be filed under `/public/blog/news`.
