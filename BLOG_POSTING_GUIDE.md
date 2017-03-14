@@ -26,6 +26,8 @@ Writing a post with Jekyll is really easy.
 2. Add "Front Matter" YAML: "Front Matter" YAML descriptors must be added to the very top of each post file. See the example above in between the mandatory top & bottom `---` lines.
 3. Add Post Body & Content: You can now write your blog post in normal markdown in the newly-created file.
 4. Move to `/blog/_posts`: Once the post is ready to publish you can move it to `/blog/_posts`. Jekyll will see any new documents created in this folder and "publish" them when the Jekyll blog is rebuilt during our CI / deployment process (see below)
+5: Note - Jekyll posts with a colon (:) in the Front Matter title must be wrapped in quotes:  https://github.com/jekyll/jekyll/issues/549
+
 
 ###Preview Your Post Locally
 This part is a little non-intuitive if you come from a CMS like Wordpress. But it's really easy.
