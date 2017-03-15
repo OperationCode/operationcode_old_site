@@ -27,12 +27,14 @@ module Opcode
     config.autoload_paths << Rails.root.join('lib')
 
     config.lograge.enabled = true
+    config.lograge.formatter = Lograge::Formatters::Logstash.new
 
     config.filter_parameters << :password
 
     Raven.configure do |config|
       config.dsn = "https://#{ENV.fetch('SENTRY_CREDENTIALS', '')}@sentry.io/147247"
       config.environments = ['production']
+      config.release = '0e4fdef81448dcfa0e16ecc4433ff3997aa53572'
     end
   end
 end
