@@ -1,7 +1,7 @@
 ---
 title:  What are employers looking for in a developer?
 date:   2016-10-06
-tags: Article
+tags: Web Development
 author: Kalob Taulien
 layout: post
 ---

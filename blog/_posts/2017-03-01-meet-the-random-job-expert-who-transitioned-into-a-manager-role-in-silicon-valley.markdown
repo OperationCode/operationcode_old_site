@@ -1,7 +1,7 @@
 ---
 title:  Meet the random job expert who transitioned into a manager role in Silicon Valley
 date:   2017-03-01
-tags: Article
+tags: Member Stories
 author: Edward Gutierrez
 layout: post
 ---

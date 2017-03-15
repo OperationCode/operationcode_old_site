@@ -1,7 +1,7 @@
 ---
 title:  Node Summit
 date:   2016-06-08
-tags:   News
+tags:   Conferences
 author: Nell Shamrell-Harrington
 layout: post
 ---

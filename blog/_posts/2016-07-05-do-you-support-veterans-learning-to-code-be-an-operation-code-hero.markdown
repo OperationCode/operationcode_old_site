@@ -5,8 +5,12 @@ tags:   News
 author: Rob Kriner
 layout: post
 ---
-![screenshot](https://cdn-images-1.medium.com/max/800/1*GRKMBhysFPdgEfEkk6vyVg.jpeg) 
-Impress friends, family, and fellow hackers alike with this understated but oh so comfortable Operation Code shirt. Join the veteran coding revolution!
+<br>
+<figure class="image-container">
+    <img src="https://cdn-images-1.medium.com/max/800/1*GRKMBhysFPdgEfEkk6vyVg.jpeg" alt="Marine recruit depot sign"/>
+    <figcaption>Impress friends, family, and fellow hackers alike with this understated but oh so comfortable Operation Code shirt. Join the veteran coding revolution!</figcaption>
+</figure>
+<br>
 
 Now that you’ve taken off your active duty uniform, don’t you wish you had something new to wear for your midnight coffee runs and 24 hour hackathons that’s not only comfortable and stylish but also supports the* only open source and hackable veterans organization dedicated to teaching vets and families to build awesome things with code?*
 
@@ -18,6 +22,8 @@ These premium American Apparel jersey shirts are only available until July 31st,
 
 For more information on our mission, check out the video below.
 
+<iframe src="https://player.vimeo.com/video/124866675" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Thank you for support!
 
-*****
+_Originally posted on [Medium](https://medium.com/operation-code/do-you-support-veterans-learning-to-code-be-an-operation-code-hero-c30e54264c1#.ytqjse2o2) by **Rob Kriner**._

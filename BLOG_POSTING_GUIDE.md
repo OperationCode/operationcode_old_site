@@ -17,7 +17,7 @@ While the operation of Jekyll is fairly easy, please keep in mind that this "emb
 ##Workflow
 ###Start up (Local Dev)
 1. Navigate to the `/blog` directory
-2. Start Jekyll preview server `jekyll --serve`  
+2. Start Jekyll preview server `jekyll serve`  
 2. Go to `https://localhost:4000/blog` to view the current state of the blog
 
 ###Writing Posts
@@ -26,13 +26,15 @@ Writing a post with Jekyll is really easy.
 2. Add "Front Matter" YAML: "Front Matter" YAML descriptors must be added to the very top of each post file. See the example above in between the mandatory top & bottom `---` lines.
 3. Add Post Body & Content: You can now write your blog post in normal markdown in the newly-created file.
 4. Move to `/blog/_posts`: Once the post is ready to publish you can move it to `/blog/_posts`. Jekyll will see any new documents created in this folder and "publish" them when the Jekyll blog is rebuilt during our CI / deployment process (see below)
+5: Note - Jekyll posts with a colon (:) in the Front Matter title must be wrapped in quotes:  https://github.com/jekyll/jekyll/issues/549
+
 
 ###Preview Your Post Locally
 This part is a little non-intuitive if you come from a CMS like Wordpress. But it's really easy.
 
 In your local/development environment, you can do a "dry run" publish to preview how your post will look when it eventually is published:
 1. move the file to  `/blog/_posts`
-2. run `jekyll --serve` from the CLI, if it isn't already running
+2. run `jekyll serve` from the CLI, if it isn't already running
 3. check the blog page on `https://localhost:4000/blog` 
 
 You can now preview what the generated site will look like in your browser locally, as a static HTML page temporarily served in the preview server at `/public/blog/`. If you have added any `categories` to your front matter YAML, it will be sub-filed under the appropriate folders for each category. For example, a post with the category of "news" would be filed under `/public/blog/news`.

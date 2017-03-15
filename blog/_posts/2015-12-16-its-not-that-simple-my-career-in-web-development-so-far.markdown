@@ -1,7 +1,7 @@
 ---
-title:  It’s Not That Simple: My Career In Web Development So Far
-date:   2017-01-05
-tags: Article
+title:  'It’s Not That Simple: My Career In Web Development So Far'
+date:   2016-12-16
+tags: Web Development, Member Stories
 author: Krystyna Ewing
 layout: post
 ---
@@ -34,3 +34,5 @@ To be honest, I love where I work, I like the people, I like environment, and I 
 It’s becoming bothersome to apply for a job, and get it, and then to be told that it wasn’t what they were expecting it to be, and that I have to be let go as a result. Even morso,I get to hear that it’s not my fault, that doesn’t help me feel better about not being able to keep the job, it makes me feel inadequate, and it makes me wonder if I made the correct career choice when all it has been for me, is one experiment after another for companies who aren’t sure whether or not they can handle it.
 
 My advice to anywhere that is looking to hire a junior as a junior is this: Get the opinions of the dev team first and find out if they feel comfortable having someone they have to slow things down for at times, make sure you understand that a junior developer slows things down, either a little or a lot something that can take someone ten minutes to knock out, may not come so easily to someone who is considered a junior, and you might need to break things down for them to understand
+
+_Originally posted on [Medium](https://medium.com/operation-code/it-s-not-that-simple-my-career-in-web-development-so-far-bcca086cca4e#.jlfkvktvt) by **Krystyna Ewing** - Developer, Comic Artist, Veteran, Member of @operation_code, Dev at @DeployOpCod3 Member of @pprenticeship, co-founder @redeploi_

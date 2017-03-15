@@ -1,7 +1,7 @@
 ---
 title:  Upcoming Conference Scholarships!
 date:   2016-03-02
-tags:   News
+tags:   Conferences
 author: Nell Shamrell-Harrington
 layout: post
 ---
