@@ -1,7 +1,7 @@
 ---
 title:  Attending GitHub Universe 2016
 date:   2016-09-21
-tags:   News
+tags:   Conferences, Open Source
 author: Karla Gil
 layout: post
 ---

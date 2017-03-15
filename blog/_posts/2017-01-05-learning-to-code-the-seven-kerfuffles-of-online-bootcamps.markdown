@@ -1,5 +1,5 @@
 ---
-title:  Learning To Code - The Seven Kerfuffles Of Coding Bootcamps, Part 2
+title:  'Learning To Code: The Seven Kerfuffles Of Coding Bootcamps'
 date:   2017-01-05
 tags: Article
 author: Krystyna Ewing

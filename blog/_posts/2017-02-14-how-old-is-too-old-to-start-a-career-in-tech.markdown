@@ -1,7 +1,7 @@
 ---
 title:  How old is too old to start a career in Tech?
 date:   2017-02-14
-tags: Article
+tags: Open Source, Member Stories
 author: Andrea Liliana Griffiths
 layout: post
 ---

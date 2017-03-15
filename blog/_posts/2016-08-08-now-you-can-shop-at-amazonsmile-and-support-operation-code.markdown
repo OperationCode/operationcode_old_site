@@ -1,6 +1,6 @@
 ---
 title:  Now you can shop at AmazonSmile and support Operation Code
-date:   2016-08-08
+date:   2016-09-16
 tags:   News
 author: David Molina
 layout: post
@@ -19,4 +19,4 @@ How Does it Work? Simply follow these steps and you’ll be good go.
 
 5. **Share with your friends** - After you’ve successfully completed a purchase on AmazonSmile you can share the news with your friends on Facebook, Twitter or via email. This option appears on the confirmation page after your order is complete.
 
-[Happy shopping](https://smile.amazon.com/ch/47-4247572) and thanks for your support.¬
+[Happy shopping](https://smile.amazon.com/ch/47-4247572) and thanks for your support.
