@@ -17,11 +17,7 @@ Rails.application.routes.draw do
   mount Split::Dashboard, at: 'split'
 
   # LetsEncrypt
-
-  # get '.well-known/acme-challenge/:token', to: 'pages#ssl'
-
   get '/.well-known/acme-challenge/:id' => 'pages#letsencrypt'
-
 
   get '/veterans/thanks', to: 'veterans#thanks'
   get '/veterans/map', to: 'veterans#map'

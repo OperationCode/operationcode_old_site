@@ -18,14 +18,11 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
 ## Setting Up Your Environment
 * In order to work on the **Operation Code** site, you will need to install a few things.
-  * Beginner's Note: If you don't have Ruby and Ruby on Rails installed in your system yet, don't worry about it. After you clone the GitHub repository, they will be installed during the `bundle` command along with all the dependencies.  
 
-  ### Ruby
-  Ruby is an Object-Oriented programming language that **Operation Code** is written in. While you can install Ruby directly to your machine, it is highly recommended to use a version manager. We recommend RVM, but rbenv will also work.
+  ### Docker
+  Docker is a container system.
 
-  * [Install RVM](https://rvm.io/rvm/install)
-  * Look [here](https://raw.githubusercontent.com/OperationCode/operationcode/master/.ruby-version) to find the version of Ruby we are using
-  * Install the version of Ruby from the step above. Example: `rvm install 2.3.0`
+  * [Install Docker](https://www.docker.com/)
 
   ### Git
   Git is a distributed version control system. This is how our code is stored and managed. Git can be frustrating, but it is an essential tool. If you want to learn more about Git, a great resource is [Think Like a Git](http://think-like-a-git.net/). If you find yourself in a real git pickle, see ["Oh, shit, git!"](http://ohshitgit.com/).
@@ -33,60 +30,13 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
-  ### GitHub
-  GitHub is a web-based repository where the Operation Code website's source code is hosted.  GitHub utilizes Git's version control system and allows other developers to contribute to the codebase.  If you're unfamiliar with GitHub, we recommend running through the free online training resources they offer.
-
-  * [GitHub Training](https://services.github.com/training/)   
-
-  ### PostgreSQL
-  PostgreSQL is an open source Object-Relational database. This stores all of **Operation Code**'s data.
-
-  * [Official Linux Installer](https://www.postgresql.org/download/linux/)
-    * [General Guide for Linux Installations](https://wiki.postgresql.org/wiki/Detailed_installation_guides)
-
-  * [Official Mac OSX Installer](https://www.postgresql.org/download/macosx/)
-    * [Postgres.app for Mac](http://postgresapp.com/) *This is another installation option for Mac users.*
-
-  * [Official Windows Installer](https://www.postgresql.org/download/windows/)
-    * [Detailed Windows Installation Instructions](https://wiki.postgresql.org/wiki/Detailed_installation_guides#Windows)
-
-  ### Redis
-  Redis is used to manage asynchronous jobs. You will need to run your Redis server in order for normal operation of the main app server.
-
-  If you're working on an area that uses `ActiveJob` you'll need to work with Redis more directly.
-
-  * [Install Redis](http://redis.io/download)
-  * If you are using a Mac, you can install it through Homebrew: `brew install redis`
-  * Redis is not supported on Windows.
-  * Start your Redis server: `redis-server`
-
-  ### Bundler
-  Bundler manages Ruby gems (packages) and their dependencies.
-
-  * `gem install bundler`
-
-  ### Node
-  Node.js is a server-side Javascript environment.
-
-  **The easiest way to install node and npm is with [n-install](https://github.com/mklement0/n-install)**
-  There will be a confirmation prompt, then a subsequent installation of the latest stable Node.js version:
-  ```
-  curl -L https://git.io/n-install | bash
-  ```
-  *Make sure you go over the repository's README.md for usage details.*
-
-  #### Node Downloads
-  * [Linux Install Instructions](https://nodejs.org/en/download/package-manager/)
-  * [Mac Install Instructions](https://nodejs.org/en/download/package-manager/#osx)
-  * [Windows Install Instructions](https://nodejs.org/en/download/package-manager/#windows)
-
   ### Operation Code
   You are now ready for the actual **Operation Code** code base.
 
   * The common practice is to make a copy of the GitHub repository you want to work on (known as `forking` the repo), make your changes, and then request to merge those changes back into the project (known as a `pull request`).
   * Forking a repo is done through GitHub's web UI. It can be found in the top right corner of the **Operation Code**'s [GitHub](https://github.com/OperationCode/operationcode) page.
 
-  * The following commands will pull down the source code, and install the necessary dependencies:
+  * The following commands will pull down the source code from your forked repo.
   * Make sure to replace `[YOUR-GITHUB-NAME]` with your GitHub name.  (example: https://github.com/iserbit/operationcode.git)
 
   #### Local Development Environment
@@ -95,74 +45,24 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
     git clone https://github.com/[YOUR-GITHUB-NAME]/operationcode.git operationcode-upstream
     cd operationcode-upstream
     git remote add upstream https://github.com/OperationCode/operationcode.git
-    gem install bundler
-    bundle install
-    rake db:setup
-    rake db:migrate
-    thin start --ssl
     ```
-
-  #### Known Issues:
-  When running the `bundle` command, you may encounter a problem with the `pg` gem. In order to resolve this problem, go through the following steps:
-  ##### Windows:
-
-    * In your terminal, type the following: `find /Applications -name pg_config` This should return the path of the `pg_config` script.
-      * Example return: `/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_config`
-    * Set the returned path as your path: `PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin/`
-    * Install the `pg` gem with the following command: `gem install pg`
-    * Add the `PATH` to your `.bashrc` or `.bash_profile`
-    * Type `bundle` or `bundle install` again to finish installing any remaining gems.
-
-  ##### Linux:
-
-    * Install the following packages:
-    ```
-    sudo apt-get install libpq-dev python-dev
-    ```
-
-    * You may encounter permissions issues when running `bundle install`.
-    __Don't run `sudo`, but try `rvmsudo` instead.__
-    ```
-    rvmsudo bundle install
-    rake db:setup
-    rake db:migrate
-    thin start --ssl
-    ```
-    This will start the rack adapter at [https://0.0.0.0:3000](https://0.0.0.0:3000)
-
-    You will get a browser warning about an insecure connection. If you're using chrome, click on advanced and proceed.
-    You should now see the website running on [localhost](https://0.0.0.0:3000).
-    __If you have additional issues getting the site running on localhost, consult the [#operationcode-dot-org](https://operation-code.slack.com/messages/operationcode-dot-org) channel in Slack before attempting the below instructions.__
-
 
   #### Database Setup:
-  When setting up the database, you may encounter a problem with Postgres database creation. Setup proper user permissions for the database and the tables to be created.
-
-  _Official Documentation:_
-
-    * [Add Users and Roles](https://www.postgresql.org/docs/9.0/static/database-roles.html)
-    * [Role Attributes](https://www.postgresql.org/docs/9.0/static/role-attributes.html)
-    * [Privileges](https://www.postgresql.org/docs/9.0/static/privileges.html)
-    * [Role Membership](https://www.postgresql.org/docs/9.0/static/role-membership.html)
-
-  ##### Tutorial:
-    * __[How To Use Roles and Manage Grant Permissions in PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2)__
-
-  #### Rails on Cloud9:
-  * Cloud9 is a web-based integrated development environment. If you do not much experience in setting up a work environment, we highly recommend Cloud9 to start.
-  * [Getting Rails to work in Cloud9 in 5 easy steps!](https://ashtemp.github.io/Rails.html)
-  * When cloning your fork into Cloud9, create your workspace name and description, then select Ruby as the template.
-  * In the terminal, type in the following commands:
+  To setup the database simply run the following command in the root directory of the project.
 
   ```bash
-  gem install rails
-  bundle install
-  rails server -b $IP -p $PORT
-  createdb operationcode_development
+  make setup
   ```
 
-  * Sometimes, you may have to restart the postgress server with `sudo service postgresql restart`.
-  * Your fork of **Operation Code** website should now be available for preview at http://workpacename-username.c9users.io (ie: http://operationcode-ashtemp.c9users.io)
+  #### Running Operation Code:
+  Operation Code has some handy shortcuts built in to make common tasks simple. You can check out the [Makefile](https://github.com/operationcode/operationcode/blob/master/Makefile) to see a full listing of what these shortcuts are and what they do.
+
+  To run Operation Code simply type:
+  ```bash
+  make
+  ```
+
+  You can now visit http://localhost:3000 (or run `make open`) and you should see Operation Code running locally!
 
 ## Finding An Issue
 * Now you have everything setup, you will need to find issues to work on. **Operation Code** uses Github's built in issue tracker. A listing of all our issues can be found [here](https://github.com/OperationCode/operationcode/issues).
@@ -229,7 +129,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
   * Each pull request is inspected by the following bots:
 
-    * [Hound](https://houndci.com) - Checks for style validation errors during pull requests. If it finds any errors, it will post a follow-up comment on the issue with the errors. Think of Hound as your Drill Sergeant. If this happens with a pull request you are submitting, please fix the errors and resubmit.
+    * [CodeClimate](https://codeclimate.com) - Checks for style validation errors, insecure and problematic code on pull requests.
 
     * [Travis](https://travis-ci.org/) - Runs the test suite on each check in, and deploys each change that gets merged.
 

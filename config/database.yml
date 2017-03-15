@@ -1,24 +1,21 @@
-# default: &default
-#   adapter: postgresql
-#   encoding: unicode
-#   pool: 5
-#
-# development:
-#   <<: *default
-#   database: operationcode_development
-#
-# test:
-#   <<: *default
-#   database: operationcode_test
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  user: postgres
+  host: operationcode-psql
 
 development:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: operationcode_development
-  pool: 5
+  password: <%= ENV.fetch('POSTGRES_PASSWORD') %>
 
 test:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: operationcode_test
-  pool: 5
+  password: <%= ENV.fetch('POSTGRES_PASSWORD') %>
+
+production:
+  <<: *default
+  database: operationcode_production
+  password: <%= ENV.fetch('POSTGRES_PASSWORD') %>
