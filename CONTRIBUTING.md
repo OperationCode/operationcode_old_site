@@ -55,9 +55,9 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   ```
 
   #### Running Operation Code:
-  Operation Code has some handy shorcuts built in to make common tasks simple. You can check out the [Makefile](https://github.com/operationcode/operationcode/blob/master/Makefile) to see a full listing of what these shortcuts are and what they do.
+  Operation Code has some handy shortcuts built in to make common tasks simple. You can check out the [Makefile](https://github.com/operationcode/operationcode/blob/master/Makefile) to see a full listing of what these shortcuts are and what they do.
 
-  To run Operation Code you can use one of the following:
+  To run Operation Code simply type:
   ```bash
   make
   ```
