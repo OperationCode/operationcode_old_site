@@ -5,6 +5,7 @@ ruby '2.3.3'
 # Server and DB #
 #################
 
+gem 'logstash-event'
 gem 'newrelic_rpm'
 gem 'pg'
 gem 'puma'
