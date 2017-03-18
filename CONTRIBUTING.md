@@ -29,6 +29,10 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 
   * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
+  ### Make (for Windows only)
+  Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.  It is a standard part of the GNU library and is included in most distrubtions of Linux, as well as OSX.  Unfortunately, Windows does not have a native make program, so it will need to be installed and added to PATH in order for the command line commands to work.  You can use the [GNUWin general installation guide](http://gnuwin32.sourceforge.net/install.html) as a general guide on how to install a GNU package and add it to PATH.
+
+  * [Install Make](http://gnuwin32.sourceforge.net/packages/make.htm)
 
   ### Operation Code
   You are now ready for the actual **Operation Code** code base.
