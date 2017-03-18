@@ -9,7 +9,7 @@ $ ->
   osmUrl = '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   osmAttrib = 'Map data © <a href="http://openstreetmap.org">'
   osmAttrib += 'OpenStreetMap</a> contributors'
-  markers = L.markerClusterGroup();
+  markers = L.markerClusterGroup()
 
   L.tileLayer(osmUrl, {
     attribution: osmAttrib
