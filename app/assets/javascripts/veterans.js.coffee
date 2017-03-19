@@ -9,6 +9,7 @@ $ ->
   osmUrl = '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   osmAttrib = 'Map data © <a href="http://openstreetmap.org">'
   osmAttrib += 'OpenStreetMap</a> contributors'
+  markers = L.markerClusterGroup({maxClusterRadius:25})
 
   L.tileLayer(osmUrl, {
     attribution: osmAttrib
@@ -18,4 +19,4 @@ $ ->
   $.each latlongs, (i, value) ->
     if value[0] is null || value[1] is null
       return
-    L.marker(value).addTo(veteranMap)
+    markers.addLayer(L.marker(value)).addTo(veteranMap)

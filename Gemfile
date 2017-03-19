@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'leaflet-rails'
+gem 'rails-assets-leaflet.markercluster', source: 'https://rails-assets.org'
 gem 'sass-rails', '~> 4.0.3' # review node folders
 gem 'split', require: 'split/dashboard' # adds A/B testing capability
 gem 'turbolinks'
