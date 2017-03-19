@@ -22,7 +22,7 @@ $ ->
     tooltipAnchor: [16, -28],
     shadowSize:    [41, 41]
   })
-  L.Marker.prototype.options.icon = defaultIcon;
+  L.Marker.prototype.options.icon = defaultIcon
 
   L.tileLayer(osmUrl, {
     attribution: osmAttrib
