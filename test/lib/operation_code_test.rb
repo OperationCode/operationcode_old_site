@@ -17,10 +17,9 @@ class OperationCodeTest < ActiveSupport::TestCase
     assert_raises(Errno::ENOENT) { OperationCode.fetch_secret_with name: 'non_existing_file_name' }
   end
 
-  #test 'it takes a symbol' do
-  #  mock_path = Rails.root.join('/run/secrets/test')
-  #  Pathname.expects(:new).once.with(mock_path).returns(Pathname.new(mock_path))
-  #  File.expects(:read).once.returns('mock secret value')
-  #  assert_equal('mock secret value',  OperationCode.fetch_secret_with(name: :test))
-  #end
+  test 'it takes a symbol' do
+    mock_path = Rails.root.join('/run/secrets/test')
+    File.expects(:read).once.returns('mock secret value')
+    assert_equal('mock secret value',  OperationCode.fetch_secret_with(name: :test))
+  end
 end
