@@ -1,6 +1,4 @@
-﻿# frozen_string_literal: true
-
-require 'slack/client'
+﻿require 'slack/client'
 
 module Slack
   # Utilities class for running methods and discovery on Client
