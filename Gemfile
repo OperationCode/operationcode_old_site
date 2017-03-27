@@ -7,6 +7,7 @@ ruby '2.3.3'
 
 gem 'logstash-event'
 gem 'newrelic_rpm'
+gem 'operationcode-airtable'
 gem 'pg'
 gem 'puma'
 gem 'rails', '4.2.5.2'

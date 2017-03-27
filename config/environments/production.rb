@@ -22,8 +22,8 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address:              'smtp.sendgrid.net',
     port:                 '587',
-    user_name:            ENV['SENDGRID_USERNAME'],
-    password:             ENV['SENDGRID_PASSWORD'],
+    user_name:            OperationCode.fetch_secret_with_name: :sendgrid_username,
+    password:             OperationCode.fetch_secret_with_name: :sendgrid_password,
     domain:               'operationcode.org',
     authentication:       :plain,
     enable_starttls_auto: true
@@ -100,4 +100,11 @@ Rails.application.configure do
     ExceptionNotification::Rack,
     slack: { webhook_url: 'https://hooks.slack.com/services/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' }
   )
+
+  config.secret_path = '/run/secrets'
+    Raven.configure do |config|
+    config.dsn = "https://#{OperationCode.fetch_secret_with(name: :sentry_credentials)}@sentry.io/147247"
+    config.environments = ['production']
+    config.release = '0e4fdef81448dcfa0e16ecc4433ff3997aa53572'
+  end
 end
