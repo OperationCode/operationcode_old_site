@@ -22,8 +22,8 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address:              'smtp.sendgrid.net',
     port:                 '587',
-    user_name:            OperationCode.fetch_secret_with(name: :sendgrid_username),
-    password:             OperationCode.fetch_secret_with(name: :sendgrid_password),
+    user_name:            ENV.fetch('SENDGRID_USERNAME'),
+    password:             ENV.fetch('SENDGRID_PASSWORD'),
     domain:               'operationcode.org',
     authentication:       :plain,
     enable_starttls_auto: true
