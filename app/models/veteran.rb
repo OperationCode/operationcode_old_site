@@ -53,6 +53,10 @@ class Veteran < ActiveRecord::Base
     )
   end
 
+  def add_to_airtables
+    AddUserToAirtablesJob.perform_later(self)
+  end
+
   def mentor?
     false
   end

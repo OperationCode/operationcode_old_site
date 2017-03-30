@@ -31,10 +31,6 @@ module Opcode
 
     config.filter_parameters << :password
 
-    Raven.configure do |config|
-      config.dsn = "https://#{ENV.fetch('SENTRY_CREDENTIALS', '')}@sentry.io/147247"
-      config.environments = ['production']
-      config.release = '0e4fdef81448dcfa0e16ecc4433ff3997aa53572'
-    end
+    config.secret_path = Rails.root.join('run/secrets')
   end
 end
