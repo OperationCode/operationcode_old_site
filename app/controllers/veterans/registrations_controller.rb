@@ -11,7 +11,7 @@ module Veterans
       if @veteran.save
         send_notifications
         ab_finished(:signup_button_size)
-        redirect_to '/', notice: 'Thanks for signing up!'
+        redirect_to '/veterans/thanks'
       else
         render :new
       end
@@ -29,6 +29,7 @@ module Veterans
       @veteran.send_reset_password_instructions
       @veteran.send_slack_invitation
       @veteran.add_to_mailchimp
+      @veteran.add_to_airtables
     end
 
     # Disables requiring a password to edit your profile

@@ -17,10 +17,11 @@ Rails.application.routes.draw do
   mount Split::Dashboard, at: 'split'
 
   # LetsEncrypt
-  # get '.well-known/acme-challenge/:token', to: 'pages#ssl'
   get '/.well-known/acme-challenge/:id' => 'pages#letsencrypt'
 
+  get '/veterans/thanks', to: 'veterans#thanks'
   get '/veterans/map', to: 'veterans#map'
+  get '/.well-known/acme-challenge/:id' => 'pages#letsencrypt'
   resources :veterans, only: [:new, :create]
   post '/veterans/claim/:veteran', to: 'veterans#claim', as: :veterans_claim
   post '/veterans/unclaim/:veteran', to: 'veterans#unclaim', as: :veterans_unclaim
@@ -97,8 +98,7 @@ Rails.application.routes.draw do
   get '/contribute' => redirect('https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md')
   get '/news' => redirect('/newgibill')
 
-  # /blog is still being served by jekyll
-  get '/blog' => redirect('https://medium.com/operation-code')
+  # /blog is served as a static asset from /public/blog directory, built by Jekyll
 
   root 'pages#home'
 end

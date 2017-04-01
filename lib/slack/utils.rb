@@ -1,4 +1,6 @@
-﻿require 'slack/client'
+﻿# frozen_string_literal: true
+
+require 'slack/client'
 
 module Slack
   # Utilities class for running methods and discovery on Client
@@ -18,9 +20,10 @@ module Slack
     private
 
     def set_client
-      Slack::Client.new \
-        subdomain: ENV['SLACK_DOMAIN'],
-        token:     ENV['SLACK_TOKEN']
+      Slack::Client.new(
+        subdomain: OperationCode.fetch_secret_with(name: :slack_domain),
+        token:     OperationCode.fetch_secret_with(name: :slack_token)
+      )
     end
   end
 end

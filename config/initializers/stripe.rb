@@ -1,14 +1,14 @@
 Rails.configuration.stripe = {
-  :publishable_key => ENV['PUBLISHABLE_KEY'],
-  :secret_key      => ENV['SECRET_KEY']
+  :publishable_key => OperationCode.fetch_secret_with(name: :stripe_publishable_key),
+  :secret_key      => OperationCode.fetch_secret_with(name: :stripe_secret_key)
 }
 
 Stripe.api_key = Rails.configuration.stripe[:secret_key]
 
 if Rails.env == 'production'
   Rails.configuration.stripe = {
-    publishable_key: ENV['PUBLISHABLE_KEY'],
-    secret_key: ENV['SECRET_KEY']
+    publishable_key: OperationCode.fetch_secret_with(name: :stripe_publishable_key),
+    secret_key:      OperationCode.fetch_secret_with(name: :stripe_secret_key)
   }
 else
   Rails.configuration.stripe = {

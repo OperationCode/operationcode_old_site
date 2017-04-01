@@ -26,6 +26,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Nell Shamrell-Harrington](https://github.com/nellshamrell)
 * [Raphael Serota](https://github.com/rserota)
 * [Rick Rein](https://github.com/rickr)
+* [Sean Fillmore](https://github.com/sfillm07)
 * [Shawna Scott](https://github.com/shawnacscott)
 * [Sylwia Bialczak](https://github.com/ArgonCode)
 * [Ashley Templet](https://github.com/AshTemp)

@@ -27,6 +27,10 @@
 # Ignore bower components
 /bower_components
 
+# Ignore Jekyll output
+/public/blog
+blog/bin
+
 # Ignore SSL keys
 bundle.pem
 server.crt

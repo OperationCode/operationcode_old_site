@@ -1,12 +1,23 @@
 # frozen_string_literal: true
 class ApplicationController < ActionController::Base
-  force_ssl if: :ssl_configured?
-
   protect_from_forgery with: :exception
 
-  def ssl_configured?
-    !Rails.env.production?
-    !Rails.env.test?
+  helper_method :user_operating_system
+
+  def user_operating_system
+    if user_agent_check('mac')
+      :mac
+    elsif user_agent_check('windows')
+      :windows
+    elsif user_agent_check('ubuntu')
+      :ubuntu
+    elsif user_agent_check('fedora')
+      :fedora
+    end
+  end
+
+  def user_agent_check(os)
+    request.env['HTTP_USER_AGENT'].downcase.match(/#{os}/i)
   end
 
   def after_sign_in_path_for(_resource)

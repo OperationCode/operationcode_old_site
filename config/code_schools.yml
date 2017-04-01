@@ -16,9 +16,9 @@
 #   Each entry must start on a new line with "- name:"
 #   HTML can be included in the notes key
 
-- name: Nashville Software School
+- name: Nashville Software School (Nashville, Tennessee)
   url:  http://nashvillesoftwareschool.com/
-  address1: 500 Interstate Blvd S,
+  address1: 500 Interstate Blvd South,
   address2: Suite 300
   city: Nashville
   state: TN
@@ -70,8 +70,8 @@
   full_time: true
   hardware_included: false
 
-- name: Sabio (Southern California)
-  url: http://sabio.la/
+- name: Sabio (Southern California & Seattle)
+  url: http://sabio.la/veterans
   address1: 400 Corporate Pointe
   city: Culver City
   state: CA
@@ -79,7 +79,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
-  notes: Through its partnership with Antioch, a national non-profit university, Sabio is able to accept GI benefits as described <a href="http://www.antioch.edu/student-services/antioch-university-financial-information/veterans-benefits/" target="_blank" > here</a>. These programs are available at both of Sabio's campuses located in Culver City and Newport Beach, CA.
+  notes: Sabio enables Operation Code veterans to learn the skills needed to secure a full-time position in an awesome tech company in six months all while earning college credits towards an undergraduate degree. The New GI Bill is an option for non-BA degree holders.
 
 - name: Tradecraft
   url: http://tradecrafted.com/
@@ -114,7 +114,7 @@
   hardware_included: false
   notes: RefactorU is proud and honored to announce that its Web Development Bootcamp has been approved by the <a href="http://www.benefits.va.gov/gibill/">Colorado State Approving Agency for Veterans Education & Training</a>. Students eligible for the The Post-9/11 GI Bill, Montgomery GI Bill (Active Duty/Selected Reserve), Reserve Educational Assistance Program, Veterans Educational Assistance Program, and Survivors’ and Dependents’ Educational Assistance Program may be eligible to apply those benefits to RefactorU’s Web Application Development Bootcamp.
 
-- name: Turing School of Software & Design
+- name: Turing School of Software & Design (Denver, Colorado)
   url: http://turing.io/
   address1: 1510 Blake Street
   address2: Suite #216
@@ -207,7 +207,7 @@
   full_time: true
   hardware_included: false
 
-- name: Deep Dive Fullstack
+- name: Deep Dive Fullstack (Albuquerque, New Mexico)
   url: http://stemuluscenter.org/deep-dive-fullstack
   address1: 20 1st Plaza Center NW
   city: Albuquerque, NM
@@ -349,11 +349,11 @@
 
 - name: The Iron Yard at Austin
   url: http://theironyard.com/locations/austin
-  address1: 411 University Ridge
-  address2: Suite 220
-  city: Greenville
-  state: SC
-  zip: 29601
+  address1: 3601 South Congress Avenue
+  address2: Suite c304
+  city: Austin
+  state: TX
+  zip: 78704
   va_accepted: false
   full_time: true
   hardware_included: false
@@ -410,16 +410,6 @@
   full_time: true
   hardware_included: false
 
-- name: The Guild of Software Architects
-  url: https://guildsa.org/
-  address1: 6170 Research Rd, Suite 107
-  city: Frisco
-  state: TX
-  zip: 75033
-  va_accepted: false
-  full_time: true
-  hardware_included: false
-
 - name: Operation Spark
   url: https://operationspark.org
   address1: 748 Camp Street, 2nd floor
@@ -450,7 +440,7 @@
   full_time: true
   hardware_included: false
 
-- name: Codeup
+- name: Codeup (San Antonio, Texas)
   url: http://codeup.com/
   address1: "600 Navarro St., #350"
   city: San Antonio
@@ -502,7 +492,7 @@
   full_time: true
   hardware_included: true
 
-- name: Galvanize Golden Triangle (Denver)
+- name: Galvanize Golden Triangle (Denver, Colorado)
   url:  https://new.galvanize.com/denver/web-development
   address1: Galvanize Denver - Golden Triangle
   address2: 1062 Delaware Street
