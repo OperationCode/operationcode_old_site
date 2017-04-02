@@ -20,9 +20,11 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 * In order to work on the **Operation Code** site, you will need to install a few things.
 
   ### Docker
-  Docker is a container system.
+  Docker is a container system. Click the link below to install Docker on your Operating System.
 
-  * [Install Docker](https://www.docker.com/)
+  * [Mac](https://www.docker.com/docker-mac)
+  * [Windows](https://www.docker.com/docker-windows)
+  * [Linux (Ubuntu 16.04)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
 
   ### Git
   Git is a distributed version control system. This is how our code is stored and managed. Git can be frustrating, but it is an essential tool. If you want to learn more about Git, a great resource is [Think Like a Git](http://think-like-a-git.net/). If you find yourself in a real git pickle, see ["Oh, shit, git!"](http://ohshitgit.com/).
