@@ -12,7 +12,7 @@ class MailchimpInviterJob < ActiveJob::Base
         merge_fields: { FNAME: first_name, LNAME: last_name }
       }
     )
-    rescue Gibbon::GibbonError => e
-      logger.error "There is a problem with Mailchimp Invite: #{e.message}"
+  rescue Gibbon::GibbonError => e
+    logger.error "There is a problem with Mailchimp Invite: #{e.message}"
   end
 end
