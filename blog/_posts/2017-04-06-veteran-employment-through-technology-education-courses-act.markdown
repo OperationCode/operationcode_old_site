@@ -4,7 +4,7 @@ date:   2017-04-06
 tags: News
 layout: post
 ---
-_House Republican Majority Leader Rep. Kevin McCarthy says veterans need more educational opportunities that meet the demands of the fast-paced technology industry._
+_House Republican Majority Leader Rep. Kevin McCarthy says veterans need more educational opportunities that meet the demands of the fast-paced technology industry. -USA Today_
 
 Here at Operation Code, we strongly believe in our mission to get veterans coding. That is why we are very excited to support U.S. House of Representatives Majority Leader Kevin McCarthy’s bill that would give the U.S. Department of Veterans Affairs (VA) $75 million dollars over five-years to support veterans in computer-related accelerated courses.
 Today, the "Veteran Employment Through Technology Education Courses Act" or "VET TEC Act" was introduced into the House of Representatives and if passed would provide access to accelerated programs in computer-related fields, from programming to robotics, and from virtual reality to artificial intelligence, many of which are not are not currently covered by the New GI Bill.
@@ -15,6 +15,8 @@ We at Operation Code believe this is exactly the right way forward. It is unacce
 
 Operation Code believes that all service members, veterans and their families should have access to career paths in software development and we will continue to work with our elected representatives to ensure that our voices are heard.
 
-Please join us in supporting common sense legislation that streamlines educational access to our nation’s finest at: [http://vettec.operationcode.org/](http://vettec.operationcode.org/).
+We've created a landing page to share more about the bill, how you can help, and companies that support the bill. Common sense legislation that streamlines educational access to our nation’s finest should be something we can all get behind. Visit [http://vettec.operationcode.org/](http://vettec.operationcode.org/) today. Thank you.
 
-_Read more about the VET Act in [USA Today](https://www.usatoday.com/story/news/politics/2017/04/05/kevin-mccarthy-wants-va-provide-free-high-tech-courses-vets/100096868/)
+Together we are Operation Code.
+
+_Read more about the VET TEC Act in [USA Today](https://www.usatoday.com/story/news/politics/2017/04/05/kevin-mccarthy-wants-va-provide-free-high-tech-courses-vets/100096868/)_
