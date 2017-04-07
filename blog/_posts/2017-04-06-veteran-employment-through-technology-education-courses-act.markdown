@@ -15,6 +15,6 @@ We at Operation Code believe this is exactly the right way forward. It is unacce
 
 Operation Code believes that all service members, veterans and their families should have access to career paths in software development and we will continue to work with our elected representatives to ensure that our voices are heard.
 
-Please join us in supporting common sense legislation that streamlines educational access to our nation’s finest at: http://vettec.operationcode.org/.
+Please join us in supporting common sense legislation that streamlines educational access to our nation’s finest at: [http://vettec.operationcode.org/](http://vettec.operationcode.org/).
 
-_Read more about the VET Act in [USA Today] (https://www.usatoday.com/story/news/politics/2017/04/05/kevin-mccarthy-wants-va-provide-free-high-tech-courses-vets/100096868/)
+_Read more about the VET Act in [USA Today](https://www.usatoday.com/story/news/politics/2017/04/05/kevin-mccarthy-wants-va-provide-free-high-tech-courses-vets/100096868/)
