@@ -161,3 +161,61 @@ i.fa.medium {
 ::-webkit-input-placeholder {
   color: $placeholder-text;
 }
+
+.pagecontent {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.resourcearticle {
+  flex: 1;
+  margin-top: 0;
+  max-width: 740px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.resourcecontent {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.helpmenu {
+  border: 1px solid $gray;
+  margin-left: 20px;
+  width: 200px;
+}
+
+.helpmenu-break {
+  border-color: $gray;
+  margin: 0;
+  padding: 0;
+}
+
+.helpmenu-link {
+  display: block;
+  line-height: 140%;
+  margin: 0;
+  padding: 7px 10px;
+}
+
+.helpmenu-link:hover {
+  background: $light-gray none repeat scroll 0 0;
+}
+
+@media screen and (max-width: 660px) {
+  .resourcecontent .pagecontent { display: block; }
+  .resourcearticle { width: auto; }
+  .helpmenu { margin: 30px 0 0; width: auto; }
+}
