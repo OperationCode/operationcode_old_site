@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def deploy
+  def blog
   end
 
   def board
@@ -15,6 +15,9 @@ class PagesController < ApplicationController
   end
 
   def contact
+  end
+
+  def deploy
   end
 
   def internships
