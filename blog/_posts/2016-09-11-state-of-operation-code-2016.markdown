@@ -45,7 +45,7 @@ Recently, we had our first veteran join from Canada, JP Phaneuf, who is actively
 
 ### Shipping
 
-At Operation Code, we’re always shipping. It’s why we exist — to inspire that great joy amongst military veterans in building web apps and shipping something onto the web. Our core and contributing team **maintain 23 repositories in GitHub** with [Exercism](https://github.com/OperationCode/exercism-io-mentoring), [Operation Code](https://github.com/OperationCode/operationcode), and [Eloquent JavaScript](https://github.com/OperationCode/eloquent-js) leading the pack. Beyond that, we maintain several private repositories for [Deploy web dev](http://operationcode.org/deploy) clients.
+At Operation Code, we’re always shipping. It’s why we exist — to inspire that great joy amongst military veterans in building web apps and shipping something onto the web. Our core and contributing team **maintain 23 repositories in GitHub** with [Exercism](https://github.com/OperationCode/exercism-io-mentoring), [Operation Code](https://github.com/OperationCode/operationcode), and [Eloquent JavaScript](https://github.com/OperationCode/eloquent-js) leading the pack. Beyond that, we maintain several private repositories for [Deploy web dev](http://deployopcode.io/) clients.
 
 Since August 17, 2014, we’ve continually shipped changes to [operationcode.org](https://operationcode.org/) with Rick Rein, Nell Shamrell-Harrington, Alex Kaufman, Fernando Paredes and Conrad Hollomon making the most contributions.
 
@@ -145,7 +145,7 @@ Our objective is to make hiring and onboarding military veteran software develop
 
 #### Deploy
 
-In the fall of 2015 we tinkered around on a new experiment called, [Deploy](https://operationcode.org/deploy), a web apprenticeship program designed to cut the dreaded two-year junior developer time gap by working on real-world projects. Our first web apprentices, Krystyna Ewing, Ming Zhang, and John Hampton worked on a web application for a retired U.S. Air Force Master Sergeant. The experiment pivoted towards a full service in the spring of 2016 and by summer had taken on its first real-world client, a local Portland-based small business selling homemade artisan soaps out of the trunk of her car. Through Deploy, Operation Code military veterans work on client work, get compensated and all while reinvesting profits back into the organization.
+In the fall of 2015 we tinkered around on a new experiment called, [Deploy](http://deployopcode.io/), a web apprenticeship program designed to cut the dreaded two-year junior developer time gap by working on real-world projects. Our first web apprentices, Krystyna Ewing, Ming Zhang, and John Hampton worked on a web application for a retired U.S. Air Force Master Sergeant. The experiment pivoted towards a full service in the spring of 2016 and by summer had taken on its first real-world client, a local Portland-based small business selling homemade artisan soaps out of the trunk of her car. Through Deploy, Operation Code military veterans work on client work, get compensated and all while reinvesting profits back into the organization.
 
 ### Growth
 

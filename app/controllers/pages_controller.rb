@@ -17,9 +17,6 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def deploy
-  end
-
   def internships
   end
 
