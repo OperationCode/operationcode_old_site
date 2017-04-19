@@ -15,7 +15,7 @@ class DonationsController < ApplicationController
 
     customer = Stripe::Customer.create(
       :email        => @donation.email,
-      :source         => token,
+      :source       => token,
     )
 
     charge = Stripe::Charge.create(

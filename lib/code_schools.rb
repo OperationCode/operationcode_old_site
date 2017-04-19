@@ -20,4 +20,8 @@ class CodeSchools
     end
     schools_by_state.sort.to_h
   end
+
+  def all
+    @code_schools
+  end 
 end
