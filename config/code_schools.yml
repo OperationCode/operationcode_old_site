@@ -502,3 +502,15 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  
+- name: Code Immersives
+  url:  https://web1.codeimmersives.com/
+  address1: 630 9th Ave
+  address2: Suite 901
+  city: New York
+  state: NY
+  zip: 10036
+  va_accepted: true
+  full_time: true
+  hardware_included: true
+  notes: (Also see, <a href="https://web1.codeimmersives.com/students/veterans"> Veteran Student </a>.)
