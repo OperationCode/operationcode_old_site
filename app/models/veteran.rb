@@ -21,7 +21,7 @@ class Veteran < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   EMAIL_REGEX = /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/
-  validates :email, format: { with: EMAIL_REGEX, message: 'Please provide a valid e-mail address' }
+  validates :email, format: { with: EMAIL_REGEX, message: 'must be valid' }
 
   geocoded_by :zip
   after_validation :geocode, if: ->(v) { v.zip.present? && v.zip_changed? }
