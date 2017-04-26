@@ -55,4 +55,4 @@ It __________________@(Describe Bug)
 
 It should __________@(Expected Outcome) 
 <br></br>
-### Additional Information (eg browser version, screenshots etc):-->
+### Additional Information (eg browser version, screenshots etc)
