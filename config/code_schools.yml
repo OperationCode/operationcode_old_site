@@ -514,3 +514,70 @@
   full_time: true
   hardware_included: true
   notes: (Also see, <a href="https://web1.codeimmersives.com/students/veterans"> Veteran Student </a>.)
+  
+- name: Coding Dojo DC 
+  url: http://www.codingdojo.com/washington-dc
+  address1: 1775 GREENSBORO STATION PLACE 
+  address2: Suite 210
+  city: McLean 
+  state: VA
+  zip: 22102
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: Coding Dojo San Jose 
+  url: http://www.codingdojo.com/san-jose
+  address1: 1920 ZANKER ROAD
+  address2: Suite 20
+  city: San Jose  
+  state: CA
+  zip: 95112
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: Coding Dojo Seattle 
+  url: http://www.codingdojo.com/seattle
+  address1: 10777 MAIN ST
+  address2: Suite 300
+  city: Bellevue  
+  state: WA
+  zip: 98004
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+
+- name: Coding Dojo Los Angeles 
+  url: http://www.codingdojo.com/los-angeles-burbank
+  address1: 175 E OLIVE AVE  
+  address2: 3rd Fl
+  city: Burbank  
+  state: CA
+  zip: 91502
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: Coding Dojo Dallas 
+  url: http://www.codingdojo.com/dallas
+  address1: 900 JACKSON ST
+  address2: Suite 410
+  city: Dallas  
+  state: TX
+  zip: 75202
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+  
+- name: Coding Dojo Chicago 
+  url: http://www.codingdojo.com/chicago
+  address1: 213 WEST INSTITUTE PLACE
+  address2: Suite 610
+  city: Chicago  
+  state: IL
+  zip: 60610
+  va_accepted: false
+  full_time: true
+  hardware_included: false
+ 
