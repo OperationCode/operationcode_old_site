@@ -3,7 +3,7 @@
 #- name: <School Name>
 #  url: <School URL> [optional]
 #  address1: <Address Line1>
-#  address1: <Address Line2> [optional]
+#  address2: <Address Line2> [optional]
 #  city: <School City>
 #  state: <School State !!! Must be the 2 letter state code !!!>
 #  zip: <School Zip>
@@ -502,7 +502,7 @@
   va_accepted: true
   full_time: true
   hardware_included: false
-  
+
 - name: Code Immersives (New York City, New York)
   url:  https://web1.codeimmersives.com/
   address1: 630 9th Ave
@@ -580,4 +580,16 @@
   va_accepted: false
   full_time: true
   hardware_included: false
- 
+
+- name: Coder Camps (Scottsdale, AZ / Online)
+  url: https://www.codercamps.com
+  address1: 8444 N 90TH ST
+  address2: Suite 110
+  city: Scottsdale
+  state: AZ
+  zip: 85258
+  va_accepted: false
+  full_time:  true
+  hardware_included: false
+  notes: Coder Camps offers two paths to taking a Full Stack Web Development course. A <strong>12 week</strong> full time Immersive on-campus/online program and a <strong>24 week</strong> part time Structured Online program.  Active military and veterans receive a <strong>20 percent discount</strong> on tuition, we are able to accept Chapter 31 &amp; 35 benefits.
+
