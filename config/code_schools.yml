@@ -3,7 +3,7 @@
 #- name: <School Name>
 #  url: <School URL> [optional]
 #  address1: <Address Line1>
-#  address1: <Address Line2> [optional]
+#  address2: <Address Line2> [optional]
 #  city: <School City>
 #  state: <School State !!! Must be the 2 letter state code !!!>
 #  zip: <School Zip>
