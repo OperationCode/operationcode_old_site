@@ -17,8 +17,6 @@ class CodeSchoolsController < ApplicationController
     code_schools.each do |hash| 
       if hash.key?("latitude") && hash.key?("longitude")
         @lat_longs << [hash["longitude"], hash["latitude"]]
-      else 
-        puts "The latitude and longitude are not present"
       end
     end 
     @lat_longs
