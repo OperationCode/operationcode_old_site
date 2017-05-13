@@ -518,7 +518,7 @@
 - name: Coder Camps (Scottsdale, AZ / Online)
   url: https://www.codercamps.com
   address1: 8444 N 90TH ST
-  address1: Suite 110
+  address2: Suite 110
   city: Scottsdale
   state: AZ
   zip: 85258
