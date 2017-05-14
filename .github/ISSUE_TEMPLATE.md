@@ -1,58 +1,21 @@
-<!--Please use one of the following templates to create new issues:
+<!-- Please fill out one of the sections below basd on the type of issue you're creating -->
+# Feature
+## What is your new feature?
 
-For a new feature:
-As a [VISITOR, ADMIN, ETC],
-When I [CONTEXT/LOCATION FOR FEATURE],
-It should [DESCRIBE FEATURE]
+## What should your feature do?
 
-For a bug:
-As a [VISITOR, ADMIN, ETC],
-When I [CONTEXT OF BUG]
-It [DESCRIBE BUG]
-It should [EXPECTED OUTCOME]
+---
 
-Additional Information (eg browser version, screenshots etc):-->
+# Bug Report
+## What is the current behavior?
 
+## What is the expected behavior?
 
-# Pull Request Checklist 
+## What steps did you take to get this behavior?
 
-This pull request:
-- [ ] Tied to a single issue
-- [ ] Testing 
-  * No known bugs
-  * All  tests pass  
-  * Code does not break previous tests
-- [ ] Code follows our code standards
+## Additional Info
+### Operating System
 
+### Browser
 
-# New Issue
-
-### New Feature 
-
-As a 
-- [ ] Visitor 
-- [ ] Admin
-- [ ] Other
-
-____________________@(Other)
-
-When I ____________@(Context/Location for feature)
-
-It should __________@(Describe Feature)
-<br></br>
-### Bug 
-
-As a 
-- [ ] Visitor 
-- [ ] Admin
-- [ ] Other
-
-____________________@(Other)
-
-When I ____________@(Context of Bug)
-
-It __________________@(Describe Bug)
-
-It should __________@(Expected Outcome) 
-<br></br>
-### Additional Information (eg browser version, screenshots etc)
+### Screenshots
