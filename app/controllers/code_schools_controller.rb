@@ -12,7 +12,7 @@ class CodeSchoolsController < ApplicationController
     code_schools = CodeSchools.new.all
     @lat_longs = []
 
-    code_schools.each do |hash| 
+    code_schools.each do |school| 
       if hash.key?("latitude") && hash.key?("longitude")
         @lat_longs << [hash["longitude"], hash["latitude"]]
       end

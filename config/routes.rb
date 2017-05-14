@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   resources :donations, only: [:index, :new, :create]
 
   # Maps
+  get '/veterans/map', to: 'veterans#map'
   get '/maps/veterans', to: 'veterans#map'
   get '/maps/code_schools', to: 'code_schools#map'
 
