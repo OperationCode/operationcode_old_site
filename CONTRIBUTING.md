@@ -121,6 +121,7 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
 * Each pull request should:
 
   * Be tied to a single issue
+  * Be named after the issue with the designated issue # as the name of the branch
   * Be fully tested
   * Have its own tests
   * Not break existing tests
