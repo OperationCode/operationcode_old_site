@@ -9,13 +9,6 @@ class CodeSchoolsController < ApplicationController
   end
 
   def map
-    code_schools = CodeSchools.new.all
-    @lat_longs = []
-    code_schools.each do |school| 
-      if school.key?('latitude') && school.key?('longitude')
-        @lat_longs << [school['longitude'], school['latitude']]
-      end
-    end 
-    @lat_longs
+    @code_schools = CodeSchools.new.lat_longs
   end
 end
