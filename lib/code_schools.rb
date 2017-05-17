@@ -22,12 +22,12 @@ class CodeSchools
   end
 
   def lat_longs 
-    @lat_longs = []
+    lat_longs = []
     @code_schools.each do |school| 
       if school.key?('latitude') && school.key?('longitude')
-        @lat_longs << [school['longitude'], school['latitude']]
+        lat_longs << [school['longitude'], school['latitude']]
       end
     end 
-    @lat_longs
+    lat_longs
   end 
 end
