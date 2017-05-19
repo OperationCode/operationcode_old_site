@@ -115,12 +115,13 @@ So, you want to learn how to program? Contributing to Operation Code is a great 
   git checkout master
   ```
 
-## Submitting Your Changes
+## Pull Request Guidelines; Submitting Your Changes
 * When you have completed work on your feature branch, you are ready to submit a [pull request](https://help.github.com/articles/using-pull-requests/).
 
 * Each pull request should:
 
   * Be tied to a single issue
+  * Be named after the issue with the designated issue # as the name of the branch
   * Be fully tested
   * Have its own tests
   * Not break existing tests
