@@ -7,6 +7,7 @@
 @import "map";
 @import "deploy";
 @import "success_stories";
+@import "timeline";
 
 $navbar-height: 64px;
 
@@ -160,4 +161,8 @@ i.fa.medium {
 // darkens placeholder text
 ::-webkit-input-placeholder {
   color: $placeholder-text;
+}
+
+.text-center {
+  text-align: center;
 }
