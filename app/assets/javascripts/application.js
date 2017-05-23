@@ -16,3 +16,5 @@
 //= require leaflet
 //= require leaflet.markercluster
 //= require veterans
+//= require timeline
+//= require modernizr
