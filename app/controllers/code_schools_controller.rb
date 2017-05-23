@@ -9,6 +9,6 @@ class CodeSchoolsController < ApplicationController
   end
 
   def map
-    @code_schools = CodeSchools.new.lat_longs
+    @code_schools_lat_longs = CodeSchools.new.lat_longs
   end
 end
