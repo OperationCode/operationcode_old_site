@@ -1,0 +1,17 @@
+[
+  { "name": "beginner friendly", "color": "#c2e0c6" },
+  { "name": "Status: Blocked", "color": "#e11d21" },
+  { "name": "Status: Duplicate", "color": "#fef2c0" },
+  { "name": "Status: In Progress", "color": "#cccccc" },
+  { "name": "Status: Available", "color": "#006b75" },
+  { "name": "Status: On Hold", "color": "#e11d21" },
+  { "name": "Type: Bug", "color": "#e11d21" },
+  { "name": "Type: Feature", "color": "#84b6eb" },
+  { "name": "Type: Question", "color": "#cc317c" },
+  { "name": "Priority: Low", "color": "#009800" },
+  { "name": "Priority: Medium", "color": "#fbca04" },
+  { "name": "Priority: High", "color": "#eb6420" },
+  { "name": "Priority: Critical", "color": "#e11d21" },
+  { "name": "Needs: Copy/Content", "color": "#d4c5f9" },
+  { "name": "Needs: More Detail", "color": "#b60205" }
+]
