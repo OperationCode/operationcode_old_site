@@ -30,4 +30,5 @@ class CodeSchools
     end 
     lat_longs
   end 
+  
 end
