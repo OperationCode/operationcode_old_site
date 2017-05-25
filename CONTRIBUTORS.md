@@ -14,6 +14,7 @@ These outstanding coders have contributed to Operation Code's architecture, desi
 * [Eric McKenna](https://github.com/emckenna)
 * [Fernando Paredes](https://github.com/nanoxd)
 * [Glenn Espinosa](https://github.com/gxespino)
+* [Hamel Desai](https://github.com/hd719)
 * [James Davis](https://github.com/cavalryjim)
 * [Jason Dinsmore](https://github.com/dinjas)
 * [Jesse James](https://github.com/jrjamespdx)
