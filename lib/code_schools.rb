@@ -21,14 +21,13 @@ class CodeSchools
     schools_by_state.sort.to_h
   end
 
-  def lat_longs 
+  def lat_longs
     lat_longs = []
-    @code_schools.each do |school| 
+    @code_schools.each do |school|
       if school.key?('latitude') && school.key?('longitude')
         lat_longs << [school['longitude'], school['latitude']]
       end
-    end 
+    end
     lat_longs
-  end 
-  
+  end
 end
