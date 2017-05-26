@@ -7,4 +7,8 @@ class CodeSchoolsController < ApplicationController
     @code_schools_by_state = code_schools.by_state
     @country = Country.named('United States')
   end
+
+  def map
+    @code_schools_lat_longs = CodeSchools.new.lat_longs
+  end
 end

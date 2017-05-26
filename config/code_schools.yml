@@ -26,6 +26,8 @@
   va_accepted: true
   full_time: true
   hardware_included: false
+  longitude: 36.133818 
+  latitude: -86.756740
 
 - name: Dev Bootcamp SF
   url:  http://devbootcamp.com
@@ -37,6 +39,8 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  longitude: 37.784724
+  latitude: -122.397162
 
 - name: Galvanize San Francisco
   url:  https://new.galvanize.com/san-francisco/web-development
@@ -48,6 +52,8 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  longitude: 37.788546
+  latitude: -122.396381
 
 - name: Hack Reactor
   url: http://www.hackreactor.com
@@ -282,6 +288,8 @@
   va_accepted: false
   full_time: true
   hardware_included: false
+  longitude: 40.726200
+  latitude: -74.007556
 
 - name: The Iron Yard at Raleigh-Durham
   url: http://theironyard.com/locations/raleigh-durham/
