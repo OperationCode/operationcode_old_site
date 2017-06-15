@@ -1,4 +1,6 @@
 # [Operation Code](http://operationcode.org)
+[![Build Status](https://travis-ci.org/OperationCode/operationcode.svg?branch=master)](https://travis-ci.org/OperationCode/operationcode)
+[![Code Climate](https://codeclimate.com/github/OperationCode/operationcode/badges/gpa.svg)](https://codeclimate.com/github/OperationCode/operationcode)
 
 Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](http://operationcode.org/contributors).
 
@@ -15,6 +17,7 @@ Questions? Get in touch: [staff@operationcode.org](mailto:staff@operationcode.or
 - [About](#about)
 - [Contributing](#contributing)
 - [Community](#community)
+- [Copyright and License](#copyright-and-license)
 
 ## About
 
@@ -24,16 +27,25 @@ Veteran-founded and led, Operation Code is on a mission to get more military vet
 * [Issue tracker](https://github.com/operationcode/operationcode/issues?q=is%3Aopen) lists outstanding issues.
 
 ## Contributing
-Ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well.
 
-Check out our [Start Here](https://github.com/OperationCode/START_HERE) repo for more information on all of our projects.
+Please read through our [contributing guidelines](https://github.com/operationcode/operationcode/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Also, ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well.
+
+Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/#html).
 
 ## Community
 
 Get updates on Operation Code's development.
 - Follow [@operation_code on Twitter](https://twitter.com/operation_code).
 
-[Become a backer](https://opencollective.com/operationcode#backer)
+## Copyright and license
+
+Ruby on Rails is released under the [MIT License](http://opensource.org/licenses/MIT).
+
+# 
+
+ [[Become a backer](https://opencollective.com/operationcode#backer)]
 
 <a href="https://opencollective.com/operationcode/backer/0/website" target="_blank"><img src="https://opencollective.com/operationcode/backer/0/avatar.svg"></a>
 <a href="https://opencollective.com/operationcode/backer/1/website" target="_blank"><img src="https://opencollective.com/operationcode/backer/1/avatar.svg"></a>
@@ -67,7 +79,9 @@ Get updates on Operation Code's development.
 <a href="https://opencollective.com/operationcode/backer/29/website" target="_blank"><img src="https://opencollective.com/operationcode/backer/29/avatar.svg"></a>
 
 
-[Become a sponsor](https://opencollective.com/operationcode#sponsor)
+# 
+
+ [[Become a sponsor](https://opencollective.com/operationcode#sponsor)]
 
 <a href="https://opencollective.com/operationcode/sponsor/0/website" target="_blank"><img src="https://opencollective.com/operationcode/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/operationcode/sponsor/1/website" target="_blank"><img src="https://opencollective.com/operationcode/sponsor/1/avatar.svg"></a>
