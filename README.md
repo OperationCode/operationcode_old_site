@@ -19,11 +19,13 @@ Questions? Get in touch: [staff@operationcode.org](mailto:staff@operationcode.or
 ## About
 
 Veteran-founded and led, Operation Code is on a mission to get more military veterans coding!
+* This repo no longer contains any code. It now serves as a central point to manage tasks that are either cross project or not having to do with code.
 * [OperationCode.org](http://operationcode.org) is made up of two apps. A javascript/react app that displays content and a rails backend that handles serving and processing data.
 * [Source code](http://github.com/operationcode) Everything we do is open source.
 * Our [roadmap](https://github.com/OperationCode/operationcode/projects/4) gives a high level overview of where Operation Code is headed.
 
 ## Contributing
+
 Ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well.
 
 Check out our [Start Here](https://github.com/OperationCode/START_HERE) repo for more information on all of our projects.
