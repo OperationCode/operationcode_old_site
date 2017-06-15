@@ -1,10 +1,10 @@
-# [Operation Code](http://operationcode.org)
+# [Operation Code](https://operationcode.org)
 
 Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](http://operationcode.org/contributors).
 
 Releasing the source code for this project is meant to empower military veterans and all developers everywhere to contribute their ideas, energy and time to help close the nation's technical talent shortage with American patriots trained in modern software development. What could be better than reducing veterans unemployment with our very own?
 
-Learn more at: [https://www.operationcode.org](http://operationcode.org)
+Learn more at: [https://www.operationcode.org](https://operationcode.org)
 
 Donate securely at: [https://www.operationcode.org/donate](https://www.operationcode.org/donate)
 
@@ -19,9 +19,9 @@ Questions? Get in touch: [staff@operationcode.org](mailto:staff@operationcode.or
 ## About
 
 Veteran-founded and led, Operation Code is on a mission to get more military veterans coding!
-* [OperationCode.org](http://operationcode.org) is the flagship Ruby on Rails application running this site.
-* [Source code](http://github.com/operationcode/operationcode) is available.
-* [Issue tracker](https://github.com/operationcode/operationcode/issues?q=is%3Aopen) lists outstanding issues.
+* [OperationCode.org](http://operationcode.org) is made up of two apps. A javascript/react app that displays content and a rails backend that handles serving and processing data.
+* [Source code](http://github.com/operationcode) Everything we do is open source.
+* Our [roadmap](https://github.com/OperationCode/operationcode/projects/4) gives a high level overview of where Operation Code is headed.
 
 ## Contributing
 Ensure you review our [Code of Conduct](http://github.com/operationcode/operationcode/blob/master/CODE-OF-CONDUCT.md) as well.
