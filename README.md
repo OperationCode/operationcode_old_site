@@ -2,7 +2,7 @@
 
 Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](http://operationcode.org/contributors).
 
-**Interested in frontend web development? Check out our [react repo](https://github.com/operationcode/operationcode_frontend)**
+**Interested in frontend web development? Check out our [react repo](https://github.com/operationcode/operationcode_frontend)**  
 **Interested in backend web development? Check out our [rails repo](https://github.com/operationcode/operationcode_backend)**
 
 Releasing the source code for this project is meant to empower military veterans and all developers everywhere to contribute their ideas, energy and time to help close the nation's technical talent shortage with American patriots trained in modern software development. What could be better than reducing veterans unemployment with our very own?
