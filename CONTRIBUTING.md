@@ -1,11 +1,16 @@
 # Welcome!
 Welcome to the Operation Code repo. This repo doesn't contain any code but does help coordinate all of our major projects. 
-Curious to see what's coming up? Check out our [roadmap](https://github.com/OperationCode/operationcode/projects/4).
+Curious to see what's going on? Check out our [roadmap](https://github.com/OperationCode/operationcode/projects/4) or our
+[project descriptions](https://github.com/OperationCode/GETTING_STARTED).
 
 ## Goals
 1. Serve Our Members
 2. Foster the most positive and beginner friendly environement possible
 3. Feature a project in as many languages as possible
+
+## Operation Code
+Operation Code is a nonprofit dedicated to getting veterans and their families into programming careers.
+Our website (https://operationcode.org) is docker based and has frontend and a backend servers.
 
 ## What is a frontend?
 
