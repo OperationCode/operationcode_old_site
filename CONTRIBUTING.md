@@ -26,17 +26,18 @@ You can view the backend repo at https://github.com/OperationCode/operationcode_
 
 ## Issues (Finding something to work on)
 
-Each Operation Code repo should follow a few standards. Each issue will have at least 3 tags:
-`Priority` - describes how quickly an item should get done
-`Status` - Lets you know if an issue is being worked on, available to work on, or waiting for another issue to be completed before it can be worked on ('blocked')
-`Type` - What kind of issue is this? A bug denotes an issue that 
+Each Operation Code repo should follow a few standards. Each issue will have at least 3 tags:  
+`Priority` - describes how quickly an item should get done  
+`Status` - Lets you know if an issue is being worked on, available to work on, or waiting for another issue to be completed before it can be worked on ('blocked')  
+`Type` - What kind of issue is this? A bug denotes an issue that   
 
 ### Beginner friendly!
 Each repo will also have a few curated issues designated as beginner friendly.
 These issues should be very well documented and easily completable for someone with little to no coding experience.
 
-Looking to make your first Pull Request? Start here:
-[Frontend Beginner Friendly Issues](https://github.com/OperationCode/operationcode_frontend/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22)
-[Backend Beginner Friendly Issues](https://github.com/OperationCode/operationcode_backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22)
+Looking to make your first Pull Request? Start here:  
+
+[Frontend Beginner Friendly Issues](https://github.com/OperationCode/operationcode_frontend/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22)  
+[Backend Beginner Friendly Issues](https://github.com/OperationCode/operationcode_backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22)  
 
 
