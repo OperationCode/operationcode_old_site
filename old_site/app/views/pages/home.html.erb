@@ -1,0 +1,239 @@
+<!-- Landing section showing slides of what OC is about -->
+<div class="section no-pad-top" id="index-banner">
+  <div class="slider">
+    <ul class="slides">
+      <li class="valign-wrapper">
+        <%= image_tag 'gi-bill.jpg' %>
+        <div class="caption center-align valign">
+          <h3>
+            Welcome back. You served your country.<br />
+            Now let's get you coding and to your next mission.
+          </h3>
+        </div>
+      </li>
+      <li class="valign-wrapper">
+        <%= image_tag 'mentorship.jpg' %>
+        <div class="caption center-align valign">
+          <h3>
+            Those who've served shouldn't learn to code alone. Our software mentorship program in a
+            peer-to-peer, safe learning environment gets you coding today.
+          </h3>
+        </div>
+      </li>
+      <li class="valign-wrapper">
+        <%= image_tag 'scholarship.jpg' %>
+        <div class="caption center-align valign">
+          <h3>
+            Expanding our country's technical talent shortage with our nation's finest who can code. Service to country continues.
+          </h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+  <br><br>
+  <h4 class="header center">The fastest way for military, veterans and their families to get coding. Learn about code schools, scholarships, career opportunities, and more.</h4>
+
+  <div class="row">
+    <div class="col m12">
+      <%= render partial: 'veterans/registrations/form' %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium material-icons">flash_on</i></h2>
+        <h5 class="center">Save Time</h5>
+
+        <p class="light">
+          Hack and pair program with a software mentor at no-cost. It's our way of saying thank you.
+        </p>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium material-icons">code</i></h2>
+        <h5 class="center">Hands-on Coding</h5>
+
+        <p class="light">
+          We use Slack, a real-time communication app to post questions and answers, and share
+          snippets of code. We also jump on Screenhero to pair program sharing screens.
+        </p>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium material-icons">group</i></h2>
+        <h5 class="center">Expert Insights</h5>
+
+        <p class="light">
+          Our software mentors work the full spectrum from tech startups to defense federal contractors. They're committed
+          to ensuring our military, veterans, and their families learn the new 21st century literacy skill.
+        </p>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium material-icons">language</i></h2>
+        <h5 class="center">Nurturing Space</h5>
+
+        <p class="light">
+          Our growing community of software enthusiasts will help you learn about code schools, scholarships,
+          jobs, gain real-world programming experience, and more.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <br><br>
+    <h4 class="header center">What We Do</h4>
+    <div class="row center">
+      <h5 class="header col s12 light">
+        We ensure all service members, veterans and their families are ready for new career
+        paths in software development through our uniquely tailored programs & services.
+      </h5>
+    </div>
+    <div class="row center">
+      <%= link_to 'Mission, Values, and the Team &raquo;'.html_safe, about_path, class: 'btn-large waves-effect waves-light opcode-green' %>
+    </div>
+    <br><br>
+  </div>
+
+  <!-- Icons -->
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium material-icons">group</i></h2>
+        <h5 class="center">Software Mentorship</h5>
+
+        <p class="light">
+          Our peer-to-peer software mentorship program is uniquely designed to
+          support you in your transition to tech and the world of software all
+          remotely, all online. All branches, levels welcome.
+          <%= link_to 'How we mentor.', mentorship_path %>
+        </p>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium fa fa-graduation-cap" aria-hidden="true"></i></h2>
+        <h5 class="center">Scholarship Program</h5>
+
+        <p class="light">
+          Through scholarships from participating code schools and industry software conferences,
+          gain access and accelerate your transition to a career as a software developer.
+          <%= link_to 'Learn more.', scholarships_path %>
+        </p>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium fa fa-file-text-o"></i></h2>
+        <h5 class="center">Employer Services</h5>
+
+        <p class="light">
+          Beyond providing feedback on your resumé, we provide intros to software
+          companies to get your foot in the door and pursue a career in a fast-paced
+          and exciting industry that is growing by the day.
+          <%= link_to 'About our employer services.', employers_path %>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 m4 offset-m2">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium fa fa-terminal"></i></h2>
+        <h5 class="center">Deploy</h5>
+
+        <p class="light">
+          Our in-house web development team employs military veterans to build
+          websites and web applications while returning profits back into our
+          nonprofit organization to build organizational capacity.
+          <%= link_to 'Meet the team.', 'http://deployopcode.io/' %>
+        </p>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center opcode-green-text"><i class="medium material-icons">work</i></h2>
+        <h5 class="center">Advocacy</h5>
+
+        <p class="light">
+          In a world where the majority of code schools are not accredited by the
+          VA, we'll defend veterans who might be taken advantage of while
+          continuing to support code schools with state and VA accreditation.
+          <%= mail_to 'staff@operationcode.org', 'Get in touch.' %>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <br><br>
+    <h4 class="header center">Why Operation Code?</h4>
+    <div class="row center">
+      <h5 class="header col s12 light">
+        We're on a mission to enable new career paths for military, veterans
+        and their families in software development and coding.
+      </h5>
+    </div>
+    <div class="row center">
+      <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/124866675" width="700" height="481"
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <h4 class="header center">Press</h4>
+    <div class="row center">
+      <h5 class="list-group-item-heading">
+        <a href="http://www.veteranonthemove.com/get-coding-now-with-operation-code-army-veteran-and-founder-david-molina/" target="_blank">"Get Coding Now with Operation Code."</a>
+      </h5>
+      <a href="http://www.veteranonthemove.com/get-coding-now-with-operation-code-army-veteran-and-founder-david-molina/" target="_blank">Joe Crane, Veteran on the Move podcast</a><br><br>
+
+      <h5 class="list-group-item-heading">
+        <a href="http://mentoringdevelopers.com/episode-36-how-to-pick-a-programming-language-to-learn-for-new-developers-part-2/" target="_blank">"How to pick a programming language to learn for new developers with Reuven Lerner, David Molina, and David Gatti."</a>
+      </h5>
+      <a href="http://mentoringdevelopers.com/episode-36-how-to-pick-a-programming-language-to-learn-for-new-developers-part-2/" target="_blank">Arsalan Ahmed, Mentoring Developers podcast</a><br><br>
+
+      <h5 class="list-group-item-heading">
+        <a href="http://softwareengineeringdaily.com/2016/03/20/helping-veterans-learn-code-david-molina/" target="_blank">"More and more veterans who leave the military are becoming coders, and the mission of Operation Code is to help military veterans make that transition."</a>
+      </h5>
+      <a href="http://softwareengineeringdaily.com/2016/03/20/helping-veterans-learn-code-david-molina/" target="_blank">Jeff Meyerson, Software Engineering Daily</a><br><br>
+      <h5 class="list-group-item-heading">
+        <a href="http://www.geekwire.com/2016/call-duty-technology-veterans-rally-support-operation-code/" target="_blank">"We as a community should try to hold each other up and push each other forward."</a>
+      </h5>
+      <a href="http://www.geekwire.com/2016/call-duty-technology-veterans-rally-support-operation-code/" target="_blank">Lisa Stiffler, GeekWire</a><br><br>
+      <h5 class="list-group-item-heading">
+        <a href="http://techcrunch.com/2015/11/11/few-options-for-veterans-looking-to-enter-tech/" target="_blank">“The Army’s Soldier for Life Program that is intended to help separating soldiers transition into new careers didn’t offer much career-specific guidance on the software developer field. Most information related to computers or technology was centered around network admin or network security,” Hampton said.</a>
+      </h5>
+      <a href="http://techcrunch.com/2015/11/11/few-options-for-veterans-looking-to-enter-tech/" target="_blank">Sara Inés Calderón, TechCrunch</a><br><br>
+      <h5 class="list-group-item-heading">
+        <a href="http://www.ibtimes.com/coding-boot-camps-go-after-veterans-take-silicon-valleys-vacant-tech-jobs-2174421" target="_blank">“Understanding how to code is understanding innovation. These are the white-collar jobs of today,” says David Molina, founder and executive director of Operation Code. “We’re talking about filling the country’s tech shortage with the men and women who served our country.”</a>
+      </h5>
+      <a href="http://www.ibtimes.com/coding-boot-camps-go-after-veterans-take-silicon-valleys-vacant-tech-jobs-2174421" target="_blank">Salvador Rodriguez, International Business Times</a><br><br>
+      <a class="btn-large waves-effect waves-light opcode-green" href="https://donorbox.org/operationcode" role="button">Donate now &raquo;</a>
+    </div>
+  </div>
+</div>

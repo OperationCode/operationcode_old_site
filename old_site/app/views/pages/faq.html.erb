@@ -1,0 +1,23 @@
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col m12" role="main">
+      <h3 id="download" class="page-header">Frequently Asked Questions</h3>
+      <p class="lead">Below is a list of common questions about Operation Code. If you're a veteran interested in software development, use the <a href="https://operation-code.slack.com/messages/general/">#general tab</a> in Slack for support and then join additional channels based on programming language interest. If you're a software developer interested in contributing/becoming a software mentor, <a href="https://github.com/OperationCode/operationcode/blob/master/CONTRIBUTING.md">read our docs</a>.</p>
+
+      <div class='row'>
+        <% @faqs.each do |section, items| %>
+          <h4><%= section.titleize %> FAQ</h4>
+
+          <ul class="collapsible" data-collapsible="accordion">
+          <% items.each do |item| %>
+            <li>
+              <div class="collapsible-header"><p class="collapsible-header--question"><%= item['question'] %></p></div>
+              <div class="collapsible-body"><p class='light'><%= item['answer'].html_safe %></p></div>
+            </li>
+          <% end %>
+          </ul>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

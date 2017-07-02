@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  user: postgres
+  host: operationcode-psql
+  password: <%= OperationCode.fetch_secret_with name: :postgres_password %>
+
+development:
+  <<: *default
+  database: operationcode_development
+
+test:
+  <<: *default
+  database: operationcode_test
+
+production:
+  <<: *default
+  database: operationcode_production

@@ -1,0 +1,27 @@
+language: ruby
+
+sudo: required
+
+install: true
+
+services:
+    - docker
+
+script:
+  - make travis
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then make upgrade; fi
+
+addons:
+  code_climate:
+    repo_token: 9ad20c546ed16df851b67c731c0add5e4270bcb2f4cdb3eb270ddcdf6ef991da
+
+after_success:
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then gem install codeclimate-test-reporter && codeclimate-test-reporter; fi
+
+notifications:
+  slack:
+    secure: iT5O6nPXUfThuPLhLXY1q6iNPrJfXxwv78ZynDiZZ2HjUqk98F7LTLY4dAXabbPL2w4hY9YcE8gTXch5n+eyjIaCSNHiR6VMJuxdhiw7uolAy5F71rEMyhNmZbe7X+lqNTp5GpoBUU2oCrT3Hh30lE8Z3c1XrQ+hvm0vh7Y1hXs=
+
+env:
+  secure: "AmnH0r1tF9HIVsUfhoJHzCEqTZz3TU4FUd2D+T0XzSDbz6kUSubmP4agYRsJI1xPTwegqSonwL0QGAlaIKEssz6rqAqBSvzHC95XvghP1HVVp2/j8vvFaJbpWsnTQ25FbMgDD89wHRKRs0qk2Ui0zi+CtNFylj83D13yoVys6C0="
+

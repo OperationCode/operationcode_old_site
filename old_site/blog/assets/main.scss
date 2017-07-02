@@ -1,0 +1,16 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "minima";
+
+.image-container {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+}

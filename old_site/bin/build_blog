@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+RAILS_ROOT="$(dirname $0)/.."
+BLOG_DIR="blog"
+
+cd $RAILS_ROOT/${BLOG_DIR} &&
+bundle install --gemfile=./Gemfile --binstubs &&
+cd bin &&
+jekyll build --config ../_config.yml --source ../ --destination ../../public/blog
