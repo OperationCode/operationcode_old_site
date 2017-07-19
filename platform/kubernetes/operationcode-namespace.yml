@@ -1,0 +1,13 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: operationcode
+  labels:
+    name: operationcode
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: operationcode-staging
+  labels:
+    name: operationcode-staging

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: operationcode-frontend-service
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-east-1:633607774026:certificate/acf36f86-ba7c-4052-9a8a-09da24bbd597
+    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
+    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "443"
+spec:
+  selector:
+    app: operationcode-frontend
+  ports:
+    - protocol: TCP
+      name: http
+      port: 80
+      targetPort: 4000
+    - protocol: TCP
+      name: https
+      port: 443
+      targetPort: 4000
+  type: LoadBalancer

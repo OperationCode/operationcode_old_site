@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: operationcode-frontend
+spec:
+  replicas: 2
+  revisionHistoryLimit: 5
+  template:
+    metadata:
+      labels:
+        app: operationcode-frontend
+    spec:
+      containers:
+      - name: app
+        image: operationcode/operationcode_frontend:643
+        imagePullPolicy: Always
+        env:
+        - name: PORT
+          value: "4000"
+        - name: NODE_ENV
+          value: production
+        - name: GA_TRACKER_ID
+          value: UA-75642413-1
+        ports:
+        - containerPort: 4000

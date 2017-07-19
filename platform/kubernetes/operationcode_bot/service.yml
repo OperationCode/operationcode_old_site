@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: operationcode-bot-service
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:iam::633607774026:server-certificate/OperationCodeBot
+    service.beta.kubernetes.io/aws-load-balancer-bot-protocol: http
+    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "443"
+spec:
+  selector:
+    app: operationcode-bot
+  ports:
+    - protocol: TCP
+      name: https
+      port: 443
+      targetPort: 4567
+  type: LoadBalancer

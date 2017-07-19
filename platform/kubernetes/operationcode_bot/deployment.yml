@@ -1,0 +1,93 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: operationcode-bot
+spec:
+  replicas: 2
+  revisionHistoryLimit: 5
+  template:
+    metadata:
+      labels:
+        app: operationcode-bot
+    spec:
+      containers:
+      - name: operationcode-bot
+        image: operationcode/operationcode_bot:latest
+        command: ["rackup"]
+        args: ["-p", "4567"]
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4567
+        env:
+        - name: AIRTABLE_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: airtable_api_key
+        - name: AIRTABLE_MENTORSHIP_SQUADS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: airtable_mentorship_squads_key
+        - name: INVITE_USER
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: invite_user
+        - name: RACK_ENV
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: rack_env
+        - name: SLACK_CHANNEL_1ST_SQUAD
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: slack_channel_1st_squad
+        - name: SLACK_CHANNEL_2ND_SQUAD
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: slack_channel_2nd_squad
+        - name: SLACK_CHANNEL_3RD_SQUAD
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: slack_channel_3rd_squad
+        - name: SLACK_CHANNEL_4TH_SQUAD
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: slack_channel_4th_squad
+        - name: SLACK_CLIENT_ID
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: slack_client_id
+        - name: SLACK_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: slack_client_secret
+        - name: SLACK_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: slack_token
+        - name: PRODUCTION_MODE
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: production_mode
+        - name: AIRTABLE_USERS_BASE_ID
+          valueFrom:
+            secretKeyRef:
+              name: bot-secrets
+              key: airtable_users_base_id
+        volumeMounts:
+        - name: bot-secrets
+          mountPath: /run/secrets
+      volumes:
+      - name: bot-secrets
+        secret:
+          secretName: bot-secrets

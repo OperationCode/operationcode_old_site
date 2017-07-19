@@ -1,0 +1,92 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: operationcode-backend
+spec:
+  replicas: 2
+  revisionHistoryLimit: 5
+  template:
+    metadata:
+      labels:
+        app: operationcode-backend
+    spec:
+      containers:
+      - name: operationcode-backend
+        image: operationcode/operationcode_backend:k8s-v2
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        env:
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: postgres_password
+        - name: REDIS_URL
+          value: redis://operationcode-redis-redis:6379/0
+        - name: RAILS_ENV
+          value: production
+        - name: SLACK_SUBDOMAIN
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: slack_subdomain
+        - name: SLACK_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: slack_token
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: jwt_secret_key
+        - name: SECRET_KEY_BASE
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: secret_key_base
+        volumeMounts:
+        - name: backend-secrets
+          mountPath: /run/secrets
+      - name: operationcode-sidekiq
+        image: operationcode/operationcode_backend:k8s-v2
+        command: ["sidekiq", "-C config/sidekiq.yml.erb"]
+        imagePullPolicy: Always
+        env:
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: postgres_password
+        - name: REDIS_URL
+          value: redis://operationcode-redis-redis:6379/0
+        - name: SLACK_SUBDOMAIN
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: slack_subdomain
+        - name: SLACK_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: slack_token
+        - name: RAILS_ENV
+          value: production
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: jwt_secret_key
+        - name: SECRET_KEY_BASE
+          valueFrom:
+            secretKeyRef:
+              name: backend-secrets
+              key: secret_key_base
+        volumeMounts:
+        - name: backend-secrets
+          mountPath: /run/secrets
+      volumes:
+      - name: backend-secrets
+        secret:
+          secretName: backend-secrets
