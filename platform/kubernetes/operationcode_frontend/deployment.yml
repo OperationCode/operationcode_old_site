@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: operationcode/operationcode_frontend:643
+        image: operationcode/operationcode_frontend:latest
         imagePullPolicy: Always
         env:
         - name: PORT
