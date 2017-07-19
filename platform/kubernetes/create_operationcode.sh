@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#set -euf -o pipefail
+set -euf -o pipefail
 
 # This is a quick hacky script to standup operationcode.org on kubernetes
 # If run by itself it will standup all apps. Alternatively you can provide
@@ -10,8 +10,8 @@ KUBECTL=$(which kubectl)
 HELM=$(which helm)
 
 function create_service_and_deployment(){
-  $KUBECTL create -f deployment.yml
-  $KUBECTL create -f service.yml
+  if [[ -f "deployment.yml" ]]; then $KUBECTL create -f deployment.yml; fi
+  if [[ -f "service.yml" ]]; then $KUBECTL create -f service.yml; fi
 }
 
 # This function assumes you have the required secrets for an app

@@ -1,0 +1,39 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: town-crier
+spec:
+  replicas: 2
+  revisionHistoryLimit: 5
+  template:
+    metadata:
+      labels:
+        app: town-crier
+    spec:
+      containers:
+      - name: app
+        image: operationcode/town-crier:latest
+        imagePullPolicy: Always
+        env:
+        - name: AIRTABLE_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: town-crier-secrets
+              key: airtable_api_key
+        - name: AIRTABLE_BASE
+          valueFrom:
+            secretKeyRef:
+              name: town-crier-secrets
+              key: airtable_base
+        - name: SLACK_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: town-crier-secrets
+              key: slack_token
+        volumeMounts:
+        - name: town-crier-secrets
+          mountPath: /run/secrets
+      volumes:
+      - name: town-crier-secrets
+        secret:
+          secretName: town-crier-secrets
