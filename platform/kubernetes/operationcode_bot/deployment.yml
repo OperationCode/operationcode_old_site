@@ -11,7 +11,7 @@ spec:
         app: operationcode-bot
     spec:
       containers:
-      - name: operationcode-bot
+      - name: app
         image: operationcode/operationcode_bot:latest
         command: ["rackup"]
         args: ["-p", "4567"]

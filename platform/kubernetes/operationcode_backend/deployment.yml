@@ -11,8 +11,8 @@ spec:
         app: operationcode-backend
     spec:
       containers:
-      - name: operationcode-backend
-        image: operationcode/operationcode_backend:k8s-v2
+      - name: app
+        image: operationcode/operationcode_backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
