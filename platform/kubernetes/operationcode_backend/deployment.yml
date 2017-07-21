@@ -50,7 +50,7 @@ spec:
         - name: backend-secrets
           mountPath: /run/secrets
       - name: operationcode-sidekiq
-        image: operationcode/operationcode_backend:k8s-v2
+        image: operationcode/operationcode_backend:latest
         command: ["sidekiq", "-C config/sidekiq.yml.erb"]
         imagePullPolicy: Always
         env:

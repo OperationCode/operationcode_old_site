@@ -19,3 +19,4 @@ data:
   slack_token: SECRET
   stripe_publishable_key: SECRET
   stripe_secret_key: SECRET
+  discourse_sso_secret: SECRET

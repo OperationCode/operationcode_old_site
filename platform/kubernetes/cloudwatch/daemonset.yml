@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: DaemonSet
+metadata:
+  name: cloudwatch
+  labels:
+    app: cloudwatch
+spec:
+  updateStrategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        name: cloudwatch-agent
+    spec:
+      containers:
+      - name: cloudwatch
+        image: operationcode/operationcode_cloudwatch:v3
+        volumeMounts:
+          - mountPath: /rootfs
+            name: rootfs
+        env:
+          - name: AWS_ACCESS_KEY_ID
+            valueFrom:
+              secretKeyRef:
+                name: cloudwatch-secrets
+                key: aws_access_key_id
+          - name: AWS_SECRET_ACCESS_KEY
+            valueFrom:
+              secretKeyRef:
+                name: cloudwatch-secrets
+                key: aws_secret_access_key
+      volumes:
+        - name: cloudwatch-secrets
+          secret:
+            secretName: cloudwatch-secrets
+        - name: rootfs
+          hostPath:
+            path: /

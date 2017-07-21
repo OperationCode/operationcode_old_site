@@ -9,9 +9,10 @@ set -euf -o pipefail
 KUBECTL=$(which kubectl)
 HELM=$(which helm)
 
-function create_service_and_deployment(){
+function add_k8s_resources(){
   if [[ -f "deployment.yml" ]]; then $KUBECTL create -f deployment.yml; fi
   if [[ -f "service.yml" ]]; then $KUBECTL create -f service.yml; fi
+  if [[ -f "daemonset.yml" ]]; then $KUBECTL create -f daemonset.yml; fi
 }
 
 # This function assumes you have the required secrets for an app
@@ -39,10 +40,11 @@ for app in $apps; do
   echo "Standing up $app_name"
   cd $app_name
 
-  create_service_and_deployment
   if [[ -d "secrets" ]]; then
     create_secrets_for $app_name
   fi
+
+  add_k8s_resources
 
   cd ..
 done
