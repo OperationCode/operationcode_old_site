@@ -2,7 +2,7 @@
 
 [![OpenCollective](https://opencollective.com/operationcode/backers/badge.svg)](#backers) 
 
-Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](http://operationcode.org/contributors).
+Operation Code is an open source community dedicated to getting military veterans coding, founded by [David Molina](http://twitter.com/davidcmolina), and maintained by over a dozen [software developers](https://github.com/OperationCode/operationcode/graphs/contributors) with the support and involvement of the [startup community](https://github.com/OperationCode/operationcode#community).
 
 **Interested in frontend web development? Check out our [React repo](https://github.com/operationcode/operationcode_frontend)**  
 **Interested in backend web development? Check out our [Rails repo](https://github.com/operationcode/operationcode_backend)**   
