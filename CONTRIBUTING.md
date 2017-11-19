@@ -47,7 +47,7 @@ Looking to make your first Pull Request? Start here:
 
 ### Reserving an issue
 
-Issues that are available to be worked on will have a label of **Status: Available** on them.
+Issues that are available to be worked on are labeled with **Status: Available**.
 
 If you would like to work on an available issue, @mention the **issues-team** expressing your interest, i.e.:
 
