@@ -45,4 +45,44 @@ Looking to make your first Pull Request? Start here:
 [Frontend Beginner Friendly Issues](https://github.com/OperationCode/operationcode_frontend/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22)  
 [Backend Beginner Friendly Issues](https://github.com/OperationCode/operationcode_backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22)  
 
+### Reserving an issue
 
+Issues that are available to be worked on are labeled with **Status: Available**.
+
+If you would like to work on an available issue, @mention the **issues-team** expressing your interest, i.e.:
+
+> **@issues-team** - I'd like to give this one a shot!
+
+Once someone from the team receives your request, they will:
+
+1. Respond to you directly in the issue
+2. Remove the **Status: Available** label, replacing it with the **Status: In Progress** label
+
+At this point, the issue is now reserved for you.
+
+### Guidelines for working an issue
+
+The completion of the features and bugs outlined in these issues are important to the forward movement and success of Operation Code.
+
+As such, the following timeline guidelines are in place for working on an issue:
+
+1. A pull request must be submitted **within 14 days** of reserving the issue.  This pull request does not need to be complete at this point.  It can be a work-in-progress.
+2. If someone asks you a question in the pull request, or issue, you must respond **within 14 days**
+
+If either of these guidelines are not met:
+
+- it will be interpreted that the issue has become stale or abandoned
+- the issue will no longer be reserved to you
+- the issue will be identified again as **Status: Available**, available for other contributors to reserve
+
+### Completing an issue
+
+All issue pull requests that adhere to the guidelines above will be code reviewed by members of Operation Code.
+
+Once a pull request has:
+
+- passed code review
+- been marked as **approved**
+- and any associated checks have passed (i.e. continuous integration, code climate, etc.)
+
+A member of the Operation Code team will merge your pull request, and close the issue!
