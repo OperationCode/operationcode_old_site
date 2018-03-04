@@ -5,17 +5,17 @@ Curious to see what's going on? Check out our [roadmap](https://github.com/Opera
 
 ## Goals
 1. Serve Our Members
-2. Foster the most positive and beginner friendly environement possible
+2. Foster the most positive and beginner friendly environment possible
 3. Feature a project in as many languages as possible
 
 ## Operation Code
 Operation Code is a nonprofit dedicated to getting veterans and their families into programming careers.
-Our website (https://operationcode.org) is docker based and has frontend and a backend servers.
+Our website (https://operationcode.org) is docker based and has frontend and backend servers.
 
 ## What is a frontend?
 
-When you visit our website you're intereacting with two systems, a frontend application and a backend application.
-The frontend application (where you are now) is responsible for displaying images, text and data on our web pages.
+When you visit our website you're interacting with two systems, a frontend application, and a backend application.
+The frontend application (where you are now) is responsible for displaying images, text, and data on our web pages.
 Frontend applications are usually written using a combination of HTML, CSS, and Javascript and utilize 1 or more
 frameworks such as Angular, backbone, vue, and react. https://operationcode.org uses react.
 
@@ -24,7 +24,7 @@ You can view the frontend repo at https://github.com/OperationCode/operationcode
 ## What is a backend?
 
 The backend is responsible for providing data to the front end to display, and processing data entered into the
-frontend, and running various jobs like inviting new users to slack, or signing them up for our newsletter. The
+frontend and running various jobs like inviting new users to slack or signing them up for our newsletter. The
 https://operationcode.org backend is written in rails and uses postgres, redis databases.
 
 You can view the backend repo at https://github.com/OperationCode/operationcode_backend
